@@ -1,8 +1,57 @@
 {
-  "less_authors": {},
-  "less_terms": {},
-  "more_authors": {},
-  "more_terms": {},
-  "processed_message_ids": [],
-  "raw_feedback": []
+  "less_authors": {
+    "Chao Yu": 0.6,
+    "Rongxin Yang": 0.6,
+    "Shenghong He": 0.6,
+    "Siyuan Zhu": 0.6
+  },
+  "less_terms": {
+    "agent": 1.0,
+    "baselines": 1.0,
+    "cs.AI": 1.0,
+    "delayed": 1.0,
+    "efficiency": 1.0,
+    "end-to-end": 1.0,
+    "evaluation": 1.0,
+    "inference": 1.0,
+    "optimization": 1.0,
+    "reasoning": 1.0,
+    "retrieval": 1.0,
+    "throughout": 1.0
+  },
+  "more_authors": {
+    "Clayton Scott": 0.6,
+    "Naichen Shi": 0.6,
+    "Naihao Deng": 0.6,
+    "Yilun Zhu": 0.6
+  },
+  "more_terms": {
+    "Attributes": 1.2,
+    "RLVR": 1.2,
+    "Then So Does Age of Empires II": 1.2,
+    "alignment": 1.0,
+    "benchmark": 1.0,
+    "bias": 1.0,
+    "contains": 1.0,
+    "cs.CL": 1.0,
+    "differ": 1.0,
+    "inference optimization": 1.2,
+    "landscape": 1.2,
+    "large-scale": 1.0,
+    "optimization": 1.0,
+    "post-training": 1.0,
+    "reasoning": 1.0,
+    "training": 1.0,
+    "vulnerability": 1.0
+  },
+  "processed_message_ids": [
+    "<6a2d8cc3.bfbe2361.2ff516.fdd9@mx.google.com>"
+  ],
+  "raw_feedback": [
+    {
+      "date": "Sat, 13 Jun 2026 10:00:51 -0700 (PDT)",
+      "message_id": "<6a2d8cc3.bfbe2361.2ff516.fdd9@mx.google.com>",
+      "text": "Daily arXiv - 2026-06-14\nTop 5 精读 + 10 篇一句话候选。\nTop 5 精读\n#1 From Verdict to Process: Agentic Reinforcement Learning for Multi-Stage Fact Verification\nAuthors: Rongxin Yang, Shenghong He, Siyuan Zhu, Chao Yu\nLink: https://arxiv.org/abs/2606.13262v1\nCategory: cs.AI; Score: 50.7; Updated: 2026-06-11\nTL;DR: Recent approaches combining Large Language Models (LLMs) with retrieval-augmented reasoning have shown promise for automated fact verification.\n中文摘要: 这篇论文主要围绕 cs.AI 中的 reinforcement learning / post-training 展开。根据摘要，核心问题是：Recent approaches combining Large Language Models (LLMs) with retrieval-augmented reasoning have shown promise for automated fact verification. To process complex claims, these verification pipelines typically execute multi-stage workflows that coordinate tightly coupled modules, including claim decomposition, evidence gathering, and verdict prediction. 适合先作为候选阅读，再结合实验设置判断是否值得精读。\nEnglish Summary: Recent approaches combining Large Language Models (LLMs) with retrieval-augmented reasoning have shown promise for automated fact verification. To process complex claims, these verification pipelines typically execute multi-stage workflows that coordinate tightly coupled modules, including claim decomposition, evidence gathering, and verdict prediction. However, existing methods optimize individual stages in isolation or rely on fixed heuristics, which limits adaptive coordination among stages and can lead to suboptimal outcomes.\n方法 / Method: reinforcement learning / post-training\n贡献 / Contribution: 提供新的评测视角或任务设置，可用于判断模型能力和研究空白。\n局限 / Limitation: 可能依赖特定任务集，泛化到真实研究/生产场景仍需进一步验证。\n为什么与你相关 / Why relevant: matches large language model, llm, language model, agent；strong interest: inference efficiency；semantically close to your LLM/optimization profile\n#2 Reward Modeling for Multi-Agent Orchestration\nAuthors: King Yeung Tsang, Zihao Zhao, Vishal Venkataramani, Haizhou Shi, Zixuan Ke, Semih Yavuz, Shafiq Joty, Hao Wang\nLink: https://arxiv.org/abs/2606.13598v1\nCategory:"
+    }
+  ]
 }

@@ -1,37 +1,67 @@
 {
   "sent_ids": [
+    "2502.18959",
     "2601.19072",
+    "2601.19827",
+    "2602.18154",
+    "2604.18307",
     "2605.31514",
+    "2606.04525",
     "2606.05860",
     "2606.06525",
+    "2606.07515",
     "2606.09500",
     "2606.10931",
     "2606.12864",
+    "2606.13218",
     "2606.13220",
+    "2606.13221",
     "2606.13227",
     "2606.13262",
+    "2606.13310",
     "2606.13316",
     "2606.13349",
     "2606.13380",
+    "2606.13438",
+    "2606.13507",
+    "2606.13572",
     "2606.13598",
-    "2606.13680"
+    "2606.13657",
+    "2606.13668",
+    "2606.13680",
+    "2606.13681"
   ],
   "sent_keys": [
+    "2502.18959:2026-06-11T15:45:06Z",
     "2601.19072:2026-06-11T01:26:21Z",
+    "2601.19827:2026-06-10T18:40:18Z",
+    "2602.18154:2026-06-11T12:26:22Z",
+    "2604.18307:2026-06-11T17:17:53Z",
     "2605.31514:2026-06-11T16:55:07Z",
+    "2606.04525:2026-06-11T13:24:40Z",
     "2606.05860:2026-06-11T12:39:42Z",
     "2606.06525:2026-06-11T13:52:20Z",
+    "2606.07515:2026-06-11T16:52:41Z",
     "2606.09500:2026-06-11T11:46:34Z",
     "2606.10931:2026-06-11T13:56:09Z",
     "2606.12864:2026-06-11T03:48:18Z",
+    "2606.13218:2026-06-11T11:33:09Z",
     "2606.13220:2026-06-11T11:37:07Z",
+    "2606.13221:2026-06-11T11:38:05Z",
     "2606.13227:2026-06-11T11:41:07Z",
     "2606.13262:2026-06-11T12:17:18Z",
+    "2606.13310:2026-06-11T13:07:02Z",
     "2606.13316:2026-06-11T13:10:48Z",
     "2606.13349:2026-06-11T13:38:23Z",
     "2606.13380:2026-06-11T14:08:00Z",
+    "2606.13438:2026-06-11T15:01:49Z",
+    "2606.13507:2026-06-11T15:55:23Z",
+    "2606.13572:2026-06-11T16:59:42Z",
     "2606.13598:2026-06-11T17:16:24Z",
-    "2606.13680:2026-06-11T17:59:52Z"
+    "2606.13657:2026-06-11T17:54:09Z",
+    "2606.13668:2026-06-11T17:58:33Z",
+    "2606.13680:2026-06-11T17:59:52Z",
+    "2606.13681:2026-06-11T17:59:59Z"
   ],
   "sent_log": [
     {
@@ -153,6 +183,126 @@
       "sent_key": "2606.12864:2026-06-11T03:48:18Z",
       "title": "Beyond Problem Solving: UOJ-Bench for Evaluating Code Generation, Hacking, and Repair in Competitive Programming",
       "updated": "2026-06-11T03:48:18Z"
+    },
+    {
+      "arxiv_id": "2502.18959",
+      "score": 45.2,
+      "sent_at": "2026-06-14T01:06:17.178828+08:00",
+      "sent_key": "2502.18959:2026-06-11T15:45:06Z",
+      "title": "Fourier Multi-Component and Multi-Layer Neural Networks: Unlocking High-Frequency Potential",
+      "updated": "2026-06-11T15:45:06Z"
+    },
+    {
+      "arxiv_id": "2606.04525",
+      "score": 41.9,
+      "sent_at": "2026-06-14T01:06:17.178828+08:00",
+      "sent_key": "2606.04525:2026-06-11T13:24:40Z",
+      "title": "GENEB: Why Genomic Models Are Hard to Compare",
+      "updated": "2026-06-11T13:24:40Z"
+    },
+    {
+      "arxiv_id": "2601.19827",
+      "score": 37.2,
+      "sent_at": "2026-06-14T01:06:17.178828+08:00",
+      "sent_key": "2601.19827:2026-06-10T18:40:18Z",
+      "title": "When Iterative RAG Beats Ideal Evidence: A Diagnostic Study in Scientific Multi-hop Question Answering",
+      "updated": "2026-06-10T18:40:18Z"
+    },
+    {
+      "arxiv_id": "2606.13218",
+      "score": 36.3,
+      "sent_at": "2026-06-14T01:06:17.178828+08:00",
+      "sent_key": "2606.13218:2026-06-11T11:33:09Z",
+      "title": "When Similar Means Different: Evaluating LLMs on Arabic--Hebrew Cognates",
+      "updated": "2026-06-11T11:33:09Z"
+    },
+    {
+      "arxiv_id": "2604.18307",
+      "score": 35.3,
+      "sent_at": "2026-06-14T01:06:17.178828+08:00",
+      "sent_key": "2604.18307:2026-06-11T17:17:53Z",
+      "title": "Reasoning Models Know What's Important, and Encode It in Their Activations",
+      "updated": "2026-06-11T17:17:53Z"
+    },
+    {
+      "arxiv_id": "2606.13507",
+      "score": 35.1,
+      "sent_at": "2026-06-14T01:06:17.178828+08:00",
+      "sent_key": "2606.13507:2026-06-11T15:55:23Z",
+      "title": "Leveraging Audio-LLMs to Filter Speech-to-Speech Training Data",
+      "updated": "2026-06-11T15:55:23Z"
+    },
+    {
+      "arxiv_id": "2606.13681",
+      "score": 34.8,
+      "sent_at": "2026-06-14T01:06:17.178828+08:00",
+      "sent_key": "2606.13681:2026-06-11T17:59:59Z",
+      "title": "EvoArena: Tracking Memory Evolution for Robust LLM Agents in Dynamic Environments",
+      "updated": "2026-06-11T17:59:59Z"
+    },
+    {
+      "arxiv_id": "2606.13221",
+      "score": 34.7,
+      "sent_at": "2026-06-14T01:06:17.178828+08:00",
+      "sent_key": "2606.13221:2026-06-11T11:38:05Z",
+      "title": "From Uncertain Judgments to Calibrated Rankings: Conformal Elo Estimation for LLM Evaluation",
+      "updated": "2026-06-11T11:38:05Z"
+    },
+    {
+      "arxiv_id": "2606.13310",
+      "score": 33.8,
+      "sent_at": "2026-06-14T01:06:17.178828+08:00",
+      "sent_key": "2606.13310:2026-06-11T13:07:02Z",
+      "title": "RogueAI: A Reverse Turing Test for Detecting Licensed AI Deception in Dialogue",
+      "updated": "2026-06-11T13:07:02Z"
+    },
+    {
+      "arxiv_id": "2606.07515",
+      "score": 32.9,
+      "sent_at": "2026-06-14T01:06:17.178828+08:00",
+      "sent_key": "2606.07515:2026-06-11T16:52:41Z",
+      "title": "How reliable are LLMs when it comes to playing dice?",
+      "updated": "2026-06-11T16:52:41Z"
+    },
+    {
+      "arxiv_id": "2602.18154",
+      "score": 32.0,
+      "sent_at": "2026-06-14T01:06:17.178828+08:00",
+      "sent_key": "2602.18154:2026-06-11T12:26:22Z",
+      "title": "FENCE: A Financial and Multimodal Jailbreak Detection Dataset",
+      "updated": "2026-06-11T12:26:22Z"
+    },
+    {
+      "arxiv_id": "2606.13668",
+      "score": 31.2,
+      "sent_at": "2026-06-14T01:06:17.178828+08:00",
+      "sent_key": "2606.13668:2026-06-11T17:58:33Z",
+      "title": "Influcoder: Distilling Decoders' Gradient Influence Rankings into an Encoder for Data Attribution",
+      "updated": "2026-06-11T17:58:33Z"
+    },
+    {
+      "arxiv_id": "2606.13572",
+      "score": 30.4,
+      "sent_at": "2026-06-14T01:06:17.178828+08:00",
+      "sent_key": "2606.13572:2026-06-11T16:59:42Z",
+      "title": "ArogyaSutra: A Multi-Agent Framework for Multimodal Medical Reasoning in Indic Languages",
+      "updated": "2026-06-11T16:59:42Z"
+    },
+    {
+      "arxiv_id": "2606.13438",
+      "score": 30.3,
+      "sent_at": "2026-06-14T01:06:17.178828+08:00",
+      "sent_key": "2606.13438:2026-06-11T15:01:49Z",
+      "title": "CQC-RAG: Robust Retrieval-Augmented Generation via Cross-Query Consistency",
+      "updated": "2026-06-11T15:01:49Z"
+    },
+    {
+      "arxiv_id": "2606.13657",
+      "score": 30.2,
+      "sent_at": "2026-06-14T01:06:17.178828+08:00",
+      "sent_key": "2606.13657:2026-06-11T17:54:09Z",
+      "title": "Dense Supervision, Sparse Updates: On the Sparsity and Geometry of On-Policy Distillation",
+      "updated": "2026-06-11T17:54:09Z"
     }
   ]
 }
