@@ -93,8 +93,18 @@ def fetch_arxiv_query(search_query: str, max_results: int) -> list[Paper]:
     }
     url = f"{ARXIV_API}?{urllib.parse.urlencode(params)}"
     req = urllib.request.Request(url, headers={"User-Agent": "daily-arxiv-digest/1.0"})
-    with urllib.request.urlopen(req, timeout=30) as response:
-        payload = response.read()
+    last_exc: Exception | None = None
+    for attempt in range(3):
+        try:
+            with urllib.request.urlopen(req, timeout=90) as response:
+                payload = response.read()
+            break
+        except Exception as exc:
+            last_exc = exc
+            if attempt < 2:
+                time.sleep(5 + attempt * 5)
+    else:
+        raise last_exc or RuntimeError("arXiv request failed")
 
     root = ET.fromstring(payload)
     papers: list[Paper] = []
@@ -140,7 +150,7 @@ def fetch_arxiv_query(search_query: str, max_results: int) -> list[Paper]:
 def collect_candidates(config: dict[str, Any]) -> list[Paper]:
     categories = config["categories"]
     max_results = int(config.get("max_candidates_to_fetch", 220))
-    category_query = " OR ".join(f"cat:{cat}" for cat in categories)
+    per_category = max(20, min(60, max_results // max(len(categories), 1)))
     keyword_query = " OR ".join(
         [
             'all:"large language model"',
@@ -152,11 +162,12 @@ def collect_candidates(config: dict[str, Any]) -> list[Paper]:
         ]
     )
 
-    queries = [f"({category_query})", f"({keyword_query})"]
+    queries = [(f"cat:{cat}", per_category) for cat in categories]
+    queries.append((f"({keyword_query})", min(100, max_results)))
     seen: dict[str, Paper] = {}
-    for query in queries:
+    for query, limit in queries:
         try:
-            for paper in fetch_arxiv_query(query, max_results=max_results):
+            for paper in fetch_arxiv_query(query, max_results=limit):
                 seen[paper.arxiv_id] = paper
             time.sleep(3)
         except Exception as exc:
