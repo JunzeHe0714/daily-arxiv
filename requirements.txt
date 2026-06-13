@@ -1,0 +1,2 @@
+# This project intentionally uses only Python standard-library modules.
+
