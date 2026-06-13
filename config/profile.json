@@ -46,10 +46,30 @@
     "landscape",
     "survey",
     "taxonomy",
-    "benchmark synthesis"
+    "benchmark synthesis",
+    "llm theory",
+    "large model theory",
+    "transformer theory",
+    "mechanistic understanding",
+    "theoretical analysis",
+    "generalization theory",
+    "optimization theory",
+    "non-convex optimization",
+    "implicit bias",
+    "training dynamics",
+    "representation learning theory",
+    "explainable machine learning",
+    "efficient machine learning systems"
   ],
   "strong_like_terms": [
     "llm landscape",
+    "llm theory",
+    "large model theory",
+    "transformer theory",
+    "theory of large language models",
+    "mechanistic understanding of llms",
+    "training dynamics of large models",
+    "optimization theory for large models",
     "optimization for llms",
     "inference efficiency",
     "test-time scaling",
@@ -64,7 +84,8 @@
     "hardware-only"
   ],
   "must_watch_authors": [
-    "Huanran Chen"
+    "Huanran Chen",
+    "Ziye Ma"
   ],
   "seed_papers": [
     "2604.09258",
@@ -73,10 +94,11 @@
   "seed_urls": [
     "https://arxiv.org/abs/2604.09258",
     "https://arxiv.org/abs/2410.05192",
-    "https://huanranchen.github.io/#-research-publications"
+    "https://huanranchen.github.io/#-research-publications",
+    "https://gavenma.github.io/",
+    "https://scholars.cityu.edu.hk/en/persons/ziyema/"
   ],
   "feedback_terms_hint": [
     "你可以直接回复邮件：多发 #3 类似的，少发 #1，多发 landscape / inference optimization / RLVR。"
   ]
 }
-
