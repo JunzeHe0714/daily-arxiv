@@ -1,0 +1,158 @@
+{
+  "sent_ids": [
+    "2601.19072",
+    "2605.31514",
+    "2606.05860",
+    "2606.06525",
+    "2606.09500",
+    "2606.10931",
+    "2606.12864",
+    "2606.13220",
+    "2606.13227",
+    "2606.13262",
+    "2606.13316",
+    "2606.13349",
+    "2606.13380",
+    "2606.13598",
+    "2606.13680"
+  ],
+  "sent_keys": [
+    "2601.19072:2026-06-11T01:26:21Z",
+    "2605.31514:2026-06-11T16:55:07Z",
+    "2606.05860:2026-06-11T12:39:42Z",
+    "2606.06525:2026-06-11T13:52:20Z",
+    "2606.09500:2026-06-11T11:46:34Z",
+    "2606.10931:2026-06-11T13:56:09Z",
+    "2606.12864:2026-06-11T03:48:18Z",
+    "2606.13220:2026-06-11T11:37:07Z",
+    "2606.13227:2026-06-11T11:41:07Z",
+    "2606.13262:2026-06-11T12:17:18Z",
+    "2606.13316:2026-06-11T13:10:48Z",
+    "2606.13349:2026-06-11T13:38:23Z",
+    "2606.13380:2026-06-11T14:08:00Z",
+    "2606.13598:2026-06-11T17:16:24Z",
+    "2606.13680:2026-06-11T17:59:52Z"
+  ],
+  "sent_log": [
+    {
+      "arxiv_id": "2606.13262",
+      "score": 50.7,
+      "sent_at": "2026-06-14T00:59:02.074368+08:00",
+      "sent_key": "2606.13262:2026-06-11T12:17:18Z",
+      "title": "From Verdict to Process: Agentic Reinforcement Learning for Multi-Stage Fact Verification",
+      "updated": "2026-06-11T12:17:18Z"
+    },
+    {
+      "arxiv_id": "2606.13598",
+      "score": 48.1,
+      "sent_at": "2026-06-14T00:59:02.074368+08:00",
+      "sent_key": "2606.13598:2026-06-11T17:16:24Z",
+      "title": "Reward Modeling for Multi-Agent Orchestration",
+      "updated": "2026-06-11T17:16:24Z"
+    },
+    {
+      "arxiv_id": "2606.10931",
+      "score": 46.8,
+      "sent_at": "2026-06-14T00:59:02.074368+08:00",
+      "sent_key": "2606.10931:2026-06-11T13:56:09Z",
+      "title": "It Takes One to Bias Them All: Breaking Bad with One-Shot GRPO",
+      "updated": "2026-06-11T13:56:09Z"
+    },
+    {
+      "arxiv_id": "2606.13227",
+      "score": 45.4,
+      "sent_at": "2026-06-14T00:59:02.074368+08:00",
+      "sent_key": "2606.13227:2026-06-11T11:41:07Z",
+      "title": "PolyAlign: Conditional Human-Distribution Alignment",
+      "updated": "2026-06-11T11:41:07Z"
+    },
+    {
+      "arxiv_id": "2606.13220",
+      "score": 42.8,
+      "sent_at": "2026-06-14T00:59:02.074368+08:00",
+      "sent_key": "2606.13220:2026-06-11T11:37:07Z",
+      "title": "LLM-as-an-Investigator: Evidence-First Reasoning for Robust Interactive Problem Diagnosis",
+      "updated": "2026-06-11T11:37:07Z"
+    },
+    {
+      "arxiv_id": "2606.13380",
+      "score": 39.7,
+      "sent_at": "2026-06-14T00:59:02.074368+08:00",
+      "sent_key": "2606.13380:2026-06-11T14:08:00Z",
+      "title": "An LLM System for Autonomous Variational Quantum Circuit Design",
+      "updated": "2026-06-11T14:08:00Z"
+    },
+    {
+      "arxiv_id": "2606.13316",
+      "score": 39.7,
+      "sent_at": "2026-06-14T00:59:02.074368+08:00",
+      "sent_key": "2606.13316:2026-06-11T13:10:48Z",
+      "title": "ReSum: Synergizing LLM Reasoning and Summarization with Reinforcement Learning",
+      "updated": "2026-06-11T13:10:48Z"
+    },
+    {
+      "arxiv_id": "2606.09500",
+      "score": 38.5,
+      "sent_at": "2026-06-14T00:59:02.074368+08:00",
+      "sent_key": "2606.09500:2026-06-11T11:46:34Z",
+      "title": "Deterministic Integrity Gates for LLM-Assisted Clinical Manuscript Preparation: An Auditable Biomedical Informatics Architecture",
+      "updated": "2026-06-11T11:46:34Z"
+    },
+    {
+      "arxiv_id": "2606.13680",
+      "score": 37.4,
+      "sent_at": "2026-06-14T00:59:02.074368+08:00",
+      "sent_key": "2606.13680:2026-06-11T17:59:52Z",
+      "title": "Learning to Reason by Analogy via Retrieval-Augmented Reinforcement Fine-Tuning",
+      "updated": "2026-06-11T17:59:52Z"
+    },
+    {
+      "arxiv_id": "2606.13349",
+      "score": 37.1,
+      "sent_at": "2026-06-14T00:59:02.074368+08:00",
+      "sent_key": "2606.13349:2026-06-11T13:38:23Z",
+      "title": "From Passive Generation to Investigation: A Proactive Scientific Peer Review Agent",
+      "updated": "2026-06-11T13:38:23Z"
+    },
+    {
+      "arxiv_id": "2606.05860",
+      "score": 37.1,
+      "sent_at": "2026-06-14T00:59:02.074368+08:00",
+      "sent_key": "2606.05860:2026-06-11T12:39:42Z",
+      "title": "GenAutoML: An Agentic Framework for Dynamic Architecture Generation and Optimization in Time-Series Analysis",
+      "updated": "2026-06-11T12:39:42Z"
+    },
+    {
+      "arxiv_id": "2605.31514",
+      "score": 35.9,
+      "sent_at": "2026-06-14T00:59:02.074368+08:00",
+      "sent_key": "2605.31514:2026-06-11T16:55:07Z",
+      "title": "If LLMs Have Human-Like Attributes, Then So Does Age of Empires II",
+      "updated": "2026-06-11T16:55:07Z"
+    },
+    {
+      "arxiv_id": "2601.19072",
+      "score": 35.8,
+      "sent_at": "2026-06-14T00:59:02.074368+08:00",
+      "sent_key": "2601.19072:2026-06-11T01:26:21Z",
+      "title": "HalluJudge: A Reference-Free Hallucination Detection for Context Misalignment in Code Review Automation",
+      "updated": "2026-06-11T01:26:21Z"
+    },
+    {
+      "arxiv_id": "2606.06525",
+      "score": 35.8,
+      "sent_at": "2026-06-14T00:59:02.074368+08:00",
+      "sent_key": "2606.06525:2026-06-11T13:52:20Z",
+      "title": "Agentic Large Language Models for Automated Structural Analysis of 3D Frame Systems",
+      "updated": "2026-06-11T13:52:20Z"
+    },
+    {
+      "arxiv_id": "2606.12864",
+      "score": 34.7,
+      "sent_at": "2026-06-14T00:59:02.074368+08:00",
+      "sent_key": "2606.12864:2026-06-11T03:48:18Z",
+      "title": "Beyond Problem Solving: UOJ-Bench for Evaluating Code Generation, Hacking, and Repair in Competitive Programming",
+      "updated": "2026-06-11T03:48:18Z"
+    }
+  ]
+}
