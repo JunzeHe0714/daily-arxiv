@@ -1,0 +1,42 @@
+name: Daily arXiv
+
+on:
+  schedule:
+    - cron: "0 1 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  send-digest:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Run daily digest
+        env:
+          GMAIL_USER: ${{ secrets.GMAIL_USER }}
+          GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
+          EMAIL_TO: ${{ secrets.EMAIL_TO }}
+        run: python src/daily_arxiv.py
+
+      - name: Commit updated memory
+        run: |
+          git config user.name "daily-arxiv-bot"
+          git config user.email "daily-arxiv-bot@users.noreply.github.com"
+          git add data outputs
+          if git diff --cached --quiet; then
+            echo "No memory changes to commit."
+          else
+            git commit -m "Update daily arXiv memory"
+            git push
+          fi
+
