@@ -1,0 +1,82 @@
+{
+  "timezone": "Asia/Shanghai",
+  "email_subject_prefix": "Daily arXiv",
+  "recipient_name": "Junze",
+  "top_deep_dive": 5,
+  "top_candidates": 10,
+  "max_candidates_to_fetch": 220,
+  "lookback_days": 3,
+  "categories": [
+    "cs.CL",
+    "cs.LG",
+    "cs.AI",
+    "cs.IR",
+    "cs.CV",
+    "cs.SE",
+    "cs.DC",
+    "stat.ML"
+  ],
+  "interest_terms": [
+    "large language model",
+    "llm",
+    "foundation model",
+    "language model",
+    "agent",
+    "reasoning",
+    "alignment",
+    "post-training",
+    "reinforcement learning from human feedback",
+    "rlhf",
+    "rlaif",
+    "rlvr",
+    "inference optimization",
+    "training efficiency",
+    "optimization",
+    "long context",
+    "retrieval augmented generation",
+    "rag",
+    "multimodal",
+    "evaluation",
+    "scaling law",
+    "model merging",
+    "mixture of experts",
+    "moe",
+    "synthetic data",
+    "data curation",
+    "landscape",
+    "survey",
+    "taxonomy",
+    "benchmark synthesis"
+  ],
+  "strong_like_terms": [
+    "llm landscape",
+    "optimization for llms",
+    "inference efficiency",
+    "test-time scaling",
+    "agent evaluation",
+    "post-training",
+    "reasoning model"
+  ],
+  "less_like_terms": [
+    "generic benchmark",
+    "minor dataset release",
+    "pure robotics",
+    "hardware-only"
+  ],
+  "must_watch_authors": [
+    "Huanran Chen"
+  ],
+  "seed_papers": [
+    "2604.09258",
+    "2410.05192"
+  ],
+  "seed_urls": [
+    "https://arxiv.org/abs/2604.09258",
+    "https://arxiv.org/abs/2410.05192",
+    "https://huanranchen.github.io/#-research-publications"
+  ],
+  "feedback_terms_hint": [
+    "你可以直接回复邮件：多发 #3 类似的，少发 #1，多发 landscape / inference optimization / RLVR。"
+  ]
+}
+
