@@ -2,7 +2,9 @@ name: Daily arXiv
 
 on:
   schedule:
-    - cron: "0 1 * * *"
+    - cron: "17 1 * * *"
+    - cron: "47 1 * * *"
+    - cron: "17 2 * * *"
   workflow_dispatch:
 
 permissions:
@@ -39,4 +41,3 @@ jobs:
             git commit -m "Update daily arXiv memory"
             git push
           fi
-
