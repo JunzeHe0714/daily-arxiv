@@ -2,6 +2,7 @@
   "timezone": "Asia/Shanghai",
   "email_subject_prefix": "Daily arXiv",
   "recipient_name": "Junze",
+  "delete_sent_copy": true,
   "top_deep_dive": 5,
   "top_candidates": 10,
   "max_candidates_to_fetch": 220,
