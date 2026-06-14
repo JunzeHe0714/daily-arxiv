@@ -633,6 +633,60 @@ def send_email(subject: str, html_body: str, plain_body: str) -> bool:
     return True
 
 
+def find_sent_mailbox(imap: imaplib.IMAP4_SSL) -> str | None:
+    status, boxes = imap.list()
+    if status != "OK" or not boxes:
+        return None
+    fallback = None
+    for raw_box in boxes:
+        line = raw_box.decode("utf-8", errors="replace")
+        match = re.search(r'("[^"]+"|[^\s]+)$', line)
+        if not match:
+            continue
+        mailbox = match.group(1).strip('"')
+        lower = line.lower()
+        if "\\sent" in lower:
+            return mailbox
+        if "sent" in lower or "已发送" in lower:
+            fallback = mailbox
+    return fallback
+
+
+def delete_sent_copy(subject: str, config: dict[str, Any]) -> None:
+    if not config.get("delete_sent_copy", True):
+        return
+    user = os.environ.get("GMAIL_USER")
+    password = os.environ.get("GMAIL_APP_PASSWORD")
+    to_addr = os.environ.get("EMAIL_TO") or user
+    if not user or not password or not to_addr:
+        return
+
+    try:
+        with imaplib.IMAP4_SSL("imap.gmail.com") as imap:
+            imap.login(user, password)
+            mailbox = find_sent_mailbox(imap)
+            if not mailbox:
+                print("Warning: could not find Gmail sent mailbox for cleanup.", file=sys.stderr)
+                return
+            status, _ = imap.select(f'"{mailbox}"')
+            if status != "OK":
+                status, _ = imap.select(mailbox)
+            if status != "OK":
+                print(f"Warning: could not open sent mailbox {mailbox!r}.", file=sys.stderr)
+                return
+            since = (dt.datetime.utcnow() - dt.timedelta(days=2)).strftime("%d-%b-%Y")
+            status, data = imap.search(None, f'(SINCE "{since}" TO "{to_addr}" SUBJECT "{subject}")')
+            if status != "OK" or not data or not data[0]:
+                return
+            msg_ids = data[0].split()
+            latest = msg_ids[-1]
+            imap.store(latest, "+FLAGS", "\\Deleted")
+            imap.expunge()
+            print("Deleted Gmail sent-mail copy.")
+    except Exception as exc:
+        print(f"Warning: failed to delete Gmail sent-mail copy: {exc}", file=sys.stderr)
+
+
 def update_history_and_mapping(selected: list[Paper], history: dict[str, Any], now_local: dt.datetime) -> None:
     sent_ids = set(history.get("sent_ids", []))
     sent_keys = set(history.get("sent_keys", []))
@@ -723,6 +777,7 @@ def main() -> int:
     subject = f'{config["email_subject_prefix"]} - {now_local.strftime("%Y-%m-%d")}'
     sent = send_email(subject, html_body, plain_body)
     if sent:
+        delete_sent_copy(subject, config)
         update_history_and_mapping(selected, history, now_local)
         mark_scheduled_digest_sent(now_local)
         print(f"Selected and sent {len(selected)} papers.")
