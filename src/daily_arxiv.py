@@ -29,6 +29,7 @@ OUTPUTS_DIR = ROOT / "outputs"
 SENT_HISTORY_PATH = DATA_DIR / "sent_history.json"
 FEEDBACK_MEMORY_PATH = DATA_DIR / "feedback_memory.json"
 LAST_ITEMS_PATH = DATA_DIR / "last_email_items.json"
+DIGEST_RUNS_PATH = DATA_DIR / "digest_runs.json"
 LATEST_HTML_PATH = OUTPUTS_DIR / "latest_email.html"
 
 ARXIV_API = "https://export.arxiv.org/api/query"
@@ -671,6 +672,27 @@ def update_history_and_mapping(selected: list[Paper], history: dict[str, Any], n
     save_json(LAST_ITEMS_PATH, mapping)
 
 
+def scheduled_digest_already_sent(now_local: dt.datetime) -> bool:
+    if os.environ.get("GITHUB_EVENT_NAME") != "schedule":
+        return False
+    runs = load_json(DIGEST_RUNS_PATH, {"sent_dates": []})
+    return now_local.strftime("%Y-%m-%d") in set(runs.get("sent_dates", []))
+
+
+def mark_scheduled_digest_sent(now_local: dt.datetime) -> None:
+    if os.environ.get("GITHUB_EVENT_NAME") != "schedule":
+        return
+    runs = load_json(DIGEST_RUNS_PATH, {"sent_dates": [], "sent_log": []})
+    date_label = now_local.strftime("%Y-%m-%d")
+    sent_dates = set(runs.get("sent_dates", []))
+    sent_dates.add(date_label)
+    runs["sent_dates"] = sorted(sent_dates)
+    log = runs.get("sent_log", [])
+    log.append({"date": date_label, "sent_at": now_local.isoformat()})
+    runs["sent_log"] = log[-365:]
+    save_json(DIGEST_RUNS_PATH, runs)
+
+
 def main() -> int:
     config = load_json(CONFIG_PATH, {})
     tz = ZoneInfo(config.get("timezone", "Asia/Shanghai"))
@@ -679,6 +701,10 @@ def main() -> int:
 
     DATA_DIR.mkdir(exist_ok=True)
     OUTPUTS_DIR.mkdir(exist_ok=True)
+
+    if scheduled_digest_already_sent(now_local):
+        print(f"Scheduled digest already sent for {now_local.strftime('%Y-%m-%d')}; skipping fallback run.")
+        return 0
 
     memory = update_feedback_from_mail(config)
     history = load_json(SENT_HISTORY_PATH, {"sent_ids": [], "sent_log": []})
@@ -698,6 +724,7 @@ def main() -> int:
     sent = send_email(subject, html_body, plain_body)
     if sent:
         update_history_and_mapping(selected, history, now_local)
+        mark_scheduled_digest_sent(now_local)
         print(f"Selected and sent {len(selected)} papers.")
     else:
         print(f"Selected {len(selected)} papers and wrote preview, but did not update sent history.")
