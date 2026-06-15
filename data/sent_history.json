@@ -1,6 +1,12 @@
 {
   "sent_ids": [
     "2502.18959",
+    "2508.06196",
+    "2508.15503",
+    "2509.20086",
+    "2511.05017",
+    "2511.07368",
+    "2601.05106",
     "2601.19072",
     "2601.19827",
     "2602.18154",
@@ -12,6 +18,7 @@
     "2606.07515",
     "2606.09500",
     "2606.10931",
+    "2606.12057",
     "2606.12864",
     "2606.13218",
     "2606.13220",
@@ -29,10 +36,24 @@
     "2606.13657",
     "2606.13668",
     "2606.13680",
-    "2606.13681"
+    "2606.13681",
+    "2606.14233",
+    "2606.14243",
+    "2606.14383",
+    "2606.14574",
+    "2606.14591",
+    "2606.14672",
+    "2606.14691",
+    "2606.14697"
   ],
   "sent_keys": [
     "2502.18959:2026-06-11T15:45:06Z",
+    "2508.06196:2026-06-12T13:42:50Z",
+    "2508.15503:2026-06-12T08:34:46Z",
+    "2509.20086:2026-06-12T12:27:33Z",
+    "2511.05017:2026-06-12T16:49:45Z",
+    "2511.07368:2026-06-12T14:01:32Z",
+    "2601.05106:2026-06-12T16:10:00Z",
     "2601.19072:2026-06-11T01:26:21Z",
     "2601.19827:2026-06-10T18:40:18Z",
     "2602.18154:2026-06-11T12:26:22Z",
@@ -44,6 +65,7 @@
     "2606.07515:2026-06-11T16:52:41Z",
     "2606.09500:2026-06-11T11:46:34Z",
     "2606.10931:2026-06-11T13:56:09Z",
+    "2606.12057:2026-06-12T08:37:31Z",
     "2606.12864:2026-06-11T03:48:18Z",
     "2606.13218:2026-06-11T11:33:09Z",
     "2606.13220:2026-06-11T11:37:07Z",
@@ -61,7 +83,15 @@
     "2606.13657:2026-06-11T17:54:09Z",
     "2606.13668:2026-06-11T17:58:33Z",
     "2606.13680:2026-06-11T17:59:52Z",
-    "2606.13681:2026-06-11T17:59:59Z"
+    "2606.13681:2026-06-11T17:59:59Z",
+    "2606.14233:2026-06-12T08:14:55Z",
+    "2606.14243:2026-06-12T08:21:28Z",
+    "2606.14383:2026-06-12T12:18:00Z",
+    "2606.14574:2026-06-12T15:53:16Z",
+    "2606.14591:2026-06-12T16:09:49Z",
+    "2606.14672:2026-06-12T17:39:29Z",
+    "2606.14691:2026-06-12T17:54:59Z",
+    "2606.14697:2026-06-12T17:58:38Z"
   ],
   "sent_log": [
     {
@@ -303,6 +333,126 @@
       "sent_key": "2606.13657:2026-06-11T17:54:09Z",
       "title": "Dense Supervision, Sparse Updates: On the Sparsity and Geometry of On-Policy Distillation",
       "updated": "2026-06-11T17:54:09Z"
+    },
+    {
+      "arxiv_id": "2511.07368",
+      "score": 58.6,
+      "sent_at": "2026-06-15T14:38:33.813116+08:00",
+      "sent_key": "2511.07368:2026-06-12T14:01:32Z",
+      "title": "Distributional Biases in Post-Training: A Markovian Analysis of Reasoning Trajectories",
+      "updated": "2026-06-12T14:01:32Z"
+    },
+    {
+      "arxiv_id": "2606.14691",
+      "score": 56.5,
+      "sent_at": "2026-06-15T14:38:33.813116+08:00",
+      "sent_key": "2606.14691:2026-06-12T17:54:59Z",
+      "title": "CORA: Analyzing and bridging thinking-answer gap in Multimodal RLVR via Consistency-Oriented Reasoning Alignment",
+      "updated": "2026-06-12T17:54:59Z"
+    },
+    {
+      "arxiv_id": "2601.05106",
+      "score": 52.3,
+      "sent_at": "2026-06-15T14:38:33.813116+08:00",
+      "sent_key": "2601.05106:2026-06-12T16:10:00Z",
+      "title": "Token-Level LLM Collaboration via FusionRoute",
+      "updated": "2026-06-12T16:10:00Z"
+    },
+    {
+      "arxiv_id": "2511.05017",
+      "score": 48.1,
+      "sent_at": "2026-06-15T14:38:33.813116+08:00",
+      "sent_key": "2511.05017:2026-06-12T16:49:45Z",
+      "title": "Towards Mitigating Hallucinations in Large Vision-Language Models by Refining Textual Embeddings",
+      "updated": "2026-06-12T16:49:45Z"
+    },
+    {
+      "arxiv_id": "2606.14243",
+      "score": 45.6,
+      "sent_at": "2026-06-15T14:38:33.813116+08:00",
+      "sent_key": "2606.14243:2026-06-12T08:21:28Z",
+      "title": "Decoupled Mixture-of-Experts for Parametric Knowledge Injection",
+      "updated": "2026-06-12T08:21:28Z"
+    },
+    {
+      "arxiv_id": "2606.14574",
+      "score": 42.8,
+      "sent_at": "2026-06-15T14:38:33.813116+08:00",
+      "sent_key": "2606.14574:2026-06-12T15:53:16Z",
+      "title": "SIMMER: Benchmarking Latent Failures in LLM Executable Planning with a World Model",
+      "updated": "2026-06-12T15:53:16Z"
+    },
+    {
+      "arxiv_id": "2606.14383",
+      "score": 42.8,
+      "sent_at": "2026-06-15T14:38:33.813116+08:00",
+      "sent_key": "2606.14383:2026-06-12T12:18:00Z",
+      "title": "IndustryBench-MIPU: Benchmarking Multi-Image Attribute Value Extraction for Industrial Products",
+      "updated": "2026-06-12T12:18:00Z"
+    },
+    {
+      "arxiv_id": "2606.14233",
+      "score": 42.1,
+      "sent_at": "2026-06-15T14:38:33.813116+08:00",
+      "sent_key": "2606.14233:2026-06-12T08:14:55Z",
+      "title": "Evaluating LLMs for Obfuscation Detection and Classification in Android Apps",
+      "updated": "2026-06-12T08:14:55Z"
+    },
+    {
+      "arxiv_id": "2606.14672",
+      "score": 41.9,
+      "sent_at": "2026-06-15T14:38:33.813116+08:00",
+      "sent_key": "2606.14672:2026-06-12T17:39:29Z",
+      "title": "Towards Direct Latent-Space Synthesis for Parallel Branches in LLM-Agent Workflows",
+      "updated": "2026-06-12T17:39:29Z"
+    },
+    {
+      "arxiv_id": "2606.14697",
+      "score": 41.3,
+      "sent_at": "2026-06-15T14:38:33.813116+08:00",
+      "sent_key": "2606.14697:2026-06-12T17:58:38Z",
+      "title": "ClinHallu: A Benchmark for Diagnosing Stage-Wise Hallucinations in Medical MLLM Reasoning",
+      "updated": "2026-06-12T17:58:38Z"
+    },
+    {
+      "arxiv_id": "2606.12057",
+      "score": 40.2,
+      "sent_at": "2026-06-15T14:38:33.813116+08:00",
+      "sent_key": "2606.12057:2026-06-12T08:37:31Z",
+      "title": "ChargeBD: Character-Aware Heterogeneous Agent Reasoning for Guided Engineering in Battery Development",
+      "updated": "2026-06-12T08:37:31Z"
+    },
+    {
+      "arxiv_id": "2509.20086",
+      "score": 40.1,
+      "sent_at": "2026-06-15T14:38:33.813116+08:00",
+      "sent_key": "2509.20086:2026-06-12T12:27:33Z",
+      "title": "OLaPh: Optimal Language Phonemizer",
+      "updated": "2026-06-12T12:27:33Z"
+    },
+    {
+      "arxiv_id": "2508.15503",
+      "score": 39.3,
+      "sent_at": "2026-06-15T14:38:33.813116+08:00",
+      "sent_key": "2508.15503:2026-06-12T08:34:46Z",
+      "title": "Guidelines for Empirical Studies in Software Engineering involving Large Language Models",
+      "updated": "2026-06-12T08:34:46Z"
+    },
+    {
+      "arxiv_id": "2606.14591",
+      "score": 39.0,
+      "sent_at": "2026-06-15T14:38:33.813116+08:00",
+      "sent_key": "2606.14591:2026-06-12T16:09:49Z",
+      "title": "AudioDER: A Deduplication-Enhanced Reasoning Dataset for Post-Training Large Audio-Language Models",
+      "updated": "2026-06-12T16:09:49Z"
+    },
+    {
+      "arxiv_id": "2508.06196",
+      "score": 38.7,
+      "sent_at": "2026-06-15T14:38:33.813116+08:00",
+      "sent_key": "2508.06196:2026-06-12T13:42:50Z",
+      "title": "EiCAP: Beyond Fluency, Probing and Improving Emotional Intelligence in LLMs via Psychologically Grounded Multi-Turn Dialogue",
+      "updated": "2026-06-12T13:42:50Z"
     }
   ]
 }

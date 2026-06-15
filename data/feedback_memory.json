@@ -1,57 +1,98 @@
 {
   "less_authors": {
     "Chao Yu": 0.6,
+    "Haomin Zhou": 0.6,
+    "Hongkai Zhao": 0.6,
     "Rongxin Yang": 0.6,
     "Shenghong He": 0.6,
-    "Siyuan Zhu": 0.6
+    "Shijun Zhang": 0.6,
+    "Siyuan Zhu": 0.6,
+    "Yimin Zhong": 0.6
   },
   "less_terms": {
     "agent": 1.0,
+    "alignment": 1.0,
+    "analyze": 1.0,
     "baselines": 1.0,
+    "benchmark": 1.0,
     "cs.AI": 1.0,
+    "cs.LG": 1.0,
     "delayed": 1.0,
     "efficiency": 1.0,
     "end-to-end": 1.0,
     "evaluation": 1.0,
+    "find": 1.0,
+    "first-layer": 1.0,
     "inference": 1.0,
-    "optimization": 1.0,
+    "landscape": 1.0,
+    "optimization": 2.0,
+    "propose": 1.0,
     "reasoning": 1.0,
     "retrieval": 1.0,
-    "throughout": 1.0
+    "stat.ML": 1.0,
+    "throughout": 1.0,
+    "training": 1.0,
+    "when": 1.0
   },
   "more_authors": {
+    "Ali Shiraee Kasmaee": 0.6,
     "Clayton Scott": 0.6,
+    "Hamidreza Mahyar": 0.6,
+    "Mahdi Astaraki": 0.6,
+    "Mohammad Arshi Saloot": 0.6,
     "Naichen Shi": 0.6,
     "Naihao Deng": 0.6,
     "Yilun Zhu": 0.6
   },
   "more_terms": {
     "Attributes": 1.2,
-    "RLVR": 1.2,
+    "RLVR": 2.4,
     "Then So Does Age of Empires II": 1.2,
     "alignment": 1.0,
-    "benchmark": 1.0,
+    "analyze": 1.0,
+    "benchmark": 2.0,
     "bias": 1.0,
     "contains": 1.0,
-    "cs.CL": 1.0,
+    "cs.AI": 1.0,
+    "cs.CL": 2.0,
+    "cs.IR": 1.0,
+    "data": 1.0,
     "differ": 1.0,
-    "inference optimization": 1.2,
-    "landscape": 1.2,
+    "inference optimization": 2.4,
+    "landscape": 2.4,
     "large-scale": 1.0,
+    "multi-hop": 1.0,
     "optimization": 1.0,
     "post-training": 1.0,
-    "reasoning": 1.0,
-    "training": 1.0,
-    "vulnerability": 1.0
+    "reasoning": 2.0,
+    "retrieval": 1.0,
+    "s: alignment": 2.4,
+    "s: benchmark": 7.2,
+    "s: bias": 1.2,
+    "s: cs.CL": 4.8,
+    "s: large-scale": 1.2,
+    "s: optimization": 1.2,
+    "s: reasoning": 6.0,
+    "s: training": 9.6,
+    "settings": 1.0,
+    "training": 2.0,
+    "vulnerability": 1.0,
+    "when": 1.0
   },
   "processed_message_ids": [
-    "<6a2d8cc3.bfbe2361.2ff516.fdd9@mx.google.com>"
+    "<6a2d8cc3.bfbe2361.2ff516.fdd9@mx.google.com>",
+    "<6a2d8e27.e3e4d428.22f919.6c25@mx.google.com>"
   ],
   "raw_feedback": [
     {
       "date": "Sat, 13 Jun 2026 10:00:51 -0700 (PDT)",
       "message_id": "<6a2d8cc3.bfbe2361.2ff516.fdd9@mx.google.com>",
       "text": "Daily arXiv - 2026-06-14\nTop 5 精读 + 10 篇一句话候选。\nTop 5 精读\n#1 From Verdict to Process: Agentic Reinforcement Learning for Multi-Stage Fact Verification\nAuthors: Rongxin Yang, Shenghong He, Siyuan Zhu, Chao Yu\nLink: https://arxiv.org/abs/2606.13262v1\nCategory: cs.AI; Score: 50.7; Updated: 2026-06-11\nTL;DR: Recent approaches combining Large Language Models (LLMs) with retrieval-augmented reasoning have shown promise for automated fact verification.\n中文摘要: 这篇论文主要围绕 cs.AI 中的 reinforcement learning / post-training 展开。根据摘要，核心问题是：Recent approaches combining Large Language Models (LLMs) with retrieval-augmented reasoning have shown promise for automated fact verification. To process complex claims, these verification pipelines typically execute multi-stage workflows that coordinate tightly coupled modules, including claim decomposition, evidence gathering, and verdict prediction. 适合先作为候选阅读，再结合实验设置判断是否值得精读。\nEnglish Summary: Recent approaches combining Large Language Models (LLMs) with retrieval-augmented reasoning have shown promise for automated fact verification. To process complex claims, these verification pipelines typically execute multi-stage workflows that coordinate tightly coupled modules, including claim decomposition, evidence gathering, and verdict prediction. However, existing methods optimize individual stages in isolation or rely on fixed heuristics, which limits adaptive coordination among stages and can lead to suboptimal outcomes.\n方法 / Method: reinforcement learning / post-training\n贡献 / Contribution: 提供新的评测视角或任务设置，可用于判断模型能力和研究空白。\n局限 / Limitation: 可能依赖特定任务集，泛化到真实研究/生产场景仍需进一步验证。\n为什么与你相关 / Why relevant: matches large language model, llm, language model, agent；strong interest: inference efficiency；semantically close to your LLM/optimization profile\n#2 Reward Modeling for Multi-Agent Orchestration\nAuthors: King Yeung Tsang, Zihao Zhao, Vishal Venkataramani, Haizhou Shi, Zixuan Ke, Semih Yavuz, Shafiq Joty, Hao Wang\nLink: https://arxiv.org/abs/2606.13598v1\nCategory:"
+    },
+    {
+      "date": "Sat, 13 Jun 2026 10:06:47 -0700 (PDT)",
+      "message_id": "<6a2d8e27.e3e4d428.22f919.6c25@mx.google.com>",
+      "text": "Daily arXiv - 2026-06-14\nTop 5 精读 + 10 篇一句话候选。\nTop 5 精读\n#1 Fourier Multi-Component and Multi-Layer Neural Networks: Unlocking High-Frequency Potential\nAuthors: Shijun Zhang, Hongkai Zhao, Yimin Zhong, Haomin Zhou\nLink: https://arxiv.org/abs/2502.18959v3\nCategory: cs.LG; Score: 45.2; Updated: 2026-06-11\nTL;DR: The architecture of a neural network and the choice of its activation function are both fundamental to its performance.\n中文摘要: 这篇论文主要围绕 cs.LG 中的 inference/training efficiency optimization 展开。根据摘要，核心问题是：The architecture of a neural network and the choice of its activation function are both fundamental to its performance. Equally important is ensuring that these two elements are well matched, as their alignment is key to effective representation and learning. 适合先作为候选阅读，再结合实验设置判断是否值得精读。\nEnglish Summary: The architecture of a neural network and the choice of its activation function are both fundamental to its performance. Equally important is ensuring that these two elements are well matched, as their alignment is key to effective representation and learning. In this paper, we introduce the Fourier Multi-Component and Multi-Layer Neural Network (FMMNN), a model that combines sine-type activations with the multi-component and multi-layer structure of MMNNs.\n方法 / Method: inference/training efficiency optimization\n贡献 / Contribution: 提供领域结构、问题分类或趋势梳理，帮助更新 LLM landscape 认知地图。\n局限 / Limitation: 可能依赖特定任务集，泛化到真实研究/生产场景仍需进一步验证。\n为什么与你相关 / Why relevant: matches alignment, optimization, landscape；your recent feedback likes: optimization；your recent feedback likes: training\n#2 GENEB: Why Genomic Models Are Hard to Compare\nAuthors: Daria Ledneva, Mikhail Nuridinov, Denis Kuznetsov\nLink: https://arxiv.org/abs/2606.04525v3\nCategory: cs.CL; Score: 41.9; Updated: 2026-06-11\nTL;DR: Progress in genomic foundation models is difficult to assess due to fragmented benchmarks, incompatible evaluation protocols, and task-specific reporting.\n中文摘要: 这篇论文主要围绕 cs.CL 中的 retrieval-augmented generati"
     }
   ]
 }
