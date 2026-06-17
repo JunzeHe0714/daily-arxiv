@@ -1,16 +1,21 @@
 {
   "sent_ids": [
     "2502.18959",
+    "2503.07459",
     "2504.17547",
     "2507.20424",
     "2508.06196",
     "2508.15503",
     "2509.20086",
+    "2511.01650",
     "2511.05017",
     "2511.07368",
+    "2601.03872",
     "2601.05106",
+    "2601.06116",
     "2601.19072",
     "2601.19827",
+    "2602.06154",
     "2602.18154",
     "2604.18307",
     "2605.21027",
@@ -50,6 +55,7 @@
     "2606.14691",
     "2606.14694",
     "2606.14697",
+    "2606.15932",
     "2606.16629",
     "2606.16700",
     "2606.16703",
@@ -59,20 +65,34 @@
     "2606.16843",
     "2606.16871",
     "2606.16910",
-    "2606.17053"
+    "2606.17053",
+    "2606.17398",
+    "2606.17890",
+    "2606.17905",
+    "2606.18089",
+    "2606.18192",
+    "2606.18193",
+    "2606.18195",
+    "2606.18203",
+    "2606.18237"
   ],
   "sent_keys": [
     "2502.18959:2026-06-11T15:45:06Z",
+    "2503.07459:2026-06-16T17:07:03Z",
     "2504.17547:2026-06-15T06:48:22Z",
     "2507.20424:2026-06-15T16:00:17Z",
     "2508.06196:2026-06-12T13:42:50Z",
     "2508.15503:2026-06-12T08:34:46Z",
     "2509.20086:2026-06-12T12:27:33Z",
+    "2511.01650:2026-06-16T12:04:30Z",
     "2511.05017:2026-06-12T16:49:45Z",
     "2511.07368:2026-06-12T14:01:32Z",
+    "2601.03872:2026-06-16T13:07:38Z",
     "2601.05106:2026-06-12T16:10:00Z",
+    "2601.06116:2026-06-16T13:57:08Z",
     "2601.19072:2026-06-11T01:26:21Z",
     "2601.19827:2026-06-10T18:40:18Z",
+    "2602.06154:2026-06-16T12:59:35Z",
     "2602.18154:2026-06-11T12:26:22Z",
     "2604.18307:2026-06-11T17:17:53Z",
     "2605.21027:2026-06-15T17:22:37Z",
@@ -112,6 +132,7 @@
     "2606.14691:2026-06-12T17:54:59Z",
     "2606.14694:2026-06-15T16:28:15Z",
     "2606.14697:2026-06-12T17:58:38Z",
+    "2606.15932:2026-06-16T15:28:03Z",
     "2606.16629:2026-06-15T12:22:36Z",
     "2606.16700:2026-06-15T13:34:38Z",
     "2606.16703:2026-06-15T13:37:52Z",
@@ -121,7 +142,16 @@
     "2606.16843:2026-06-15T15:22:30Z",
     "2606.16871:2026-06-15T15:47:52Z",
     "2606.16910:2026-06-15T16:16:56Z",
-    "2606.17053:2026-06-15T17:59:28Z"
+    "2606.17053:2026-06-15T17:59:28Z",
+    "2606.17398:2026-06-16T01:14:49Z",
+    "2606.17890:2026-06-16T13:10:30Z",
+    "2606.17905:2026-06-16T13:28:57Z",
+    "2606.18089:2026-06-16T15:55:28Z",
+    "2606.18192:2026-06-16T17:22:34Z",
+    "2606.18193:2026-06-16T17:23:58Z",
+    "2606.18195:2026-06-16T17:24:57Z",
+    "2606.18203:2026-06-16T17:34:53Z",
+    "2606.18237:2026-06-16T17:58:05Z"
   ],
   "sent_log": [
     {
@@ -603,6 +633,126 @@
       "sent_key": "2606.14694:2026-06-15T16:28:15Z",
       "title": "AdaSR: Adaptive Streaming Reasoning with Hierarchical Relative Policy Optimization",
       "updated": "2026-06-15T16:28:15Z"
+    },
+    {
+      "arxiv_id": "2606.15932",
+      "score": 83.0,
+      "sent_at": "2026-06-17T14:28:07.994015+08:00",
+      "sent_key": "2606.15932:2026-06-16T15:28:03Z",
+      "title": "Beyond NL2Code: A Structured Survey of Multimodal Code Intelligence",
+      "updated": "2026-06-16T15:28:03Z"
+    },
+    {
+      "arxiv_id": "2606.18195",
+      "score": 80.1,
+      "sent_at": "2026-06-17T14:28:07.994015+08:00",
+      "sent_key": "2606.18195:2026-06-16T17:24:57Z",
+      "title": "Learning from the Self-future: On-policy Self-distillation for dLLMs",
+      "updated": "2026-06-16T17:24:57Z"
+    },
+    {
+      "arxiv_id": "2606.17890",
+      "score": 62.7,
+      "sent_at": "2026-06-17T14:28:07.994015+08:00",
+      "sent_key": "2606.17890:2026-06-16T13:10:30Z",
+      "title": "Dynamic Rollout Editing for Reducing Overthinking in RL-Trained Reasoning Models",
+      "updated": "2026-06-16T13:10:30Z"
+    },
+    {
+      "arxiv_id": "2606.18203",
+      "score": 60.1,
+      "sent_at": "2026-06-17T14:28:07.994015+08:00",
+      "sent_key": "2606.18203:2026-06-16T17:34:53Z",
+      "title": "RubricsTree: Scalable and Evolving Open-Ended Evaluation of Personal Health Agents across Health Memory and Medical Skills",
+      "updated": "2026-06-16T17:34:53Z"
+    },
+    {
+      "arxiv_id": "2511.01650",
+      "score": 58.1,
+      "sent_at": "2026-06-17T14:28:07.994015+08:00",
+      "sent_key": "2511.01650:2026-06-16T12:04:30Z",
+      "title": "EngTrace: A Symbolic Benchmark for Verifiable Process Supervision of Engineering Reasoning",
+      "updated": "2026-06-16T12:04:30Z"
+    },
+    {
+      "arxiv_id": "2601.06116",
+      "score": 53.9,
+      "sent_at": "2026-06-17T14:28:07.994015+08:00",
+      "sent_key": "2601.06116:2026-06-16T13:57:08Z",
+      "title": "The Homogenization Problem in LLMs: Towards Meaningful Diversity in AI Safety",
+      "updated": "2026-06-16T13:57:08Z"
+    },
+    {
+      "arxiv_id": "2602.06154",
+      "score": 53.0,
+      "sent_at": "2026-06-17T14:28:07.994015+08:00",
+      "sent_key": "2602.06154:2026-06-16T12:59:35Z",
+      "title": "MoSE: Mixture of Slimmable Experts for Efficient and Adaptive Language Models",
+      "updated": "2026-06-16T12:59:35Z"
+    },
+    {
+      "arxiv_id": "2601.03872",
+      "score": 52.5,
+      "sent_at": "2026-06-17T14:28:07.994015+08:00",
+      "sent_key": "2601.03872:2026-06-16T13:07:38Z",
+      "title": "Atlas: Orchestrating Heterogeneous Models and Tools for Multi-Domain Complex Reasoning",
+      "updated": "2026-06-16T13:07:38Z"
+    },
+    {
+      "arxiv_id": "2503.07459",
+      "score": 52.4,
+      "sent_at": "2026-06-17T14:28:07.994015+08:00",
+      "sent_key": "2503.07459:2026-06-16T17:07:03Z",
+      "title": "MedicalAgentsBench for Complex Medical Reasoning: Comparing Internalized Reasoning Models versus Externalized Agent-based Frameworks",
+      "updated": "2026-06-16T17:07:03Z"
+    },
+    {
+      "arxiv_id": "2606.18237",
+      "score": 51.7,
+      "sent_at": "2026-06-17T14:28:07.994015+08:00",
+      "sent_key": "2606.18237:2026-06-16T17:58:05Z",
+      "title": "ReproRepo: Scaling Reproducibility Audits with GitHub Repository Issues",
+      "updated": "2026-06-16T17:58:05Z"
+    },
+    {
+      "arxiv_id": "2606.17905",
+      "score": 50.0,
+      "sent_at": "2026-06-17T14:28:07.994015+08:00",
+      "sent_key": "2606.17905:2026-06-16T13:28:57Z",
+      "title": "ChLogic: Evaluating Robustness of Logical Reasoning in Chinese Expressions",
+      "updated": "2026-06-16T13:28:57Z"
+    },
+    {
+      "arxiv_id": "2606.18089",
+      "score": 48.5,
+      "sent_at": "2026-06-17T14:28:07.994015+08:00",
+      "sent_key": "2606.18089:2026-06-16T15:55:28Z",
+      "title": "From Reasoning Traces to Reusable Modules: Understanding Compositional Generalization in Language Model Reasoning",
+      "updated": "2026-06-16T15:55:28Z"
+    },
+    {
+      "arxiv_id": "2606.18193",
+      "score": 47.9,
+      "sent_at": "2026-06-17T14:28:07.994015+08:00",
+      "sent_key": "2606.18193:2026-06-16T17:23:58Z",
+      "title": "A Red-Team Study of Anthropic Fable 5 & Opus 4.8 Models",
+      "updated": "2026-06-16T17:23:58Z"
+    },
+    {
+      "arxiv_id": "2606.17398",
+      "score": 47.6,
+      "sent_at": "2026-06-17T14:28:07.994015+08:00",
+      "sent_key": "2606.17398:2026-06-16T01:14:49Z",
+      "title": "SoK: AI-Augmented Binary Reversing",
+      "updated": "2026-06-16T01:14:49Z"
+    },
+    {
+      "arxiv_id": "2606.18192",
+      "score": 47.4,
+      "sent_at": "2026-06-17T14:28:07.994015+08:00",
+      "sent_key": "2606.18192:2026-06-16T17:22:34Z",
+      "title": "The Stanford EDGAR Filings Dataset: Reconstructing U.S. Corporate and Financial Disclosures into Layout-Faithful and Token-Efficient Pretraining Data",
+      "updated": "2026-06-16T17:22:34Z"
     }
   ]
 }
