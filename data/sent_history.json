@@ -13,8 +13,11 @@
     "2601.03872",
     "2601.05106",
     "2601.06116",
+    "2601.13836",
+    "2601.14288",
     "2601.19072",
     "2601.19827",
+    "2602.00161",
     "2602.06154",
     "2602.18154",
     "2604.18307",
@@ -74,7 +77,19 @@
     "2606.18193",
     "2606.18195",
     "2606.18203",
-    "2606.18237"
+    "2606.18237",
+    "2606.18831",
+    "2606.18910",
+    "2606.18954",
+    "2606.18988",
+    "2606.19144",
+    "2606.19162",
+    "2606.19236",
+    "2606.19256",
+    "2606.19257",
+    "2606.19266",
+    "2606.19327",
+    "2606.19336"
   ],
   "sent_keys": [
     "2502.18959:2026-06-11T15:45:06Z",
@@ -90,8 +105,11 @@
     "2601.03872:2026-06-16T13:07:38Z",
     "2601.05106:2026-06-12T16:10:00Z",
     "2601.06116:2026-06-16T13:57:08Z",
+    "2601.13836:2026-06-17T10:28:13Z",
+    "2601.14288:2026-06-17T10:02:49Z",
     "2601.19072:2026-06-11T01:26:21Z",
     "2601.19827:2026-06-10T18:40:18Z",
+    "2602.00161:2026-06-17T12:42:15Z",
     "2602.06154:2026-06-16T12:59:35Z",
     "2602.18154:2026-06-11T12:26:22Z",
     "2604.18307:2026-06-11T17:17:53Z",
@@ -151,7 +169,19 @@
     "2606.18193:2026-06-16T17:23:58Z",
     "2606.18195:2026-06-16T17:24:57Z",
     "2606.18203:2026-06-16T17:34:53Z",
-    "2606.18237:2026-06-16T17:58:05Z"
+    "2606.18237:2026-06-16T17:58:05Z",
+    "2606.18831:2026-06-17T09:07:42Z",
+    "2606.18910:2026-06-17T10:37:23Z",
+    "2606.18954:2026-06-17T11:37:54Z",
+    "2606.18988:2026-06-17T12:08:20Z",
+    "2606.19144:2026-06-17T14:47:59Z",
+    "2606.19162:2026-06-17T15:01:33Z",
+    "2606.19236:2026-06-17T16:13:42Z",
+    "2606.19256:2026-06-17T16:30:26Z",
+    "2606.19257:2026-06-17T16:34:02Z",
+    "2606.19266:2026-06-17T16:42:22Z",
+    "2606.19327:2026-06-17T17:54:04Z",
+    "2606.19336:2026-06-17T17:58:48Z"
   ],
   "sent_log": [
     {
@@ -753,6 +783,126 @@
       "sent_key": "2606.18192:2026-06-16T17:22:34Z",
       "title": "The Stanford EDGAR Filings Dataset: Reconstructing U.S. Corporate and Financial Disclosures into Layout-Faithful and Token-Efficient Pretraining Data",
       "updated": "2026-06-16T17:22:34Z"
+    },
+    {
+      "arxiv_id": "2606.18910",
+      "score": 77.9,
+      "sent_at": "2026-06-18T14:10:59.642653+08:00",
+      "sent_key": "2606.18910:2026-06-17T10:37:23Z",
+      "title": "REVES: REvision and VErification--Augmented Training for Test-Time Scaling",
+      "updated": "2026-06-17T10:37:23Z"
+    },
+    {
+      "arxiv_id": "2606.18954",
+      "score": 73.8,
+      "sent_at": "2026-06-18T14:10:59.642653+08:00",
+      "sent_key": "2606.18954:2026-06-17T11:37:54Z",
+      "title": "GraphPO: Graph-based Policy Optimization for Reasoning Models",
+      "updated": "2026-06-17T11:37:54Z"
+    },
+    {
+      "arxiv_id": "2606.19256",
+      "score": 70.9,
+      "sent_at": "2026-06-18T14:10:59.642653+08:00",
+      "sent_key": "2606.19256:2026-06-17T16:30:26Z",
+      "title": "X+Slides: Benchmarking Audience-Conditioned Slide Generation",
+      "updated": "2026-06-17T16:30:26Z"
+    },
+    {
+      "arxiv_id": "2601.13836",
+      "score": 62.7,
+      "sent_at": "2026-06-18T14:10:59.642653+08:00",
+      "sent_key": "2601.13836:2026-06-17T10:28:13Z",
+      "title": "FutureOmni: Evaluating Future Forecasting from Omni-Modal Context for Multimodal LLMs",
+      "updated": "2026-06-17T10:28:13Z"
+    },
+    {
+      "arxiv_id": "2606.19327",
+      "score": 60.4,
+      "sent_at": "2026-06-18T14:10:59.642653+08:00",
+      "sent_key": "2606.19327:2026-06-17T17:54:04Z",
+      "title": "Rethinking Reward Supervision: Rubric-Conditioned Self-Distillation",
+      "updated": "2026-06-17T17:54:04Z"
+    },
+    {
+      "arxiv_id": "2606.19162",
+      "score": 55.0,
+      "sent_at": "2026-06-18T14:10:59.642653+08:00",
+      "sent_key": "2606.19162:2026-06-17T15:01:33Z",
+      "title": "The Reward Was in Your Data All Along: Correcting Flow Matching with Discriminator-Guided RL",
+      "updated": "2026-06-17T15:01:33Z"
+    },
+    {
+      "arxiv_id": "2606.19236",
+      "score": 54.7,
+      "sent_at": "2026-06-18T14:10:59.642653+08:00",
+      "sent_key": "2606.19236:2026-06-17T16:13:42Z",
+      "title": "STARE: Surprisal-Guided Token-Level Advantage Reweighting for Policy Entropy Stability",
+      "updated": "2026-06-17T16:13:42Z"
+    },
+    {
+      "arxiv_id": "2606.19257",
+      "score": 54.1,
+      "sent_at": "2026-06-18T14:10:59.642653+08:00",
+      "sent_key": "2606.19257:2026-06-17T16:34:02Z",
+      "title": "DreamReasoner-8B: Block-Size Curriculum Learning for Diffusion Reasoning Models",
+      "updated": "2026-06-17T16:34:02Z"
+    },
+    {
+      "arxiv_id": "2606.19144",
+      "score": 52.7,
+      "sent_at": "2026-06-18T14:10:59.642653+08:00",
+      "sent_key": "2606.19144:2026-06-17T14:47:59Z",
+      "title": "Human-AI Coevolution Dynamics: A Formal Theory of Social Intelligence Emergence Through Long-Term Interaction",
+      "updated": "2026-06-17T14:47:59Z"
+    },
+    {
+      "arxiv_id": "2601.14288",
+      "score": 52.6,
+      "sent_at": "2026-06-18T14:10:59.642653+08:00",
+      "sent_key": "2601.14288:2026-06-17T10:02:49Z",
+      "title": "DeepInflation: an AI agent for research and model discovery of inflation",
+      "updated": "2026-06-17T10:02:49Z"
+    },
+    {
+      "arxiv_id": "2606.19336",
+      "score": 50.9,
+      "sent_at": "2026-06-18T14:10:59.642653+08:00",
+      "sent_key": "2606.19336:2026-06-17T17:58:48Z",
+      "title": "Learning User Simulators with Turing Rewards",
+      "updated": "2026-06-17T17:58:48Z"
+    },
+    {
+      "arxiv_id": "2606.18988",
+      "score": 50.4,
+      "sent_at": "2026-06-18T14:10:59.642653+08:00",
+      "sent_key": "2606.18988:2026-06-17T12:08:20Z",
+      "title": "ThinkDeception: A Progressive Reinforcement Learning Framework for Interpretable Multimodal Deception Detection",
+      "updated": "2026-06-17T12:08:20Z"
+    },
+    {
+      "arxiv_id": "2606.19266",
+      "score": 50.2,
+      "sent_at": "2026-06-18T14:10:59.642653+08:00",
+      "sent_key": "2606.19266:2026-06-17T16:42:22Z",
+      "title": "Trade-offs in Medical LLM Adaptation: An Empirical Study in French QA",
+      "updated": "2026-06-17T16:42:22Z"
+    },
+    {
+      "arxiv_id": "2606.18831",
+      "score": 50.2,
+      "sent_at": "2026-06-18T14:10:59.642653+08:00",
+      "sent_key": "2606.18831:2026-06-17T09:07:42Z",
+      "title": "Beyond Reward Engineering: A Data Recipe for Long-Context Reinforcement Learning",
+      "updated": "2026-06-17T09:07:42Z"
+    },
+    {
+      "arxiv_id": "2602.00161",
+      "score": 47.4,
+      "sent_at": "2026-06-18T14:10:59.642653+08:00",
+      "sent_key": "2602.00161:2026-06-17T12:42:15Z",
+      "title": "LLM Compression by Block Removal with Constrained Binary Optimization",
+      "updated": "2026-06-17T12:42:15Z"
     }
   ]
 }
