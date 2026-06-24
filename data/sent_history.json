@@ -1,9 +1,11 @@
 {
   "sent_ids": [
     "2312.00326",
+    "2501.11790",
     "2502.18959",
     "2503.07459",
     "2504.17547",
+    "2507.01752",
     "2507.20424",
     "2508.06196",
     "2508.15503",
@@ -36,6 +38,7 @@
     "2604.25665",
     "2605.16689",
     "2605.21027",
+    "2605.26144",
     "2605.31514",
     "2606.03367",
     "2606.04075",
@@ -148,13 +151,27 @@
     "2606.23313",
     "2606.23380",
     "2606.23459",
-    "2606.23671"
+    "2606.23671",
+    "2606.24200",
+    "2606.24369",
+    "2606.24589",
+    "2606.24596",
+    "2606.24636",
+    "2606.24648",
+    "2606.24655",
+    "2606.24714",
+    "2606.24740",
+    "2606.24759",
+    "2606.24775",
+    "2606.24883"
   ],
   "sent_keys": [
     "2312.00326:2026-06-21T15:13:56Z",
+    "2501.11790:2026-06-23T12:36:04Z",
     "2502.18959:2026-06-11T15:45:06Z",
     "2503.07459:2026-06-16T17:07:03Z",
     "2504.17547:2026-06-15T06:48:22Z",
+    "2507.01752:2026-06-23T13:09:44Z",
     "2507.20424:2026-06-15T16:00:17Z",
     "2508.06196:2026-06-12T13:42:50Z",
     "2508.15503:2026-06-12T08:34:46Z",
@@ -187,6 +204,7 @@
     "2604.25665:2026-06-21T13:39:15Z",
     "2605.16689:2026-06-22T11:25:31Z",
     "2605.21027:2026-06-15T17:22:37Z",
+    "2605.26144:2026-06-22T18:12:46Z",
     "2605.31514:2026-06-11T16:55:07Z",
     "2606.03367:2026-06-18T15:25:50Z",
     "2606.04075:2026-06-18T13:14:32Z",
@@ -300,7 +318,19 @@
     "2606.23313:2026-06-22T13:26:29Z",
     "2606.23380:2026-06-22T14:10:27Z",
     "2606.23459:2026-06-22T15:07:36Z",
-    "2606.23671:2026-06-22T17:56:30Z"
+    "2606.23671:2026-06-22T17:56:30Z",
+    "2606.24200:2026-06-23T06:41:13Z",
+    "2606.24369:2026-06-23T09:59:35Z",
+    "2606.24589:2026-06-23T13:50:51Z",
+    "2606.24596:2026-06-23T13:53:50Z",
+    "2606.24636:2026-06-23T14:29:40Z",
+    "2606.24648:2026-06-23T14:43:43Z",
+    "2606.24655:2026-06-23T14:48:37Z",
+    "2606.24714:2026-06-23T15:34:58Z",
+    "2606.24740:2026-06-23T16:03:56Z",
+    "2606.24759:2026-06-23T16:17:39Z",
+    "2606.24775:2026-06-23T16:34:55Z",
+    "2606.24883:2026-06-23T17:58:59Z"
   ],
   "sent_log": [
     {
@@ -1502,6 +1532,126 @@
       "sent_key": "2605.16689:2026-06-22T11:25:31Z",
       "title": "Against the Monolithic Wireless World Model: Why NextG Needs Composable and Agentic Intelligence",
       "updated": "2026-06-22T11:25:31Z"
+    },
+    {
+      "arxiv_id": "2606.24655",
+      "score": 69.6,
+      "sent_at": "2026-06-24T13:12:00.830005+08:00",
+      "sent_key": "2606.24655:2026-06-23T14:48:37Z",
+      "title": "AI-PAVE-Br: Leveraging Large Language Models for Enhanced Product Attribute Value Extraction through a Golden Set Approach",
+      "updated": "2026-06-23T14:48:37Z"
+    },
+    {
+      "arxiv_id": "2606.24883",
+      "score": 60.2,
+      "sent_at": "2026-06-24T13:12:00.830005+08:00",
+      "sent_key": "2606.24883:2026-06-23T17:58:59Z",
+      "title": "BenchX: Benchmarking AI Models for Cancer Detection and Localization with Demographic and Protocol Biases",
+      "updated": "2026-06-23T17:58:59Z"
+    },
+    {
+      "arxiv_id": "2606.24596",
+      "score": 59.5,
+      "sent_at": "2026-06-24T13:12:00.830005+08:00",
+      "sent_key": "2606.24596:2026-06-23T13:53:50Z",
+      "title": "To Compare, or Not to Compare: On Methodological Practices in Evaluating Social Bias",
+      "updated": "2026-06-23T13:53:50Z"
+    },
+    {
+      "arxiv_id": "2606.24589",
+      "score": 58.6,
+      "sent_at": "2026-06-24T13:12:00.830005+08:00",
+      "sent_key": "2606.24589:2026-06-23T13:50:51Z",
+      "title": "AdversaBench: Automated LLM Red-Teaming with Multi-Judge Confirmation and Cross-Model Transferability",
+      "updated": "2026-06-23T13:50:51Z"
+    },
+    {
+      "arxiv_id": "2606.24636",
+      "score": 58.5,
+      "sent_at": "2026-06-24T13:12:00.830005+08:00",
+      "sent_key": "2606.24636:2026-06-23T14:29:40Z",
+      "title": "CineCap: Structured Reasoning with Spatio-Temporal Anchors for Cinematographic Video Captioning",
+      "updated": "2026-06-23T14:29:40Z"
+    },
+    {
+      "arxiv_id": "2606.24200",
+      "score": 52.2,
+      "sent_at": "2026-06-24T13:12:00.830005+08:00",
+      "sent_key": "2606.24200:2026-06-23T06:41:13Z",
+      "title": "MMed-Bench-IR: A Heterogeneous Benchmark for Multilingual Medical Information Retrieval",
+      "updated": "2026-06-23T06:41:13Z"
+    },
+    {
+      "arxiv_id": "2507.01752",
+      "score": 51.5,
+      "sent_at": "2026-06-24T13:12:00.830005+08:00",
+      "sent_key": "2507.01752:2026-06-23T13:09:44Z",
+      "title": "Tuning without Peeking: Provable Generalization Bounds and Robust LLM Post-Training",
+      "updated": "2026-06-23T13:09:44Z"
+    },
+    {
+      "arxiv_id": "2606.24775",
+      "score": 49.1,
+      "sent_at": "2026-06-24T13:12:00.830005+08:00",
+      "sent_key": "2606.24775:2026-06-23T16:34:55Z",
+      "title": "Are We Ready For An Agent-Native Memory System?",
+      "updated": "2026-06-23T16:34:55Z"
+    },
+    {
+      "arxiv_id": "2501.11790",
+      "score": 47.7,
+      "sent_at": "2026-06-24T13:12:00.830005+08:00",
+      "sent_key": "2501.11790:2026-06-23T12:36:04Z",
+      "title": "Benchmarking LLMs' Mathematical Reasoning with Unseen Random Variables Questions",
+      "updated": "2026-06-23T12:36:04Z"
+    },
+    {
+      "arxiv_id": "2606.24648",
+      "score": 45.4,
+      "sent_at": "2026-06-24T13:12:00.830005+08:00",
+      "sent_key": "2606.24648:2026-06-23T14:43:43Z",
+      "title": "ParaPairAudioBench: Paralinguistic Pairwise Audio Benchmark for LALM-as-a-Judge",
+      "updated": "2026-06-23T14:43:43Z"
+    },
+    {
+      "arxiv_id": "2606.24740",
+      "score": 44.8,
+      "sent_at": "2026-06-24T13:12:00.830005+08:00",
+      "sent_key": "2606.24740:2026-06-23T16:03:56Z",
+      "title": "BioMedVR: Confusion-Aware Mixture-of-Prompt Experts for Biomedical Visual Reprogramming",
+      "updated": "2026-06-23T16:03:56Z"
+    },
+    {
+      "arxiv_id": "2606.24369",
+      "score": 44.6,
+      "sent_at": "2026-06-24T13:12:00.830005+08:00",
+      "sent_key": "2606.24369:2026-06-23T09:59:35Z",
+      "title": "Accelerating Disaggregated RL for Visual Generative LLMs with Diffusion-Based Parallelism and Trainer-Assisted Generation",
+      "updated": "2026-06-23T09:59:35Z"
+    },
+    {
+      "arxiv_id": "2606.24759",
+      "score": 44.2,
+      "sent_at": "2026-06-24T13:12:00.830005+08:00",
+      "sent_key": "2606.24759:2026-06-23T16:17:39Z",
+      "title": "UniDrive: A Unified Vision-Language and Grounding Framework for Interpretable Risk Understanding in Autonomous Driving",
+      "updated": "2026-06-23T16:17:39Z"
+    },
+    {
+      "arxiv_id": "2606.24714",
+      "score": 43.8,
+      "sent_at": "2026-06-24T13:12:00.830005+08:00",
+      "sent_key": "2606.24714:2026-06-23T15:34:58Z",
+      "title": "CN-NewsTTS Bench: a target-level automatic benchmark for raw-input Chinese news TTS pronunciation",
+      "updated": "2026-06-23T15:34:58Z"
+    },
+    {
+      "arxiv_id": "2605.26144",
+      "score": 43.6,
+      "sent_at": "2026-06-24T13:12:00.830005+08:00",
+      "sent_key": "2605.26144:2026-06-22T18:12:46Z",
+      "title": "VISTA: An End-to-End Benchmark for Visual Spec-to-Web-App Coding Agents",
+      "updated": "2026-06-22T18:12:46Z"
     }
   ]
 }
