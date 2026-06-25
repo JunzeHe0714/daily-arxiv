@@ -23,14 +23,18 @@
     "2601.19072",
     "2601.19827",
     "2602.00161",
+    "2602.05143",
     "2602.06154",
     "2602.14257",
     "2602.14696",
     "2602.15819",
     "2602.17655",
+    "2602.17663",
     "2602.18154",
     "2602.22959",
+    "2603.14609",
     "2603.16941",
+    "2603.29591",
     "2604.00626",
     "2604.04917",
     "2604.18105",
@@ -163,7 +167,18 @@
     "2606.24740",
     "2606.24759",
     "2606.24775",
-    "2606.24883"
+    "2606.24883",
+    "2606.25361",
+    "2606.25530",
+    "2606.25634",
+    "2606.25658",
+    "2606.25747",
+    "2606.25757",
+    "2606.25782",
+    "2606.25819",
+    "2606.25905",
+    "2606.26036",
+    "2606.26041"
   ],
   "sent_keys": [
     "2312.00326:2026-06-21T15:13:56Z",
@@ -189,14 +204,18 @@
     "2601.19072:2026-06-11T01:26:21Z",
     "2601.19827:2026-06-10T18:40:18Z",
     "2602.00161:2026-06-17T12:42:15Z",
+    "2602.05143:2026-06-24T03:29:07Z",
     "2602.06154:2026-06-16T12:59:35Z",
     "2602.14257:2026-06-22T06:59:51Z",
     "2602.14696:2026-06-18T11:23:03Z",
     "2602.15819:2026-06-18T16:41:40Z",
     "2602.17655:2026-06-22T16:39:17Z",
+    "2602.17663:2026-06-24T11:59:17Z",
     "2602.18154:2026-06-11T12:26:22Z",
     "2602.22959:2026-06-18T09:17:08Z",
+    "2603.14609:2026-06-24T12:51:06Z",
     "2603.16941:2026-06-18T17:51:14Z",
+    "2603.29591:2026-06-24T15:07:02Z",
     "2604.00626:2026-06-18T17:00:51Z",
     "2604.04917:2026-06-18T15:34:46Z",
     "2604.18105:2026-06-18T09:00:08Z",
@@ -330,7 +349,18 @@
     "2606.24740:2026-06-23T16:03:56Z",
     "2606.24759:2026-06-23T16:17:39Z",
     "2606.24775:2026-06-23T16:34:55Z",
-    "2606.24883:2026-06-23T17:58:59Z"
+    "2606.24883:2026-06-23T17:58:59Z",
+    "2606.25361:2026-06-24T03:45:45Z",
+    "2606.25530:2026-06-24T08:07:41Z",
+    "2606.25634:2026-06-24T09:38:27Z",
+    "2606.25658:2026-06-24T10:11:08Z",
+    "2606.25747:2026-06-24T12:16:04Z",
+    "2606.25757:2026-06-24T12:31:14Z",
+    "2606.25782:2026-06-24T13:00:25Z",
+    "2606.25819:2026-06-24T13:34:34Z",
+    "2606.25905:2026-06-24T14:53:56Z",
+    "2606.26036:2026-06-24T17:12:42Z",
+    "2606.26041:2026-06-24T17:15:42Z"
   ],
   "sent_log": [
     {
@@ -1652,6 +1682,126 @@
       "sent_key": "2605.26144:2026-06-22T18:12:46Z",
       "title": "VISTA: An End-to-End Benchmark for Visual Spec-to-Web-App Coding Agents",
       "updated": "2026-06-22T18:12:46Z"
+    },
+    {
+      "arxiv_id": "2606.26041",
+      "score": 69.2,
+      "sent_at": "2026-06-25T13:16:01.956230+08:00",
+      "sent_key": "2606.26041:2026-06-24T17:15:42Z",
+      "title": "How Robust is OCR-Reasoning? Evaluating OCR-Reasoning Robustness of Vision-Language Models under Visual Perturbations",
+      "updated": "2026-06-24T17:15:42Z"
+    },
+    {
+      "arxiv_id": "2606.26036",
+      "score": 60.0,
+      "sent_at": "2026-06-25T13:16:01.956230+08:00",
+      "sent_key": "2606.26036:2026-06-24T17:12:42Z",
+      "title": "Detect, Unlearn, Restore: Defending Text Summarization Models Against Data Poisoning",
+      "updated": "2026-06-24T17:12:42Z"
+    },
+    {
+      "arxiv_id": "2606.25634",
+      "score": 58.9,
+      "sent_at": "2026-06-25T13:16:01.956230+08:00",
+      "sent_key": "2606.25634:2026-06-24T09:38:27Z",
+      "title": "SSMNBench: Diagnosing Image-based Cross-View Human-Object Understanding via Single-View Sufficiency and Multi-View Necessity",
+      "updated": "2026-06-24T09:38:27Z"
+    },
+    {
+      "arxiv_id": "2606.25757",
+      "score": 55.9,
+      "sent_at": "2026-06-25T13:16:01.956230+08:00",
+      "sent_key": "2606.25757:2026-06-24T12:31:14Z",
+      "title": "OPERA: Aligning Open-Ended Reasoning via Objective Perplexity-based Reinforcement Learning",
+      "updated": "2026-06-24T12:31:14Z"
+    },
+    {
+      "arxiv_id": "2606.25819",
+      "score": 52.7,
+      "sent_at": "2026-06-25T13:16:01.956230+08:00",
+      "sent_key": "2606.25819:2026-06-24T13:34:34Z",
+      "title": "Beyond Function Calling: Benchmarking Tool-Using Agents under Tool-Environment Unreliability",
+      "updated": "2026-06-24T13:34:34Z"
+    },
+    {
+      "arxiv_id": "2606.25905",
+      "score": 52.5,
+      "sent_at": "2026-06-25T13:16:01.956230+08:00",
+      "sent_key": "2606.25905:2026-06-24T14:53:56Z",
+      "title": "SurgAtlas: A Large-Scale Surgical Video-Language Dataset with 2,391 Hours of Open and Minimally Invasive Surgery",
+      "updated": "2026-06-24T14:53:56Z"
+    },
+    {
+      "arxiv_id": "2603.14609",
+      "score": 52.3,
+      "sent_at": "2026-06-25T13:16:01.956230+08:00",
+      "sent_key": "2603.14609:2026-06-24T12:51:06Z",
+      "title": "GroundSet: A Cadastral-Grounded Dataset for Spatial Understanding with Vector Data",
+      "updated": "2026-06-24T12:51:06Z"
+    },
+    {
+      "arxiv_id": "2603.29591",
+      "score": 47.9,
+      "sent_at": "2026-06-25T13:16:01.956230+08:00",
+      "sent_key": "2603.29591:2026-06-24T15:07:02Z",
+      "title": "FlowID : Enhancing Forensic Identification with Latent Flow-Matching Models",
+      "updated": "2026-06-24T15:07:02Z"
+    },
+    {
+      "arxiv_id": "2602.05143",
+      "score": 47.8,
+      "sent_at": "2026-06-25T13:16:01.956230+08:00",
+      "sent_key": "2602.05143:2026-06-24T03:29:07Z",
+      "title": "CausalRAG2: Hierarchical Causal Knowledge Graph Design for RAG",
+      "updated": "2026-06-24T03:29:07Z"
+    },
+    {
+      "arxiv_id": "2602.17663",
+      "score": 47.1,
+      "sent_at": "2026-06-25T13:16:01.956230+08:00",
+      "sent_key": "2602.17663:2026-06-24T11:59:17Z",
+      "title": "CLEF HIPE-2026: Evaluating Accurate and Efficient Person-Place Relation Extraction from Multilingual Historical Texts",
+      "updated": "2026-06-24T11:59:17Z"
+    },
+    {
+      "arxiv_id": "2606.25361",
+      "score": 46.6,
+      "sent_at": "2026-06-25T13:16:01.956230+08:00",
+      "sent_key": "2606.25361:2026-06-24T03:45:45Z",
+      "title": "Memory Makes the Difference: Evaluating How Different Memory Roles Shape Conversational Agents",
+      "updated": "2026-06-24T03:45:45Z"
+    },
+    {
+      "arxiv_id": "2606.25747",
+      "score": 46.2,
+      "sent_at": "2026-06-25T13:16:01.956230+08:00",
+      "sent_key": "2606.25747:2026-06-24T12:16:04Z",
+      "title": "CodeChat-Eval: Evaluating Large Language Models in Multi-Turn Code Refinement Dialogues",
+      "updated": "2026-06-24T12:16:04Z"
+    },
+    {
+      "arxiv_id": "2606.25530",
+      "score": 45.6,
+      "sent_at": "2026-06-25T13:16:01.956230+08:00",
+      "sent_key": "2606.25530:2026-06-24T08:07:41Z",
+      "title": "Evaluating LLMs on Real-World Software Performance Optimization",
+      "updated": "2026-06-24T08:07:41Z"
+    },
+    {
+      "arxiv_id": "2606.25782",
+      "score": 44.7,
+      "sent_at": "2026-06-25T13:16:01.956230+08:00",
+      "sent_key": "2606.25782:2026-06-24T13:00:25Z",
+      "title": "Do Encoders Suffice? A Systematic Comparison of Encoder and Decoder Safety Judges for LLM Adversarial Evaluation",
+      "updated": "2026-06-24T13:00:25Z"
+    },
+    {
+      "arxiv_id": "2606.25658",
+      "score": 44.7,
+      "sent_at": "2026-06-25T13:16:01.956230+08:00",
+      "sent_key": "2606.25658:2026-06-24T10:11:08Z",
+      "title": "Towards a Dynamic and Fixed-budget Memory Bank for Efficient Streaming Video Understanding",
+      "updated": "2026-06-24T10:11:08Z"
     }
   ]
 }
