@@ -1,6 +1,7 @@
 {
   "sent_ids": [
     "2312.00326",
+    "2404.08948",
     "2501.11790",
     "2502.18959",
     "2503.07459",
@@ -16,6 +17,7 @@
     "2511.05017",
     "2511.07368",
     "2511.18288",
+    "2512.06401",
     "2601.03872",
     "2601.05106",
     "2601.06116",
@@ -39,6 +41,7 @@
     "2603.16941",
     "2603.29591",
     "2604.00626",
+    "2604.03724",
     "2604.04917",
     "2604.18105",
     "2604.18307",
@@ -181,21 +184,34 @@
     "2606.25757",
     "2606.25782",
     "2606.25819",
+    "2606.25879",
     "2606.25905",
     "2606.26036",
     "2606.26041",
+    "2606.26607",
     "2606.26633",
     "2606.26654",
+    "2606.26857",
+    "2606.26879",
+    "2606.26918",
+    "2606.26927",
+    "2606.26937",
     "2606.26960",
     "2606.26997",
     "2606.27047",
+    "2606.27106",
+    "2606.27146",
     "2606.27154",
     "2606.27161",
     "2606.27187",
-    "2606.27264"
+    "2606.27264",
+    "2606.27287",
+    "2606.27313",
+    "2606.27376"
   ],
   "sent_keys": [
     "2312.00326:2026-06-21T15:13:56Z",
+    "2404.08948:2026-06-25T14:05:55Z",
     "2501.11790:2026-06-23T12:36:04Z",
     "2502.18959:2026-06-11T15:45:06Z",
     "2503.07459:2026-06-16T17:07:03Z",
@@ -211,6 +227,7 @@
     "2511.05017:2026-06-12T16:49:45Z",
     "2511.07368:2026-06-12T14:01:32Z",
     "2511.18288:2026-06-18T06:58:18Z",
+    "2512.06401:2026-06-25T14:54:21Z",
     "2601.03872:2026-06-16T13:07:38Z",
     "2601.05106:2026-06-12T16:10:00Z",
     "2601.06116:2026-06-16T13:57:08Z",
@@ -234,6 +251,7 @@
     "2603.16941:2026-06-18T17:51:14Z",
     "2603.29591:2026-06-24T15:07:02Z",
     "2604.00626:2026-06-18T17:00:51Z",
+    "2604.03724:2026-06-25T13:28:29Z",
     "2604.04917:2026-06-18T15:34:46Z",
     "2604.18105:2026-06-18T09:00:08Z",
     "2604.18307:2026-06-11T17:17:53Z",
@@ -378,18 +396,30 @@
     "2606.25757:2026-06-24T12:31:14Z",
     "2606.25782:2026-06-24T13:00:25Z",
     "2606.25819:2026-06-24T13:34:34Z",
+    "2606.25879:2026-06-24T14:23:14Z",
     "2606.25905:2026-06-24T14:53:56Z",
     "2606.26036:2026-06-24T17:12:42Z",
     "2606.26041:2026-06-24T17:15:42Z",
+    "2606.26607:2026-06-25T05:10:20Z",
     "2606.26633:2026-06-25T05:50:46Z",
     "2606.26654:2026-06-25T06:31:56Z",
+    "2606.26857:2026-06-25T10:41:48Z",
+    "2606.26879:2026-06-25T11:08:40Z",
+    "2606.26918:2026-06-25T11:53:41Z",
+    "2606.26927:2026-06-25T12:03:24Z",
+    "2606.26937:2026-06-25T12:13:05Z",
     "2606.26960:2026-06-25T12:32:52Z",
     "2606.26997:2026-06-25T13:14:14Z",
     "2606.27047:2026-06-25T13:52:16Z",
+    "2606.27106:2026-06-25T14:43:42Z",
+    "2606.27146:2026-06-25T15:18:10Z",
     "2606.27154:2026-06-25T15:24:23Z",
     "2606.27161:2026-06-25T15:29:37Z",
     "2606.27187:2026-06-25T15:50:33Z",
-    "2606.27264:2026-06-25T16:47:05Z"
+    "2606.27264:2026-06-25T16:47:05Z",
+    "2606.27287:2026-06-25T17:04:51Z",
+    "2606.27313:2026-06-25T17:29:27Z",
+    "2606.27376:2026-06-25T17:59:57Z"
   ],
   "sent_log": [
     {
@@ -1951,6 +1981,126 @@
       "sent_key": "2606.26960:2026-06-25T12:32:52Z",
       "title": "Toward Agentic SysAdmin: Rethinking System Administration with AI Agents",
       "updated": "2026-06-25T12:32:52Z"
+    },
+    {
+      "arxiv_id": "2606.26879",
+      "score": 73.1,
+      "sent_at": "2026-06-27T13:04:30.631502+08:00",
+      "sent_key": "2606.26879:2026-06-25T11:08:40Z",
+      "title": "A Pipeline for Generating Longitudinal Synthetic Clinical Notes Using Large Language Models",
+      "updated": "2026-06-25T11:08:40Z"
+    },
+    {
+      "arxiv_id": "2606.26937",
+      "score": 64.4,
+      "sent_at": "2026-06-27T13:04:30.631502+08:00",
+      "sent_key": "2606.26937:2026-06-25T12:13:05Z",
+      "title": "Continuous Behavioral Synthesis for Adaptive Health Dashboards: An LLM-Mediated Architecture Integrating Explicit Preference, Spatial Reorganization, and Attention Allocation Signals",
+      "updated": "2026-06-25T12:13:05Z"
+    },
+    {
+      "arxiv_id": "2606.27287",
+      "score": 64.2,
+      "sent_at": "2026-06-27T13:04:30.631502+08:00",
+      "sent_key": "2606.27287:2026-06-25T17:04:51Z",
+      "title": "Prompt Injection in Automated Résumé Screening with Large Language Models: Single and Multi-Injection Settings",
+      "updated": "2026-06-25T17:04:51Z"
+    },
+    {
+      "arxiv_id": "2606.27376",
+      "score": 61.9,
+      "sent_at": "2026-06-27T13:04:30.631502+08:00",
+      "sent_key": "2606.27376:2026-06-25T17:59:57Z",
+      "title": "Ask, Solve, Generate: Self-Evolving Unified Multimodal Understanding and Generation via Self-Consistency Rewards",
+      "updated": "2026-06-25T17:59:57Z"
+    },
+    {
+      "arxiv_id": "2604.03724",
+      "score": 57.1,
+      "sent_at": "2026-06-27T13:04:30.631502+08:00",
+      "sent_key": "2604.03724:2026-06-25T13:28:29Z",
+      "title": "Rank, Don't Generate: Statement-level Ranking for Explainable Recommendation",
+      "updated": "2026-06-25T13:28:29Z"
+    },
+    {
+      "arxiv_id": "2606.27313",
+      "score": 56.4,
+      "sent_at": "2026-06-27T13:04:30.631502+08:00",
+      "sent_key": "2606.27313:2026-06-25T17:29:27Z",
+      "title": "ViQ: Text-Aligned Visual Quantized Representations at Any Resolution",
+      "updated": "2026-06-25T17:29:27Z"
+    },
+    {
+      "arxiv_id": "2606.27106",
+      "score": 56.3,
+      "sent_at": "2026-06-27T13:04:30.631502+08:00",
+      "sent_key": "2606.27106:2026-06-25T14:43:42Z",
+      "title": "Application of LLMs to Threat Assessment of Foreign Peacekeeping Missions",
+      "updated": "2026-06-25T14:43:42Z"
+    },
+    {
+      "arxiv_id": "2404.08948",
+      "score": 54.8,
+      "sent_at": "2026-06-27T13:04:30.631502+08:00",
+      "sent_key": "2404.08948:2026-06-25T14:05:55Z",
+      "title": "Large Language Models for Mobile GUI Text Input Generation: An Empirical Study",
+      "updated": "2026-06-25T14:05:55Z"
+    },
+    {
+      "arxiv_id": "2606.27146",
+      "score": 53.5,
+      "sent_at": "2026-06-27T13:04:30.631502+08:00",
+      "sent_key": "2606.27146:2026-06-25T15:18:10Z",
+      "title": "PhysReflect-VLA: Physical Feasibility and Self-Reflective Regulation for Reliable Vision-Language-Action Policies",
+      "updated": "2026-06-25T15:18:10Z"
+    },
+    {
+      "arxiv_id": "2606.26918",
+      "score": 52.6,
+      "sent_at": "2026-06-27T13:04:30.631502+08:00",
+      "sent_key": "2606.26918:2026-06-25T11:53:41Z",
+      "title": "Diagnosing Task Insensitivity in Language Agents",
+      "updated": "2026-06-25T11:53:41Z"
+    },
+    {
+      "arxiv_id": "2606.26857",
+      "score": 52.6,
+      "sent_at": "2026-06-27T13:04:30.631502+08:00",
+      "sent_key": "2606.26857:2026-06-25T10:41:48Z",
+      "title": "LCAi: Life Cycle Assessment with big data fusion and retrieval-augmented generation-assisted interpretation",
+      "updated": "2026-06-25T10:41:48Z"
+    },
+    {
+      "arxiv_id": "2512.06401",
+      "score": 52.3,
+      "sent_at": "2026-06-27T13:04:30.631502+08:00",
+      "sent_key": "2512.06401:2026-06-25T14:54:21Z",
+      "title": "LLMCFG-TGen: Using LLM-Generated Control Flow Graphs to Automatically Create Test Cases from Use Cases",
+      "updated": "2026-06-25T14:54:21Z"
+    },
+    {
+      "arxiv_id": "2606.26927",
+      "score": 50.6,
+      "sent_at": "2026-06-27T13:04:30.631502+08:00",
+      "sent_key": "2606.26927:2026-06-25T12:03:24Z",
+      "title": "Are LLMs Ready for Anti-Pattern Detection in Microservice Architectures?",
+      "updated": "2026-06-25T12:03:24Z"
+    },
+    {
+      "arxiv_id": "2606.25879",
+      "score": 49.9,
+      "sent_at": "2026-06-27T13:04:30.631502+08:00",
+      "sent_key": "2606.25879:2026-06-24T14:23:14Z",
+      "title": "AI-Assisted Computational Reproducibility on the FABRIC Testbed",
+      "updated": "2026-06-24T14:23:14Z"
+    },
+    {
+      "arxiv_id": "2606.26607",
+      "score": 49.7,
+      "sent_at": "2026-06-27T13:04:30.631502+08:00",
+      "sent_key": "2606.26607:2026-06-25T05:10:20Z",
+      "title": "Moebius: Serving Mixture-of-Expert Models with Seamless Runtime Parallelism Switch",
+      "updated": "2026-06-25T05:10:20Z"
     }
   ]
 }
