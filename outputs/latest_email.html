@@ -1,140 +1,137 @@
 <!doctype html><html><head><meta charset='utf-8'>
 <style>body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Arial,sans-serif;line-height:1.55;color:#202124;max-width:860px;margin:24px auto;padding:0 16px;}h1{font-size:24px;}h2{font-size:20px;margin-top:28px;}h3{font-size:17px;margin-bottom:6px}.paper{border-top:1px solid #ddd;padding-top:16px;margin-top:16px}.meta{color:#5f6368;font-size:13px}.pill{display:inline-block;border:1px solid #dadce0;border-radius:12px;padding:1px 8px;margin:2px;color:#3c4043;font-size:12px}.score{color:#0b57d0}.feedback{background:#f8fafd;border:1px solid #dfe6f5;padding:12px;border-radius:8px;margin-top:28px}</style>
 </head><body>
-<h1>Daily arXiv - 2026-06-30</h1>
+<h1>Daily arXiv - 2026-07-01</h1>
 <p>Top 5 精读 + 10 篇一句话候选。你可以直接回复这封邮件来调整明天的偏好。</p>
 <h2>Top 5 精读</h2>
 <div class='paper'>
-<h3>#1 <a href='https://arxiv.org/abs/2601.01569v4'>CaveAgent: Transforming LLMs into Stateful Runtime Operators</a></h3>
-<div class='meta'>Maohao Ran, Zhenglin Wan, Cooper Lin, Yanting Zhang, Hongyu Xin, Hongwei Fan, Yibo Xu, Beier Luo et al. | cs.AI | score <span class='score'>99.3</span> | updated 2026-06-29</div>
+<h3>#1 <a href='https://arxiv.org/abs/2508.01273v3'>Disentangling Reasoning Logic to Resolve Explicit Knowledge Conflicts</a></h3>
+<div class='meta'>Xianda Zheng, Zijian Huang, Meng-Fen Chiang, Jiamou Liu, Yuan Fang, Michael Witbrock, Kaiqi Zhao | cs.AI | score <span class='score'>80.1</span> | updated 2026-06-30</div>
 <span class='pill'>cs.AI</span>
-<span class='pill'>cs.SE</span>
-<p><strong>TL;DR:</strong> LLM-based agents are increasingly capable of complex task execution, yet current agentic systems remain constrained by text-centric paradigms that struggle with long-horizon tasks due to fragile multi-turn dependencies and context drift.</p>
-<p><strong>中文摘要:</strong> 这篇论文主要围绕 cs.AI 中的 reinforcement learning / post-training 展开。根据摘要，核心问题是：LLM-based agents are increasingly capable of complex task execution, yet current agentic systems remain constrained by text-centric paradigms that struggle with long-horizon tasks due to fragile multi-turn dependencies and context drift. 适合先作为候选阅读，再结合实验设置判断是否值得精读。</p>
-<p><strong>English Summary:</strong> LLM-based agents are increasingly capable of complex task execution, yet current agentic systems remain constrained by text-centric paradigms that struggle with long-horizon tasks due to fragile multi-turn dependencies and context drift. We present CaveAgent, a framework that shifts tool use from ``LLM-as-Text-Generator&#x27;&#x27; to ``LLM-as-Runtime-Operator.&#x27;&#x27; CaveAgent introduces a dual-stream architecture that inverts the conventional paradigm: rather than treating the LLM&#x27;s text context as the primary workspace with tools as auxiliary, CaveAgent elevates the persistent Python runtime as the central locus of state, with a lightweight semantic stream serving as its orchestrator</p>
+<p><strong>TL;DR:</strong> Explicit knowledge conflicts, occurring when retrieved contexts contain contradictory information, pose a fundamental challenge for Large Language Models (LLMs) as they integrate increasingly diverse data sources.</p>
+<p><strong>中文摘要:</strong> 这篇论文主要围绕 cs.AI 中的 reinforcement learning / post-training 展开。根据摘要，核心问题是：Explicit knowledge conflicts, occurring when retrieved contexts contain contradictory information, pose a fundamental challenge for Large Language Models (LLMs) as they integrate increasingly diverse data sources. 适合先作为候选阅读，再结合实验设置判断是否值得精读。</p>
+<p><strong>English Summary:</strong> Explicit knowledge conflicts, occurring when retrieved contexts contain contradictory information, pose a fundamental challenge for Large Language Models (LLMs) as they integrate increasingly diverse data sources. The core difficulty lies in the complexity of entangled narratives and heterogeneous conflict patterns, which frequently exceeds the reasoning capacity of standard backbone architectures. We propose \textbf{\textsc{Kcr}} (Knowledge Conflict Reasoning), a framework that adjudicates contradictions by systematically structuring their underlying logic.</p>
 <p><strong>方法 / Method:</strong> reinforcement learning / post-training</p>
 <p><strong>贡献 / Contribution:</strong> 提供新的评测视角或任务设置，可用于判断模型能力和研究空白。</p>
 <p><strong>局限 / Limitation:</strong> 可能依赖特定任务集，泛化到真实研究/生产场景仍需进一步验证。</p>
-<p><strong>为什么与你相关 / Why relevant:</strong> matches llm, agent, rlvr, rag；your recent feedback likes: RLVR；your recent feedback likes: across</p>
+<p><strong>为什么与你相关 / Why relevant:</strong> matches large language model, llm, language model, reasoning；your recent feedback likes: RLVR；your recent feedback likes: contexts</p>
 </div>
 <div class='paper'>
-<h3>#2 <a href='https://arxiv.org/abs/2606.30378v1'>OmniCoT: A Benchmark for Global and Multi-Step Panoramic Reasoning</a></h3>
-<div class='meta'>Haocong He, Chenfei Liao, Zichen Wen, Zihao Dongfang, Xu Zheng, Bin Ren, Chang Su, Zixin Zhang et al. | cs.CV | score <span class='score'>69.8</span> | updated 2026-06-29</div>
+<h3>#2 <a href='https://arxiv.org/abs/2606.31575v1'>Which Tokens Matter? Adaptive Token Selection for RLVR with the Relative Surprisal Index</a></h3>
+<div class='meta'>Outongyi Lv, Yanzhao Zheng, Yuanwei Zhang, Zhenghao Huang, Xingjun Wang, Baohua Dong, Hangcheng Zhu, Yingda Chen | cs.AI | score <span class='score'>77.6</span> | updated 2026-06-30</div>
+<span class='pill'>cs.AI</span>
+<p><strong>TL;DR:</strong> Reinforcement learning (RL) has become a powerful tool for propelling Large Language Models (LLMs) beyond imitation-based training towards more robust reasoning capabilities.</p>
+<p><strong>中文摘要:</strong> 这篇论文主要围绕 cs.AI 中的 reinforcement learning / post-training 展开。根据摘要，核心问题是：Reinforcement learning (RL) has become a powerful tool for propelling Large Language Models (LLMs) beyond imitation-based training towards more robust reasoning capabilities. Among existing approaches, RL with Verifiable Rewards (RLVR) has emerged as a pivotal paradigm for advancing LLM reasoning. 适合先作为候选阅读，再结合实验设置判断是否值得精读。</p>
+<p><strong>English Summary:</strong> Reinforcement learning (RL) has become a powerful tool for propelling Large Language Models (LLMs) beyond imitation-based training towards more robust reasoning capabilities. Among existing approaches, RL with Verifiable Rewards (RLVR) has emerged as a pivotal paradigm for advancing LLM reasoning. Despite its empirical success, recent studies have offered different insights.</p>
+<p><strong>方法 / Method:</strong> reinforcement learning / post-training</p>
+<p><strong>贡献 / Contribution:</strong> 提供新的评测视角或任务设置，可用于判断模型能力和研究空白。</p>
+<p><strong>局限 / Limitation:</strong> 可能依赖特定任务集，泛化到真实研究/生产场景仍需进一步验证。</p>
+<p><strong>为什么与你相关 / Why relevant:</strong> matches large language model, llm, language model, reasoning；your recent feedback likes: RLVR；your recent feedback likes: across</p>
+</div>
+<div class='paper'>
+<h3>#3 <a href='https://arxiv.org/abs/2606.31966v1'>MECoBench: A Systematic Study of Multimodal Agent Collaboration in Embodied Environments</a></h3>
+<div class='meta'>Qingyun Liu, Jiwen Zhang, Jingyi Hu, Siyuan Wang, Zhongyu Wei | cs.MA | score <span class='score'>73.3</span> | updated 2026-06-30</div>
+<span class='pill'>cs.MA</span>
+<span class='pill'>cs.AI</span>
+<span class='pill'>cs.CL</span>
 <span class='pill'>cs.CV</span>
-<p><strong>TL;DR:</strong> Multimodal Large Language Models (MLLMs) have demonstrated promising spatial reasoning capabilities, while these abilities remain underexplored in the emerging visual modality of panoramic imagery.</p>
-<p><strong>中文摘要:</strong> 这篇论文主要围绕 cs.CV 中的 inference/training efficiency optimization 展开。根据摘要，核心问题是：Multimodal Large Language Models (MLLMs) have demonstrated promising spatial reasoning capabilities, while these abilities remain underexplored in the emerging visual modality of panoramic imagery. 适合先作为候选阅读，再结合实验设置判断是否值得精读。</p>
-<p><strong>English Summary:</strong> Multimodal Large Language Models (MLLMs) have demonstrated promising spatial reasoning capabilities, while these abilities remain underexplored in the emerging visual modality of panoramic imagery. The full 360°$\times$180° field of view of panoramas essentially supports complex global multi-step reasoning, which is also the fundamental advantage of panoramas in applications such as embodied intelligence. However, existing panoramic benchmarks largely focus on simplistic queries that rely on local cues or single-/few-step reasoning, thereby ignoring the fundamental advantage of panoramas and failing to fully exploit their potential.</p>
+<p><strong>TL;DR:</strong> Recent multimodal large language models (MLLMs) have strong potential as embodied agents, but their ability to collaborate in visually grounded environments remains underexplored.</p>
+<p><strong>中文摘要:</strong> 这篇论文主要围绕 cs.MA 中的 agent or tool-use evaluation 展开。根据摘要，核心问题是：Recent multimodal large language models (MLLMs) have strong potential as embodied agents, but their ability to collaborate in visually grounded environments remains underexplored. 适合先作为候选阅读，再结合实验设置判断是否值得精读。</p>
+<p><strong>English Summary:</strong> Recent multimodal large language models (MLLMs) have strong potential as embodied agents, but their ability to collaborate in visually grounded environments remains underexplored. To address this gap, we introduce MECoBench, a multimodal embodied cooperation benchmark with an evaluation platform spanning diverse real-world tasks, two cooperation structures, and three collaboration modes. Through extensive experiments across various MLLMs, we summarize three key findings: (i) Collaboration generally improves embodied task completion, but its benefits depend on balancing collaborative gains against coordination complexity.</p>
+<p><strong>方法 / Method:</strong> agent or tool-use evaluation</p>
+<p><strong>贡献 / Contribution:</strong> 提供新的评测视角或任务设置，可用于判断模型能力和研究空白。</p>
+<p><strong>局限 / Limitation:</strong> 可能依赖特定任务集，泛化到真实研究/生产场景仍需进一步验证。</p>
+<p><strong>为什么与你相关 / Why relevant:</strong> matches large language model, llm, language model, agent；your recent feedback likes: across；your recent feedback likes: agent</p>
+</div>
+<div class='paper'>
+<h3>#4 <a href='https://arxiv.org/abs/2606.27313v2'>ViQ: Text-Aligned Visual Quantized Representations at Any Resolution</a></h3>
+<div class='meta'>Xumin Yu, Zuyan Liu, Zhenyu Yang, Yuhao Dong, Shengsheng Qian, Jiwen Lu, Han Hu, Yongming Rao | cs.CV | score <span class='score'>64.3</span> | updated 2026-06-30</div>
+<span class='pill'>cs.CV</span>
+<p><strong>TL;DR:</strong> A unified representation for text and vision is a natural pursuit, as it enables simpler multimodal modeling and more efficient training.</p>
+<p><strong>中文摘要:</strong> 这篇论文主要围绕 cs.CV 中的 inference/training efficiency optimization 展开。根据摘要，核心问题是：A unified representation for text and vision is a natural pursuit, as it enables simpler multimodal modeling and more efficient training. However, representing images as discrete signals in the same way as text inevitably introduces severe information loss. 适合先作为候选阅读，再结合实验设置判断是否值得精读。</p>
+<p><strong>English Summary:</strong> A unified representation for text and vision is a natural pursuit, as it enables simpler multimodal modeling and more efficient training. However, representing images as discrete signals in the same way as text inevitably introduces severe information loss. Existing work struggles to balance low-level details and high-level semantics in discrete representations: reconstruction-oriented representations often lack semantic information, whereas semantically stronger features typically suffer from severe loss of detail.</p>
 <p><strong>方法 / Method:</strong> inference/training efficiency optimization</p>
-<p><strong>贡献 / Contribution:</strong> 提供新的评测视角或任务设置，可用于判断模型能力和研究空白。</p>
-<p><strong>局限 / Limitation:</strong> 可能依赖特定任务集，泛化到真实研究/生产场景仍需进一步验证。</p>
-<p><strong>为什么与你相关 / Why relevant:</strong> matches large language model, llm, language model, reasoning；your recent feedback likes: across；your recent feedback likes: benchmark</p>
+<p><strong>贡献 / Contribution:</strong> 尝试改善训练、推理或服务效率，对 LLM optimization 方向有参考价值。</p>
+<p><strong>局限 / Limitation:</strong> 效率收益可能受模型规模、硬件、batch 设置和实现细节影响，需关注实验配置。</p>
+<p><strong>为什么与你相关 / Why relevant:</strong> matches llm, language model, multimodal；your recent feedback likes: continuous；your recent feedback likes: cs.CV</p>
 </div>
 <div class='paper'>
-<h3>#3 <a href='https://arxiv.org/abs/2601.21787v2'>Assessing the Business Process Modeling Competences of Large Language Models</a></h3>
-<div class='meta'>Chantale Lauer, Peter Pfeiffer, Alexander Rombach, Nijat Mehdiyev | cs.SE | score <span class='score'>69.1</span> | updated 2026-06-29</div>
-<span class='pill'>cs.SE</span>
+<h3>#5 <a href='https://arxiv.org/abs/2606.31825v1'>Breaking Failure Cascades: Step-Aware Reinforcement Learning for Medical Multimodal Reasoning</a></h3>
+<div class='meta'>Junha Jung, Minbyul Jeong, Suhyeon Lim, Sungwook Jung, Jaehoon Yun, Taeyun Roh, Mujeen Sung, Jaewoo Kang | cs.CV | score <span class='score'>63.6</span> | updated 2026-06-30</div>
+<span class='pill'>cs.CV</span>
 <span class='pill'>cs.AI</span>
-<p><strong>TL;DR:</strong> The creation of Business Process Model and Notation (BPMN) models is a complex and time-consuming task requiring both domain knowledge and proficiency in modeling conventions.</p>
-<p><strong>中文摘要:</strong> 这篇论文主要围绕 cs.SE 中的 retrieval-augmented generation 展开。根据摘要，核心问题是：The creation of Business Process Model and Notation (BPMN) models is a complex and time-consuming task requiring both domain knowledge and proficiency in modeling conventions. 适合先作为候选阅读，再结合实验设置判断是否值得精读。</p>
-<p><strong>English Summary:</strong> The creation of Business Process Model and Notation (BPMN) models is a complex and time-consuming task requiring both domain knowledge and proficiency in modeling conventions. Recent advances in large language models (LLMs) have significantly expanded the possibilities for generating BPMN models directly from natural language, building upon earlier text-to-process methods with enhanced capabilities in handling complex descriptions. However, there is a lack of systematic evaluations of LLM-generated process models.</p>
-<p><strong>方法 / Method:</strong> retrieval-augmented generation</p>
-<p><strong>贡献 / Contribution:</strong> 提供新的评测视角或任务设置，可用于判断模型能力和研究空白。</p>
-<p><strong>局限 / Limitation:</strong> 可能依赖特定任务集，泛化到真实研究/生产场景仍需进一步验证。</p>
-<p><strong>为什么与你相关 / Why relevant:</strong> matches large language model, llm, language model, rag；your recent feedback likes: benchmark；your recent feedback likes: cs.AI</p>
-</div>
-<div class='paper'>
-<h3>#4 <a href='https://arxiv.org/abs/2604.07864v2'>ZeroCoder: Can LLMs Improve Code Generation Without Ground-Truth Supervision?</a></h3>
-<div class='meta'>Lishui Fan, Mouxiang Chen, Tingwei Zhu, Kui Liu, Xin Xia, Shanping Li, Zhongxin Liu | cs.SE | score <span class='score'>67.1</span> | updated 2026-06-28</div>
-<span class='pill'>cs.SE</span>
-<p><strong>TL;DR:</strong> Code generation is important in software engineering, and Reinforcement Learning with Verifiable Rewards (RLVR) is a powerful paradigm to improve it through execution-based feedback.</p>
-<p><strong>中文摘要:</strong> 这篇论文主要围绕 cs.SE 中的 reinforcement learning / post-training 展开。根据摘要，核心问题是：Code generation is important in software engineering, and Reinforcement Learning with Verifiable Rewards (RLVR) is a powerful paradigm to improve it through execution-based feedback. However, most RLVR pipelines rely on human-curated tests, making progress bottlenecked by scarce and costly supervision. 适合先作为候选阅读，再结合实验设置判断是否值得精读。</p>
-<p><strong>English Summary:</strong> Code generation is important in software engineering, and Reinforcement Learning with Verifiable Rewards (RLVR) is a powerful paradigm to improve it through execution-based feedback. However, most RLVR pipelines rely on human-curated tests, making progress bottlenecked by scarce and costly supervision. Existing work tried to use self-generated tests to ground rewards, but the lack of discriminative tests constrains the effect due to the sub-optimal performance of the model on test generation.</p>
+<p><strong>TL;DR:</strong> Recent multimodal large language models have shown great promise in clinical image reasoning, but existing post-training pipelines remain predominantly outcome-centric, relying on final answer correctness or sequence-level preferences.</p>
+<p><strong>中文摘要:</strong> 这篇论文主要围绕 cs.CV 中的 reinforcement learning / post-training 展开。根据摘要，核心问题是：Recent multimodal large language models have shown great promise in clinical image reasoning, but existing post-training pipelines remain predominantly outcome-centric, relying on final answer correctness or sequence-level preferences. 适合先作为候选阅读，再结合实验设置判断是否值得精读。</p>
+<p><strong>English Summary:</strong> Recent multimodal large language models have shown great promise in clinical image reasoning, but existing post-training pipelines remain predominantly outcome-centric, relying on final answer correctness or sequence-level preferences. This suffers from sparse credit assignment, making it difficult to optimize the reasoning process essential for clinical applications. Our analysis reveals that cascading errors from early-stage reasoning failures are a leading cause of incorrect predictions in medical visual question answering (VQA) benchmarks.</p>
 <p><strong>方法 / Method:</strong> reinforcement learning / post-training</p>
 <p><strong>贡献 / Contribution:</strong> 提供新的评测视角或任务设置，可用于判断模型能力和研究空白。</p>
 <p><strong>局限 / Limitation:</strong> 可能依赖特定任务集，泛化到真实研究/生产场景仍需进一步验证。</p>
-<p><strong>为什么与你相关 / Why relevant:</strong> matches llm, rlvr；your recent feedback likes: RLVR；your recent feedback likes: across</p>
-</div>
-<div class='paper'>
-<h3>#5 <a href='https://arxiv.org/abs/2606.30587v1'>Words Speak Louder Than Code: Investigating Cognitive Heuristics in LLM-Based Code Vulnerability Detection</a></h3>
-<div class='meta'>Asif Shahriar, Hongyu Cai, Hadjer Benkraouda, Gang Wang, Z. Berkay Celik | cs.CR | score <span class='score'>64.3</span> | updated 2026-06-29</div>
-<span class='pill'>cs.CR</span>
-<span class='pill'>cs.AI</span>
-<p><strong>TL;DR:</strong> Researchers and practitioners increasingly apply Large Language Models (LLMs) for automated vulnerability detection.</p>
-<p><strong>中文摘要:</strong> 这篇论文主要围绕 cs.CR 中的 retrieval-augmented generation 展开。根据摘要，核心问题是：Researchers and practitioners increasingly apply Large Language Models (LLMs) for automated vulnerability detection. Recent work has shown that LLMs are susceptible to the same cognitive heuristics that bias human judgment. 适合先作为候选阅读，再结合实验设置判断是否值得精读。</p>
-<p><strong>English Summary:</strong> Researchers and practitioners increasingly apply Large Language Models (LLMs) for automated vulnerability detection. Recent work has shown that LLMs are susceptible to the same cognitive heuristics that bias human judgment. Yet, no work has investigated whether these heuristics affect a model&#x27;s assessment of code vulnerabilities.</p>
-<p><strong>方法 / Method:</strong> retrieval-augmented generation</p>
-<p><strong>贡献 / Contribution:</strong> 提出或分析一种与 LLM/AI 系统相关的方法，具体贡献需结合正文实验确认。</p>
-<p><strong>局限 / Limitation:</strong> 当前只基于 arXiv 摘要判断，细节、消融和真实效果需要阅读全文确认。</p>
-<p><strong>为什么与你相关 / Why relevant:</strong> matches large language model, llm, language model, reasoning；your recent feedback likes: across；your recent feedback likes: bias</p>
+<p><strong>为什么与你相关 / Why relevant:</strong> matches large language model, llm, language model, reasoning；strong interest: post-training；your recent feedback likes: across</p>
 </div>
 <h2>10 篇一句话候选</h2>
 <div class='paper'>
-<h3>#6 <a href='https://arxiv.org/abs/2606.30556v1'>Poller: Are LLMs Suitable for Evaluating the Poetry Understanding Task?</a></h3>
-<div class='meta'>Shanshan Wang, Derek F. Wong, Jingming Yao, Lidia S. Chao | cs.CL | score <span class='score'>59.4</span> | updated 2026-06-29</div>
+<h3>#6 <a href='https://arxiv.org/abs/2606.31093v1'>Omni-Flow: A Unified Workflow Orchestration and Distributed KV Cache Sharing Framework for Multimodal Inference</a></h3>
+<div class='meta'>Bin Xiao, Jingfu Dong, Changran Wang, Yitian Chen, Xiaoyu Zhao, Yuqi Peng, Jianping Lin, Yuchen Xie | cs.DC | score <span class='score'>59.4</span> | updated 2026-06-30</div>
+<span class='pill'>cs.DC</span>
+<p>As large language model (LLM) inference evolves from text-only to multimodal paradigms, inference systems face three challenges: (1) flexible orchestration of multimodal workflows, where heterogeneous computing units exh Relevant because: matches large language model, llm, language model, rag；your recent feedback likes: across；your recent feedback likes: data</p>
+</div>
+<div class='paper'>
+<h3>#7 <a href='https://arxiv.org/abs/2606.31608v1'>CLExEval: A Human-in-the-Loop Framework for Qualitative Evaluation of LLM Clinical Reasoning</a></h3>
+<div class='meta'>Ajmal M., Abin Roy, Afthab Salam Kanniyan, Jawadh Abdul Kabeer, Jerin James, Preslav Nakov, Zhuohan Xie | cs.CL | score <span class='score'>58.2</span> | updated 2026-06-30</div>
 <span class='pill'>cs.CL</span>
-<p>Traditional automatic evaluation methods have been shown to be unsuitable for modern Chinese poetry because of the distinct nature of this literary genre. Relevant because: matches large language model, llm, language model, rag；your recent feedback likes: across；your recent feedback likes: cs.CL</p>
+<p>Large Language Models (LLMs) achieve strong results on many medical benchmarks, but their clinical reasoning remains difficult to evaluate reliably. Relevant because: matches large language model, llm, language model, reasoning；your recent feedback likes: benchmark；your recent feedback likes: benchmarks</p>
 </div>
 <div class='paper'>
-<h3>#7 <a href='https://arxiv.org/abs/2606.30163v1'>End-to-End Abstraction-Based Control with LLM-Enhanced NL-to-LTL Translation</a></h3>
-<div class='meta'>Amir Bayat, Necmiye Ozay, Alessandro Abate, Raphael M. Jungers | eess.SY | score <span class='score'>57.7</span> | updated 2026-06-29</div>
-<span class='pill'>eess.SY</span>
-<p>Abstraction-Based Controller Design (ABCD) offers a principled framework for the safe control of complex Cyber-Physical Systems (CPSs), but interfacing real-world requirements with its formal synthesis machinery remains Relevant because: matches large language model, llm, language model, evaluation；your recent feedback likes: across；your recent feedback likes: become</p>
-</div>
-<div class='paper'>
-<h3>#8 <a href='https://arxiv.org/abs/2606.30420v1'>Experience Augmented Policy Optimization for LLM Reasoning</a></h3>
-<div class='meta'>Jinda Lu, Kexin Huang, Junkang Wu, Shuo Yang, Jinghan Li, Chiyu Ma, Shaohang Wei, Xiang Wang et al. | cs.LG | score <span class='score'>57.3</span> | updated 2026-06-29</div>
-<span class='pill'>cs.LG</span>
-<p>Reinforcement Learning with Verifiable Rewards (RLVR) is a powerful paradigm for improving the reasoning capabilities of large language models (LLMs). Relevant because: matches large language model, llm, language model, reasoning；your recent feedback likes: RLVR；your recent feedback likes: behavior</p>
-</div>
-<div class='paper'>
-<h3>#9 <a href='https://arxiv.org/abs/2602.02320v4'>A Large-Scale Dataset for Molecular Structure-Language Description via a Rule-Regularized Method</a></h3>
-<div class='meta'>Feiyang Cai, Guijuan He, Yi Hu, Jingjing Wang, Joshua Luo, Tianyu Zhu, Srikanth Pilla, Gang Li et al. | cs.CL | score <span class='score'>55.6</span> | updated 2026-06-29</div>
-<span class='pill'>cs.CL</span>
-<span class='pill'>cs.AI</span>
-<span class='pill'>q-bio.BM</span>
-<p>Molecular function is largely determined by structure. Relevant because: matches large language model, llm, language model, alignment；your recent feedback likes: alignment；your recent feedback likes: cs.AI</p>
-</div>
-<div class='paper'>
-<h3>#10 <a href='https://arxiv.org/abs/2606.15753v2'>RoboPIN: Grounded Embodied Reasoning via Pinned Chain-of-Thought</a></h3>
-<div class='meta'>Yaoting Huang, Yifu Yuan, Linqi Han, Chengwen Li, Shuoheng Zhang, Xianze Yao, Hongyao Tang, Yan Zheng et al. | cs.AI | score <span class='score'>52.9</span> | updated 2026-06-29</div>
-<span class='pill'>cs.AI</span>
-<p>Embodied reasoning requires models to perceive task-relevant objects and spaces in physical environments and maintain consistent visual grounding throughout multi-step reasoning. Relevant because: matches language model, reasoning, alignment, post-training；strong interest: post-training；your recent feedback likes: across</p>
-</div>
-<div class='paper'>
-<h3>#11 <a href='https://arxiv.org/abs/2606.30524v1'>The Illusion of Agentic Complexity in README.md Generation: Evaluating Single-Agent vs. Multi-Agent RAG Systems</a></h3>
-<div class='meta'>Abu Saleh, Tesfay Welegebreal Tesfay, Phuong T. Nguyen, Juri Di Rocco, Muhammad Umar Zeshan, Davide Di Ruscio | cs.SE | score <span class='score'>51.7</span> | updated 2026-06-29</div>
-<span class='pill'>cs.SE</span>
-<p>Large Language Models (LLMs) are increasingly utilized to automate several software engineering tasks, including code completion, code summarization, testing, and the generation of repository-level documentation. Relevant because: matches large language model, llm, language model, agent；your recent feedback likes: agent；your recent feedback likes: analyze</p>
-</div>
-<div class='paper'>
-<h3>#12 <a href='https://arxiv.org/abs/2606.30339v1'>REAR: Test-time Preference Realignment through Reward Decomposition</a></h3>
-<div class='meta'>Fuxiang Zhang, Pengcheng Wang, Chenran Li, Yi-Chen Li, Yuxin Chen, Lang Feng, Chenfeng Xu, Masayoshi Tomizuka et al. | cs.CL | score <span class='score'>50.9</span> | updated 2026-06-29</div>
-<span class='pill'>cs.CL</span>
-<span class='pill'>cs.LG</span>
-<p>Aligning large language models (LLMs) with diverse user preferences is a critical yet challenging task. Relevant because: matches large language model, llm, language model, alignment；strong interest: test-time scaling, post-training；your recent feedback likes: alignment</p>
-</div>
-<div class='paper'>
-<h3>#13 <a href='https://arxiv.org/abs/2507.05386v6'>Reinforcement Fine-Tuning Naturally Mitigates Forgetting in Continual Post-Training</a></h3>
-<div class='meta'>Song Lai, Haohan Zhao, Rong Feng, Changyi Ma, Wenzhuo Liu, Hongbo Zhao, Xi Lin, Dong Yi et al. | cs.LG | score <span class='score'>50.7</span> | updated 2026-06-29</div>
-<span class='pill'>cs.LG</span>
-<span class='pill'>cs.AI</span>
-<span class='pill'>cs.CL</span>
-<p>Continual post-training (CPT) is a popular and effective technique for adapting foundation models like multimodal large language models to ever-evolving downstream tasks. Relevant because: matches large language model, foundation model, language model, reasoning；strong interest: post-training；your recent feedback likes: across</p>
-</div>
-<div class='paper'>
-<h3>#14 <a href='https://arxiv.org/abs/2606.13079v2'>The Emergence of Autonomous Penetration Capabilities in Large Language Model-Powered AI Systems</a></h3>
-<div class='meta'>Jiaqi Luo, Jiarun Dai, Zhile Chen, Jia Xu, Weibing Wang, Yawen Duan, Brian Tse, Geng Hong et al. | cs.CR | score <span class='score'>50.4</span> | updated 2026-06-29</div>
-<span class='pill'>cs.CR</span>
-<span class='pill'>cs.AI</span>
-<p>Nowadays, the autonomous execution of cyberattacks capable of causing substantial real-world harm is widely regarded as one of the critical red lines that frontier AI systems must not cross. Relevant because: matches large language model, llm, language model, agent；your recent feedback likes: agent；your recent feedback likes: body</p>
-</div>
-<div class='paper'>
-<h3>#15 <a href='https://arxiv.org/abs/2606.30561v1'>The Human Creativity Benchmark</a></h3>
-<div class='meta'>Aspen Hopkins, Allison Nulty, Alexandria Minetti, Anoop Pakki, Angad Singh | cs.AI | score <span class='score'>49.9</span> | updated 2026-06-29</div>
-<span class='pill'>cs.AI</span>
+<h3>#8 <a href='https://arxiv.org/abs/2606.31982v1'>ERA: Entropy-Guided Visual Token Pruning with Rectified Attention for Efficient MLLMs</a></h3>
+<div class='meta'>Yuhao Wang, Mu Qiao, Haiwen Diao, Yunzhi Zhuge, Pingping Zhang, Xindong Zhang, Lei Zhang, Huchuan Lu | cs.CV | score <span class='score'>57.8</span> | updated 2026-06-30</div>
 <span class='pill'>cs.CV</span>
-<span class='pill'>cs.HC</span>
-<p>Modern AI evaluation frameworks treat evaluator disagreement as noise to be resolved. Relevant because: matches evaluation；your recent feedback likes: across；your recent feedback likes: benchmark</p>
+<p>Multimodal Large Language Models (MLLMs) incur prohibitive inference costs due to long visual token sequences. Relevant because: matches large language model, llm, language model, multimodal；your recent feedback likes: across；your recent feedback likes: bias</p>
+</div>
+<div class='paper'>
+<h3>#9 <a href='https://arxiv.org/abs/2606.31602v1'>Robust Text Watermarking for Large Language Models via Dual Semantic Embeddings</a></h3>
+<div class='meta'>Jonas Schäfer, Cezary Pilaszewicz, Gerhard Wunder | cs.CL | score <span class='score'>55.7</span> | updated 2026-06-30</div>
+<span class='pill'>cs.CL</span>
+<span class='pill'>cs.CR</span>
+<p>This work presents Dual-Embedding Watermarking (DEW), a semantic watermarking scheme for large language models (LLMs) that leverages contextual and token-level embeddings to enhance robustness against paraphrasing and tr Relevant because: matches large language model, llm, language model, rag；your recent feedback likes: across；your recent feedback likes: benchmark</p>
+</div>
+<div class='paper'>
+<h3>#10 <a href='https://arxiv.org/abs/2606.28322v2'>PerceptionRubrics: Calibrating Multimodal Evaluation to Human Perception</a></h3>
+<div class='meta'>Yana Wei, Hongbo Peng, Yanlin Lai, Liang Zhao, Kangheng Lin, En Yu, Keyu Lv, Han Zhou et al. | cs.CV | score <span class='score'>54.7</span> | updated 2026-06-30</div>
+<span class='pill'>cs.CV</span>
+<p>We introduce PerceptionRubrics, a rubric-based evaluation framework that addresses the gap between saturated benchmark scores and real-world brittleness. Relevant because: matches reasoning, rag, multimodal, evaluation；your recent feedback likes: benchmark；your recent feedback likes: benchmarks</p>
+</div>
+<div class='paper'>
+<h3>#11 <a href='https://arxiv.org/abs/2602.13692v3'>ThunderAgent: A Simple, Fast and Program-Aware Agentic Inference System</a></h3>
+<div class='meta'>Hao Kang, Ziyang Li, Weili Xu, Xinyu Yang, Yinfang Chen, Junxiong Wang, Beidi Chen, Tushar Krishna et al. | cs.OS | score <span class='score'>53.4</span> | updated 2026-06-30</div>
+<span class='pill'>cs.OS</span>
+<span class='pill'>cs.MA</span>
+<p>Large language models(LLMs) are now used to power complex multi-turn agentic workflows. Relevant because: matches large language model, llm, language model, agent；your recent feedback likes: across；your recent feedback likes: agent</p>
+</div>
+<div class='paper'>
+<h3>#12 <a href='https://arxiv.org/abs/2508.08064v7'>On the Operational Resilience of CBDC: Threats and Prospects of Formal Validation for Offline Payments</a></h3>
+<div class='meta'>Marco Bernardo, Federico Calandra, Andrea Esposito, Francesco Fabris | cs.DC | score <span class='score'>51.2</span> | updated 2026-06-30</div>
+<span class='pill'>cs.DC</span>
+<p>Information and communication technologies are by now employed in most human activities, including economics and finance. Relevant because: matches rag, landscape；your recent feedback likes: cannot；your recent feedback likes: correctness</p>
+</div>
+<div class='paper'>
+<h3>#13 <a href='https://arxiv.org/abs/2606.29805v2'>Clearer Sight, Fewer Lies: Oriented Pickup Preference Optimization for Multimodal Hallucination Mitigation</a></h3>
+<div class='meta'>Xin Zou, Haolin Deng, Yibo Yan, Shuliang Liu, Zhiwei Jin, Chen Chen, Haonan Lu, Xuming Hu | cs.CV | score <span class='score'>51.0</span> | updated 2026-06-30</div>
+<span class='pill'>cs.CV</span>
+<p>Multimodal Large Language Models (MLLMs) are prone to hallucination as their generation preferences are insufficiently calibrated to visual evidence, causing them to fall back on linguistic priors, rather than faithful g Relevant because: matches large language model, llm, language model, alignment；your recent feedback likes: across；your recent feedback likes: alignment</p>
+</div>
+<div class='paper'>
+<h3>#14 <a href='https://arxiv.org/abs/2606.31644v1'>Moral Safety in LLMs: Exposing Performative Compliance with Puzzled Cues</a></h3>
+<div class='meta'>Mohammadamin Shafiei, Shuyue Stella Li, Yulia Tsvetkov | cs.CL | score <span class='score'>50.8</span> | updated 2026-06-30</div>
+<span class='pill'>cs.CL</span>
+<span class='pill'>cs.CY</span>
+<p>As large language models take on morally consequential roles in healthcare, legal, and hiring contexts, we need to examine whether their ethical behaviors are genuine or superficial. Relevant because: matches large language model, llm, language model, evaluation；your recent feedback likes: become；your recent feedback likes: behavior</p>
+</div>
+<div class='paper'>
+<h3>#15 <a href='https://arxiv.org/abs/2606.29088v2'>Diff-Based Code Corruption using LLMs for Large-Scale Bugfix Benchmarking</a></h3>
+<div class='meta'>Balázs Szalontai, Ábel Szauter, Balázs Márton, Péter Verebics, Balázs Pintér, Tibor Gregorics | cs.SE | score <span class='score'>50.3</span> | updated 2026-06-30</div>
+<span class='pill'>cs.SE</span>
+<span class='pill'>cs.AI</span>
+<p>There are various benchmarks to evaluate bugfixing capabilities of Large Language Models. Relevant because: matches large language model, llm, language model, evaluation；your recent feedback likes: benchmark；your recent feedback likes: benchmarks</p>
 </div>
 <div class='feedback'><strong>反馈方式</strong><br>直接回复：多发 #3 类似的，少发 #1；多发 landscape / inference optimization / RLVR。</div>
 </body></html>

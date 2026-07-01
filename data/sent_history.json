@@ -11,7 +11,9 @@
     "2507.01752",
     "2507.05386",
     "2507.20424",
+    "2508.01273",
     "2508.06196",
+    "2508.08064",
     "2508.15503",
     "2509.09960",
     "2509.20086",
@@ -36,6 +38,7 @@
     "2602.02320",
     "2602.05143",
     "2602.06154",
+    "2602.13692",
     "2602.14257",
     "2602.14696",
     "2602.15819",
@@ -244,6 +247,8 @@
     "2606.28166",
     "2606.28270",
     "2606.28322",
+    "2606.29088",
+    "2606.29805",
     "2606.30163",
     "2606.30339",
     "2606.30378",
@@ -251,7 +256,15 @@
     "2606.30524",
     "2606.30556",
     "2606.30561",
-    "2606.30587"
+    "2606.30587",
+    "2606.31093",
+    "2606.31575",
+    "2606.31602",
+    "2606.31608",
+    "2606.31644",
+    "2606.31825",
+    "2606.31966",
+    "2606.31982"
   ],
   "sent_keys": [
     "2312.00326:2026-06-21T15:13:56Z",
@@ -265,7 +278,9 @@
     "2507.01752:2026-06-23T13:09:44Z",
     "2507.05386:2026-06-29T17:47:49Z",
     "2507.20424:2026-06-15T16:00:17Z",
+    "2508.01273:2026-06-30T14:26:53Z",
     "2508.06196:2026-06-12T13:42:50Z",
+    "2508.08064:2026-06-30T14:16:07Z",
     "2508.15503:2026-06-12T08:34:46Z",
     "2509.09960:2026-06-25T13:10:45Z",
     "2509.20086:2026-06-12T12:27:33Z",
@@ -290,6 +305,7 @@
     "2602.02320:2026-06-29T15:02:57Z",
     "2602.05143:2026-06-24T03:29:07Z",
     "2602.06154:2026-06-16T12:59:35Z",
+    "2602.13692:2026-06-30T17:19:18Z",
     "2602.14257:2026-06-22T06:59:51Z",
     "2602.14696:2026-06-18T11:23:03Z",
     "2602.15819:2026-06-18T16:41:40Z",
@@ -489,6 +505,7 @@
     "2606.27287:2026-06-25T17:04:51Z",
     "2606.27288:2026-06-25T17:06:06Z",
     "2606.27313:2026-06-25T17:29:27Z",
+    "2606.27313:2026-06-30T15:05:33Z",
     "2606.27334:2026-06-25T17:45:53Z",
     "2606.27347:2026-06-25T17:51:59Z",
     "2606.27369:2026-06-25T17:59:36Z",
@@ -501,6 +518,9 @@
     "2606.28166:2026-06-26T15:00:35Z",
     "2606.28270:2026-06-26T17:08:06Z",
     "2606.28322:2026-06-26T17:59:15Z",
+    "2606.28322:2026-06-30T17:30:17Z",
+    "2606.29088:2026-06-30T16:15:38Z",
+    "2606.29805:2026-06-30T14:53:46Z",
     "2606.30163:2026-06-29T11:40:58Z",
     "2606.30339:2026-06-29T14:17:53Z",
     "2606.30378:2026-06-29T14:38:20Z",
@@ -508,7 +528,15 @@
     "2606.30524:2026-06-29T16:29:31Z",
     "2606.30556:2026-06-29T16:51:31Z",
     "2606.30561:2026-06-29T16:59:46Z",
-    "2606.30587:2026-06-29T17:31:10Z"
+    "2606.30587:2026-06-29T17:31:10Z",
+    "2606.31093:2026-06-30T03:29:21Z",
+    "2606.31575:2026-06-30T12:33:19Z",
+    "2606.31602:2026-06-30T12:51:30Z",
+    "2606.31608:2026-06-30T12:56:42Z",
+    "2606.31644:2026-06-30T13:25:29Z",
+    "2606.31825:2026-06-30T15:35:19Z",
+    "2606.31966:2026-06-30T17:07:53Z",
+    "2606.31982:2026-06-30T17:20:29Z"
   ],
   "sent_log": [
     {
@@ -2550,6 +2578,126 @@
       "sent_key": "2606.30561:2026-06-29T16:59:46Z",
       "title": "The Human Creativity Benchmark",
       "updated": "2026-06-29T16:59:46Z"
+    },
+    {
+      "arxiv_id": "2508.01273",
+      "score": 80.1,
+      "sent_at": "2026-07-01T13:55:01.518168+08:00",
+      "sent_key": "2508.01273:2026-06-30T14:26:53Z",
+      "title": "Disentangling Reasoning Logic to Resolve Explicit Knowledge Conflicts",
+      "updated": "2026-06-30T14:26:53Z"
+    },
+    {
+      "arxiv_id": "2606.31575",
+      "score": 77.6,
+      "sent_at": "2026-07-01T13:55:01.518168+08:00",
+      "sent_key": "2606.31575:2026-06-30T12:33:19Z",
+      "title": "Which Tokens Matter? Adaptive Token Selection for RLVR with the Relative Surprisal Index",
+      "updated": "2026-06-30T12:33:19Z"
+    },
+    {
+      "arxiv_id": "2606.31966",
+      "score": 73.3,
+      "sent_at": "2026-07-01T13:55:01.518168+08:00",
+      "sent_key": "2606.31966:2026-06-30T17:07:53Z",
+      "title": "MECoBench: A Systematic Study of Multimodal Agent Collaboration in Embodied Environments",
+      "updated": "2026-06-30T17:07:53Z"
+    },
+    {
+      "arxiv_id": "2606.27313",
+      "score": 64.3,
+      "sent_at": "2026-07-01T13:55:01.518168+08:00",
+      "sent_key": "2606.27313:2026-06-30T15:05:33Z",
+      "title": "ViQ: Text-Aligned Visual Quantized Representations at Any Resolution",
+      "updated": "2026-06-30T15:05:33Z"
+    },
+    {
+      "arxiv_id": "2606.31825",
+      "score": 63.6,
+      "sent_at": "2026-07-01T13:55:01.518168+08:00",
+      "sent_key": "2606.31825:2026-06-30T15:35:19Z",
+      "title": "Breaking Failure Cascades: Step-Aware Reinforcement Learning for Medical Multimodal Reasoning",
+      "updated": "2026-06-30T15:35:19Z"
+    },
+    {
+      "arxiv_id": "2606.31093",
+      "score": 59.4,
+      "sent_at": "2026-07-01T13:55:01.518168+08:00",
+      "sent_key": "2606.31093:2026-06-30T03:29:21Z",
+      "title": "Omni-Flow: A Unified Workflow Orchestration and Distributed KV Cache Sharing Framework for Multimodal Inference",
+      "updated": "2026-06-30T03:29:21Z"
+    },
+    {
+      "arxiv_id": "2606.31608",
+      "score": 58.2,
+      "sent_at": "2026-07-01T13:55:01.518168+08:00",
+      "sent_key": "2606.31608:2026-06-30T12:56:42Z",
+      "title": "CLExEval: A Human-in-the-Loop Framework for Qualitative Evaluation of LLM Clinical Reasoning",
+      "updated": "2026-06-30T12:56:42Z"
+    },
+    {
+      "arxiv_id": "2606.31982",
+      "score": 57.8,
+      "sent_at": "2026-07-01T13:55:01.518168+08:00",
+      "sent_key": "2606.31982:2026-06-30T17:20:29Z",
+      "title": "ERA: Entropy-Guided Visual Token Pruning with Rectified Attention for Efficient MLLMs",
+      "updated": "2026-06-30T17:20:29Z"
+    },
+    {
+      "arxiv_id": "2606.31602",
+      "score": 55.7,
+      "sent_at": "2026-07-01T13:55:01.518168+08:00",
+      "sent_key": "2606.31602:2026-06-30T12:51:30Z",
+      "title": "Robust Text Watermarking for Large Language Models via Dual Semantic Embeddings",
+      "updated": "2026-06-30T12:51:30Z"
+    },
+    {
+      "arxiv_id": "2606.28322",
+      "score": 54.7,
+      "sent_at": "2026-07-01T13:55:01.518168+08:00",
+      "sent_key": "2606.28322:2026-06-30T17:30:17Z",
+      "title": "PerceptionRubrics: Calibrating Multimodal Evaluation to Human Perception",
+      "updated": "2026-06-30T17:30:17Z"
+    },
+    {
+      "arxiv_id": "2602.13692",
+      "score": 53.4,
+      "sent_at": "2026-07-01T13:55:01.518168+08:00",
+      "sent_key": "2602.13692:2026-06-30T17:19:18Z",
+      "title": "ThunderAgent: A Simple, Fast and Program-Aware Agentic Inference System",
+      "updated": "2026-06-30T17:19:18Z"
+    },
+    {
+      "arxiv_id": "2508.08064",
+      "score": 51.2,
+      "sent_at": "2026-07-01T13:55:01.518168+08:00",
+      "sent_key": "2508.08064:2026-06-30T14:16:07Z",
+      "title": "On the Operational Resilience of CBDC: Threats and Prospects of Formal Validation for Offline Payments",
+      "updated": "2026-06-30T14:16:07Z"
+    },
+    {
+      "arxiv_id": "2606.29805",
+      "score": 51.0,
+      "sent_at": "2026-07-01T13:55:01.518168+08:00",
+      "sent_key": "2606.29805:2026-06-30T14:53:46Z",
+      "title": "Clearer Sight, Fewer Lies: Oriented Pickup Preference Optimization for Multimodal Hallucination Mitigation",
+      "updated": "2026-06-30T14:53:46Z"
+    },
+    {
+      "arxiv_id": "2606.31644",
+      "score": 50.8,
+      "sent_at": "2026-07-01T13:55:01.518168+08:00",
+      "sent_key": "2606.31644:2026-06-30T13:25:29Z",
+      "title": "Moral Safety in LLMs: Exposing Performative Compliance with Puzzled Cues",
+      "updated": "2026-06-30T13:25:29Z"
+    },
+    {
+      "arxiv_id": "2606.29088",
+      "score": 50.3,
+      "sent_at": "2026-07-01T13:55:01.518168+08:00",
+      "sent_key": "2606.29088:2026-06-30T16:15:38Z",
+      "title": "Diff-Based Code Corruption using LLMs for Large-Scale Bugfix Benchmarking",
+      "updated": "2026-06-30T16:15:38Z"
     }
   ]
 }
