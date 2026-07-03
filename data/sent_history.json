@@ -1,5 +1,6 @@
 {
   "sent_ids": [
+    "2309.16843",
     "2312.00326",
     "2404.08948",
     "2501.11790",
@@ -9,6 +10,7 @@
     "2505.07078",
     "2505.19889",
     "2505.24758",
+    "2506.10488",
     "2506.15681",
     "2507.01752",
     "2507.05386",
@@ -59,6 +61,7 @@
     "2603.19466",
     "2603.29591",
     "2604.00626",
+    "2604.02091",
     "2604.03724",
     "2604.04917",
     "2604.07864",
@@ -271,14 +274,27 @@
     "2606.31825",
     "2606.31966",
     "2606.31982",
+    "2606.31984",
+    "2607.00007",
+    "2607.00224",
+    "2607.00508",
     "2607.00510",
     "2607.00531",
+    "2607.00725",
     "2607.00798",
     "2607.01084",
     "2607.01115",
-    "2607.01166"
+    "2607.01166",
+    "2607.01387",
+    "2607.01485",
+    "2607.01530",
+    "2607.01852",
+    "2607.02003",
+    "2607.02101",
+    "2607.02338"
   ],
   "sent_keys": [
+    "2309.16843:2026-07-02T16:45:25Z",
     "2312.00326:2026-06-21T15:13:56Z",
     "2404.08948:2026-06-25T14:05:55Z",
     "2501.11790:2026-06-23T12:36:04Z",
@@ -288,6 +304,7 @@
     "2505.07078:2026-06-26T15:42:23Z",
     "2505.19889:2026-07-01T14:20:16Z",
     "2505.24758:2026-07-01T17:04:56Z",
+    "2506.10488:2026-07-01T12:30:24Z",
     "2506.15681:2026-06-25T14:33:27Z",
     "2507.01752:2026-06-23T13:09:44Z",
     "2507.05386:2026-06-29T17:47:49Z",
@@ -339,6 +356,7 @@
     "2603.19466:2026-06-26T11:42:06Z",
     "2603.29591:2026-06-24T15:07:02Z",
     "2604.00626:2026-06-18T17:00:51Z",
+    "2604.02091:2026-07-02T17:08:51Z",
     "2604.03724:2026-06-25T13:28:29Z",
     "2604.04917:2026-06-18T15:34:46Z",
     "2604.07864:2026-06-28T14:24:43Z",
@@ -558,12 +576,24 @@
     "2606.31825:2026-06-30T15:35:19Z",
     "2606.31966:2026-06-30T17:07:53Z",
     "2606.31982:2026-06-30T17:20:29Z",
+    "2606.31984:2026-07-01T23:39:37Z",
+    "2607.00007:2026-07-02T06:17:26Z",
+    "2607.00224:2026-07-02T02:56:41Z",
+    "2607.00508:2026-07-02T02:13:24Z",
     "2607.00510:2026-07-01T06:45:02Z",
     "2607.00531:2026-07-01T07:22:46Z",
+    "2607.00725:2026-07-01T10:12:15Z",
     "2607.00798:2026-07-01T11:28:01Z",
     "2607.01084:2026-07-01T15:40:25Z",
     "2607.01115:2026-07-01T16:03:03Z",
-    "2607.01166:2026-07-01T16:52:49Z"
+    "2607.01166:2026-07-01T16:52:49Z",
+    "2607.01387:2026-07-01T18:47:42Z",
+    "2607.01485:2026-07-01T21:27:52Z",
+    "2607.01530:2026-07-01T23:02:00Z",
+    "2607.01852:2026-07-02T08:12:35Z",
+    "2607.02003:2026-07-02T10:39:14Z",
+    "2607.02101:2026-07-02T12:36:48Z",
+    "2607.02338:2026-07-02T15:44:43Z"
   ],
   "sent_log": [
     {
@@ -2845,6 +2875,126 @@
       "sent_key": "2505.24758:2026-07-01T17:04:56Z",
       "title": "Survey: On the Landscape of Graph Databases",
       "updated": "2026-07-01T17:04:56Z"
+    },
+    {
+      "arxiv_id": "2607.01852",
+      "score": 57.2,
+      "sent_at": "2026-07-03T13:00:19.967917+08:00",
+      "sent_key": "2607.01852:2026-07-02T08:12:35Z",
+      "title": "Evaluating Chunking Strategies for Retrieval-Augmented Generation on Academic Texts",
+      "updated": "2026-07-02T08:12:35Z"
+    },
+    {
+      "arxiv_id": "2607.00725",
+      "score": 33.4,
+      "sent_at": "2026-07-03T13:00:19.967917+08:00",
+      "sent_key": "2607.00725:2026-07-01T10:12:15Z",
+      "title": "What Survives Into Context: A Diagnostic for Budget-Constrained Multi-Hop RAG and When Submodular Evidence Packing Improves It",
+      "updated": "2026-07-01T10:12:15Z"
+    },
+    {
+      "arxiv_id": "2607.00007",
+      "score": 28.0,
+      "sent_at": "2026-07-03T13:00:19.967917+08:00",
+      "sent_key": "2607.00007:2026-07-02T06:17:26Z",
+      "title": "BaRA: Budget-constrained and Reliable Web Data Collection Agent",
+      "updated": "2026-07-02T06:17:26Z"
+    },
+    {
+      "arxiv_id": "2607.00508",
+      "score": 25.1,
+      "sent_at": "2026-07-03T13:00:19.967917+08:00",
+      "sent_key": "2607.00508:2026-07-02T02:13:24Z",
+      "title": "When RAG Meets Query Planning: Logical Query Trees for Resolving Exploratory Reasoning Problems",
+      "updated": "2026-07-02T02:13:24Z"
+    },
+    {
+      "arxiv_id": "2607.00224",
+      "score": 13.6,
+      "sent_at": "2026-07-03T13:00:19.967917+08:00",
+      "sent_key": "2607.00224:2026-07-02T02:56:41Z",
+      "title": "Sample Complexities of Estimating Gumbel--Max Watermark Proportions with and without Reduction to Pivotal Statistics",
+      "updated": "2026-07-02T02:56:41Z"
+    },
+    {
+      "arxiv_id": "2607.02003",
+      "score": 13.3,
+      "sent_at": "2026-07-03T13:00:19.967917+08:00",
+      "sent_key": "2607.02003:2026-07-02T10:39:14Z",
+      "title": "Born Discrete, Made Smooth: Variational Formulation of Shallow Neural Networks",
+      "updated": "2026-07-02T10:39:14Z"
+    },
+    {
+      "arxiv_id": "2604.02091",
+      "score": 13.0,
+      "sent_at": "2026-07-03T13:00:19.967917+08:00",
+      "sent_key": "2604.02091:2026-07-02T17:08:51Z",
+      "title": "Optimizing RAG Rerankers with LLM Feedback via Reinforcement Learning",
+      "updated": "2026-07-02T17:08:51Z"
+    },
+    {
+      "arxiv_id": "2309.16843",
+      "score": 12.2,
+      "sent_at": "2026-07-03T13:00:19.967917+08:00",
+      "sent_key": "2309.16843:2026-07-02T16:45:25Z",
+      "title": "A Mean Field Approach to Empirical Bayes Estimation in High-dimensional Linear Regression",
+      "updated": "2026-07-02T16:45:25Z"
+    },
+    {
+      "arxiv_id": "2607.01530",
+      "score": 7.5,
+      "sent_at": "2026-07-03T13:00:19.967917+08:00",
+      "sent_key": "2607.01530:2026-07-01T23:02:00Z",
+      "title": "IntentTune: Using user demand and personalization to resolve \"unknown\" query intents for e-commerce search",
+      "updated": "2026-07-01T23:02:00Z"
+    },
+    {
+      "arxiv_id": "2607.01387",
+      "score": 7.4,
+      "sent_at": "2026-07-03T13:00:19.967917+08:00",
+      "sent_key": "2607.01387:2026-07-01T18:47:42Z",
+      "title": "Bi-NAS: Towards Effective and Personalized Explanation for Recommender Systems via Bi-Level Neural Architecture Search",
+      "updated": "2026-07-01T18:47:42Z"
+    },
+    {
+      "arxiv_id": "2607.01485",
+      "score": 6.5,
+      "sent_at": "2026-07-03T13:00:19.967917+08:00",
+      "sent_key": "2607.01485:2026-07-01T21:27:52Z",
+      "title": "CoPersona: Collaborative Persona Graphs for Robust LLM Personalization",
+      "updated": "2026-07-01T21:27:52Z"
+    },
+    {
+      "arxiv_id": "2506.10488",
+      "score": 6.0,
+      "sent_at": "2026-07-03T13:00:19.967917+08:00",
+      "sent_key": "2506.10488:2026-07-01T12:30:24Z",
+      "title": "Sheet Music Benchmark: Standardized Optical Music Recognition Evaluation",
+      "updated": "2026-07-01T12:30:24Z"
+    },
+    {
+      "arxiv_id": "2606.31984",
+      "score": 4.1,
+      "sent_at": "2026-07-03T13:00:19.967917+08:00",
+      "sent_key": "2606.31984:2026-07-01T23:39:37Z",
+      "title": "GR2 Technical Report",
+      "updated": "2026-07-01T23:39:37Z"
+    },
+    {
+      "arxiv_id": "2607.02101",
+      "score": 3.9,
+      "sent_at": "2026-07-03T13:00:19.967917+08:00",
+      "sent_key": "2607.02101:2026-07-02T12:36:48Z",
+      "title": "Sequential Structure-Sensitive Residual Diagnostics for PDE Inverse Problems",
+      "updated": "2026-07-02T12:36:48Z"
+    },
+    {
+      "arxiv_id": "2607.02338",
+      "score": 3.4,
+      "sent_at": "2026-07-03T13:00:19.967917+08:00",
+      "sent_key": "2607.02338:2026-07-02T15:44:43Z",
+      "title": "HNSW with Accuracy Guarantees Using Graph Spanners -- A Technical Report",
+      "updated": "2026-07-02T15:44:43Z"
     }
   ]
 }
