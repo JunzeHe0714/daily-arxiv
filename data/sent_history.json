@@ -46,6 +46,7 @@
     "2511.17864",
     "2511.18288",
     "2511.20644",
+    "2512.01208",
     "2512.01803",
     "2512.04013",
     "2512.06401",
@@ -190,6 +191,7 @@
     "2606.16871",
     "2606.16910",
     "2606.17053",
+    "2606.17288",
     "2606.17398",
     "2606.17890",
     "2606.17905",
@@ -459,11 +461,23 @@
     "2607.12896",
     "2607.12928",
     "2607.12982",
+    "2607.13677",
     "2607.13881",
     "2607.14005",
     "2607.14040",
     "2607.14047",
-    "2607.14072"
+    "2607.14072",
+    "2607.14642",
+    "2607.14970",
+    "2607.15025",
+    "2607.15092",
+    "2607.15107",
+    "2607.15163",
+    "2607.15190",
+    "2607.15193",
+    "2607.15240",
+    "2607.15257",
+    "2607.15271"
   ],
   "sent_keys": [
     "2309.16843:2026-07-02T16:45:25Z",
@@ -512,6 +526,7 @@
     "2511.17864:2026-07-06T14:29:28Z",
     "2511.18288:2026-06-18T06:58:18Z",
     "2511.20644:2026-07-09T17:59:10Z",
+    "2512.01208:2026-07-16T17:34:29Z",
     "2512.01803:2026-07-09T15:41:25Z",
     "2512.04013:2026-07-10T15:00:48Z",
     "2512.06401:2026-06-25T14:54:21Z",
@@ -658,6 +673,7 @@
     "2606.16871:2026-06-15T15:47:52Z",
     "2606.16910:2026-06-15T16:16:56Z",
     "2606.17053:2026-06-15T17:59:28Z",
+    "2606.17288:2026-07-15T21:37:36Z",
     "2606.17398:2026-06-16T01:14:49Z",
     "2606.17890:2026-06-16T13:10:30Z",
     "2606.17905:2026-06-16T13:28:57Z",
@@ -941,11 +957,24 @@
     "2607.12896:2026-07-14T15:34:46Z",
     "2607.12928:2026-07-14T16:00:29Z",
     "2607.12982:2026-07-14T17:24:57Z",
+    "2607.13677:2026-07-15T10:18:36Z",
     "2607.13881:2026-07-15T14:30:20Z",
     "2607.14005:2026-07-15T16:36:33Z",
     "2607.14040:2026-07-15T17:10:24Z",
     "2607.14047:2026-07-15T17:16:24Z",
-    "2607.14072:2026-07-15T17:42:41Z"
+    "2607.14047:2026-07-16T14:36:43Z",
+    "2607.14072:2026-07-15T17:42:41Z",
+    "2607.14642:2026-07-16T07:09:49Z",
+    "2607.14970:2026-07-16T13:25:53Z",
+    "2607.15025:2026-07-16T14:12:10Z",
+    "2607.15092:2026-07-16T15:01:33Z",
+    "2607.15107:2026-07-16T15:18:58Z",
+    "2607.15163:2026-07-16T16:08:27Z",
+    "2607.15190:2026-07-16T16:44:40Z",
+    "2607.15193:2026-07-16T16:48:39Z",
+    "2607.15240:2026-07-16T17:37:19Z",
+    "2607.15257:2026-07-16T17:51:23Z",
+    "2607.15271:2026-07-16T17:58:18Z"
   ],
   "sent_log": [
     {
@@ -4787,6 +4816,126 @@
       "sent_key": "2607.10735:2026-07-15T16:53:27Z",
       "title": "GNet: A scalable and flexible Gaussian process network with nonparametric neurons",
       "updated": "2026-07-15T16:53:27Z"
+    },
+    {
+      "arxiv_id": "2607.15025",
+      "score": 63.8,
+      "sent_at": "2026-07-17T12:27:53.132778+08:00",
+      "sent_key": "2607.15025:2026-07-16T14:12:10Z",
+      "title": "Leaf: An Instrumentation-based Dynamic Analysis Framework for Rust",
+      "updated": "2026-07-16T14:12:10Z"
+    },
+    {
+      "arxiv_id": "2607.14642",
+      "score": 52.8,
+      "sent_at": "2026-07-17T12:27:53.132778+08:00",
+      "sent_key": "2607.14642:2026-07-16T07:09:49Z",
+      "title": "MCPEvol-Bench: Benchmarking LLM Agent Performance Across Dynamic Evolutions of MCP Servers",
+      "updated": "2026-07-16T07:09:49Z"
+    },
+    {
+      "arxiv_id": "2607.15107",
+      "score": 41.1,
+      "sent_at": "2026-07-17T12:27:53.132778+08:00",
+      "sent_key": "2607.15107:2026-07-16T15:18:58Z",
+      "title": "Learning in Infinitesimal Non-Compositional Sketches",
+      "updated": "2026-07-16T15:18:58Z"
+    },
+    {
+      "arxiv_id": "2607.15163",
+      "score": 36.2,
+      "sent_at": "2026-07-17T12:27:53.132778+08:00",
+      "sent_key": "2607.15163:2026-07-16T16:08:27Z",
+      "title": "Scaling Behavior Foundation Model for Humanoid Robots",
+      "updated": "2026-07-16T16:08:27Z"
+    },
+    {
+      "arxiv_id": "2607.15193",
+      "score": 33.3,
+      "sent_at": "2026-07-17T12:27:53.132778+08:00",
+      "sent_key": "2607.15193:2026-07-16T16:48:39Z",
+      "title": "Plover: Steering GUI Agents through Plan-Centric Interaction",
+      "updated": "2026-07-16T16:48:39Z"
+    },
+    {
+      "arxiv_id": "2607.14970",
+      "score": 31.9,
+      "sent_at": "2026-07-17T12:27:53.132778+08:00",
+      "sent_key": "2607.14970:2026-07-16T13:25:53Z",
+      "title": "Explaining Process Control Optimisation Recommendations via GradientSHAP and Implicit Differentiation",
+      "updated": "2026-07-16T13:25:53Z"
+    },
+    {
+      "arxiv_id": "2607.14047",
+      "score": 29.5,
+      "sent_at": "2026-07-17T12:27:53.132778+08:00",
+      "sent_key": "2607.14047:2026-07-16T14:36:43Z",
+      "title": "Zero2Skill: Bootstrapping Robot Skills through Autonomous Data Collection, Training, and Deployment",
+      "updated": "2026-07-16T14:36:43Z"
+    },
+    {
+      "arxiv_id": "2512.01208",
+      "score": 28.6,
+      "sent_at": "2026-07-17T12:27:53.132778+08:00",
+      "sent_key": "2512.01208:2026-07-16T17:34:29Z",
+      "title": "Language as a Wave Phenomenon: Semantic Phase Locking and Interference in Neural Networks",
+      "updated": "2026-07-16T17:34:29Z"
+    },
+    {
+      "arxiv_id": "2606.17288",
+      "score": 27.3,
+      "sent_at": "2026-07-17T12:27:53.132778+08:00",
+      "sent_key": "2606.17288:2026-07-15T21:37:36Z",
+      "title": "Local Fault Repair of Perfect Resource Placements in Eisenstein--Jacobi Networks",
+      "updated": "2026-07-15T21:37:36Z"
+    },
+    {
+      "arxiv_id": "2607.15092",
+      "score": 27.0,
+      "sent_at": "2026-07-17T12:27:53.132778+08:00",
+      "sent_key": "2607.15092:2026-07-16T15:01:33Z",
+      "title": "Rubrics on Trial: Evolving Rubrics from a Single Query via Synthetic Pairwise Evidence",
+      "updated": "2026-07-16T15:01:33Z"
+    },
+    {
+      "arxiv_id": "2607.13677",
+      "score": 24.2,
+      "sent_at": "2026-07-17T12:27:53.132778+08:00",
+      "sent_key": "2607.13677:2026-07-15T10:18:36Z",
+      "title": "Local Certification of Vertex and Edge Connectivity",
+      "updated": "2026-07-15T10:18:36Z"
+    },
+    {
+      "arxiv_id": "2607.15271",
+      "score": 23.9,
+      "sent_at": "2026-07-17T12:27:53.132778+08:00",
+      "sent_key": "2607.15271:2026-07-16T17:58:18Z",
+      "title": "Online Neural Space Time Memory for Dynamic Novel View Synthesis",
+      "updated": "2026-07-16T17:58:18Z"
+    },
+    {
+      "arxiv_id": "2607.15257",
+      "score": 23.6,
+      "sent_at": "2026-07-17T12:27:53.132778+08:00",
+      "sent_key": "2607.15257:2026-07-16T17:51:23Z",
+      "title": "SearchOS-V1: Towards Robust Open-Domain Information-Seeking Agent Collaboration",
+      "updated": "2026-07-16T17:51:23Z"
+    },
+    {
+      "arxiv_id": "2607.15240",
+      "score": 23.5,
+      "sent_at": "2026-07-17T12:27:53.132778+08:00",
+      "sent_key": "2607.15240:2026-07-16T17:37:19Z",
+      "title": "TikStance: A Multimodal and Hierarchical Dataset for Multi-target Stance Analysis in TikTok Political Conversations",
+      "updated": "2026-07-16T17:37:19Z"
+    },
+    {
+      "arxiv_id": "2607.15190",
+      "score": 23.0,
+      "sent_at": "2026-07-17T12:27:53.132778+08:00",
+      "sent_key": "2607.15190:2026-07-16T16:44:40Z",
+      "title": "Can We Trust Item Response Theory for AI Evaluation?",
+      "updated": "2026-07-16T16:44:40Z"
     }
   ]
 }
