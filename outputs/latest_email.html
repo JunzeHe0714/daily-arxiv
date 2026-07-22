@@ -1,140 +1,135 @@
 <!doctype html><html><head><meta charset='utf-8'>
 <style>body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Arial,sans-serif;line-height:1.55;color:#202124;max-width:860px;margin:24px auto;padding:0 16px;}h1{font-size:24px;}h2{font-size:20px;margin-top:28px;}h3{font-size:17px;margin-bottom:6px}.paper{border-top:1px solid #ddd;padding-top:16px;margin-top:16px}.meta{color:#5f6368;font-size:13px}.pill{display:inline-block;border:1px solid #dadce0;border-radius:12px;padding:1px 8px;margin:2px;color:#3c4043;font-size:12px}.score{color:#0b57d0}.feedback{background:#f8fafd;border:1px solid #dfe6f5;padding:12px;border-radius:8px;margin-top:28px}</style>
 </head><body>
-<h1>Daily arXiv - 2026-07-21</h1>
+<h1>Daily arXiv - 2026-07-22</h1>
 <p>Top 5 精读 + 10 篇一句话候选。你可以直接回复这封邮件来调整明天的偏好。</p>
 <h2>Top 5 精读</h2>
 <div class='paper'>
-<h3>#1 <a href='https://arxiv.org/abs/2607.09657v2'>Scalable Visual Pretraining for Language Intelligence</a></h3>
-<div class='meta'>Yiming Zhang, Zhonghan Zhao, Wenwei Zhang, Haiteng Zhao, Tianyang Lin, Huanze Tang, Yunhua Zhou, Demin Song et al. | cs.CV | score <span class='score'>81.1</span> | updated 2026-07-20</div>
-<span class='pill'>cs.CV</span>
+<h3>#1 <a href='https://arxiv.org/abs/2607.19313v1'>Off-Context GRPO: Learning to Reason on Hard Problems using Privileged Information</a></h3>
+<div class='meta'>Priyank Agrawal, Ankur Samanta, Shervin Ghasemlou, Jalaj Bhandari, Kavosh Asadi, Daniel Jiang, Aditya Modi | cs.LG | score <span class='score'>71.2</span> | updated 2026-07-21</div>
+<span class='pill'>cs.LG</span>
 <span class='pill'>cs.AI</span>
-<span class='pill'>cs.MM</span>
-<p><strong>TL;DR:</strong> The rapid progress of large foundation models has been driven predominantly by pretraining on large-scale text corpora.</p>
-<p><strong>中文摘要:</strong> 这篇论文主要围绕 cs.CV 中的 retrieval-augmented generation 展开。根据摘要，核心问题是：The rapid progress of large foundation models has been driven predominantly by pretraining on large-scale text corpora. However, many forms of knowledge are conveyed through visual representations, where figures, typeset equations, and page layouts carry rich information that cannot be faithfully or completely captured by text alone. 适合先作为候选阅读，再结合实验设置判断是否值得精读。</p>
-<p><strong>English Summary:</strong> The rapid progress of large foundation models has been driven predominantly by pretraining on large-scale text corpora. However, many forms of knowledge are conveyed through visual representations, where figures, typeset equations, and page layouts carry rich information that cannot be faithfully or completely captured by text alone. Yet current pretraining approaches discard these visual cues by converting visually rich sources, such as documents and web pages, into plain text for learning language intelligence.</p>
-<p><strong>方法 / Method:</strong> retrieval-augmented generation</p>
+<p><strong>TL;DR:</strong> Reinforcement learning with verifiable rewards (RLVR) improves reasoning in large language models.</p>
+<p><strong>中文摘要:</strong> 这篇论文主要围绕 cs.LG 中的 reinforcement learning / post-training 展开。根据摘要，核心问题是：Reinforcement learning with verifiable rewards (RLVR) improves reasoning in large language models. Yet, typical RLVR approaches fail on difficult problems: when a model cannot generate any correct solutions, it receives \textit{zero} learning signal. 适合先作为候选阅读，再结合实验设置判断是否值得精读。</p>
+<p><strong>English Summary:</strong> Reinforcement learning with verifiable rewards (RLVR) improves reasoning in large language models. Yet, typical RLVR approaches fail on difficult problems: when a model cannot generate any correct solutions, it receives \textit{zero} learning signal. Providing privileged guidance during training, such as solution prefixes, can help overcome this learning cliff by steering the model towards {correct solutions with non-zero reward}.</p>
+<p><strong>方法 / Method:</strong> reinforcement learning / post-training</p>
 <p><strong>贡献 / Contribution:</strong> 提供新的评测视角或任务设置，可用于判断模型能力和研究空白。</p>
 <p><strong>局限 / Limitation:</strong> 可能依赖特定任务集，泛化到真实研究/生产场景仍需进一步验证。</p>
-<p><strong>为什么与你相关 / Why relevant:</strong> matches foundation model, language model, rag；your recent feedback likes: across；your recent feedback likes: alone</p>
+<p><strong>为什么与你相关 / Why relevant:</strong> matches large language model, language model, reasoning, rlvr；your recent feedback likes: RLVR；your recent feedback likes: across</p>
 </div>
 <div class='paper'>
-<h3>#2 <a href='https://arxiv.org/abs/2602.10382v3'>Language Triggers Hijack Language Circuits: A Mechanistic Analysis of Backdoor Behaviors in Large Language Models</a></h3>
-<div class='meta'>Théo Lasnier, Wissam Antoun, Francis Kulumba, Benoît Sagot, Djamé Seddah | cs.CL | score <span class='score'>44.8</span> | updated 2026-07-20</div>
-<span class='pill'>cs.CL</span>
-<p><strong>TL;DR:</strong> Backdoor attacks pose significant security risks for Large Language Models (LLMs), yet the internal mechanisms by which triggers operate remain poorly understood.</p>
-<p><strong>中文摘要:</strong> 这篇论文主要围绕 cs.CL 中的 retrieval-augmented generation 展开。根据摘要，核心问题是：Backdoor attacks pose significant security risks for Large Language Models (LLMs), yet the internal mechanisms by which triggers operate remain poorly understood. We present the first mechanistic analysis of trigger-induced language-switching backdoors injected during pre-training, studying the Gaperon model family (1B, 8B and 24B). 适合先作为候选阅读，再结合实验设置判断是否值得精读。</p>
-<p><strong>English Summary:</strong> Backdoor attacks pose significant security risks for Large Language Models (LLMs), yet the internal mechanisms by which triggers operate remain poorly understood. We present the first mechanistic analysis of trigger-induced language-switching backdoors injected during pre-training, studying the Gaperon model family (1B, 8B and 24B). Using activation patching, we localize trigger formation and identify which attention heads process trigger and natural language information.</p>
+<h3>#2 <a href='https://arxiv.org/abs/2604.14586v3'>CPGRec+: A Balance-oriented Framework for Personalized Video Game Recommendations</a></h3>
+<div class='meta'>Xiping Li, Aier Yang, Jianghong Ma, Kangzhe Liu, Shanshan Feng, Haijun Zhang, Yi Zhao | cs.IR | score <span class='score'>54.0</span> | updated 2026-07-21</div>
+<span class='pill'>cs.IR</span>
+<span class='pill'>cs.AI</span>
+<p><strong>TL;DR:</strong> The rapid expansion of gaming industry requires advanced recommender systems tailored to its dynamic landscape.</p>
+<p><strong>中文摘要:</strong> 这篇论文主要围绕 cs.IR 中的 retrieval-augmented generation 展开。根据摘要，核心问题是：The rapid expansion of gaming industry requires advanced recommender systems tailored to its dynamic landscape. Existing Graph Neural Network (GNN)-based methods primarily prioritize accuracy over diversity, overlooking their inherent trade-off. 适合先作为候选阅读，再结合实验设置判断是否值得精读。</p>
+<p><strong>English Summary:</strong> The rapid expansion of gaming industry requires advanced recommender systems tailored to its dynamic landscape. Existing Graph Neural Network (GNN)-based methods primarily prioritize accuracy over diversity, overlooking their inherent trade-off. To address this, we previously proposed CPGRec, a balance-oriented gaming recommender system.</p>
+<p><strong>方法 / Method:</strong> retrieval-augmented generation</p>
+<p><strong>贡献 / Contribution:</strong> 提供领域结构、问题分类或趋势梳理，帮助更新 LLM landscape 认知地图。</p>
+<p><strong>局限 / Limitation:</strong> 综述类工作通常更强在结构化认知，具体结论需要回到原论文和实证细节核对。</p>
+<p><strong>为什么与你相关 / Why relevant:</strong> matches large language model, llm, language model, reasoning；your recent feedback likes: Liu；your recent feedback likes: context</p>
+</div>
+<div class='paper'>
+<h3>#3 <a href='https://arxiv.org/abs/2607.19211v1'>Do LLMs Ask the Right Questions? Evaluating GPT-Generated Surveys as Instruments for Measuring Social Attitudes</a></h3>
+<div class='meta'>Tina Behzad, Wenbo Li, Reuben Kline, Klaus Mueller | cs.CY | score <span class='score'>47.8</span> | updated 2026-07-21</div>
+<span class='pill'>cs.CY</span>
+<p><strong>TL;DR:</strong> Understanding human beliefs and social attitudes often relies on carefully designed survey instruments.</p>
+<p><strong>中文摘要:</strong> 这篇论文主要围绕 cs.CY 中的 retrieval-augmented generation 展开。根据摘要，核心问题是：Understanding human beliefs and social attitudes often relies on carefully designed survey instruments. Recent work has suggested that large language models (LLMs) could automate parts of this process by generating surveys at scale, raising questions about the comparability of such instruments to literature-grounded, human-designed surveys. 适合先作为候选阅读，再结合实验设置判断是否值得精读。</p>
+<p><strong>English Summary:</strong> Understanding human beliefs and social attitudes often relies on carefully designed survey instruments. Recent work has suggested that large language models (LLMs) could automate parts of this process by generating surveys at scale, raising questions about the comparability of such instruments to literature-grounded, human-designed surveys. We present a controlled empirical comparison between GPT-generated surveys and established survey baselines across three social domains: climate change, immigration, and diversity, equity, and inclusion (DEI).</p>
+<p><strong>方法 / Method:</strong> retrieval-augmented generation</p>
+<p><strong>贡献 / Contribution:</strong> 提供领域结构、问题分类或趋势梳理，帮助更新 LLM landscape 认知地图。</p>
+<p><strong>局限 / Limitation:</strong> 综述类工作通常更强在结构化认知，具体结论需要回到原论文和实证细节核对。</p>
+<p><strong>为什么与你相关 / Why relevant:</strong> matches large language model, llm, language model, alignment；your recent feedback likes: across；your recent feedback likes: alignment</p>
+</div>
+<div class='paper'>
+<h3>#4 <a href='https://arxiv.org/abs/2607.19128v1'>One Model, Many Graphs: Learning over Attributed Graphs across Heterogeneous Modalities with Vision-Language Models</a></h3>
+<div class='meta'>Jiayi Yang, Yifang Chen, Yuanfu Sun, Jiajin Liu, Qiaoyu Tan | cs.LG | score <span class='score'>41.5</span> | updated 2026-07-21</div>
+<span class='pill'>cs.LG</span>
+<p><strong>TL;DR:</strong> Vision-language models (VLMs) provide a unified representation space for textual and visual information, yet their potential as general-purpose backbones for graph-structured data remains largely unexplored.</p>
+<p><strong>中文摘要:</strong> 这篇论文主要围绕 cs.LG 中的 retrieval-augmented generation 展开。根据摘要，核心问题是：Vision-language models (VLMs) provide a unified representation space for textual and visual information, yet their potential as general-purpose backbones for graph-structured data remains largely unexplored. 适合先作为候选阅读，再结合实验设置判断是否值得精读。</p>
+<p><strong>English Summary:</strong> Vision-language models (VLMs) provide a unified representation space for textual and visual information, yet their potential as general-purpose backbones for graph-structured data remains largely unexplored. In practice, attributed graphs exhibit substantial modality heterogeneity: some graphs contain only textual node attributes, others only visual attributes, while still others provide both. Existing graph learning approaches are typically designed for fixed modality schemas, requiring separate models for different settings and limiting scalability and cross-graph generalization.</p>
 <p><strong>方法 / Method:</strong> retrieval-augmented generation</p>
 <p><strong>贡献 / Contribution:</strong> 提出或分析一种与 LLM/AI 系统相关的方法，具体贡献需结合正文实验确认。</p>
 <p><strong>局限 / Limitation:</strong> 当前只基于 arXiv 摘要判断，细节、消融和真实效果需要阅读全文确认。</p>
-<p><strong>为什么与你相关 / Why relevant:</strong> matches large language model, llm, language model, rag；your recent feedback likes: across；your recent feedback likes: analysis</p>
+<p><strong>为什么与你相关 / Why relevant:</strong> matches llm, language model, rag；your recent feedback likes: Attributes；your recent feedback likes: Liu</p>
 </div>
 <div class='paper'>
-<h3>#3 <a href='https://arxiv.org/abs/2607.11359v2'>Efficient Tuning Before Low-Bit Post-Training Quantization for Stochastic Gradient Descent-optimized Models</a></h3>
-<div class='meta'>Peng Xia, Junbiao Pang, Muhammad Ayub Sabir | cs.CV | score <span class='score'>43.5</span> | updated 2026-07-20</div>
+<h3>#5 <a href='https://arxiv.org/abs/2607.19339v1'>OmniReasoner: Thinking with Long Audio-Video via Native Tool Use</a></h3>
+<div class='meta'>Yu Chen, Caorui Li, Ziyu Xiong, Yidong Wang, Mingqi Gao, Shuman Liu, Biao Liu, Chunfeng Yang et al. | cs.CV | score <span class='score'>38.9</span> | updated 2026-07-21</div>
 <span class='pill'>cs.CV</span>
-<p><strong>TL;DR:</strong> Post-training quantization (PTQ) compresses deep neural networks for deployment under limited memory and computational budgets.</p>
-<p><strong>中文摘要:</strong> 这篇论文主要围绕 cs.CV 中的 inference/training efficiency optimization 展开。根据摘要，核心问题是：Post-training quantization (PTQ) compresses deep neural networks for deployment under limited memory and computational budgets. However, low-bit (i.e., 2-bit or 4-bit) PTQ often suffers from substantial performance degradation. 适合先作为候选阅读，再结合实验设置判断是否值得精读。</p>
-<p><strong>English Summary:</strong> Post-training quantization (PTQ) compresses deep neural networks for deployment under limited memory and computational budgets. However, low-bit (i.e., 2-bit or 4-bit) PTQ often suffers from substantial performance degradation. Most existing PTQ methods operate on an unconstrained full-precision (FP) model and primarily address quantization errors through post-hoc reconstruction.</p>
-<p><strong>方法 / Method:</strong> inference/training efficiency optimization</p>
-<p><strong>贡献 / Contribution:</strong> 提供领域结构、问题分类或趋势梳理，帮助更新 LLM landscape 认知地图。</p>
-<p><strong>局限 / Limitation:</strong> 综述类工作通常更强在结构化认知，具体结论需要回到原论文和实证细节核对。</p>
-<p><strong>为什么与你相关 / Why relevant:</strong> matches post-training, landscape；strong interest: post-training；your recent feedback likes: across</p>
-</div>
-<div class='paper'>
-<h3>#4 <a href='https://arxiv.org/abs/2607.17999v1'>Do Maps Still Matter for Machines: Revisiting the Role of Choropleth Maps in Foundation Model Spatial Understanding</a></h3>
-<div class='meta'>Zhiwei Wei, Yonghe Sun, Zhenjia Liu, Wenjia Xu, Chao He, Weihua Dong, Chunbo Liu, Hua Liao | cs.AI | score <span class='score'>40.4</span> | updated 2026-07-20</div>
-<span class='pill'>cs.AI</span>
-<span class='pill'>cs.CV</span>
-<p><strong>TL;DR:</strong> Spatial understanding is crucial for foundation models (FMs), and maps have long helped humans organize and reason about geographic information.</p>
-<p><strong>中文摘要:</strong> 这篇论文主要围绕 cs.AI 中的 benchmark/evaluation 展开。根据摘要，核心问题是：Spatial understanding is crucial for foundation models (FMs), and maps have long helped humans organize and reason about geographic information. This study examines whether choropleth maps remain useful for machine spatial understanding when models can directly process structured geodata. 适合先作为候选阅读，再结合实验设置判断是否值得精读。</p>
-<p><strong>English Summary:</strong> Spatial understanding is crucial for foundation models (FMs), and maps have long helped humans organize and reason about geographic information. This study examines whether choropleth maps remain useful for machine spatial understanding when models can directly process structured geodata. We introduce ChoroplethMap-Bench, a controlled benchmark containing 2,400 synthetic choropleth maps, corresponding GeoJSON data, and 12,000 questions across five cognitive dimensions: Identify, Spatial Recognition, Compare, Rank, and Delineate.</p>
-<p><strong>方法 / Method:</strong> benchmark/evaluation</p>
+<p><strong>TL;DR:</strong> Long audio-video reasoning is difficult for omnimodal LLMs because the decisive evidence is often sparse, cross-modal, and too expensive to preserve with uniformly high-fidelity inputs.</p>
+<p><strong>中文摘要:</strong> 这篇论文主要围绕 cs.CV 中的 reinforcement learning / post-training 展开。根据摘要，核心问题是：Long audio-video reasoning is difficult for omnimodal LLMs because the decisive evidence is often sparse, cross-modal, and too expensive to preserve with uniformly high-fidelity inputs. 适合先作为候选阅读，再结合实验设置判断是否值得精读。</p>
+<p><strong>English Summary:</strong> Long audio-video reasoning is difficult for omnimodal LLMs because the decisive evidence is often sparse, cross-modal, and too expensive to preserve with uniformly high-fidelity inputs. We introduce OmniReasoner, a tool-use post-training framework for Thinking with Long Audio-Video: omni-modal LLMs learn, via supervised fine-tuning and reinforcement learning, to decide whether and where to call a zoom-in tool before answering. OmniReasoner first builds a low-cost global preview of the full stream and then, when needed, calls the zoom-in tool with a requested temporal interval for higher-fidelity visual and audio inspection before answering.</p>
+<p><strong>方法 / Method:</strong> reinforcement learning / post-training</p>
 <p><strong>贡献 / Contribution:</strong> 提供新的评测视角或任务设置，可用于判断模型能力和研究空白。</p>
 <p><strong>局限 / Limitation:</strong> 可能依赖特定任务集，泛化到真实研究/生产场景仍需进一步验证。</p>
-<p><strong>为什么与你相关 / Why relevant:</strong> matches foundation model, reasoning；your recent feedback likes: across；your recent feedback likes: analyze</p>
-</div>
-<div class='paper'>
-<h3>#5 <a href='https://arxiv.org/abs/2605.06605v4'>How Many Iterations to Jailbreak? Dynamic Budget Allocation for Multi-Turn LLM Evaluation</a></h3>
-<div class='meta'>Shai Feldman, Yaniv Romano | cs.LG | score <span class='score'>37.8</span> | updated 2026-07-20</div>
-<span class='pill'>cs.LG</span>
-<p><strong>TL;DR:</strong> Evaluating and predicting the performance of large language models (LLMs) in multi-turn conversational settings is critical yet computationally expensive; key events -- e.g., jailbreaks or successful task completion by an agent -- often emerge only after repea</p>
-<p><strong>中文摘要:</strong> 这篇论文主要围绕 cs.LG 中的 retrieval-augmented generation 展开。根据摘要，核心问题是：Evaluating and predicting the performance of large language models (LLMs) in multi-turn conversational settings is critical yet computationally expensive; key events -- e.g., jailbreaks or successful task completion by an agent -- often emerge only after repeated interactions. 适合先作为候选阅读，再结合实验设置判断是否值得精读。</p>
-<p><strong>English Summary:</strong> Evaluating and predicting the performance of large language models (LLMs) in multi-turn conversational settings is critical yet computationally expensive; key events -- e.g., jailbreaks or successful task completion by an agent -- often emerge only after repeated interactions. These events might be rare, and under any feasible computational budget, remain unobserved. Recent conformal survival frameworks construct reliable lower predictive bounds (LPBs) on the number of iterations to trigger the event of interest, but rely on static budget allocation that is inefficient in multi-turn setups.</p>
-<p><strong>方法 / Method:</strong> retrieval-augmented generation</p>
-<p><strong>贡献 / Contribution:</strong> 提供新的评测视角或任务设置，可用于判断模型能力和研究空白。</p>
-<p><strong>局限 / Limitation:</strong> 可能依赖特定任务集，泛化到真实研究/生产场景仍需进一步验证。</p>
-<p><strong>为什么与你相关 / Why relevant:</strong> matches large language model, llm, language model, agent；your recent feedback likes: across；your recent feedback likes: agent</p>
+<p><strong>为什么与你相关 / Why relevant:</strong> matches llm, reasoning, post-training；strong interest: post-training；your recent feedback likes: Liu</p>
 </div>
 <h2>10 篇一句话候选</h2>
 <div class='paper'>
-<h3>#6 <a href='https://arxiv.org/abs/2606.21632v2'>Fine-Tuning a Universal Machine-Learned Interatomic Potential for Oxygen Plasma Interactions with WS$_2$</a></h3>
-<div class='meta'>Jaehong Kwon, David B. Graves | cond-mat.mtrl-sci | score <span class='score'>37.7</span> | updated 2026-07-20</div>
-<span class='pill'>cond-mat.mtrl-sci</span>
-<span class='pill'>physics.chem-ph</span>
-<p>Molecular dynamics simulation of plasma-surface interactions requires an interatomic potential that is simultaneously accurate, computationally efficient, and able to describe many elements and bonding types in reactive Relevant because: matches foundation model, rag；your recent feedback likes: diverse；your recent feedback likes: dynamic</p>
-</div>
-<div class='paper'>
-<h3>#7 <a href='https://arxiv.org/abs/2607.17946v1'>A Geometric Perspective on Stabilizing Value Conflict Resolution</a></h3>
-<div class='meta'>Saket Reddy, Andy Liu | cs.LG | score <span class='score'>35.6</span> | updated 2026-07-20</div>
+<h3>#6 <a href='https://arxiv.org/abs/2605.06605v5'>How Many Iterations to Jailbreak? Dynamic Budget Allocation for Multi-Turn LLM Evaluation</a></h3>
+<div class='meta'>Shai Feldman, Yaniv Romano | cs.LG | score <span class='score'>34.3</span> | updated 2026-07-21</div>
 <span class='pill'>cs.LG</span>
-<span class='pill'>cs.AI</span>
-<p>Large Language Models (LLMs) often struggle to navigate value conflicts when trained with the compressed scalar rewards of Reinforcement Learning from Human Feedback (RLHF). Relevant because: matches large language model, llm, language model, reasoning；your recent feedback likes: alignment；your recent feedback likes: also</p>
+<p>Evaluating and predicting the performance of large language models (LLMs) in multi-turn conversational settings is critical yet computationally expensive; key events -- e.g., jailbreaks or successful task completion by a Relevant because: matches large language model, llm, language model, agent；your recent feedback likes: across；your recent feedback likes: agent</p>
 </div>
 <div class='paper'>
-<h3>#8 <a href='https://arxiv.org/abs/2607.18228v1'>Logical Judgments Under Pressure: Diagnosing Syllogistic Stability with Learned Soft Prefixes</a></h3>
-<div class='meta'>Brian K Chen | cs.AI | score <span class='score'>33.6</span> | updated 2026-07-20</div>
-<span class='pill'>cs.AI</span>
+<h3>#7 <a href='https://arxiv.org/abs/2607.19326v1'>Selective State-Space Adaptation and Retrieval for Language Model Reasoning</a></h3>
+<div class='meta'>Atahan Dokme, Larry Heck | cs.CL | score <span class='score'>33.9</span> | updated 2026-07-21</div>
 <span class='pill'>cs.CL</span>
-<p>To test how correct logical judgments respond to learned context, we prepend a soft prefix to an exactly labeled syllogistic reasoning benchmark while keeping the model fixed. Relevant because: matches reasoning, moe；your recent feedback likes: across；your recent feedback likes: behavior</p>
+<p>Low-rank adaptation introduces a static learned update applied identically to every input. Relevant because: matches language model, reasoning, rag；your recent feedback likes: across；your recent feedback likes: benchmark</p>
 </div>
 <div class='paper'>
-<h3>#9 <a href='https://arxiv.org/abs/2607.17937v1'>How Agent Skills Fail under Long Contexts: A White-Box Study in Code Auditing</a></h3>
-<div class='meta'>Yue Xue | cs.SE | score <span class='score'>31.5</span> | updated 2026-07-20</div>
-<span class='pill'>cs.SE</span>
-<p>Agent Skills package procedural instructions and checks for use by general-purpose agents, but loading a skill does not guarantee that every requirement remains active throughout a long tool-using trajectory. Relevant because: matches agent, long context, rag；your recent feedback likes: agent；your recent feedback likes: become</p>
-</div>
-<div class='paper'>
-<h3>#10 <a href='https://arxiv.org/abs/2509.07996v4'>3D and 4D World Modeling: A Survey</a></h3>
-<div class='meta'>Lingdong Kong, Yu Yang, Jianbiao Mei, Youquan Liu, Ao Liang, Dekai Zhu, Dongyue Lu, Wei Yin et al. | cs.CV | score <span class='score'>27.9</span> | updated 2026-07-20</div>
-<span class='pill'>cs.CV</span>
-<span class='pill'>cs.RO</span>
-<p>World modeling has become a cornerstone in AI research, enabling agents to understand, represent, and predict the dynamic environments they inhabit. Relevant because: matches agent, rag, evaluation, survey；your recent feedback likes: agent；your recent feedback likes: become</p>
-</div>
-<div class='paper'>
-<h3>#11 <a href='https://arxiv.org/abs/2607.17948v1'>Towards Agentic Agent-based Models: Feasibility, Performance, and Statistical Model Checking</a></h3>
-<div class='meta'>Stefano Blando, Emanuele Guerrazzi, Riccardo Porcedda, Giuseppe Squillace, Max Tschaikowski, Andrea Vandin | cs.AI | score <span class='score'>26.9</span> | updated 2026-07-20</div>
+<h3>#8 <a href='https://arxiv.org/abs/2607.12310v2'>LakeQuest: A Three-Domain Benchmark for Grounded Question Answering across Data Lakes</a></h3>
+<div class='meta'>Michael Solodko, Steven Gong, Guangwei Yu, Satya Krishna Gorti, Jesse C. Cresswell, Victor Zhong | cs.CL | score <span class='score'>33.9</span> | updated 2026-07-21</div>
+<span class='pill'>cs.CL</span>
 <span class='pill'>cs.AI</span>
-<span class='pill'>cs.MA</span>
-<p>Agent-based models (ABMs) rely on simple, explicit and reproducible rules for individual decision making, while complex collective behavior emerges from interactions among agents. Relevant because: matches large language model, llm, language model, agent；your recent feedback likes: agent；your recent feedback likes: analyze</p>
+<p>While modern question answering (QA) systems excel on clean, schema-aligned corpora, real-world knowledge is rarely so neatly packaged. Relevant because: matches agent, reasoning, rag, multimodal；your recent feedback likes: across；your recent feedback likes: agent</p>
 </div>
 <div class='paper'>
-<h3>#12 <a href='https://arxiv.org/abs/2607.18218v1'>GigaPath-Flash and GigaTIME-Flash: Efficient Pathology Foundation Models for Whole-Slide and Tumor Microenvironment Analysis</a></h3>
-<div class='meta'>Naoto Usuyama, Jeya Maria Jose Valanarasu, Sicong Yao, Hanwen Xu, Jaspreet Bagga, Guanghui Qin, Robert E. Kramer, Cliff Wong et al. | cs.CV | score <span class='score'>26.8</span> | updated 2026-07-20</div>
+<h3>#9 <a href='https://arxiv.org/abs/2607.03328v2'>Beyond Post-Quantization: Native Hash Learning with a Dedicated HASH Token</a></h3>
+<div class='meta'>Xinze Liu, Ding Wang, Dayan Wu, Hengjie Zhu, Peng Fu, Zheng Lin, Weiping Wang | cs.CV | score <span class='score'>33.6</span> | updated 2026-07-21</div>
 <span class='pill'>cs.CV</span>
-<span class='pill'>cs.AI</span>
-<p>Foundation models have emerged as a driving force in computational pathology, with the potential to transform cancer diagnosis, prognosis, and treatment selection by learning transferable representations from large-scale Relevant because: matches foundation model, rag, landscape；your recent feedback likes: analysis；your recent feedback likes: both</p>
-</div>
-<div class='paper'>
-<h3>#13 <a href='https://arxiv.org/abs/2607.18039v1'>Evidence-in-the-Loop: Trace-Driven Optimization for Customer-Service LLM Agents</a></h3>
-<div class='meta'>Chunming Wu, Dafei Qiu, Congde Yuan, Charles Quan, Jun Wu, Suipeng Li, Mo Wu, Gavin Xie et al. | cs.IR | score <span class='score'>26.6</span> | updated 2026-07-20</div>
 <span class='pill'>cs.IR</span>
-<p>Production customer-service bots must improve answer quality across iterative releases, yet large language models must not bypass evidence boundaries, policy rules, or human-handoff safeguards. Relevant because: matches large language model, llm, language model, agent；your recent feedback likes: across；your recent feedback likes: agent</p>
+<p>Efficient large-scale image retrieval requires compact representations that preserve semantic similarity under fast Hamming-space search. Relevant because: matches rag；your recent feedback likes: Liu；your recent feedback likes: across</p>
 </div>
 <div class='paper'>
-<h3>#14 <a href='https://arxiv.org/abs/2607.18199v1'>PPL-Factory: Task-Aware and Budget-Aware Data Selection from Language Modeling to Reasoning</a></h3>
-<div class='meta'>Hang Zhang, Warren J. Gross | cs.CL | score <span class='score'>26.1</span> | updated 2026-07-20</div>
-<span class='pill'>cs.CL</span>
+<h3>#10 <a href='https://arxiv.org/abs/2506.07673v2'>How Benchmark Prediction from Fewer Data Misses the Mark</a></h3>
+<div class='meta'>Guanhua Zhang, Florian E. Dorner, Moritz Hardt | cs.LG | score <span class='score'>33.5</span> | updated 2026-07-21</div>
 <span class='pill'>cs.LG</span>
-<p>Not all training samples contribute equally to large language model fine-tuning. Relevant because: matches large language model, language model, reasoning；your recent feedback likes: across；your recent feedback likes: combines</p>
+<p>Large language model (LLM) evaluation is increasingly costly, prompting interest in methods that speed up evaluation by shrinking benchmark datasets. Relevant because: matches large language model, llm, language model, rag；your recent feedback likes: across；your recent feedback likes: also</p>
 </div>
 <div class='paper'>
-<h3>#15 <a href='https://arxiv.org/abs/2604.21370v2'>MKJ at SemEval-2026 Task 9: A Comparative Study of Generalist, Specialist, and Ensemble Strategies for Multilingual Polarization</a></h3>
-<div class='meta'>Maziar Kianimoghadam Jouneghani | cs.CL | score <span class='score'>25.9</span> | updated 2026-07-20</div>
-<span class='pill'>cs.CL</span>
-<span class='pill'>cs.CY</span>
-<p>We present a systematic study of multilingual polarization detection across 22 languages for SemEval-2026 Task 9 (Subtask 1), contrasting multilingual generalists with language-specific specialists and hybrid ensembles. Relevant because: matches rag；your recent feedback likes: across；your recent feedback likes: between</p>
+<h3>#11 <a href='https://arxiv.org/abs/2508.08745v3'>Towards Full Candidate Interaction: A Comprehensive Comparison Network for Better Route Recommendation</a></h3>
+<div class='meta'>Hanyu Guo, Chao Chen, Longfei Xu, Chengzhang Wang, Kaikui Liu, Xiangxiang Chu | cs.IR | score <span class='score'>29.8</span> | updated 2026-07-21</div>
+<span class='pill'>cs.IR</span>
+<p>We argue that the decision-making essence of route recommendation is comparative judgment: users choose a route because it is better than alternatives in specific aspects. Relevant because: matches reasoning, rag；your recent feedback likes: Liu；your recent feedback likes: across</p>
+</div>
+<div class='paper'>
+<h3>#12 <a href='https://arxiv.org/abs/2607.19069v1'>Delineate Anything v2: A Global Foundation Model for Field Delineation</a></h3>
+<div class='meta'>Mykola Lavreniuk, Nataliia Kussul, Andrii Shelestov, Yevhenii Salii, Volodymyr Kuzin, Charlotte Julia Li-Xing Wang, Zoltan Szantoi | cs.CV | score <span class='score'>29.7</span> | updated 2026-07-21</div>
+<span class='pill'>cs.CV</span>
+<p>Accurate agricultural field boundary delineation at large scale is a foundational task for food security, supply chain transparency, and carbon accounting. Relevant because: matches foundation model, rag, evaluation, data curation；your recent feedback likes: benchmark；your recent feedback likes: cs.CV</p>
+</div>
+<div class='paper'>
+<h3>#13 <a href='https://arxiv.org/abs/2607.12527v3'>Evidence-Grounded AI for Musculoskeletal Care</a></h3>
+<div class='meta'>Wenjie Li, Yujie Zhang, Fanrui Zhang, Haoran Sun, Renhao Yang, Junjun He, Weiran Huang, Yuanfeng Ji et al. | cs.AI | score <span class='score'>29.4</span> | updated 2026-07-21</div>
+<span class='pill'>cs.AI</span>
+<p>Musculoskeletal diseases are among the leading causes of disability and drive the greatest global need for rehabilitation. Relevant because: matches large language model, llm, language model, reasoning；your recent feedback likes: Liu；your recent feedback likes: across</p>
+</div>
+<div class='paper'>
+<h3>#14 <a href='https://arxiv.org/abs/2607.19259v1'>Benchmarking Generalization in Financial Statement Fraud Detection: robust evaluation and novel tasks</a></h3>
+<div class='meta'>Guy Stephane Waffo Dzuyo, Gaël Guibon, Christophe Cerisara, Luis Belmar-Letelier | cs.LG | score <span class='score'>27.1</span> | updated 2026-07-21</div>
+<span class='pill'>cs.LG</span>
+<span class='pill'>cs.AI</span>
+<p>Financial statement fraud detection (FSFD) is crucial for market integrity but faces challenges from increasingly sophisticated schemes and under-utilized textual data in financial reports. Relevant because: matches large language model, llm, language model, rag；your recent feedback likes: benchmark；your recent feedback likes: both</p>
+</div>
+<div class='paper'>
+<h3>#15 <a href='https://arxiv.org/abs/2605.22350v2'>Partial Fusion of Neural Networks: Efficient Tradeoffs Between Ensembles and Weight Aggregation</a></h3>
+<div class='meta'>Fabian Morelli, Stephan Eckstein | cs.LG | score <span class='score'>26.2</span> | updated 2026-07-21</div>
+<span class='pill'>cs.LG</span>
+<span class='pill'>stat.ML</span>
+<p>Ensembles of neural networks typically outperform individual networks but incur large computational costs, whereas weight aggregation produces less costly, yet also less accurate, aggregate models. Relevant because: your recent feedback likes: also；your recent feedback likes: between；your recent feedback likes: cannot</p>
 </div>
 <div class='feedback'><strong>反馈方式</strong><br>直接回复：多发 #3 类似的，少发 #1；多发 landscape / inference optimization / RLVR。</div>
 </body></html>
