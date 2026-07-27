@@ -1,146 +1,142 @@
 <!doctype html><html><head><meta charset='utf-8'>
 <style>body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Arial,sans-serif;line-height:1.55;color:#202124;max-width:860px;margin:24px auto;padding:0 16px;}h1{font-size:24px;}h2{font-size:20px;margin-top:28px;}h3{font-size:17px;margin-bottom:6px}.paper{border-top:1px solid #ddd;padding-top:16px;margin-top:16px}.meta{color:#5f6368;font-size:13px}.pill{display:inline-block;border:1px solid #dadce0;border-radius:12px;padding:1px 8px;margin:2px;color:#3c4043;font-size:12px}.score{color:#0b57d0}.feedback{background:#f8fafd;border:1px solid #dfe6f5;padding:12px;border-radius:8px;margin-top:28px}</style>
 </head><body>
-<h1>Daily arXiv - 2026-07-26</h1>
+<h1>Daily arXiv - 2026-07-27</h1>
 <p>Top 5 精读 + 10 篇一句话候选。你可以直接回复这封邮件来调整明天的偏好。</p>
 <h2>Top 5 精读</h2>
 <div class='paper'>
-<h3>#1 <a href='https://arxiv.org/abs/2607.21552v1'>MIRROR: Learning from the Other View for Multi-Modal Reasoning</a></h3>
-<div class='meta'>Wen Ye, Yuxiao Qu, Aviral Kumar, Xuezhe Ma | cs.AI | score <span class='score'>37.9</span> | updated 2026-07-23</div>
+<h3>#1 <a href='https://arxiv.org/abs/2607.21482v2'>Agentic coding without the cloud: evaluating open-weight large language models on longitudinal data preparation tasks</a></h3>
+<div class='meta'>Mack Nixon, Liam Wright, Yevgeniya Kovalchuk, Alison Fang-Wei Wu, Martin Danka, Andy Boyd, David Bann | cs.AI | score <span class='score'>63.5</span> | updated 2026-07-24</div>
 <span class='pill'>cs.AI</span>
-<span class='pill'>cs.LG</span>
-<p><strong>TL;DR:</strong> Unlike large language models (LLMs) that exhibit strong reasoning capabilities, vision-language models (VLMs) struggle with visual reasoning, even on geometry problems that admit equivalent text, diagram, and combined diagram+text views.</p>
-<p><strong>中文摘要:</strong> 这篇论文主要围绕 cs.AI 中的 reinforcement learning / post-training 展开。根据摘要，核心问题是：Unlike large language models (LLMs) that exhibit strong reasoning capabilities, vision-language models (VLMs) struggle with visual reasoning, even on geometry problems that admit equivalent text, diagram, and combined diagram+text views. 适合先作为候选阅读，再结合实验设置判断是否值得精读。</p>
-<p><strong>English Summary:</strong> Unlike large language models (LLMs) that exhibit strong reasoning capabilities, vision-language models (VLMs) struggle with visual reasoning, even on geometry problems that admit equivalent text, diagram, and combined diagram+text views. We show that these views often elicit different behaviors: a model may solve a problem from text but fail on the corresponding diagram, or succeed visually while failing textually. This inconsistency suggests that different views expose complementary reasoning paths and failure modes that standard multimodal post-training does not fully exploit.</p>
-<p><strong>方法 / Method:</strong> reinforcement learning / post-training</p>
-<p><strong>贡献 / Contribution:</strong> 提供新的评测视角或任务设置，可用于判断模型能力和研究空白。</p>
-<p><strong>局限 / Limitation:</strong> 可能依赖特定任务集，泛化到真实研究/生产场景仍需进一步验证。</p>
-<p><strong>为什么与你相关 / Why relevant:</strong> matches large language model, llm, language model, reasoning；strong interest: post-training；your recent feedback likes: across</p>
-</div>
-<div class='paper'>
-<h3>#2 <a href='https://arxiv.org/abs/2607.15557v4'>SkillCorpus: Consolidating and Evaluating the Open Skill Ecosystem for Real-World LLM Agents</a></h3>
-<div class='meta'>Yanze Wang, Pengfei Yao, Tianyi Sun, Chuanrui Hu, Yan Xiao, Yunyun Han, Yifan Chen, Jun Sun et al. | cs.CL | score <span class='score'>35.6</span> | updated 2026-07-23</div>
 <span class='pill'>cs.CL</span>
-<p><strong>TL;DR:</strong> Agent skills, SKILL files that package reusable procedural knowledge for an LLM agent, are a popular mechanism for extending agent capabilities.</p>
-<p><strong>中文摘要:</strong> 这篇论文主要围绕 cs.CL 中的 retrieval-augmented generation 展开。根据摘要，核心问题是：Agent skills, SKILL files that package reusable procedural knowledge for an LLM agent, are a popular mechanism for extending agent capabilities. Public repositories now host them in large and growing numbers, yet these artifacts are fragmented, redundant, and uneven in quality, and their value in practice is unclear. 适合先作为候选阅读，再结合实验设置判断是否值得精读。</p>
-<p><strong>English Summary:</strong> Agent skills, SKILL files that package reusable procedural knowledge for an LLM agent, are a popular mechanism for extending agent capabilities. Public repositories now host them in large and growing numbers, yet these artifacts are fragmented, redundant, and uneven in quality, and their value in practice is unclear. A core question remains open, namely how to consolidate this open-source SKILL ecosystem into a single usable corpus, and what bounds its benefit on real-world agent tasks.</p>
+<p><strong>TL;DR:</strong> Large language models (LLMs) and agents are now widely used tools in code development, with data typically sent to third-party cloud-based models.</p>
+<p><strong>中文摘要:</strong> 这篇论文主要围绕 cs.AI 中的 retrieval-augmented generation 展开。根据摘要，核心问题是：Large language models (LLMs) and agents are now widely used tools in code development, with data typically sent to third-party cloud-based models. Their adoption in research using personal data is constrained by governance requirements that typically prohibit data transmission to external services. 适合先作为候选阅读，再结合实验设置判断是否值得精读。</p>
+<p><strong>English Summary:</strong> Large language models (LLMs) and agents are now widely used tools in code development, with data typically sent to third-party cloud-based models. Their adoption in research using personal data is constrained by governance requirements that typically prohibit data transmission to external services. Locally deployable open-weight models offer an alternative since sensitive data never leave the local environment.</p>
 <p><strong>方法 / Method:</strong> retrieval-augmented generation</p>
-<p><strong>贡献 / Contribution:</strong> 提供领域结构、问题分类或趋势梳理，帮助更新 LLM landscape 认知地图。</p>
-<p><strong>局限 / Limitation:</strong> 可能依赖特定任务集，泛化到真实研究/生产场景仍需进一步验证。</p>
-<p><strong>为什么与你相关 / Why relevant:</strong> matches llm, agent, rag, taxonomy；your recent feedback likes: across；your recent feedback likes: agent</p>
-</div>
-<div class='paper'>
-<h3>#3 <a href='https://arxiv.org/abs/2607.21224v1'>Controlled Periodic Synchronization for Efficient Data-Parallel Training</a></h3>
-<div class='meta'>Imane Ettifouri, Mostapha Zbakh, Claude Tadonki | cs.DC | score <span class='score'>34.8</span> | updated 2026-07-23</div>
-<span class='pill'>cs.DC</span>
-<p><strong>TL;DR:</strong> Data-parallel training relies on frequent gradient synchronization across workers.</p>
-<p><strong>中文摘要:</strong> 这篇论文主要围绕 cs.DC 中的 retrieval-augmented generation 展开。根据摘要，核心问题是：Data-parallel training relies on frequent gradient synchronization across workers. Standard DDP synchronizes gradients at every iteration, which is effective on fast local-area networks but increasingly sensitive to communication latency and network variability in geographically distributed environments. 适合先作为候选阅读，再结合实验设置判断是否值得精读。</p>
-<p><strong>English Summary:</strong> Data-parallel training relies on frequent gradient synchronization across workers. Standard DDP synchronizes gradients at every iteration, which is effective on fast local-area networks but increasingly sensitive to communication latency and network variability in geographically distributed environments. Periodic methods such as LocalSGD reduce synchronization frequency but rely mainly on parameter averaging, which may be insufficient when worker trajectories diverge.</p>
-<p><strong>方法 / Method:</strong> retrieval-augmented generation</p>
-<p><strong>贡献 / Contribution:</strong> 尝试改善训练、推理或服务效率，对 LLM optimization 方向有参考价值。</p>
-<p><strong>局限 / Limitation:</strong> 效率收益可能受模型规模、硬件、batch 设置和实现细节影响，需关注实验配置。</p>
-<p><strong>为什么与你相关 / Why relevant:</strong> matches rag；your recent feedback likes: across；your recent feedback likes: control</p>
-</div>
-<div class='paper'>
-<h3>#4 <a href='https://arxiv.org/abs/2604.11666v2'>Playing Along: Learning a Double-Agent Defender for Belief Steering via Theory of Mind</a></h3>
-<div class='meta'>Hanqi Xiao, Vaidehi Patil, Zaid Khan, Hyunji Lee, Elias Stengel-Eskin, Mohit Bansal | cs.CL | score <span class='score'>34.7</span> | updated 2026-07-23</div>
-<span class='pill'>cs.CL</span>
-<span class='pill'>cs.AI</span>
-<span class='pill'>cs.LG</span>
-<p><strong>TL;DR:</strong> As large language models (LLMs) become the engine behind conversational systems, their ability to reason about the intentions and states of their dialogue partners (i.e., form and use a theory-of-mind, or ToM) becomes increasingly critical for safe interaction</p>
-<p><strong>中文摘要:</strong> 这篇论文主要围绕 cs.CL 中的 reinforcement learning / post-training 展开。根据摘要，核心问题是：As large language models (LLMs) become the engine behind conversational systems, their ability to reason about the intentions and states of their dialogue partners (i.e., form and use a theory-of-mind, or ToM) becomes increasingly critical for safe interaction with potentially adversarial partners. 适合先作为候选阅读，再结合实验设置判断是否值得精读。</p>
-<p><strong>English Summary:</strong> As large language models (LLMs) become the engine behind conversational systems, their ability to reason about the intentions and states of their dialogue partners (i.e., form and use a theory-of-mind, or ToM) becomes increasingly critical for safe interaction with potentially adversarial partners. We propose a novel privacy-themed ToM challenge, ToM for Steering Beliefs (ToM-SB), in which a defender must act as a Double Agent to steer the beliefs of an attacker with partial prior knowledge within a shared universe.</p>
-<p><strong>方法 / Method:</strong> reinforcement learning / post-training</p>
 <p><strong>贡献 / Contribution:</strong> 提供新的评测视角或任务设置，可用于判断模型能力和研究空白。</p>
 <p><strong>局限 / Limitation:</strong> 可能依赖特定任务集，泛化到真实研究/生产场景仍需进一步验证。</p>
 <p><strong>为什么与你相关 / Why relevant:</strong> matches large language model, llm, language model, agent；your recent feedback likes: across；your recent feedback likes: agent</p>
 </div>
 <div class='paper'>
-<h3>#5 <a href='https://arxiv.org/abs/2511.05385v2'>TeaRAG: A Token-Efficient Agentic Retrieval-Augmented Generation Framework</a></h3>
-<div class='meta'>Chao Zhang, Yuhao Wang, Derong Xu, Haoxin Zhang, Yuanjie Lyu, Yuhao Chen, Shuochen Liu, Tong Xu et al. | cs.IR | score <span class='score'>34.6</span> | updated 2026-07-23</div>
-<span class='pill'>cs.IR</span>
+<h3>#2 <a href='https://arxiv.org/abs/2607.22520v1'>The Regression Tax: Decomposing Why Skills Help and Hurt LLM Agents</a></h3>
+<div class='meta'>Darshan Tank, Baran Nama | cs.AI | score <span class='score'>62.1</span> | updated 2026-07-24</div>
 <span class='pill'>cs.AI</span>
-<p><strong>TL;DR:</strong> Retrieval-Augmented Generation (RAG) utilizes external knowledge to augment Large Language Models&#x27; (LLMs) reliability.</p>
-<p><strong>中文摘要:</strong> 这篇论文主要围绕 cs.IR 中的 reinforcement learning / post-training 展开。根据摘要，核心问题是：Retrieval-Augmented Generation (RAG) utilizes external knowledge to augment Large Language Models&#x27; (LLMs) reliability. For flexibility, agentic RAG employs autonomous, multi-round retrieval and reasoning to resolve queries. 适合先作为候选阅读，再结合实验设置判断是否值得精读。</p>
-<p><strong>English Summary:</strong> Retrieval-Augmented Generation (RAG) utilizes external knowledge to augment Large Language Models&#x27; (LLMs) reliability. For flexibility, agentic RAG employs autonomous, multi-round retrieval and reasoning to resolve queries. Although recent agentic RAG has improved via reinforcement learning, they often incur substantial token overhead from search and reasoning processes.</p>
-<p><strong>方法 / Method:</strong> reinforcement learning / post-training</p>
-<p><strong>贡献 / Contribution:</strong> 尝试改善训练、推理或服务效率，对 LLM optimization 方向有参考价值。</p>
-<p><strong>局限 / Limitation:</strong> 效率收益可能受模型规模、硬件、batch 设置和实现细节影响，需关注实验配置。</p>
-<p><strong>为什么与你相关 / Why relevant:</strong> matches large language model, llm, language model, agent；your recent feedback likes: Liu；your recent feedback likes: across</p>
+<p><strong>TL;DR:</strong> Adding procedural skills to an LLM agent is typically evaluated by average improvement in task success.</p>
+<p><strong>中文摘要:</strong> 这篇论文主要围绕 cs.AI 中的 retrieval-augmented generation 展开。根据摘要，核心问题是：Adding procedural skills to an LLM agent is typically evaluated by average improvement in task success. However, this metric hides an important cost: skills can also make agents worse. 适合先作为候选阅读，再结合实验设置判断是否值得精读。</p>
+<p><strong>English Summary:</strong> Adding procedural skills to an LLM agent is typically evaluated by average improvement in task success. However, this metric hides an important cost: skills can also make agents worse. We measure both sides by comparing agents with and without skills across nearly 6,000 runs spanning two office automation benchmarks and three model harness stacks.</p>
+<p><strong>方法 / Method:</strong> retrieval-augmented generation</p>
+<p><strong>贡献 / Contribution:</strong> 提供新的评测视角或任务设置，可用于判断模型能力和研究空白。</p>
+<p><strong>局限 / Limitation:</strong> 可能依赖特定任务集，泛化到真实研究/生产场景仍需进一步验证。</p>
+<p><strong>为什么与你相关 / Why relevant:</strong> matches llm, agent, rag, evaluation；your recent feedback likes: across；your recent feedback likes: adding</p>
+</div>
+<div class='paper'>
+<h3>#3 <a href='https://arxiv.org/abs/2605.01006v3'>Can AI Debias the News? LLM Interventions Improve Cross-Partisan Receptivity but LLMs Overestimate Their Own Effectiveness</a></h3>
+<div class='meta'>Faisal Feroz, Jonas R. Kunst | cs.CL | score <span class='score'>57.0</span> | updated 2026-07-24</div>
+<span class='pill'>cs.CL</span>
+<span class='pill'>cs.CY</span>
+<p><strong>TL;DR:</strong> Partisan news media erode cross-partisan trust, but large language models (LLMs) offer the potential of debiasing such content at scale.</p>
+<p><strong>中文摘要:</strong> 这篇论文主要围绕 cs.CL 中的 benchmark/evaluation 展开。根据摘要，核心问题是：Partisan news media erode cross-partisan trust, but large language models (LLMs) offer the potential of debiasing such content at scale. Across two pre-registered experiments, we tested whether LLM-generated debiasing of liberal news headlines improves conservative readers&#x27; trust-relevant judgments. 适合先作为候选阅读，再结合实验设置判断是否值得精读。</p>
+<p><strong>English Summary:</strong> Partisan news media erode cross-partisan trust, but large language models (LLMs) offer the potential of debiasing such content at scale. Across two pre-registered experiments, we tested whether LLM-generated debiasing of liberal news headlines improves conservative readers&#x27; trust-relevant judgments. In Study 1, subtle lexical debiasing (replacing emotive words with moderate synonyms) had no effect on any outcome.</p>
+<p><strong>方法 / Method:</strong> benchmark/evaluation</p>
+<p><strong>贡献 / Contribution:</strong> 提出或分析一种与 LLM/AI 系统相关的方法，具体贡献需结合正文实验确认。</p>
+<p><strong>局限 / Limitation:</strong> 当前只基于 arXiv 摘要判断，细节、消融和真实效果需要阅读全文确认。</p>
+<p><strong>为什么与你相关 / Why relevant:</strong> matches large language model, llm, language model；your recent feedback likes: across；your recent feedback likes: bias</p>
+</div>
+<div class='paper'>
+<h3>#4 <a href='https://arxiv.org/abs/2607.22118v1'>An AI-Driven Virtual Patient for Breaking Bad News: An Expert Formative Study on Facial Expression Intensity</a></h3>
+<div class='meta'>Steffen Hauck, Theresa Schell, Sophie Jörg, Jens Grubert | cs.HC | score <span class='score'>54.6</span> | updated 2026-07-24</div>
+<span class='pill'>cs.HC</span>
+<p><strong>TL;DR:</strong> Interactive virtual patients driven by large language models (LLMs) offer scalable solutions for medical communication training, such as breaking bad news.</p>
+<p><strong>中文摘要:</strong> 这篇论文主要围绕 cs.HC 中的 benchmark/evaluation 展开。根据摘要，核心问题是：Interactive virtual patients driven by large language models (LLMs) offer scalable solutions for medical communication training, such as breaking bad news. However, designing their emotional expressiveness remains a challenge. 适合先作为候选阅读，再结合实验设置判断是否值得精读。</p>
+<p><strong>English Summary:</strong> Interactive virtual patients driven by large language models (LLMs) offer scalable solutions for medical communication training, such as breaking bad news. However, designing their emotional expressiveness remains a challenge. This paper presents an AI-driven virtual patient framework combining LLM dialogue with real-time facial animation in virtual reality (VR).</p>
+<p><strong>方法 / Method:</strong> benchmark/evaluation</p>
+<p><strong>贡献 / Contribution:</strong> 提供新的评测视角或任务设置，可用于判断模型能力和研究空白。</p>
+<p><strong>局限 / Limitation:</strong> 可能依赖特定任务集，泛化到真实研究/生产场景仍需进一步验证。</p>
+<p><strong>为什么与你相关 / Why relevant:</strong> matches large language model, llm, language model, evaluation；your recent feedback likes: across；your recent feedback likes: body</p>
+</div>
+<div class='paper'>
+<h3>#5 <a href='https://arxiv.org/abs/2607.22445v1'>Dynamic Capability Scoping for Enterprise AI Agents: A Synthetic Dataset and Three-Source Permission Architecture</a></h3>
+<div class='meta'>Halil Burak Noyan | cs.AI | score <span class='score'>52.4</span> | updated 2026-07-24</div>
+<span class='pill'>cs.AI</span>
+<span class='pill'>cs.CR</span>
+<p><strong>TL;DR:</strong> Enterprise AI agents are typically granted static credential sets at configuration time, holding every tool the role might need for every task they perform.</p>
+<p><strong>中文摘要:</strong> 这篇论文主要围绕 cs.AI 中的 agent or tool-use evaluation 展开。根据摘要，核心问题是：Enterprise AI agents are typically granted static credential sets at configuration time, holding every tool the role might need for every task they perform. This persistent over-privilege expands the attack surface. 适合先作为候选阅读，再结合实验设置判断是否值得精读。</p>
+<p><strong>English Summary:</strong> Enterprise AI agents are typically granted static credential sets at configuration time, holding every tool the role might need for every task they perform. This persistent over-privilege expands the attack surface. We argue that capability scoping must follow a dynamic least-privilege principle and be treated as a prevention mechanism before a detection one.</p>
+<p><strong>方法 / Method:</strong> agent or tool-use evaluation</p>
+<p><strong>贡献 / Contribution:</strong> 提供领域结构、问题分类或趋势梳理，帮助更新 LLM landscape 认知地图。</p>
+<p><strong>局限 / Limitation:</strong> 可能依赖特定任务集，泛化到真实研究/生产场景仍需进一步验证。</p>
+<p><strong>为什么与你相关 / Why relevant:</strong> matches llm, agent, reasoning, alignment；your recent feedback likes: across；your recent feedback likes: against</p>
 </div>
 <h2>10 篇一句话候选</h2>
 <div class='paper'>
-<h3>#6 <a href='https://arxiv.org/abs/2607.21306v1'>AI Assistants Overassist</a></h3>
-<div class='meta'>Verona Teo, Raghav Jain, Tobias Gerstenberg, Max Kleiman-Weiner | cs.LG | score <span class='score'>33.5</span> | updated 2026-07-23</div>
+<h3>#6 <a href='https://arxiv.org/abs/2508.05618v2'>Learning to Reason for Factuality</a></h3>
+<div class='meta'>Xilun Chen, Ilia Kulikov, Vincent-Pierre Berges, Barlas Oğuz, Rulin Shao, Gargi Ghosh, Jason Weston, Wen-tau Yih | cs.CL | score <span class='score'>51.7</span> | updated 2026-07-24</div>
+<span class='pill'>cs.CL</span>
+<p>Reasoning Large Language Models (R-LLMs) have significantly advanced complex reasoning tasks but often struggle with factuality, generating substantially more hallucinations than their non-reasoning counterparts on long- Relevant because: matches large language model, llm, language model, reasoning；strong interest: reasoning model；your recent feedback likes: applies</p>
+</div>
+<div class='paper'>
+<h3>#7 <a href='https://arxiv.org/abs/2607.22408v1'>LunarFM: A Shared Multimodal Representation of the Moon&#x27;s Surface</a></h3>
+<div class='meta'>Marc Girona-Mata, Jakob Gawlikowski, Sumit Goski, Gautier Bardi de Fourtou, Valentin T. Bickel, Ben Moseley, Abigail Calzada-Diaz, Sylvester Kaczmarek et al. | cs.LG | score <span class='score'>51.3</span> | updated 2026-07-24</div>
 <span class='pill'>cs.LG</span>
+<p>The renewed global focus on lunar exploration, driven by the prospect of in-situ resource utilization and a sustained human presence on the Moon, has created growing demand for accurate, large-scale characterization of t Relevant because: matches foundation model, rag, multimodal；your recent feedback likes: Liu；your recent feedback likes: across</p>
+</div>
+<div class='paper'>
+<h3>#8 <a href='https://arxiv.org/abs/2607.20487v2'>Directional Hallucinations: Ideological Drift in News-Grounded LLM Question Answering</a></h3>
+<div class='meta'>Chendi Wang, Liam Cunningham, Tom Yishay, Jieying Chen | cs.AI | score <span class='score'>50.3</span> | updated 2026-07-24</div>
 <span class='pill'>cs.AI</span>
 <span class='pill'>cs.CL</span>
+<p>Large language models (LLMs) are increasingly used to answer questions about political information, including in election-adjacent information settings where factual errors and ideological distortions are high-stakes. Relevant because: matches large language model, llm, language model；your recent feedback likes: about；your recent feedback likes: across</p>
+</div>
+<div class='paper'>
+<h3>#9 <a href='https://arxiv.org/abs/2607.20757v2'>GaugeQuant: Online Learning of Quantization-Optimal Bases from LLM Symmetries</a></h3>
+<div class='meta'>Miguel P. Bento, João F. Seabra | cs.LG | score <span class='score'>49.4</span> | updated 2026-07-24</div>
+<span class='pill'>cs.LG</span>
+<span class='pill'>cs.CL</span>
+<p>Transformers are known to have internal continuous symmetries that leave outputs invariant, while modifying quantization. Relevant because: matches llm, language model, post-training, rag；strong interest: post-training；your recent feedback likes: continuous</p>
+</div>
+<div class='paper'>
+<h3>#10 <a href='https://arxiv.org/abs/2510.24668v2'>InteractComp: Evaluating Search Agents With Ambiguous Queries</a></h3>
+<div class='meta'>Mingyi Deng, Lijun Huang, Yani Fan, Fanqi Kong, Jiayi Zhang, Fashen Ren, Jinyi Bai, Fuzhen Yang et al. | cs.CL | score <span class='score'>49.0</span> | updated 2026-07-24</div>
+<span class='pill'>cs.CL</span>
+<span class='pill'>cs.AI</span>
+<p>Language agents have demonstrated remarkable potential in web search and information retrieval. Relevant because: matches agent, reasoning, evaluation；your recent feedback likes: across；your recent feedback likes: agent</p>
+</div>
+<div class='paper'>
+<h3>#11 <a href='https://arxiv.org/abs/2501.08951v2'>Analyzing the Ethical Logic of Eight Large Language Models</a></h3>
+<div class='meta'>W. Russell Neuman, Chad Coleman, Manan Shah | cs.AI | score <span class='score'>48.1</span> | updated 2026-07-24</div>
+<span class='pill'>cs.AI</span>
 <span class='pill'>cs.CY</span>
-<span class='pill'>cs.HC</span>
-<p>Large language models (LLMs) are increasingly used as tutors and thought partners, helping users reason through problems. Relevant because: matches large language model, llm, language model, reasoning；your recent feedback likes: across；your recent feedback likes: also</p>
+<p>This study examines the expressed ethical logic of eight prominent large language models from OpenAI, Meta, Perplexity, Anthropic, Google, Mistral, DeepSeek, and xAI. Relevant because: matches large language model, language model；your recent feedback likes: about；your recent feedback likes: across</p>
 </div>
 <div class='paper'>
-<h3>#7 <a href='https://arxiv.org/abs/2601.21284v2'>PILD: Physics-Informed Learning via Diffusion</a></h3>
-<div class='meta'>Tianyi Zeng, Tianyi Wang, Jiaru Zhang, Zimo Zeng, Feiyang Zhang, Yiming Xu, Sikai Chen, Junfeng Jiao et al. | cs.LG | score <span class='score'>31.2</span> | updated 2026-07-23</div>
-<span class='pill'>cs.LG</span>
-<span class='pill'>cs.AI</span>
-<span class='pill'>cs.ET</span>
-<span class='pill'>math.AP</span>
-<p>Diffusion models have emerged as powerful generative tools for modeling complex data distributions, yet their purely data-driven nature limits applicability in engineering and scientific problems where physical laws must Relevant because: matches alignment, rag；your recent feedback likes: across；your recent feedback likes: algebraic</p>
-</div>
-<div class='paper'>
-<h3>#8 <a href='https://arxiv.org/abs/2607.20064v2'>PRO-LONG: Programmatic Memory Enables Long-Horizon Reasoning</a></h3>
-<div class='meta'>Alexis Fox, Junlin Wang, Paul Rosu, Bhuwan Dhingra | cs.AI | score <span class='score'>30.1</span> | updated 2026-07-23</div>
-<span class='pill'>cs.AI</span>
-<p>Long-horizon tasks require sustained perception, reasoning, and exploration, and are a persistent challenge for large language model (LLM) agents. Relevant because: matches large language model, llm, language model, agent；your recent feedback likes: across；your recent feedback likes: agent</p>
-</div>
-<div class='paper'>
-<h3>#9 <a href='https://arxiv.org/abs/2607.09999v2'>Silent Failures in Quantized LLM Reasoning: A Taxonomy-Based Analysis of Hollow Convergence and Failure Mode Shifts</a></h3>
-<div class='meta'>Renuka Oladri, Mohan Vamsi Varadaraju Priya, Jerry Wu | cs.CL | score <span class='score'>29.8</span> | updated 2026-07-23</div>
+<h3>#12 <a href='https://arxiv.org/abs/2606.03021v2'>Hint-Guided Diversified Policy Optimization for LLM Reasoning</a></h3>
+<div class='meta'>Zhiyu Cao, Kaixin Wu, Mingjie Zhong, Peifeng Li, Xiaobo Li, Can Ye, Qiaoming Zhu | cs.CL | score <span class='score'>47.8</span> | updated 2026-07-24</div>
 <span class='pill'>cs.CL</span>
+<p>Recent developments in Large Language Models (LLMs) have showcased impressive reasoning capabilities, with Reinforcement Learning with Verifiable Rewards (RLVR) being a promising enhancement strategy. Relevant because: matches large language model, llm, language model, reasoning；your recent feedback likes: RLVR；your recent feedback likes: correctness</p>
+</div>
+<div class='paper'>
+<h3>#13 <a href='https://arxiv.org/abs/2607.21985v1'>Unified Static-Dynamic Pruning for Efficient LLM Inference</a></h3>
+<div class='meta'>Jinhyeok Kim, Yejoon Lee, Jaeyoung Do | cs.DC | score <span class='score'>47.1</span> | updated 2026-07-24</div>
+<span class='pill'>cs.DC</span>
+<span class='pill'>cs.AI</span>
+<span class='pill'>cs.AR</span>
 <span class='pill'>cs.LG</span>
-<p>We show that post-training quantization can silently alter how large language models reason even when task accuracy is preserved. Relevant because: matches large language model, llm, language model, reasoning；strong interest: post-training；your recent feedback likes: across</p>
+<p>The increasing deployment of large language models (LLMs) has magnified the computational and memory bottlenecks of autoregressive decoding, where low compute intensity and bandwidth-bound kernels dominate inference cost Relevant because: matches large language model, llm, language model, rag；strong interest: inference efficiency；your recent feedback likes: both</p>
 </div>
 <div class='paper'>
-<h3>#10 <a href='https://arxiv.org/abs/2603.12144v4'>O3N: Omnidirectional Open-Vocabulary Occupancy Prediction for Urban Autonomous Agents</a></h3>
-<div class='meta'>Mengfei Duan, Hao Shi, Fei Teng, Guoqiang Zhao, Yuheng Zhang, Zhiyong Li, Kailun Yang | cs.CV | score <span class='score'>28.6</span> | updated 2026-07-23</div>
-<span class='pill'>cs.CV</span>
-<span class='pill'>cs.RO</span>
-<span class='pill'>eess.IV</span>
-<p>Understanding and reconstructing the 3D world through omnidirectional perception is becoming increasingly important for intelligent transportation and urban autonomous agents operating in shared spaces. Relevant because: matches agent, alignment；your recent feedback likes: across；your recent feedback likes: agent</p>
+<h3>#14 <a href='https://arxiv.org/abs/2607.22493v1'>The V-fold jackknife for semiparametric inference: variance estimation, confidence intervals, and simultaneous confidence bands</a></h3>
+<div class='meta'>Yi Li, Ashkan Ertefaie, Mark van der Laan | stat.ME | score <span class='score'>47.0</span> | updated 2026-07-24</div>
+<span class='pill'>stat.ME</span>
+<span class='pill'>math.ST</span>
+<span class='pill'>stat.CO</span>
+<span class='pill'>stat.ML</span>
+<p>For decades, the bootstrap has been a default tool for statistical inference because of its broad applicability and minimal analytic requirements. Relevant because: matches rag；your recent feedback likes: also；your recent feedback likes: differ</p>
 </div>
 <div class='paper'>
-<h3>#11 <a href='https://arxiv.org/abs/2509.21028v5'>SciTrek: Evaluating and Improving Long-Context Numerical Reasoning over Scientific Articles</a></h3>
-<div class='meta'>Miao Li, Alexander Gurung, Irina Saparina, Mirella Lapata | cs.AI | score <span class='score'>28.2</span> | updated 2026-07-23</div>
+<h3>#15 <a href='https://arxiv.org/abs/2607.22375v1'>IDEAgent: Agentic Quality-Diversity Search for Research Idea Generation</a></h3>
+<div class='meta'>Varun Gumma, Navonil Majumder, Soumitra Sinhahajari, Soujanya Poria | cs.AI | score <span class='score'>46.4</span> | updated 2026-07-24</div>
 <span class='pill'>cs.AI</span>
-<p>We introduce SciTrek, a synthetic question-answering dataset for assessing and improving long-context numerical reasoning in large language models (LLMs). Relevant because: matches large language model, llm, language model, reasoning；strong interest: post-training；your recent feedback likes: analysis</p>
-</div>
-<div class='paper'>
-<h3>#12 <a href='https://arxiv.org/abs/2607.21143v1'>One More Turn, Less Regret: A Regret-Based Multi-Turn Benchmark for LLMs&#x27; Clarification Policies</a></h3>
-<div class='meta'>Minh Ngoc Ta, My Anh Tran Nguyen, Duong D. Nguyen, Yuxia Wang, Preslav Nakov | cs.CL | score <span class='score'>27.7</span> | updated 2026-07-23</div>
-<span class='pill'>cs.CL</span>
-<span class='pill'>cs.AI</span>
-<p>Ambiguous user requests make clarification a sequential decision problem for conversational LLM assistants: they must decide whether to ask, what to ask, when to stop, and when to answer. Relevant because: matches llm；your recent feedback likes: alone；your recent feedback likes: ambiguous</p>
-</div>
-<div class='paper'>
-<h3>#13 <a href='https://arxiv.org/abs/2607.21456v1'>SPDCN: Strip-based Deformable Convolutional Network for Steel Surface Defect Segmentation</a></h3>
-<div class='meta'>Zhongming Liu, Bingbing Jiang, Guangxin Wan, Xiang Zou | cs.CV | score <span class='score'>27.4</span> | updated 2026-07-23</div>
-<span class='pill'>cs.CV</span>
-<p>Steel surface defect segmentation is critical for industrial quality inspection, yet existing methods struggle with elongated, anisotropic defects such as cracks and scratches due to the isotropic receptive fields of sta Relevant because: your recent feedback likes: Liu；your recent feedback likes: across；your recent feedback likes: benchmark</p>
-</div>
-<div class='paper'>
-<h3>#14 <a href='https://arxiv.org/abs/2601.17647v3'>Knowledge-Guided Time-Varying Causal Inference for Arctic Sea Ice Dynamics</a></h3>
-<div class='meta'>Akila Sampath, Vandana Janeja, Jianwu Wang | cs.LG | score <span class='score'>27.2</span> | updated 2026-07-23</div>
-<span class='pill'>cs.LG</span>
-<span class='pill'>cs.AI</span>
-<p>Quantifying the causal relationship between sea ice thickness and sea surface height (SSH) is essential for understanding the mechanisms driving polar climate dynamics. Relevant because: matches rag, synthetic data；your recent feedback likes: against；your recent feedback likes: also</p>
-</div>
-<div class='paper'>
-<h3>#15 <a href='https://arxiv.org/abs/2603.11838v2'>DatedGPT: Preventing Lookahead Bias in Large Language Models with Time-Aware Pretraining</a></h3>
-<div class='meta'>Yutong Yan, Raphael Tang, Zhenyu Gao, Wenxi Jiang, Yao Lu | cs.CL | score <span class='score'>24.6</span> | updated 2026-07-23</div>
-<span class='pill'>cs.CL</span>
-<span class='pill'>q-fin.GN</span>
-<p>Large language models pretrained on internet-scale data risk lookahead bias in forecasting tasks, as they may have already seen the true outcome during training. Relevant because: matches large language model, language model, post-training；strong interest: post-training；your recent feedback likes: across</p>
+<p>Large Language Models (LLMs) have significantly automated the process of scientific discovery over the past few years. Relevant because: matches large language model, llm, language model, agent；your recent feedback likes: across；your recent feedback likes: against</p>
 </div>
 <div class='feedback'><strong>反馈方式</strong><br>直接回复：多发 #3 类似的，少发 #1；多发 landscape / inference optimization / RLVR。</div>
 </body></html>
