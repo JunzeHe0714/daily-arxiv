@@ -4,6 +4,7 @@
     "2312.00326",
     "2402.07518",
     "2404.08948",
+    "2408.12225",
     "2410.15267",
     "2411.13121",
     "2501.08951",
@@ -92,6 +93,7 @@
     "2601.21787",
     "2601.22588",
     "2602.00161",
+    "2602.01404",
     "2602.02320",
     "2602.05143",
     "2602.06154",
@@ -155,6 +157,7 @@
     "2604.23786",
     "2604.25202",
     "2604.25665",
+    "2604.26726",
     "2604.27792",
     "2605.01006",
     "2605.03723",
@@ -610,19 +613,31 @@
     "2607.21558",
     "2607.21574",
     "2607.21592",
+    "2607.21848",
     "2607.21985",
     "2607.22118",
     "2607.22375",
     "2607.22408",
     "2607.22445",
     "2607.22493",
-    "2607.22520"
+    "2607.22520",
+    "2607.23250",
+    "2607.23774",
+    "2607.24273",
+    "2607.24341",
+    "2607.24411",
+    "2607.24573",
+    "2607.24649",
+    "2607.24706",
+    "2607.24707",
+    "2607.24720"
   ],
   "sent_keys": [
     "2309.16843:2026-07-02T16:45:25Z",
     "2312.00326:2026-06-21T15:13:56Z",
     "2402.07518:2026-07-10T09:40:44Z",
     "2404.08948:2026-06-25T14:05:55Z",
+    "2408.12225:2026-07-27T15:39:04Z",
     "2410.15267:2026-07-16T14:27:01Z",
     "2411.13121:2026-07-02T11:21:31Z",
     "2501.08951:2026-07-24T14:30:56Z",
@@ -712,6 +727,7 @@
     "2601.21787:2026-06-29T08:37:59Z",
     "2601.22588:2026-07-09T09:10:35Z",
     "2602.00161:2026-06-17T12:42:15Z",
+    "2602.01404:2026-07-26T17:31:24Z",
     "2602.02320:2026-06-29T15:02:57Z",
     "2602.05143:2026-06-24T03:29:07Z",
     "2602.06154:2026-06-16T12:59:35Z",
@@ -778,6 +794,7 @@
     "2604.23786:2026-07-17T17:17:29Z",
     "2604.25202:2026-07-15T21:41:39Z",
     "2604.25665:2026-06-21T13:39:15Z",
+    "2604.26726:2026-07-27T15:15:18Z",
     "2604.27792:2026-07-15T07:09:44Z",
     "2605.01006:2026-07-24T14:29:35Z",
     "2605.03723:2026-07-16T12:42:56Z",
@@ -804,6 +821,7 @@
     "2606.01183:2026-07-09T16:31:23Z",
     "2606.02006:2026-07-23T15:22:18Z",
     "2606.03021:2026-07-24T07:13:48Z",
+    "2606.03021:2026-07-27T12:24:24Z",
     "2606.03238:2026-07-09T16:49:37Z",
     "2606.03367:2026-06-18T15:25:50Z",
     "2606.03979:2026-07-10T17:52:03Z",
@@ -1257,13 +1275,24 @@
     "2607.21558:2026-07-23T17:40:07Z",
     "2607.21574:2026-07-23T17:54:37Z",
     "2607.21592:2026-07-23T17:59:50Z",
+    "2607.21848:2026-07-27T16:34:17Z",
     "2607.21985:2026-07-24T05:19:41Z",
     "2607.22118:2026-07-24T09:12:19Z",
     "2607.22375:2026-07-24T15:03:14Z",
     "2607.22408:2026-07-24T15:25:20Z",
     "2607.22445:2026-07-24T16:08:03Z",
     "2607.22493:2026-07-24T17:05:54Z",
-    "2607.22520:2026-07-24T17:50:03Z"
+    "2607.22520:2026-07-24T17:50:03Z",
+    "2607.23250:2026-07-25T15:21:25Z",
+    "2607.23774:2026-07-26T17:51:23Z",
+    "2607.24273:2026-07-27T11:12:50Z",
+    "2607.24341:2026-07-27T12:18:59Z",
+    "2607.24411:2026-07-27T13:27:00Z",
+    "2607.24573:2026-07-27T15:38:29Z",
+    "2607.24649:2026-07-27T16:47:27Z",
+    "2607.24706:2026-07-27T17:46:18Z",
+    "2607.24707:2026-07-27T17:46:43Z",
+    "2607.24720:2026-07-27T17:55:03Z"
   ],
   "sent_log": [
     {
@@ -6425,6 +6454,126 @@
       "sent_key": "2607.22375:2026-07-24T15:03:14Z",
       "title": "IDEAgent: Agentic Quality-Diversity Search for Research Idea Generation",
       "updated": "2026-07-24T15:03:14Z"
+    },
+    {
+      "arxiv_id": "2607.24273",
+      "score": 71.9,
+      "sent_at": "2026-07-28T12:30:40.009163+08:00",
+      "sent_key": "2607.24273:2026-07-27T11:12:50Z",
+      "title": "INS-ActBench: A Comprehensive Benchmark for Assessing Professional Actuarial Capability of Large Language Models",
+      "updated": "2026-07-27T11:12:50Z"
+    },
+    {
+      "arxiv_id": "2607.24341",
+      "score": 65.0,
+      "sent_at": "2026-07-28T12:30:40.009163+08:00",
+      "sent_key": "2607.24341:2026-07-27T12:18:59Z",
+      "title": "Simulating Tenant Responses to Energy Policy Interventions with Transaction-Cost-Aware LLM Age",
+      "updated": "2026-07-27T12:18:59Z"
+    },
+    {
+      "arxiv_id": "2607.23250",
+      "score": 61.3,
+      "sent_at": "2026-07-28T12:30:40.009163+08:00",
+      "sent_key": "2607.23250:2026-07-25T15:21:25Z",
+      "title": "Libra: Taming Attention Workload Skew in Long-Context LLM Training with Bounded Sequence Pool",
+      "updated": "2026-07-25T15:21:25Z"
+    },
+    {
+      "arxiv_id": "2604.26726",
+      "score": 59.4,
+      "sent_at": "2026-07-28T12:30:40.009163+08:00",
+      "sent_key": "2604.26726:2026-07-27T15:15:18Z",
+      "title": "Swap distance minimization shapes the order of subject, object and verb in languages of the world",
+      "updated": "2026-07-27T15:15:18Z"
+    },
+    {
+      "arxiv_id": "2607.24573",
+      "score": 58.7,
+      "sent_at": "2026-07-28T12:30:40.009163+08:00",
+      "sent_key": "2607.24573:2026-07-27T15:38:29Z",
+      "title": "LLM-SoccerArena: Benchmarking LLMs on Real-World Predictions in Sports",
+      "updated": "2026-07-27T15:38:29Z"
+    },
+    {
+      "arxiv_id": "2607.24720",
+      "score": 54.7,
+      "sent_at": "2026-07-28T12:30:40.009163+08:00",
+      "sent_key": "2607.24720:2026-07-27T17:55:03Z",
+      "title": "The Physics of Multi-Turn Long-Horizon Planning: From Pre-training to Post-training via Single- and Multi-Teacher On-Policy Agentic Distillation",
+      "updated": "2026-07-27T17:55:03Z"
+    },
+    {
+      "arxiv_id": "2607.24706",
+      "score": 54.5,
+      "sent_at": "2026-07-28T12:30:40.009163+08:00",
+      "sent_key": "2607.24706:2026-07-27T17:46:18Z",
+      "title": "SADe: Sparse-Atom Support Decontamination for Few-Shot Segmentation with Weak Support Annotations",
+      "updated": "2026-07-27T17:46:18Z"
+    },
+    {
+      "arxiv_id": "2607.24649",
+      "score": 51.7,
+      "sent_at": "2026-07-28T12:30:40.009163+08:00",
+      "sent_key": "2607.24649:2026-07-27T16:47:27Z",
+      "title": "Reason-Mediated Behavioral Models for Auditing LLM Social Simulators",
+      "updated": "2026-07-27T16:47:27Z"
+    },
+    {
+      "arxiv_id": "2607.24411",
+      "score": 50.2,
+      "sent_at": "2026-07-28T12:30:40.009163+08:00",
+      "sent_key": "2607.24411:2026-07-27T13:27:00Z",
+      "title": "Occluded Oculus: Operationalizing Stylistic Obscurement",
+      "updated": "2026-07-27T13:27:00Z"
+    },
+    {
+      "arxiv_id": "2606.03021",
+      "score": 50.2,
+      "sent_at": "2026-07-28T12:30:40.009163+08:00",
+      "sent_key": "2606.03021:2026-07-27T12:24:24Z",
+      "title": "Hint-Guided Diversified Policy Optimization for LLM Reasoning",
+      "updated": "2026-07-27T12:24:24Z"
+    },
+    {
+      "arxiv_id": "2607.23774",
+      "score": 45.7,
+      "sent_at": "2026-07-28T12:30:40.009163+08:00",
+      "sent_key": "2607.23774:2026-07-26T17:51:23Z",
+      "title": "Semantic-Enhanced Automatic Refinement of Architecture Recovery Results Using LLMs",
+      "updated": "2026-07-26T17:51:23Z"
+    },
+    {
+      "arxiv_id": "2602.01404",
+      "score": 45.4,
+      "sent_at": "2026-07-28T12:30:40.009163+08:00",
+      "sent_key": "2602.01404:2026-07-26T17:31:24Z",
+      "title": "BOA Constrictor: Squeezing Performance out of GPUs in the Cloud via Budget-Optimal Allocation",
+      "updated": "2026-07-26T17:31:24Z"
+    },
+    {
+      "arxiv_id": "2408.12225",
+      "score": 44.9,
+      "sent_at": "2026-07-28T12:30:40.009163+08:00",
+      "sent_key": "2408.12225:2026-07-27T15:39:04Z",
+      "title": "Fair Combinatorial Auctions: Endogenous Best Execution in Blockchain Trade-Intent Markets",
+      "updated": "2026-07-27T15:39:04Z"
+    },
+    {
+      "arxiv_id": "2607.21848",
+      "score": 42.8,
+      "sent_at": "2026-07-28T12:30:40.009163+08:00",
+      "sent_key": "2607.21848:2026-07-27T16:34:17Z",
+      "title": "Closing the Loop: Training-Free Revisit Consistency for Autoregressive Generative Rendering",
+      "updated": "2026-07-27T16:34:17Z"
+    },
+    {
+      "arxiv_id": "2607.24707",
+      "score": 42.6,
+      "sent_at": "2026-07-28T12:30:40.009163+08:00",
+      "sent_key": "2607.24707:2026-07-27T17:46:43Z",
+      "title": "ERUnderstand: Evaluating Vision-Language Models on Structured ER Diagrams",
+      "updated": "2026-07-27T17:46:43Z"
     }
   ]
 }
