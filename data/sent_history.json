@@ -16,6 +16,7 @@
     "2502.18959",
     "2503.07459",
     "2504.17547",
+    "2504.19621",
     "2504.20763",
     "2505.07078",
     "2505.19889",
@@ -124,6 +125,7 @@
     "2603.10254",
     "2603.10446",
     "2603.11021",
+    "2603.11797",
     "2603.11838",
     "2603.11928",
     "2603.12037",
@@ -372,6 +374,7 @@
     "2606.27369",
     "2606.27376",
     "2606.27745",
+    "2606.27814",
     "2606.27826",
     "2606.27828",
     "2606.27999",
@@ -645,7 +648,17 @@
     "2607.25726",
     "2607.25828",
     "2607.25914",
-    "2607.25995"
+    "2607.25995",
+    "2607.26475",
+    "2607.26825",
+    "2607.26831",
+    "2607.26849",
+    "2607.26854",
+    "2607.26862",
+    "2607.26987",
+    "2607.27002",
+    "2607.27100",
+    "2607.27205"
   ],
   "sent_keys": [
     "2309.16843:2026-07-02T16:45:25Z",
@@ -664,6 +677,7 @@
     "2502.18959:2026-06-11T15:45:06Z",
     "2503.07459:2026-06-16T17:07:03Z",
     "2504.17547:2026-06-15T06:48:22Z",
+    "2504.19621:2026-07-29T09:50:10Z",
     "2504.20763:2026-07-09T12:41:28Z",
     "2505.07078:2026-06-26T15:42:23Z",
     "2505.19889:2026-07-01T14:20:16Z",
@@ -775,6 +789,7 @@
     "2603.10254:2026-07-09T11:56:31Z",
     "2603.10446:2026-06-25T16:22:23Z",
     "2603.11021:2026-07-07T12:10:29Z",
+    "2603.11797:2026-07-28T07:56:19Z",
     "2603.11838:2026-07-23T15:24:41Z",
     "2603.11928:2026-07-10T17:13:46Z",
     "2603.12037:2026-07-22T17:18:17Z",
@@ -1031,6 +1046,7 @@
     "2606.27369:2026-06-25T17:59:36Z",
     "2606.27376:2026-06-25T17:59:57Z",
     "2606.27745:2026-07-15T13:11:28Z",
+    "2606.27814:2026-07-29T11:44:27Z",
     "2606.27826:2026-06-26T08:10:39Z",
     "2606.27828:2026-06-26T08:12:04Z",
     "2606.27999:2026-06-26T11:52:37Z",
@@ -1098,6 +1114,7 @@
     "2607.02448:2026-07-02T17:19:41Z",
     "2607.02460:2026-07-02T17:27:24Z",
     "2607.02464:2026-07-02T17:30:38Z",
+    "2607.02464:2026-07-29T17:00:34Z",
     "2607.02471:2026-07-02T17:39:23Z",
     "2607.02479:2026-07-02T17:47:27Z",
     "2607.02484:2026-07-02T17:50:57Z",
@@ -1239,6 +1256,7 @@
     "2607.15271:2026-07-16T17:58:18Z",
     "2607.15557:2026-07-23T10:15:08Z",
     "2607.15715:2026-07-17T07:51:09Z",
+    "2607.15715:2026-07-29T16:36:23Z",
     "2607.16072:2026-07-17T15:56:52Z",
     "2607.16178:2026-07-17T17:56:51Z",
     "2607.16183:2026-07-17T17:57:49Z",
@@ -1322,7 +1340,17 @@
     "2607.25726:2026-07-28T13:49:51Z",
     "2607.25828:2026-07-28T15:07:47Z",
     "2607.25914:2026-07-28T16:06:41Z",
-    "2607.25995:2026-07-28T17:12:12Z"
+    "2607.25995:2026-07-28T17:12:12Z",
+    "2607.26475:2026-07-29T05:01:42Z",
+    "2607.26825:2026-07-29T12:18:36Z",
+    "2607.26831:2026-07-29T12:23:15Z",
+    "2607.26849:2026-07-29T12:35:58Z",
+    "2607.26854:2026-07-29T12:37:19Z",
+    "2607.26862:2026-07-29T12:45:55Z",
+    "2607.26987:2026-07-29T14:45:05Z",
+    "2607.27002:2026-07-29T14:58:36Z",
+    "2607.27100:2026-07-29T16:27:36Z",
+    "2607.27205:2026-07-29T17:59:58Z"
   ],
   "sent_log": [
     {
@@ -6724,6 +6752,126 @@
       "sent_key": "2505.22799:2026-07-28T17:44:54Z",
       "title": "Theory and simulation of elastoinertial rectification of oscillatory flows in two-dimensional deformable rectangular channels",
       "updated": "2026-07-28T17:44:54Z"
+    },
+    {
+      "arxiv_id": "2607.27100",
+      "score": 103.9,
+      "sent_at": "2026-07-30T12:23:21.670521+08:00",
+      "sent_key": "2607.27100:2026-07-29T16:27:36Z",
+      "title": "Can Large Language Models Represent Urban Publics? Behavioral Replication and Population Mismatch in an Affordable-Housing Experiment",
+      "updated": "2026-07-29T16:27:36Z"
+    },
+    {
+      "arxiv_id": "2504.19621",
+      "score": 59.4,
+      "sent_at": "2026-07-30T12:23:21.670521+08:00",
+      "sent_key": "2504.19621:2026-07-29T09:50:10Z",
+      "title": "AI Alignment in Medical Imaging: Unveiling Hidden Biases Through Counterfactual Analysis",
+      "updated": "2026-07-29T09:50:10Z"
+    },
+    {
+      "arxiv_id": "2607.26854",
+      "score": 56.2,
+      "sent_at": "2026-07-30T12:23:21.670521+08:00",
+      "sent_key": "2607.26854:2026-07-29T12:37:19Z",
+      "title": "TREA-Net: A Transferable Residual Epidemiological Adaptation Network for Dengue Incidence Forecasting",
+      "updated": "2026-07-29T12:37:19Z"
+    },
+    {
+      "arxiv_id": "2606.27814",
+      "score": 55.4,
+      "sent_at": "2026-07-30T12:23:21.670521+08:00",
+      "sent_key": "2606.27814:2026-07-29T11:44:27Z",
+      "title": "ATOD: Annealed Turn-Aware On-Policy Distillation for Multi-Turn Agentic Tasks",
+      "updated": "2026-07-29T11:44:27Z"
+    },
+    {
+      "arxiv_id": "2607.27002",
+      "score": 52.9,
+      "sent_at": "2026-07-30T12:23:21.670521+08:00",
+      "sent_key": "2607.27002:2026-07-29T14:58:36Z",
+      "title": "IMFuse: Instance-Aware Multi-Layer Fusion for LLM-Enhanced Sequential Recommendation",
+      "updated": "2026-07-29T14:58:36Z"
+    },
+    {
+      "arxiv_id": "2607.27205",
+      "score": 52.2,
+      "sent_at": "2026-07-30T12:23:21.670521+08:00",
+      "sent_key": "2607.27205:2026-07-29T17:59:58Z",
+      "title": "TurboVLA: Real-Time Vision-Language-Action Model at 32 Hz on an RTX 4090 with <1 GB VRAM",
+      "updated": "2026-07-29T17:59:58Z"
+    },
+    {
+      "arxiv_id": "2607.02464",
+      "score": 50.9,
+      "sent_at": "2026-07-30T12:23:21.670521+08:00",
+      "sent_key": "2607.02464:2026-07-29T17:00:34Z",
+      "title": "Will Scaling Improve Social Simulation with LLMs?",
+      "updated": "2026-07-29T17:00:34Z"
+    },
+    {
+      "arxiv_id": "2607.26825",
+      "score": 48.9,
+      "sent_at": "2026-07-30T12:23:21.670521+08:00",
+      "sent_key": "2607.26825:2026-07-29T12:18:36Z",
+      "title": "From Found to Designed: Concepts as a Design Axis for Large Language Models",
+      "updated": "2026-07-29T12:18:36Z"
+    },
+    {
+      "arxiv_id": "2607.26862",
+      "score": 48.4,
+      "sent_at": "2026-07-30T12:23:21.670521+08:00",
+      "sent_key": "2607.26862:2026-07-29T12:45:55Z",
+      "title": "ReCo: Reweighting GRPO Against Distributional Concentration",
+      "updated": "2026-07-29T12:45:55Z"
+    },
+    {
+      "arxiv_id": "2607.26987",
+      "score": 47.6,
+      "sent_at": "2026-07-30T12:23:21.670521+08:00",
+      "sent_key": "2607.26987:2026-07-29T14:45:05Z",
+      "title": "How Developers Experience Debugging Unfamiliar Codebases with Code Tours Generated and Evaluated by Local LLMs",
+      "updated": "2026-07-29T14:45:05Z"
+    },
+    {
+      "arxiv_id": "2603.11797",
+      "score": 46.2,
+      "sent_at": "2026-07-30T12:23:21.670521+08:00",
+      "sent_key": "2603.11797:2026-07-28T07:56:19Z",
+      "title": "The Carnot Bound: Limits and Possibilities for Bandwidth-Efficient Consensus",
+      "updated": "2026-07-28T07:56:19Z"
+    },
+    {
+      "arxiv_id": "2607.15715",
+      "score": 45.6,
+      "sent_at": "2026-07-30T12:23:21.670521+08:00",
+      "sent_key": "2607.15715:2026-07-29T16:36:23Z",
+      "title": "Behavioral Controllability of Agentic Models for Information Extraction: From Fixed Workflows to Reflective Agents",
+      "updated": "2026-07-29T16:36:23Z"
+    },
+    {
+      "arxiv_id": "2607.26849",
+      "score": 45.3,
+      "sent_at": "2026-07-30T12:23:21.670521+08:00",
+      "sent_key": "2607.26849:2026-07-29T12:35:58Z",
+      "title": "ToxScreen: Detecting Whether an LLM Has Been Poisoned",
+      "updated": "2026-07-29T12:35:58Z"
+    },
+    {
+      "arxiv_id": "2607.26831",
+      "score": 45.1,
+      "sent_at": "2026-07-30T12:23:21.670521+08:00",
+      "sent_key": "2607.26831:2026-07-29T12:23:15Z",
+      "title": "Language Models are not Equally Robust to Non-Canonical Tokenization across Languages",
+      "updated": "2026-07-29T12:23:15Z"
+    },
+    {
+      "arxiv_id": "2607.26475",
+      "score": 43.5,
+      "sent_at": "2026-07-30T12:23:21.670521+08:00",
+      "sent_key": "2607.26475:2026-07-29T05:01:42Z",
+      "title": "DualDecoder: Accelerate Long Context LLM Inference by Predictive Prefetch",
+      "updated": "2026-07-29T05:01:42Z"
     }
   ]
 }
