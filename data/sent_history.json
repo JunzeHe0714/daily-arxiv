@@ -5,6 +5,7 @@
     "2402.07518",
     "2404.08948",
     "2408.12225",
+    "2410.06458",
     "2410.15267",
     "2411.13121",
     "2501.08951",
@@ -112,6 +113,7 @@
     "2602.15819",
     "2602.17655",
     "2602.17663",
+    "2602.17811",
     "2602.18154",
     "2602.18548",
     "2602.18645",
@@ -658,7 +660,19 @@
     "2607.26987",
     "2607.27002",
     "2607.27100",
-    "2607.27205"
+    "2607.27205",
+    "2607.27760",
+    "2607.28077",
+    "2607.28103",
+    "2607.28136",
+    "2607.28269",
+    "2607.28282",
+    "2607.28290",
+    "2607.28292",
+    "2607.28408",
+    "2607.28496",
+    "2607.28525",
+    "2607.28617"
   ],
   "sent_keys": [
     "2309.16843:2026-07-02T16:45:25Z",
@@ -666,6 +680,7 @@
     "2402.07518:2026-07-10T09:40:44Z",
     "2404.08948:2026-06-25T14:05:55Z",
     "2408.12225:2026-07-27T15:39:04Z",
+    "2410.06458:2026-07-30T17:39:25Z",
     "2410.15267:2026-07-16T14:27:01Z",
     "2411.13121:2026-07-02T11:21:31Z",
     "2501.08951:2026-07-24T14:30:56Z",
@@ -775,6 +790,7 @@
     "2602.17655:2026-06-22T16:39:17Z",
     "2602.17663:2026-06-24T11:59:17Z",
     "2602.17663:2026-06-25T09:35:23Z",
+    "2602.17811:2026-07-30T13:37:56Z",
     "2602.18154:2026-06-11T12:26:22Z",
     "2602.18548:2026-07-14T14:31:13Z",
     "2602.18548:2026-07-15T01:52:02Z",
@@ -1343,6 +1359,7 @@
     "2607.25995:2026-07-28T17:12:12Z",
     "2607.26475:2026-07-29T05:01:42Z",
     "2607.26825:2026-07-29T12:18:36Z",
+    "2607.26825:2026-07-30T15:41:13Z",
     "2607.26831:2026-07-29T12:23:15Z",
     "2607.26849:2026-07-29T12:35:58Z",
     "2607.26854:2026-07-29T12:37:19Z",
@@ -1350,7 +1367,19 @@
     "2607.26987:2026-07-29T14:45:05Z",
     "2607.27002:2026-07-29T14:58:36Z",
     "2607.27100:2026-07-29T16:27:36Z",
-    "2607.27205:2026-07-29T17:59:58Z"
+    "2607.27205:2026-07-29T17:59:58Z",
+    "2607.27760:2026-07-30T06:58:37Z",
+    "2607.28077:2026-07-30T11:50:10Z",
+    "2607.28103:2026-07-30T12:11:49Z",
+    "2607.28136:2026-07-30T12:45:49Z",
+    "2607.28269:2026-07-30T14:23:01Z",
+    "2607.28282:2026-07-30T14:31:07Z",
+    "2607.28290:2026-07-30T14:35:36Z",
+    "2607.28292:2026-07-30T14:36:11Z",
+    "2607.28408:2026-07-30T15:56:11Z",
+    "2607.28496:2026-07-30T16:41:55Z",
+    "2607.28525:2026-07-30T17:01:20Z",
+    "2607.28617:2026-07-30T17:58:58Z"
   ],
   "sent_log": [
     {
@@ -6872,6 +6901,126 @@
       "sent_key": "2607.26475:2026-07-29T05:01:42Z",
       "title": "DualDecoder: Accelerate Long Context LLM Inference by Predictive Prefetch",
       "updated": "2026-07-29T05:01:42Z"
+    },
+    {
+      "arxiv_id": "2607.28282",
+      "score": 110.4,
+      "sent_at": "2026-07-31T12:45:23.034980+08:00",
+      "sent_key": "2607.28282:2026-07-30T14:31:07Z",
+      "title": "(Towards) Scalable Reliable Automated Evaluation with Large Language Models",
+      "updated": "2026-07-30T14:31:07Z"
+    },
+    {
+      "arxiv_id": "2607.28136",
+      "score": 70.7,
+      "sent_at": "2026-07-31T12:45:23.034980+08:00",
+      "sent_key": "2607.28136:2026-07-30T12:45:49Z",
+      "title": "Extended Depth-First Representations of $k^2$-trees",
+      "updated": "2026-07-30T12:45:49Z"
+    },
+    {
+      "arxiv_id": "2607.28290",
+      "score": 67.7,
+      "sent_at": "2026-07-31T12:45:23.034980+08:00",
+      "sent_key": "2607.28290:2026-07-30T14:35:36Z",
+      "title": "FAIR-Compute: A Roadmap for Fair and Efficient Allocation of Federated Digital Research Infrastructure",
+      "updated": "2026-07-30T14:35:36Z"
+    },
+    {
+      "arxiv_id": "2607.28077",
+      "score": 64.3,
+      "sent_at": "2026-07-31T12:45:23.034980+08:00",
+      "sent_key": "2607.28077:2026-07-30T11:50:10Z",
+      "title": "LEEPS: Latent-Guided Explore-Exploit Prompt Sampling for Efficient RLVR in Large Language Models",
+      "updated": "2026-07-30T11:50:10Z"
+    },
+    {
+      "arxiv_id": "2410.06458",
+      "score": 63.8,
+      "sent_at": "2026-07-31T12:45:23.034980+08:00",
+      "sent_key": "2410.06458:2026-07-30T17:39:25Z",
+      "title": "LLM Self-Correction with DeCRIM: Decompose, Critique, and Refine for Enhanced Following of Instructions with Multiple Constraints",
+      "updated": "2026-07-30T17:39:25Z"
+    },
+    {
+      "arxiv_id": "2607.26825",
+      "score": 61.4,
+      "sent_at": "2026-07-31T12:45:23.034980+08:00",
+      "sent_key": "2607.26825:2026-07-30T15:41:13Z",
+      "title": "From Found to Designed: Concepts as a Design Axis for Large Language Models",
+      "updated": "2026-07-30T15:41:13Z"
+    },
+    {
+      "arxiv_id": "2607.28617",
+      "score": 55.7,
+      "sent_at": "2026-07-31T12:45:23.034980+08:00",
+      "sent_key": "2607.28617:2026-07-30T17:58:58Z",
+      "title": "AISPA: User-Centric System Prompt Auditing for Large Language Model Applications",
+      "updated": "2026-07-30T17:58:58Z"
+    },
+    {
+      "arxiv_id": "2607.28269",
+      "score": 55.0,
+      "sent_at": "2026-07-31T12:45:23.034980+08:00",
+      "sent_key": "2607.28269:2026-07-30T14:23:01Z",
+      "title": "Theia: Large-Scale Multimodal Captioning and Automated Validation of the Incidents1M Dataset for Data-Free Distillation",
+      "updated": "2026-07-30T14:23:01Z"
+    },
+    {
+      "arxiv_id": "2607.27760",
+      "score": 54.5,
+      "sent_at": "2026-07-31T12:45:23.034980+08:00",
+      "sent_key": "2607.27760:2026-07-30T06:58:37Z",
+      "title": "Hierarchical Latent Reasoning for LLM-based Recommendation",
+      "updated": "2026-07-30T06:58:37Z"
+    },
+    {
+      "arxiv_id": "2607.28525",
+      "score": 54.3,
+      "sent_at": "2026-07-31T12:45:23.034980+08:00",
+      "sent_key": "2607.28525:2026-07-30T17:01:20Z",
+      "title": "Same Graph Cross-Task Transfer in GNNs: Protocols and Predictors",
+      "updated": "2026-07-30T17:01:20Z"
+    },
+    {
+      "arxiv_id": "2607.28408",
+      "score": 54.2,
+      "sent_at": "2026-07-31T12:45:23.034980+08:00",
+      "sent_key": "2607.28408:2026-07-30T15:56:11Z",
+      "title": "On-Policy and Off-Policy Learning for Large Action Spaces",
+      "updated": "2026-07-30T15:56:11Z"
+    },
+    {
+      "arxiv_id": "2607.28103",
+      "score": 52.6,
+      "sent_at": "2026-07-31T12:45:23.034980+08:00",
+      "sent_key": "2607.28103:2026-07-30T12:11:49Z",
+      "title": "MIND: Lightweight and Effective Memory Injection Defense for LLM Agents via Intent-Aware Information Bottleneck",
+      "updated": "2026-07-30T12:11:49Z"
+    },
+    {
+      "arxiv_id": "2602.17811",
+      "score": 52.3,
+      "sent_at": "2026-07-31T12:45:23.034980+08:00",
+      "sent_key": "2602.17811:2026-07-30T13:37:56Z",
+      "title": "Faster Parallel Batch-Dynamic Algorithms for Low Out-Degree Orientation",
+      "updated": "2026-07-30T13:37:56Z"
+    },
+    {
+      "arxiv_id": "2607.28496",
+      "score": 49.8,
+      "sent_at": "2026-07-31T12:45:23.034980+08:00",
+      "sent_key": "2607.28496:2026-07-30T16:41:55Z",
+      "title": "Beyond Sentiment: Structured Information Extraction from Financial News",
+      "updated": "2026-07-30T16:41:55Z"
+    },
+    {
+      "arxiv_id": "2607.28292",
+      "score": 48.2,
+      "sent_at": "2026-07-31T12:45:23.034980+08:00",
+      "sent_key": "2607.28292:2026-07-30T14:36:11Z",
+      "title": "CACHE-UK: A Stability-Aware Memory Editor for Sequentially Updated Quantized LLMs in Finance",
+      "updated": "2026-07-30T14:36:11Z"
     }
   ]
 }
