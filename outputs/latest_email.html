@@ -1,138 +1,137 @@
 <!doctype html><html><head><meta charset='utf-8'>
 <style>body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Arial,sans-serif;line-height:1.55;color:#202124;max-width:860px;margin:24px auto;padding:0 16px;}h1{font-size:24px;}h2{font-size:20px;margin-top:28px;}h3{font-size:17px;margin-bottom:6px}.paper{border-top:1px solid #ddd;padding-top:16px;margin-top:16px}.meta{color:#5f6368;font-size:13px}.pill{display:inline-block;border:1px solid #dadce0;border-radius:12px;padding:1px 8px;margin:2px;color:#3c4043;font-size:12px}.score{color:#0b57d0}.feedback{background:#f8fafd;border:1px solid #dfe6f5;padding:12px;border-radius:8px;margin-top:28px}</style>
 </head><body>
-<h1>Daily arXiv - 2026-08-04</h1>
+<h1>Daily arXiv - 2026-08-05</h1>
 <p>Top 5 精读 + 10 篇一句话候选。你可以直接回复这封邮件来调整明天的偏好。</p>
 <h2>Top 5 精读</h2>
 <div class='paper'>
-<h3>#1 <a href='https://arxiv.org/abs/2511.00382v2'>Efficiency vs. Alignment: Investigating Safety and Fairness Risks in Parameter-Efficient Fine-Tuning of LLMs</a></h3>
-<div class='meta'>Mina Taraghi, Yann Pequignot, Amin Nikanjam, Mohamed Amine Merzouk, Foutse Khomh | cs.AI | score <span class='score'>88.7</span> | updated 2026-08-03</div>
+<h3>#1 <a href='https://arxiv.org/abs/2602.02882v2'>Reading Between the Tokens: Improving Preference Predictions through Mechanistic Forecasting</a></h3>
+<div class='meta'>Sarah Ball, Simeon Allmendinger, Frauke Kreuter, Niklas Kühl | cs.CY | score <span class='score'>120.6</span> | updated 2026-08-04</div>
+<span class='pill'>cs.CY</span>
+<p><strong>TL;DR:</strong> Large language models are increasingly used to predict human preferences in both scientific and business endeavors, yet current approaches rely exclusively on analyzing model outputs without considering the underlying mechanisms.</p>
+<p><strong>中文摘要:</strong> 这篇论文主要围绕 cs.CY 中的 retrieval-augmented generation 展开。根据摘要，核心问题是：Large language models are increasingly used to predict human preferences in both scientific and business endeavors, yet current approaches rely exclusively on analyzing model outputs without considering the underlying mechanisms. 适合先作为候选阅读，再结合实验设置判断是否值得精读。</p>
+<p><strong>English Summary:</strong> Large language models are increasingly used to predict human preferences in both scientific and business endeavors, yet current approaches rely exclusively on analyzing model outputs without considering the underlying mechanisms. Using election forecasting as a test case, we introduce mechanistic forecasting, a method that demonstrates that probing internal model representations offers a fundamentally different - and sometimes more effective - approach to preference prediction.</p>
+<p><strong>方法 / Method:</strong> retrieval-augmented generation</p>
+<p><strong>贡献 / Contribution:</strong> 提出或分析一种与 LLM/AI 系统相关的方法，具体贡献需结合正文实验确认。</p>
+<p><strong>局限 / Limitation:</strong> 当前只基于 arXiv 摘要判断，细节、消融和真实效果需要阅读全文确认。</p>
+<p><strong>为什么与你相关 / Why relevant:</strong> matches large language model, llm, language model, rag；your recent feedback likes: Attributes；your recent feedback likes: about</p>
+</div>
+<div class='paper'>
+<h3>#2 <a href='https://arxiv.org/abs/2607.29397v2'>Studying quantization trade-offs for efficient inference deployment in machine translation</a></h3>
+<div class='meta'>Jim Zhao, Sohir Maskey, Koen Oostermeijer, Douglas Orr, Teryn Jones | cs.CL | score <span class='score'>96.4</span> | updated 2026-08-04</div>
+<span class='pill'>cs.CL</span>
+<span class='pill'>cs.PF</span>
+<p><strong>TL;DR:</strong> Deploying large language models in realistic server environments poses challenges, as the system needs to provide high-quality responses with low latency.</p>
+<p><strong>中文摘要:</strong> 这篇论文主要围绕 cs.CL 中的 inference/training efficiency optimization 展开。根据摘要，核心问题是：Deploying large language models in realistic server environments poses challenges, as the system needs to provide high-quality responses with low latency. 适合先作为候选阅读，再结合实验设置判断是否值得精读。</p>
+<p><strong>English Summary:</strong> Deploying large language models in realistic server environments poses challenges, as the system needs to provide high-quality responses with low latency. Quantization is a common approach to reduce the memory footprint and improve inference efficiency, yet its impact on latency and throughput is rarely evaluated under controlled, orchestration-level workloads. In this work we study the quantization trade-offs of two translation model families, EuroLLM \citep{martins2025eurollm} and Hy-MT2 \citep{zheng2026hy} across five models ranging from 1.7B to 22B for efficient deployment on a single A100 or H100 GPU.</p>
+<p><strong>方法 / Method:</strong> inference/training efficiency optimization</p>
+<p><strong>贡献 / Contribution:</strong> 提供新的评测视角或任务设置，可用于判断模型能力和研究空白。</p>
+<p><strong>局限 / Limitation:</strong> 可能依赖特定任务集，泛化到真实研究/生产场景仍需进一步验证。</p>
+<p><strong>为什么与你相关 / Why relevant:</strong> matches large language model, llm, language model, evaluation；strong interest: inference efficiency；your recent feedback likes: across</p>
+</div>
+<div class='paper'>
+<h3>#3 <a href='https://arxiv.org/abs/2608.03875v1'>Enhancing VLM Reward Models Through Structure-Aware Fine-Tuning</a></h3>
+<div class='meta'>Pyrros Koussios, Chenhao Li, Xin Chen, Andreas Krause | cs.LG | score <span class='score'>90.9</span> | updated 2026-08-04</div>
+<span class='pill'>cs.LG</span>
 <span class='pill'>cs.AI</span>
-<span class='pill'>cs.LG</span>
-<p><strong>TL;DR:</strong> Organizations increasingly adapt Large Language Models (LLMs) from public repositories such as HuggingFace to downstream tasks.</p>
-<p><strong>中文摘要:</strong> 这篇论文主要围绕 cs.AI 中的 retrieval-augmented generation 展开。根据摘要，核心问题是：Organizations increasingly adapt Large Language Models (LLMs) from public repositories such as HuggingFace to downstream tasks. Prior work shows that even fine-tuning on benign datasets can weaken safety alignment, raising a practical question: does benign parameter-efficient fine-tuning (PEFT) also affect safety and fairness? 适合先作为候选阅读，再结合实验设置判断是否值得精读。</p>
-<p><strong>English Summary:</strong> Organizations increasingly adapt Large Language Models (LLMs) from public repositories such as HuggingFace to downstream tasks. Prior work shows that even fine-tuning on benign datasets can weaken safety alignment, raising a practical question: does benign parameter-efficient fine-tuning (PEFT) also affect safety and fairness? We present the first large-scale, systematic study showing that benign PEFT can significantly alter both.</p>
-<p><strong>方法 / Method:</strong> retrieval-augmented generation</p>
-<p><strong>贡献 / Contribution:</strong> 尝试改善训练、推理或服务效率，对 LLM optimization 方向有参考价值。</p>
-<p><strong>局限 / Limitation:</strong> 效率收益可能受模型规模、硬件、batch 设置和实现细节影响，需关注实验配置。</p>
-<p><strong>为什么与你相关 / Why relevant:</strong> matches large language model, llm, language model, alignment；your recent feedback likes: across；your recent feedback likes: alignment</p>
+<p><strong>TL;DR:</strong> Designing effective reward functions remains a major bottleneck in Reinforcement Learning (RL).</p>
+<p><strong>中文摘要:</strong> 这篇论文主要围绕 cs.LG 中的 reinforcement learning / post-training 展开。根据摘要，核心问题是：Designing effective reward functions remains a major bottleneck in Reinforcement Learning (RL). Recent work uses large foundation Vision-Language Models (VLMs) as reward models, computing text-observation similarity to bypass manual reward engineering. 适合先作为候选阅读，再结合实验设置判断是否值得精读。</p>
+<p><strong>English Summary:</strong> Designing effective reward functions remains a major bottleneck in Reinforcement Learning (RL). Recent work uses large foundation Vision-Language Models (VLMs) as reward models, computing text-observation similarity to bypass manual reward engineering. Although promising, these rewards are often noisy and unreliable, limiting their direct utility during deployment.</p>
+<p><strong>方法 / Method:</strong> reinforcement learning / post-training</p>
+<p><strong>贡献 / Contribution:</strong> 提供领域结构、问题分类或趋势梳理，帮助更新 LLM landscape 认知地图。</p>
+<p><strong>局限 / Limitation:</strong> 综述类工作通常更强在结构化认知，具体结论需要回到原论文和实证细节核对。</p>
+<p><strong>为什么与你相关 / Why relevant:</strong> matches language model, alignment, rag, landscape；your recent feedback likes: across；your recent feedback likes: alignment</p>
 </div>
 <div class='paper'>
-<h3>#2 <a href='https://arxiv.org/abs/2608.02585v1'>GradCuit: Credit-Assigned Gradient Flow Enables Robust and Interpretable Test-Time Latent Reasoning</a></h3>
-<div class='meta'>Zhaoxin Yu, Qi Shen, Hengli Li, Zhaowei Zhang, Song-Chun Zhu, Chi Zhang, Zilong Zheng | cs.LG | score <span class='score'>73.6</span> | updated 2026-08-03</div>
-<span class='pill'>cs.LG</span>
+<h3>#4 <a href='https://arxiv.org/abs/2604.11996v5'>Filtered Reasoning Score: Evaluating Reasoning Quality on a Model&#x27;s Most-Confident Traces</a></h3>
+<div class='meta'>Manas Pathak, Xingyao Chen, Shuozhe Li, Amy Zhang, Liu Leqi | cs.CL | score <span class='score'>90.5</span> | updated 2026-08-04</div>
 <span class='pill'>cs.CL</span>
-<p><strong>TL;DR:</strong> Optimization-based latent reasoning improves large language model outputs by optimizing instance-specific continuous states at test time while keeping model parameters frozen.</p>
-<p><strong>中文摘要:</strong> 这篇论文主要围绕 cs.LG 中的 retrieval-augmented generation 展开。根据摘要，核心问题是：Optimization-based latent reasoning improves large language model outputs by optimizing instance-specific continuous states at test time while keeping model parameters frozen. 适合先作为候选阅读，再结合实验设置判断是否值得精读。</p>
-<p><strong>English Summary:</strong> Optimization-based latent reasoning improves large language model outputs by optimizing instance-specific continuous states at test time while keeping model parameters frozen. Existing methods, however, typically connect these states to the reasoning trajectory through decoded tokens, making sequence-level credit assignment indirect and obscuring how latent updates shape subsequent reasoning. We introduce GradCuit (gradient through circuit), which inserts optimizable latent states at a selected Transformer layer between the hidden representations of the prompt and the generated continuation.</p>
-<p><strong>方法 / Method:</strong> retrieval-augmented generation</p>
-<p><strong>贡献 / Contribution:</strong> 提供新的评测视角或任务设置，可用于判断模型能力和研究空白。</p>
-<p><strong>局限 / Limitation:</strong> 可能依赖特定任务集，泛化到真实研究/生产场景仍需进一步验证。</p>
-<p><strong>为什么与你相关 / Why relevant:</strong> matches large language model, llm, language model, reasoning；strong interest: test-time scaling；your recent feedback likes: across</p>
-</div>
-<div class='paper'>
-<h3>#3 <a href='https://arxiv.org/abs/2602.01132v2'>Don&#x27;t Judge a Book by its Cover: Testing LLMs&#x27; Robustness Under Logical Obfuscation</a></h3>
-<div class='meta'>Abhilekh Borah, Shubhra Ghosh, Kedar Joshi, Aditya Kumar Guru, Kripabandhu Ghosh | cs.CL | score <span class='score'>72.1</span> | updated 2026-08-03</div>
-<span class='pill'>cs.CL</span>
-<p><strong>TL;DR:</strong> Tasks such as solving arithmetic equations, evaluating truth tables, and completing syllogisms are handled well by large language models (LLMs) in their standard form, but they often fail when the same problems are posed in logically equivalent yet obfuscated</p>
-<p><strong>中文摘要:</strong> 这篇论文主要围绕 cs.CL 中的 retrieval-augmented generation 展开。根据摘要，核心问题是：Tasks such as solving arithmetic equations, evaluating truth tables, and completing syllogisms are handled well by large language models (LLMs) in their standard form, but they often fail when the same problems are posed in logically equivalent yet obfuscated formats. 适合先作为候选阅读，再结合实验设置判断是否值得精读。</p>
-<p><strong>English Summary:</strong> Tasks such as solving arithmetic equations, evaluating truth tables, and completing syllogisms are handled well by large language models (LLMs) in their standard form, but they often fail when the same problems are posed in logically equivalent yet obfuscated formats.</p>
+<span class='pill'>cs.AI</span>
+<p><strong>TL;DR:</strong> Should we trust Large Language Models (LLMs) with high accuracy?</p>
+<p><strong>中文摘要:</strong> 这篇论文主要围绕 cs.CL 中的 retrieval-augmented generation 展开。根据摘要，核心问题是：Should we trust Large Language Models (LLMs) with high accuracy? LLMs achieve high accuracy on reasoning benchmarks, but correctness alone does not reveal the quality of the reasoning used to produce it. 适合先作为候选阅读，再结合实验设置判断是否值得精读。</p>
+<p><strong>English Summary:</strong> Should we trust Large Language Models (LLMs) with high accuracy? LLMs achieve high accuracy on reasoning benchmarks, but correctness alone does not reveal the quality of the reasoning used to produce it. This highlights a fundamental limitation of outcome-based evaluation: models may arrive at correct answers through flawed reasoning, and models with substantially different reasoning capabilities can nevertheless exhibit similar benchmark accuracy, for example due to memorization or over-optimization.</p>
 <p><strong>方法 / Method:</strong> retrieval-augmented generation</p>
 <p><strong>贡献 / Contribution:</strong> 提供新的评测视角或任务设置，可用于判断模型能力和研究空白。</p>
 <p><strong>局限 / Limitation:</strong> 可能依赖特定任务集，泛化到真实研究/生产场景仍需进一步验证。</p>
-<p><strong>为什么与你相关 / Why relevant:</strong> matches large language model, llm, language model, reasoning；strong interest: reasoning model；your recent feedback likes: across</p>
+<p><strong>为什么与你相关 / Why relevant:</strong> matches large language model, llm, language model, reasoning；your recent feedback likes: Liu；your recent feedback likes: across</p>
 </div>
 <div class='paper'>
-<h3>#4 <a href='https://arxiv.org/abs/2605.00817v4'>When LLMs Stop Following Steps: A Diagnostic Study of Procedural Execution in Language Models</a></h3>
-<div class='meta'>Sailesh Panda, Pritam Kadasi, Abhishek Upperwal, Mayank Singh | cs.CL | score <span class='score'>69.2</span> | updated 2026-08-03</div>
-<span class='pill'>cs.CL</span>
-<p><strong>TL;DR:</strong> Large language models (LLMs) often achieve strong performance on reasoning benchmarks, but final-answer accuracy alone does not show whether they faithfully execute the procedure specified in a prompt.</p>
-<p><strong>中文摘要:</strong> 这篇论文主要围绕 cs.CL 中的 retrieval-augmented generation 展开。根据摘要，核心问题是：Large language models (LLMs) often achieve strong performance on reasoning benchmarks, but final-answer accuracy alone does not show whether they faithfully execute the procedure specified in a prompt. 适合先作为候选阅读，再结合实验设置判断是否值得精读。</p>
-<p><strong>English Summary:</strong> Large language models (LLMs) often achieve strong performance on reasoning benchmarks, but final-answer accuracy alone does not show whether they faithfully execute the procedure specified in a prompt. We introduce a controlled diagnostic benchmark for arithmetic procedural execution, where models are given a step-wise arithmetic procedure and two numeric inputs, and must return the final computed value. Complexity is varied through procedure length and look-back dependencies over intermediate variables.</p>
+<h3>#5 <a href='https://arxiv.org/abs/2605.13801v2'>Improving Reproducibility in Evaluation through Multi-Level Annotator Modeling</a></h3>
+<div class='meta'>Deepak Pandita, Flip Korn, Chris Welty, Christopher M. Homan | cs.LG | score <span class='score'>82.9</span> | updated 2026-08-04</div>
+<span class='pill'>cs.LG</span>
+<span class='pill'>cs.AI</span>
+<p><strong>TL;DR:</strong> As generative AI models such as large language models (LLMs) become more pervasive, ensuring the safety, robustness, and overall trustworthiness of these systems is paramount.</p>
+<p><strong>中文摘要:</strong> 这篇论文主要围绕 cs.LG 中的 retrieval-augmented generation 展开。根据摘要，核心问题是：As generative AI models such as large language models (LLMs) become more pervasive, ensuring the safety, robustness, and overall trustworthiness of these systems is paramount. However, AI is currently facing a reproducibility crisis driven by unreliable evaluations and unrepeatable experimental results. 适合先作为候选阅读，再结合实验设置判断是否值得精读。</p>
+<p><strong>English Summary:</strong> As generative AI models such as large language models (LLMs) become more pervasive, ensuring the safety, robustness, and overall trustworthiness of these systems is paramount. However, AI is currently facing a reproducibility crisis driven by unreliable evaluations and unrepeatable experimental results. While human raters are often used to assess models for utility and safety, they introduce divergent biases and subjective opinions into their annotations.</p>
 <p><strong>方法 / Method:</strong> retrieval-augmented generation</p>
 <p><strong>贡献 / Contribution:</strong> 提供新的评测视角或任务设置，可用于判断模型能力和研究空白。</p>
 <p><strong>局限 / Limitation:</strong> 可能依赖特定任务集，泛化到真实研究/生产场景仍需进一步验证。</p>
-<p><strong>为什么与你相关 / Why relevant:</strong> matches large language model, llm, language model, reasoning；your recent feedback likes: Turn；your recent feedback likes: alone</p>
-</div>
-<div class='paper'>
-<h3>#5 <a href='https://arxiv.org/abs/2608.01651v1'>Bole: Efficient Tree Speculation for Hybrid-Attention Language Models</a></h3>
-<div class='meta'>Li Wang, Yi Su, Xiabao Wu, Chiran You, Yongchao Liu, Zhan Qiu, Juelu Zhang, Jiajun Zheng et al. | cs.DC | score <span class='score'>66.6</span> | updated 2026-08-03</div>
-<span class='pill'>cs.DC</span>
-<span class='pill'>cs.CL</span>
-<span class='pill'>cs.LG</span>
-<p><strong>TL;DR:</strong> Hybrid-attention large language models combine full attention with recurrent linear attention to reduce long-context inference costs, yet their autoregressive decoding remains memory-bound.</p>
-<p><strong>中文摘要:</strong> 这篇论文主要围绕 cs.DC 中的 agent or tool-use evaluation 展开。根据摘要，核心问题是：Hybrid-attention large language models combine full attention with recurrent linear attention to reduce long-context inference costs, yet their autoregressive decoding remains memory-bound. Tree speculative decoding offers an attractive acceleration path, but existing tree-speculation systems are designed around the key--value caches of full-attention models 适合先作为候选阅读，再结合实验设置判断是否值得精读。</p>
-<p><strong>English Summary:</strong> Hybrid-attention large language models combine full attention with recurrent linear attention to reduce long-context inference costs, yet their autoregressive decoding remains memory-bound. Tree speculative decoding offers an attractive acceleration path, but existing tree-speculation systems are designed around the key--value caches of full-attention models. On hybrid models, they traverse recurrent layers branch by branch and materialize a full state for every proposal node, causing verification latency and transient memory to scale poorly with tree and batch sizes.</p>
-<p><strong>方法 / Method:</strong> agent or tool-use evaluation</p>
-<p><strong>贡献 / Contribution:</strong> 尝试改善训练、推理或服务效率，对 LLM optimization 方向有参考价值。</p>
-<p><strong>局限 / Limitation:</strong> 效率收益可能受模型规模、硬件、batch 设置和实现细节影响，需关注实验配置。</p>
-<p><strong>为什么与你相关 / Why relevant:</strong> matches large language model, llm, language model, agent；your recent feedback likes: Liu；your recent feedback likes: across</p>
+<p><strong>为什么与你相关 / Why relevant:</strong> matches large language model, llm, language model, rag；your recent feedback likes: across；your recent feedback likes: analyze</p>
 </div>
 <h2>10 篇一句话候选</h2>
 <div class='paper'>
-<h3>#6 <a href='https://arxiv.org/abs/2608.02336v1'>Lost in Permissions: Exploring the Microsoft 365 App Ecosystem</a></h3>
-<div class='meta'>Vincenzo Longo, Alberto Verna, Nikhil Jha, Marco Mellia | cs.CR | score <span class='score'>60.9</span> | updated 2026-08-03</div>
-<span class='pill'>cs.CR</span>
-<p>The Microsoft 365 (M365) ecosystem hosts thousands of third-party applications that integrate with enterprise tenants via fine-grained OAuth permissions, potentially granting access to sensitive organisational resources Relevant because: matches llm, rag；your recent feedback likes: across；your recent feedback likes: analysis</p>
+<h3>#6 <a href='https://arxiv.org/abs/2608.04006v1'>Calibrating Trustworthiness: Co-Designing Metrics and Visualizations for Evaluating LLMs in Education</a></h3>
+<div class='meta'>Adam Coscia, Sujata Duwal, Langdon Holmes, Scott Crossley, Alex Endert | cs.HC | score <span class='score'>80.5</span> | updated 2026-08-04</div>
+<span class='pill'>cs.HC</span>
+<p>LLMs are reshaping educational technology, yet evaluating their responses for pedagogical alignment remains underexplored, relying heavily on the expertise of learning engineers building the technology. Relevant because: matches llm, alignment, rag, evaluation；your recent feedback likes: alignment；your recent feedback likes: comparison</p>
 </div>
 <div class='paper'>
-<h3>#7 <a href='https://arxiv.org/abs/2607.24341v3'>Simulating Tenant Responses to Energy Policy Interventions with Transaction-Cost-Aware LLM Agent</a></h3>
-<div class='meta'>Weijie Xia, Stefanie Horian, Hanyue Huang, Queena K. Qian, Jie Yang, Pedro P. Vergara | cs.AI | score <span class='score'>57.5</span> | updated 2026-08-03</div>
+<h3>#7 <a href='https://arxiv.org/abs/2608.03844v1'>MAFIA: Query-Only Memory Attacks via Probing and Factual Injection against Audited LLM Agents</a></h3>
+<div class='meta'>Jiaming Chen, Yisen Gao, Yanping Li, Zifan Liu, Yumeng Zhang, Jun Zhang | cs.AI | score <span class='score'>76.3</span> | updated 2026-08-04</div>
 <span class='pill'>cs.AI</span>
-<p>Recent studies use Large language models (LLMs) to simulate human opinions and decisions by prompting models with demographic, attitudinal, or persona-based descriptions. Relevant because: matches large language model, llm, language model, agent；your recent feedback likes: across；your recent feedback likes: agent</p>
+<p>Memory-augmented LLM agents rely on rich context for long-horizon reasoning and acting, yet their memory modules expose a persistent attack surface for malicious records, making the study of memory poisoning threats impe Relevant because: matches llm, agent, reasoning, evaluation；your recent feedback likes: Liu；your recent feedback likes: across</p>
 </div>
 <div class='paper'>
-<h3>#8 <a href='https://arxiv.org/abs/2608.02181v1'>Start Classifying: Categorical Critics for LLM Reinforcement Learning</a></h3>
-<div class='meta'>Zhijian Zhou, Long Li, Xuan Zhang, Zongkai Liu, Yulei Qin, Ke Li, Xing Sun, Xiaoyu Tan et al. | cs.LG | score <span class='score'>57.0</span> | updated 2026-08-03</div>
-<span class='pill'>cs.LG</span>
-<p>Proximal Policy Optimization (PPO) for large language models typically trains its critic by mean-squared-error (MSE) regression on scalar value targets. Relevant because: matches large language model, llm, language model, reasoning；your recent feedback likes: Liu；your recent feedback likes: RLVR</p>
-</div>
-<div class='paper'>
-<h3>#9 <a href='https://arxiv.org/abs/2608.02351v1'>KC-Agent: A Dual-Process Cognitive Architecture for Efficient ML Model Improvement</a></h3>
-<div class='meta'>Gusseppe Bravo-Rocca, Jordi Guitart, Ajay Dholakia, David Ellison, Puneet Jain | cs.AI | score <span class='score'>55.8</span> | updated 2026-08-03</div>
+<h3>#8 <a href='https://arxiv.org/abs/2608.03791v1'>Does Forgetting Transfer Across Modalities? A Real-World Benchmark for Cross-Modal Knowledge Unlearning Evaluation</a></h3>
+<div class='meta'>Chunlin Liu, Junnian Chen, Haitong Jiang, Jianyu Zhao, Yingsen Pang, Jingchen Li, Jiabiao He, Youming Lu et al. | cs.AI | score <span class='score'>74.0</span> | updated 2026-08-04</div>
 <span class='pill'>cs.AI</span>
-<p>Data drift poses significant challenges for machine learning systems in production, requiring continuous model updates to maintain performance. Relevant because: matches llm, agent, rag, evaluation；your recent feedback likes: agent；your recent feedback likes: both</p>
+<p>Vision-Language Models (VLMs), like Large Language Models (LLMs), may memorize sensitive, copyrighted, or harmful knowledge from their pretraining corpora. Relevant because: matches large language model, llm, language model, multimodal；your recent feedback likes: Liu；your recent feedback likes: across</p>
 </div>
 <div class='paper'>
-<h3>#10 <a href='https://arxiv.org/abs/2603.13418v2'>GPrune-LLM: Generalization-Aware Structured Pruning for Large Language Models</a></h3>
-<div class='meta'>Xiaoyun Liu, Divya Saxena, Jiannong Cao, Yuqing Zhao, Yiying Dong, Penghui Ruan | cs.LG | score <span class='score'>54.9</span> | updated 2026-08-03</div>
-<span class='pill'>cs.LG</span>
+<h3>#9 <a href='https://arxiv.org/abs/2608.03760v1'>Guided Synthesis of EMT Zeolites by Machine Learning</a></h3>
+<div class='meta'>Emmanuel A. Olanrewaju, Santosh Adhikari, Zhiyin Niu, Michael Nikolaou, Jeremy C. Palmer, Jeffrey D. Rimer, Mingjian Wen | cond-mat.mtrl-sci | score <span class='score'>64.2</span> | updated 2026-08-04</div>
+<span class='pill'>cond-mat.mtrl-sci</span>
+<p>Zeolites are microporous crystalline materials with diverse frameworks, widely used in industrial applications such as petroleum refining and molecular separation. Relevant because: matches foundation model, agent, rag, evaluation；your recent feedback likes: agent；your recent feedback likes: analysis</p>
+</div>
+<div class='paper'>
+<h3>#10 <a href='https://arxiv.org/abs/2608.03735v1'>An Actionable Diagnosis of Multilingual, Multi-Agent Planning Failures</a></h3>
+<div class='meta'>Vikas Pahuja, Jonathan Brokman, Omer Hofman, Tamir Nizri, Daniel Vishna, Seraphina Goldfarb-Tarrant, Kelly Marchisio, Hisashi Kojima et al. | cs.MA | score <span class='score'>64.0</span> | updated 2026-08-04</div>
+<span class='pill'>cs.MA</span>
+<span class='pill'>cs.CL</span>
+<p>Multilingual multi-agent systems exhibit substantial degradation beyond English, yet prior work rarely identifies how task-critical information is lost when user requests are converted into executable plans. Relevant because: matches llm, agent, rag, taxonomy；your recent feedback likes: across；your recent feedback likes: agent</p>
+</div>
+<div class='paper'>
+<h3>#11 <a href='https://arxiv.org/abs/2608.03867v1'>Heterogeneity-Aware Microscaling for Efficient Low-Bit LLM Inference</a></h3>
+<div class='meta'>Junyi Luo, Xinting Jiang, Tai-Hao Wen, Ruichen Qi, Minxing Chu, Hongyi Wu, Gregory Kielian, Ben Laurie et al. | cs.AR | score <span class='score'>62.2</span> | updated 2026-08-04</div>
+<span class='pill'>cs.AR</span>
+<p>Microscaling (MX) is now the standard for low-bit large language model (LLM) inference. Relevant because: matches large language model, llm, language model, rag；your recent feedback likes: about；your recent feedback likes: across</p>
+</div>
+<div class='paper'>
+<h3>#12 <a href='https://arxiv.org/abs/2607.23982v3'>Moral Hazard in Multi-Agent Language Models</a></h3>
+<div class='meta'>Dane Malenfant | cs.MA | score <span class='score'>61.4</span> | updated 2026-08-04</div>
+<span class='pill'>cs.MA</span>
 <span class='pill'>cs.AI</span>
-<p>Structured pruning is widely applied to compress large language models (LLMs), but its performance depends heavily on how neuron importance is estimated. Relevant because: matches large language model, llm, language model；your recent feedback likes: Liu；your recent feedback likes: across</p>
+<p>Cooperation can fail when socially valuable effort is costly, weakly observable, and mainly benefits others. Relevant because: matches llm, language model, agent, optimization；your recent feedback likes: across；your recent feedback likes: agent</p>
 </div>
 <div class='paper'>
-<h3>#11 <a href='https://arxiv.org/abs/2507.16974v3'>Leveraging Synthetic Data for Question Answering with Multilingual LLMs in the Agricultural Domain</a></h3>
-<div class='meta'>Rishemjit Kaur, Arshdeep Singh Bhankhar, Jashanpreet Singh Salh, Sudhir Rajput, Vidhi, Kashish Mahendra, Bhavika Berwal, Ritesh Kumar et al. | cs.CL | score <span class='score'>54.9</span> | updated 2026-08-03</div>
+<h3>#13 <a href='https://arxiv.org/abs/2608.03659v1'>How Closely Do LLM Reviews Align with Human Peer Review?</a></h3>
+<div class='meta'>Abraham Camelo-Guerrero, Jairo Diaz-Rodriguez | cs.CL | score <span class='score'>60.9</span> | updated 2026-08-04</div>
 <span class='pill'>cs.CL</span>
 <span class='pill'>cs.AI</span>
-<p>Enabling farmers to access accurate agriculture-related information in their native languages in a timely manner is crucial for the success of the agriculture field. Relevant because: matches large language model, llm, language model, rag；your recent feedback likes: compared；your recent feedback likes: context</p>
+<p>Large language models (LLMs) are increasingly used to generate scientific reviews, yet existing evaluations rarely examine whether different providers align with both conference decisions and human reviewing priorities w Relevant because: matches large language model, llm, language model, alignment；your recent feedback likes: alignment；your recent feedback likes: also</p>
 </div>
 <div class='paper'>
-<h3>#12 <a href='https://arxiv.org/abs/2608.02087v1'>Instruction-Conditioned Exploration with Asymmetric Reinforcement Learning and Self-Distillation</a></h3>
-<div class='meta'>Jim Dilkes, Vahid Yazdanpanah, Sebastian Stein | cs.AI | score <span class='score'>52.3</span> | updated 2026-08-03</div>
-<span class='pill'>cs.AI</span>
+<h3>#14 <a href='https://arxiv.org/abs/2601.16217v2'>ChiEngMixBench: Evaluating Large Language Models on Expert-Style Chinese-English Terminology Mixing</a></h3>
+<div class='meta'>Qingyan Yang, Tongxi Wang, Yunsheng Luo | cs.CL | score <span class='score'>59.7</span> | updated 2026-08-04</div>
 <span class='pill'>cs.CL</span>
-<span class='pill'>cs.LG</span>
-<p>Post-training Large Language Models (LLMs) with Reinforcement Learning (RL) has become an important tool for improving model capabilities, but the LLM action-space structure introduces challenges distinct from classical Relevant because: matches large language model, llm, language model, reasoning；strong interest: post-training；your recent feedback likes: become</p>
+<span class='pill'>cs.AI</span>
+<p>Large language models increasingly mediate multilingual professional communication, where useful generation requires adapting to community conventions about which expressions are retained, translated, or mixed. Relevant because: matches large language model, language model, evaluation；your recent feedback likes: about；your recent feedback likes: across</p>
 </div>
 <div class='paper'>
-<h3>#13 <a href='https://arxiv.org/abs/2605.15230v2'>EnergyAgentBench: Benchmarking LLM Agents on Live Energy Infrastructure Data</a></h3>
-<div class='meta'>Eliseo Curcio | econ.EM | score <span class='score'>51.8</span> | updated 2026-08-03</div>
-<span class='pill'>econ.EM</span>
-<p>Selecting the right electricity market region for a hyperscale AI datacenter requires reasoning across live electricity prices, grid carbon intensity, technology cost trajectories, and causal grid dynamics -- a multi-ste Relevant because: matches llm, agent, reasoning, optimization；your recent feedback likes: across；your recent feedback likes: against</p>
-</div>
-<div class='paper'>
-<h3>#14 <a href='https://arxiv.org/abs/2608.02361v1'>Epico: Long-Lived WebAssembly Components for High-Performance Serverless Stream Processing</a></h3>
-<div class='meta'>Matteo Della Bartola, Valerio Besozzi, Patrizio Dazzi, Marco Danelutto | cs.DC | score <span class='score'>51.5</span> | updated 2026-08-03</div>
-<span class='pill'>cs.DC</span>
-<p>While serverless computing is popular, its dominant Function-as-a-Service (FaaS) model is ill-suited for stream processing because its stateless, centrally orchestrated functions cannot efficiently handle continuous, low Relevant because: matches evaluation；your recent feedback likes: between；your recent feedback likes: cannot</p>
-</div>
-<div class='paper'>
-<h3>#15 <a href='https://arxiv.org/abs/2507.21449v2'>From Global to Local: A Scalable Benchmark for Local Posterior Sampling</a></h3>
-<div class='meta'>Rohan Hitchcock, Jesse Hoogland | stat.ML | score <span class='score'>50.6</span> | updated 2026-08-03</div>
-<span class='pill'>stat.ML</span>
-<span class='pill'>cs.LG</span>
-<p>Degeneracy is an inherent feature of the loss landscape of neural networks, but it is not well understood how stochastic gradient MCMC (SGMCMC) algorithms interact with this degeneracy. Relevant because: matches landscape；your recent feedback likes: about；your recent feedback likes: benchmark</p>
+<h3>#15 <a href='https://arxiv.org/abs/2608.04003v1'>PAST-Bench: Benchmarking the Foundations of Recursive Self-Improvement in Personal Agents</a></h3>
+<div class='meta'>Shuhan Xue, Zixin Ding, Yichen Shen, Yinjie Wang, Zhenfei Yin, Yingcheng Wu, Yuxin Chen, Mengdi Wang et al. | cs.CL | score <span class='score'>59.5</span> | updated 2026-08-04</div>
+<span class='pill'>cs.CL</span>
+<p>Recursive self-improvement requires agents to turn accumulated experience into better future behavior. Relevant because: matches agent, rag, evaluation；your recent feedback likes: Turn；your recent feedback likes: across</p>
 </div>
 <div class='feedback'><strong>反馈方式</strong><br>直接回复：多发 #3 类似的，少发 #1；多发 landscape / inference optimization / RLVR。</div>
 </body></html>
