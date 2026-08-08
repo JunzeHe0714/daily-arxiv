@@ -30,8 +30,10 @@
     "2505.24758",
     "2506.07673",
     "2506.10488",
+    "2506.14243",
     "2506.15681",
     "2507.01752",
+    "2507.04884",
     "2507.05386",
     "2507.16974",
     "2507.20424",
@@ -761,13 +763,26 @@
     "2608.05088",
     "2608.05126",
     "2608.05137",
+    "2608.05483",
+    "2608.05571",
     "2608.05855",
     "2608.05903",
+    "2608.05959",
+    "2608.06013",
     "2608.06022",
+    "2608.06085",
     "2608.06112",
+    "2608.06113",
+    "2608.06123",
+    "2608.06135",
     "2608.06140",
+    "2608.06171",
+    "2608.06197",
     "2608.06243",
     "2608.06246",
+    "2608.06288",
+    "2608.06291",
+    "2608.06296",
     "2608.06312",
     "2608.06329"
   ],
@@ -803,8 +818,10 @@
     "2505.24758:2026-07-01T17:04:56Z",
     "2506.07673:2026-07-21T11:15:43Z",
     "2506.10488:2026-07-01T12:30:24Z",
+    "2506.14243:2026-08-06T16:35:46Z",
     "2506.15681:2026-06-25T14:33:27Z",
     "2507.01752:2026-06-23T13:09:44Z",
+    "2507.04884:2026-08-06T11:48:40Z",
     "2507.05386:2026-06-29T17:47:49Z",
     "2507.16974:2026-08-03T11:08:43Z",
     "2507.20424:2026-06-15T16:00:17Z",
@@ -1573,13 +1590,26 @@
     "2608.05088:2026-08-05T17:26:47Z",
     "2608.05126:2026-08-05T17:50:31Z",
     "2608.05137:2026-08-05T17:56:35Z",
+    "2608.05483:2026-08-06T00:19:56Z",
+    "2608.05571:2026-08-06T03:43:45Z",
     "2608.05855:2026-08-06T10:31:54Z",
     "2608.05903:2026-08-06T11:31:56Z",
+    "2608.05959:2026-08-06T12:33:58Z",
+    "2608.06013:2026-08-06T13:18:24Z",
     "2608.06022:2026-08-06T13:29:53Z",
+    "2608.06085:2026-08-06T14:27:46Z",
     "2608.06112:2026-08-06T14:44:31Z",
+    "2608.06113:2026-08-06T14:47:34Z",
+    "2608.06123:2026-08-06T14:54:30Z",
+    "2608.06135:2026-08-06T15:07:43Z",
     "2608.06140:2026-08-06T15:10:26Z",
+    "2608.06171:2026-08-06T15:37:04Z",
+    "2608.06197:2026-08-06T15:54:36Z",
     "2608.06243:2026-08-06T16:29:24Z",
     "2608.06246:2026-08-06T16:32:26Z",
+    "2608.06288:2026-08-06T17:13:44Z",
+    "2608.06291:2026-08-06T17:15:37Z",
+    "2608.06296:2026-08-06T17:18:23Z",
     "2608.06312:2026-08-06T17:27:23Z",
     "2608.06329:2026-08-06T17:39:21Z"
   ],
@@ -8063,6 +8093,126 @@
       "sent_key": "2608.06312:2026-08-06T17:27:23Z",
       "title": "Benchmarking and Enhancing LLMs for Rule-Intensive Review of National Standard Documents",
       "updated": "2026-08-06T17:27:23Z"
+    },
+    {
+      "arxiv_id": "2608.05959",
+      "score": 55.6,
+      "sent_at": "2026-08-08T11:01:01.404756+08:00",
+      "sent_key": "2608.05959:2026-08-06T12:33:58Z",
+      "title": "AgentExecutor: Partial Code Execution via Agentic Context Generation",
+      "updated": "2026-08-06T12:33:58Z"
+    },
+    {
+      "arxiv_id": "2608.06123",
+      "score": 54.4,
+      "sent_at": "2026-08-08T11:01:01.404756+08:00",
+      "sent_key": "2608.06123:2026-08-06T14:54:30Z",
+      "title": "Poli-Bias: Understanding and Measuring Large Language Model Biases in International Political Conflicts",
+      "updated": "2026-08-06T14:54:30Z"
+    },
+    {
+      "arxiv_id": "2608.06291",
+      "score": 53.1,
+      "sent_at": "2026-08-08T11:01:01.404756+08:00",
+      "sent_key": "2608.06291:2026-08-06T17:15:37Z",
+      "title": "BaKron: Efficient Quantization with Kronecker-Factored Hessians",
+      "updated": "2026-08-06T17:15:37Z"
+    },
+    {
+      "arxiv_id": "2608.06085",
+      "score": 51.0,
+      "sent_at": "2026-08-08T11:01:01.404756+08:00",
+      "sent_key": "2608.06085:2026-08-06T14:27:46Z",
+      "title": "Signal or Spurious Cue? A Randomized Audit of Survey-Country Metadata in LLM Social Inference",
+      "updated": "2026-08-06T14:27:46Z"
+    },
+    {
+      "arxiv_id": "2608.06296",
+      "score": 50.9,
+      "sent_at": "2026-08-08T11:01:01.404756+08:00",
+      "sent_key": "2608.06296:2026-08-06T17:18:23Z",
+      "title": "On-Policy Self-Distillation without Any Supervision",
+      "updated": "2026-08-06T17:18:23Z"
+    },
+    {
+      "arxiv_id": "2507.04884",
+      "score": 50.9,
+      "sent_at": "2026-08-08T11:01:01.404756+08:00",
+      "sent_key": "2507.04884:2026-08-06T11:48:40Z",
+      "title": "Building Open-Retrieval Conversational Question Answering Systems by Generating Synthetic Data and Decontextualizing User Questions",
+      "updated": "2026-08-06T11:48:40Z"
+    },
+    {
+      "arxiv_id": "2608.05571",
+      "score": 50.6,
+      "sent_at": "2026-08-08T11:01:01.404756+08:00",
+      "sent_key": "2608.05571:2026-08-06T03:43:45Z",
+      "title": "Align-RAG: Alignment Is All You Need for TSFM In-Context Learning",
+      "updated": "2026-08-06T03:43:45Z"
+    },
+    {
+      "arxiv_id": "2608.06013",
+      "score": 50.3,
+      "sent_at": "2026-08-08T11:01:01.404756+08:00",
+      "sent_key": "2608.06013:2026-08-06T13:18:24Z",
+      "title": "OneEmo: A Unified Multimodal Reasoning Model for Emotion Perception, Understanding, and Interaction",
+      "updated": "2026-08-06T13:18:24Z"
+    },
+    {
+      "arxiv_id": "2608.06288",
+      "score": 50.0,
+      "sent_at": "2026-08-08T11:01:01.404756+08:00",
+      "sent_key": "2608.06288:2026-08-06T17:13:44Z",
+      "title": "Surv-IPTB: An Attention-Based Model for Estimating Individual Probability of Treatment Benefit with Survival Data",
+      "updated": "2026-08-06T17:13:44Z"
+    },
+    {
+      "arxiv_id": "2608.05483",
+      "score": 47.6,
+      "sent_at": "2026-08-08T11:01:01.404756+08:00",
+      "sent_key": "2608.05483:2026-08-06T00:19:56Z",
+      "title": "PLoRA: An NDP-Enhanced Pooled-Memory System for Cost-Efficient Multi-LoRA Serving",
+      "updated": "2026-08-06T00:19:56Z"
+    },
+    {
+      "arxiv_id": "2506.14243",
+      "score": 47.5,
+      "sent_at": "2026-08-08T11:01:01.404756+08:00",
+      "sent_key": "2506.14243:2026-08-06T16:35:46Z",
+      "title": "Multi-Representation Geometric Hierarchy Fusion: An Implicit-Submap Driven Framework for Resilient 3D Place Recognition",
+      "updated": "2026-08-06T16:35:46Z"
+    },
+    {
+      "arxiv_id": "2608.06197",
+      "score": 45.9,
+      "sent_at": "2026-08-08T11:01:01.404756+08:00",
+      "sent_key": "2608.06197:2026-08-06T15:54:36Z",
+      "title": "EnvACE: Internalizing Environment Dynamics via World Rehearsal for Agentic Reinforcement Learning",
+      "updated": "2026-08-06T15:54:36Z"
+    },
+    {
+      "arxiv_id": "2608.06135",
+      "score": 45.5,
+      "sent_at": "2026-08-08T11:01:01.404756+08:00",
+      "sent_key": "2608.06135:2026-08-06T15:07:43Z",
+      "title": "LLM Inference Under Bursty Workload Distribution: Modifying the WAIT Algorithm",
+      "updated": "2026-08-06T15:07:43Z"
+    },
+    {
+      "arxiv_id": "2608.06113",
+      "score": 45.0,
+      "sent_at": "2026-08-08T11:01:01.404756+08:00",
+      "sent_key": "2608.06113:2026-08-06T14:47:34Z",
+      "title": "DCAS: Decoupling CLI Agent Scaffolding to Internalize Planning across Scaffolds",
+      "updated": "2026-08-06T14:47:34Z"
+    },
+    {
+      "arxiv_id": "2608.06171",
+      "score": 44.4,
+      "sent_at": "2026-08-08T11:01:01.404756+08:00",
+      "sent_key": "2608.06171:2026-08-06T15:37:04Z",
+      "title": "Routing Is Least Learnable Where It Is Most Valuable: Bounds on Representation Routing for Web Agents",
+      "updated": "2026-08-06T15:37:04Z"
     }
   ]
 }
