@@ -9,6 +9,7 @@
     "2409.20302",
     "2410.06458",
     "2410.15267",
+    "2411.00028",
     "2411.13121",
     "2501.08951",
     "2501.11790",
@@ -179,6 +180,7 @@
     "2604.03724",
     "2604.04917",
     "2604.05782",
+    "2604.06756",
     "2604.07864",
     "2604.10311",
     "2604.11666",
@@ -765,6 +767,7 @@
     "2608.05088",
     "2608.05126",
     "2608.05137",
+    "2608.05399",
     "2608.05483",
     "2608.05571",
     "2608.05595",
@@ -799,7 +802,19 @@
     "2608.06329",
     "2608.06340",
     "2608.06370",
-    "2608.06377"
+    "2608.06377",
+    "2608.06763",
+    "2608.06876",
+    "2608.06884",
+    "2608.06928",
+    "2608.06987",
+    "2608.07001",
+    "2608.07004",
+    "2608.07069",
+    "2608.07367",
+    "2608.07411",
+    "2608.07418",
+    "2608.07419"
   ],
   "sent_keys": [
     "2309.16843:2026-07-02T16:45:25Z",
@@ -812,6 +827,7 @@
     "2409.20302:2026-08-06T13:56:13Z",
     "2410.06458:2026-07-30T17:39:25Z",
     "2410.15267:2026-07-16T14:27:01Z",
+    "2411.00028:2026-08-07T14:55:39Z",
     "2411.13121:2026-07-02T11:21:31Z",
     "2501.08951:2026-07-24T14:30:56Z",
     "2501.11790:2026-06-23T12:36:04Z",
@@ -987,6 +1003,7 @@
     "2604.03724:2026-06-25T13:28:29Z",
     "2604.04917:2026-06-18T15:34:46Z",
     "2604.05782:2026-07-16T08:26:04Z",
+    "2604.06756:2026-08-07T09:27:08Z",
     "2604.07864:2026-06-28T14:24:43Z",
     "2604.10311:2026-07-06T15:51:04Z",
     "2604.11666:2026-07-23T14:55:50Z",
@@ -1607,6 +1624,7 @@
     "2608.05088:2026-08-05T17:26:47Z",
     "2608.05126:2026-08-05T17:50:31Z",
     "2608.05137:2026-08-05T17:56:35Z",
+    "2608.05399:2026-08-07T14:31:04Z",
     "2608.05483:2026-08-06T00:19:56Z",
     "2608.05571:2026-08-06T03:43:45Z",
     "2608.05595:2026-08-06T04:35:54Z",
@@ -1641,7 +1659,19 @@
     "2608.06329:2026-08-06T17:39:21Z",
     "2608.06340:2026-08-06T17:49:58Z",
     "2608.06370:2026-08-06T17:58:32Z",
-    "2608.06377:2026-08-06T17:59:58Z"
+    "2608.06377:2026-08-06T17:59:58Z",
+    "2608.06763:2026-08-07T03:36:07Z",
+    "2608.06876:2026-08-07T07:01:42Z",
+    "2608.06884:2026-08-07T07:15:38Z",
+    "2608.06928:2026-08-07T08:03:29Z",
+    "2608.06987:2026-08-07T09:05:43Z",
+    "2608.07001:2026-08-07T09:18:42Z",
+    "2608.07004:2026-08-07T09:19:31Z",
+    "2608.07069:2026-08-07T10:23:45Z",
+    "2608.07367:2026-08-07T16:10:53Z",
+    "2608.07411:2026-08-07T16:58:04Z",
+    "2608.07418:2026-08-07T17:04:41Z",
+    "2608.07419:2026-08-07T17:05:10Z"
   ],
   "sent_log": [
     {
@@ -8363,6 +8393,126 @@
       "sent_key": "2608.06370:2026-08-06T17:58:32Z",
       "title": "The Bitter Lesson of Tool Calling",
       "updated": "2026-08-06T17:58:32Z"
+    },
+    {
+      "arxiv_id": "2608.07367",
+      "score": 83.4,
+      "sent_at": "2026-08-10T11:19:03.859819+08:00",
+      "sent_key": "2608.07367:2026-08-07T16:10:53Z",
+      "title": "People Are Not Just Their Countries. Disentangling Social Determinants of LLM Value Alignment Across Europe",
+      "updated": "2026-08-07T16:10:53Z"
+    },
+    {
+      "arxiv_id": "2608.07001",
+      "score": 73.6,
+      "sent_at": "2026-08-10T11:19:03.859819+08:00",
+      "sent_key": "2608.07001:2026-08-07T09:18:42Z",
+      "title": "Every Cache Entry Earns Its Place: Global Allocation of Resolution and Coverage for KV Cache Compression",
+      "updated": "2026-08-07T09:18:42Z"
+    },
+    {
+      "arxiv_id": "2608.06987",
+      "score": 72.8,
+      "sent_at": "2026-08-10T11:19:03.859819+08:00",
+      "sent_key": "2608.06987:2026-08-07T09:05:43Z",
+      "title": "A Kubernetes Scheduler Plugin for Cluster-Wide Placement Optimisation",
+      "updated": "2026-08-07T09:05:43Z"
+    },
+    {
+      "arxiv_id": "2604.06756",
+      "score": 71.9,
+      "sent_at": "2026-08-10T11:19:03.859819+08:00",
+      "sent_key": "2604.06756:2026-08-07T09:27:08Z",
+      "title": "How Long Reasoning Chains Influence LLMs' Judgment of Answer Factuality",
+      "updated": "2026-08-07T09:27:08Z"
+    },
+    {
+      "arxiv_id": "2608.06884",
+      "score": 71.0,
+      "sent_at": "2026-08-10T11:19:03.859819+08:00",
+      "sent_key": "2608.06884:2026-08-07T07:15:38Z",
+      "title": "Georeferencing Non-Gazetteered Place Names using Biological Specimen Records",
+      "updated": "2026-08-07T07:15:38Z"
+    },
+    {
+      "arxiv_id": "2608.06928",
+      "score": 69.8,
+      "sent_at": "2026-08-10T11:19:03.859819+08:00",
+      "sent_key": "2608.06928:2026-08-07T08:03:29Z",
+      "title": "From Classification to Recommendation: Empirical Analysis of Audio Embedding Models Application for Content-Based Music Recommendation",
+      "updated": "2026-08-07T08:03:29Z"
+    },
+    {
+      "arxiv_id": "2608.06876",
+      "score": 69.4,
+      "sent_at": "2026-08-10T11:19:03.859819+08:00",
+      "sent_key": "2608.06876:2026-08-07T07:01:42Z",
+      "title": "FedVAR: Prototype-Aligned Federated Framework for Video Anomaly Recognition",
+      "updated": "2026-08-07T07:01:42Z"
+    },
+    {
+      "arxiv_id": "2411.00028",
+      "score": 68.4,
+      "sent_at": "2026-08-10T11:19:03.859819+08:00",
+      "sent_key": "2411.00028:2026-08-07T14:55:39Z",
+      "title": "Harnessing the Synergy between LLM Agents and Knowledge Graphs for Urban Socioeconomic Prediction",
+      "updated": "2026-08-07T14:55:39Z"
+    },
+    {
+      "arxiv_id": "2608.07411",
+      "score": 64.8,
+      "sent_at": "2026-08-10T11:19:03.859819+08:00",
+      "sent_key": "2608.07411:2026-08-07T16:58:04Z",
+      "title": "GeoBenchLLM: A Comprehensive Benchmark for Evaluating LLMs on Geo-Related Tasks",
+      "updated": "2026-08-07T16:58:04Z"
+    },
+    {
+      "arxiv_id": "2608.05399",
+      "score": 63.2,
+      "sent_at": "2026-08-10T11:19:03.859819+08:00",
+      "sent_key": "2608.05399:2026-08-07T14:31:04Z",
+      "title": "Improving Debugging in Verification-Aware Languages Through Automated Fault Localization: A Case Study in Dafny",
+      "updated": "2026-08-07T14:31:04Z"
+    },
+    {
+      "arxiv_id": "2608.07004",
+      "score": 63.0,
+      "sent_at": "2026-08-10T11:19:03.859819+08:00",
+      "sent_key": "2608.07004:2026-08-07T09:19:31Z",
+      "title": "Benchmarking and Reasoning Distillation of Large Language Models for Feedback Controller Design in Complex Dynamical Systems",
+      "updated": "2026-08-07T09:19:31Z"
+    },
+    {
+      "arxiv_id": "2608.07069",
+      "score": 62.4,
+      "sent_at": "2026-08-10T11:19:03.859819+08:00",
+      "sent_key": "2608.07069:2026-08-07T10:23:45Z",
+      "title": "Invisible to the Machine: Auditing AI Restaurant, Cafe, and Bar Recommendation Against a Complete Market Census",
+      "updated": "2026-08-07T10:23:45Z"
+    },
+    {
+      "arxiv_id": "2608.07419",
+      "score": 62.1,
+      "sent_at": "2026-08-10T11:19:03.859819+08:00",
+      "sent_key": "2608.07419:2026-08-07T17:05:10Z",
+      "title": "Beyond Post-Hoc Temperature Scaling: Bilevel Optimization for LLM Calibration",
+      "updated": "2026-08-07T17:05:10Z"
+    },
+    {
+      "arxiv_id": "2608.06763",
+      "score": 61.7,
+      "sent_at": "2026-08-10T11:19:03.859819+08:00",
+      "sent_key": "2608.06763:2026-08-07T03:36:07Z",
+      "title": "CubicQuant: Parametric Non-Uniform Codebooks for High-Throughput LLM Inference with 1-8-Bit Weights",
+      "updated": "2026-08-07T03:36:07Z"
+    },
+    {
+      "arxiv_id": "2608.07418",
+      "score": 60.4,
+      "sent_at": "2026-08-10T11:19:03.859819+08:00",
+      "sent_key": "2608.07418:2026-08-07T17:04:41Z",
+      "title": "ResidencyRL: Reinforcement Learning in Simulated Clinical Environments",
+      "updated": "2026-08-07T17:04:41Z"
     }
   ]
 }
