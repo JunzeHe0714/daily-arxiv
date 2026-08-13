@@ -1,144 +1,135 @@
 <!doctype html><html><head><meta charset='utf-8'>
 <style>body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Arial,sans-serif;line-height:1.55;color:#202124;max-width:860px;margin:24px auto;padding:0 16px;}h1{font-size:24px;}h2{font-size:20px;margin-top:28px;}h3{font-size:17px;margin-bottom:6px}.paper{border-top:1px solid #ddd;padding-top:16px;margin-top:16px}.meta{color:#5f6368;font-size:13px}.pill{display:inline-block;border:1px solid #dadce0;border-radius:12px;padding:1px 8px;margin:2px;color:#3c4043;font-size:12px}.score{color:#0b57d0}.feedback{background:#f8fafd;border:1px solid #dfe6f5;padding:12px;border-radius:8px;margin-top:28px}</style>
 </head><body>
-<h1>Daily arXiv - 2026-08-12</h1>
+<h1>Daily arXiv - 2026-08-13</h1>
 <p>Top 5 精读 + 10 篇一句话候选。你可以直接回复这封邮件来调整明天的偏好。</p>
 <h2>Top 5 精读</h2>
 <div class='paper'>
-<h3>#1 <a href='https://arxiv.org/abs/2608.11022v1'>Workflow Cards: Structured Summaries of Workflow Executions Using Provenance Data</a></h3>
-<div class='meta'>Nicola Giuseppe Marchioro, Gabriele Padovani, Amal Gueroudji, Rafael Ferreira da Silva, Wesley Brewer, Valentine Anantharaj, Sandro Fiore, Renan Souza | cs.DC | score <span class='score'>117.6</span> | updated 2026-08-11</div>
-<span class='pill'>cs.DC</span>
-<span class='pill'>cs.AI</span>
-<p><strong>TL;DR:</strong> Model Cards and Data Cards have demonstrated the value of structured, human-readable documentation for machine learning artifacts, capturing their context, parameters, limitations, and intended use.</p>
-<p><strong>中文摘要:</strong> 这篇论文主要围绕 cs.DC 中的 benchmark/evaluation 展开。根据摘要，核心问题是：Model Cards and Data Cards have demonstrated the value of structured, human-readable documentation for machine learning artifacts, capturing their context, parameters, limitations, and intended use. 适合先作为候选阅读，再结合实验设置判断是否值得精读。</p>
-<p><strong>English Summary:</strong> Model Cards and Data Cards have demonstrated the value of structured, human-readable documentation for machine learning artifacts, capturing their context, parameters, limitations, and intended use. However, these practices remain focused on static artifacts (the datasets and trained models themselves) while overlooking the workflow executions that produce, transform, and evaluate them. Such executions hold critical details about data preparation, parameter choice, runtime behavior, resource use, and intermediate transformations, precisely where bias, performance variation, and reproducibility gaps tend to originate.</p>
-<p><strong>方法 / Method:</strong> benchmark/evaluation</p>
-<p><strong>贡献 / Contribution:</strong> 提出或分析一种与 LLM/AI 系统相关的方法，具体贡献需结合正文实验确认。</p>
-<p><strong>局限 / Limitation:</strong> 当前只基于 arXiv 摘要判断，细节、消融和真实效果需要阅读全文确认。</p>
-<p><strong>为什么与你相关 / Why relevant:</strong> matches large language model, llm, language model；your recent feedback likes: Large Language Models (LLMs)；your recent feedback likes: about</p>
-</div>
-<div class='paper'>
-<h3>#2 <a href='https://arxiv.org/abs/2604.08991v3'>PinpointQA: A Benchmark for Small Object-Centric Spatial Understanding in Indoor Videos</a></h3>
-<div class='meta'>Zhiyu Zhou, Peilin Liu, Ruoxuan Zhang, Luyang Zhang, Cheng Zhang, Hongxia Xie, Wen-Huang Cheng | cs.CV | score <span class='score'>94.6</span> | updated 2026-08-11</div>
+<h3>#1 <a href='https://arxiv.org/abs/2608.12158v1'>Context Blindness in DPO: Mitigating Object Hallucination in MLLMs via Context-Calibrated Preference Optimization</a></h3>
+<div class='meta'>Byungoh Ko, Jinyoung Park, Jongha Kim, Jeehye Na, Jaewon Cho, Hyunwoo J. Kim | cs.CV | score <span class='score'>94.5</span> | updated 2026-08-12</div>
 <span class='pill'>cs.CV</span>
-<span class='pill'>cs.AI</span>
-<p><strong>TL;DR:</strong> Reliable embodied interaction in indoor environments requires agents to precisely localize small everyday objects from visual observations.</p>
-<p><strong>中文摘要:</strong> 这篇论文主要围绕 cs.CV 中的 agent or tool-use evaluation 展开。根据摘要，核心问题是：Reliable embodied interaction in indoor environments requires agents to precisely localize small everyday objects from visual observations. Yet this fundamental capability remains challenging for multimodal large language models (MLLMs), particularly when spatial understanding must be performed from indoor videos. 适合先作为候选阅读，再结合实验设置判断是否值得精读。</p>
-<p><strong>English Summary:</strong> Reliable embodied interaction in indoor environments requires agents to precisely localize small everyday objects from visual observations. Yet this fundamental capability remains challenging for multimodal large language models (MLLMs), particularly when spatial understanding must be performed from indoor videos. Existing benchmarks study video spatial intelligence and embodied reasoning, but do not directly evaluate whether a model can localize a small target object and express its position with sufficient precision.</p>
-<p><strong>方法 / Method:</strong> agent or tool-use evaluation</p>
+<p><strong>TL;DR:</strong> Multimodal large language models (MLLMs) have made rapid progress, yet they still exhibit object hallucination, generating plausible but incorrect descriptions that are inconsistent with the visual input.</p>
+<p><strong>中文摘要:</strong> 这篇论文主要围绕 cs.CV 中的 reinforcement learning / post-training 展开。根据摘要，核心问题是：Multimodal large language models (MLLMs) have made rapid progress, yet they still exhibit object hallucination, generating plausible but incorrect descriptions that are inconsistent with the visual input. 适合先作为候选阅读，再结合实验设置判断是否值得精读。</p>
+<p><strong>English Summary:</strong> Multimodal large language models (MLLMs) have made rapid progress, yet they still exhibit object hallucination, generating plausible but incorrect descriptions that are inconsistent with the visual input. Direct Preference Optimization (DPO) mitigates this by training models to prefer non-hallucinated responses over hallucinated ones, and recent efforts further enrich the preference data with relevant context. However, it remains unclear whether DPO actually leverages such context.</p>
+<p><strong>方法 / Method:</strong> reinforcement learning / post-training</p>
 <p><strong>贡献 / Contribution:</strong> 提供新的评测视角或任务设置，可用于判断模型能力和研究空白。</p>
 <p><strong>局限 / Limitation:</strong> 可能依赖特定任务集，泛化到真实研究/生产场景仍需进一步验证。</p>
-<p><strong>为什么与你相关 / Why relevant:</strong> matches large language model, llm, language model, agent；your recent feedback likes: Liu；your recent feedback likes: across</p>
+<p><strong>为什么与你相关 / Why relevant:</strong> matches large language model, llm, language model, reasoning；your recent feedback likes: across；your recent feedback likes: benchmark</p>
 </div>
 <div class='paper'>
-<h3>#3 <a href='https://arxiv.org/abs/2608.11152v1'>Scheduling Mixed RL Rollouts Beyond Prefix Locality</a></h3>
-<div class='meta'>Zetao Hong, Song Yuan, Yuanhao Ding, Yibo Zhu, Daxin Jiang, Zhibin Wang, Chen Tian | cs.DC | score <span class='score'>93.6</span> | updated 2026-08-11</div>
-<span class='pill'>cs.DC</span>
-<span class='pill'>cs.LG</span>
-<p><strong>TL;DR:</strong> Modern reinforcement learning (RL) post-training pipelines for large language models (LLMs) increasingly combine rollout workloads across multiple domains and feedback paradigms.</p>
-<p><strong>中文摘要:</strong> 这篇论文主要围绕 cs.DC 中的 reinforcement learning / post-training 展开。根据摘要，核心问题是：Modern reinforcement learning (RL) post-training pipelines for large language models (LLMs) increasingly combine rollout workloads across multiple domains and feedback paradigms. Prefix-aware routing improves inference efficiency through cache reuse and load balancing, but it does not control how heterogeneous rollout sessions compete for KV-cache capacity. 适合先作为候选阅读，再结合实验设置判断是否值得精读。</p>
-<p><strong>English Summary:</strong> Modern reinforcement learning (RL) post-training pipelines for large language models (LLMs) increasingly combine rollout workloads across multiple domains and feedback paradigms. Prefix-aware routing improves inference efficiency through cache reuse and load balancing, but it does not control how heterogeneous rollout sessions compete for KV-cache capacity. When reinforcement learning with verifiable rewards (RLVR), reinforcement learning from human feedback (RLHF), and agentic rollouts share an asynchronous inference service, their distinct sequence structures, interaction patterns, and KV-residency times create substantially different serving demands.</p>
-<p><strong>方法 / Method:</strong> reinforcement learning / post-training</p>
-<p><strong>贡献 / Contribution:</strong> 尝试改善训练、推理或服务效率，对 LLM optimization 方向有参考价值。</p>
-<p><strong>局限 / Limitation:</strong> 效率收益可能受模型规模、硬件、batch 设置和实现细节影响，需关注实验配置。</p>
-<p><strong>为什么与你相关 / Why relevant:</strong> matches large language model, llm, language model, agent；strong interest: inference efficiency, post-training；your recent feedback likes: Large Language Models (LLMs)</p>
-</div>
-<div class='paper'>
-<h3>#4 <a href='https://arxiv.org/abs/2608.11201v1'>VidForensics-M1: Meta-Detection Reinforcement Learning with Verifiable Temporal Grounding for AI-Generated Video Forensics</a></h3>
-<div class='meta'>Bowei Liu, Zheng Lu, Yuhan Bian, Xinchen Zhang, Xingming Shui, Yuesheng Huang, Xuhuan Li, Zihao Liu et al. | cs.CV | score <span class='score'>92.3</span> | updated 2026-08-11</div>
-<span class='pill'>cs.CV</span>
-<p><strong>TL;DR:</strong> Recent advances in video generation models have significantly improved the realism of synthetic videos, blurring the boundary between generated and authentic content and raising concerns about misinformation.</p>
-<p><strong>中文摘要:</strong> 这篇论文主要围绕 cs.CV 中的 reinforcement learning / post-training 展开。根据摘要，核心问题是：Recent advances in video generation models have significantly improved the realism of synthetic videos, blurring the boundary between generated and authentic content and raising concerns about misinformation. 适合先作为候选阅读，再结合实验设置判断是否值得精读。</p>
-<p><strong>English Summary:</strong> Recent advances in video generation models have significantly improved the realism of synthetic videos, blurring the boundary between generated and authentic content and raising concerns about misinformation. Existing MLLM-based detectors mainly rely on supervised fine-tuning or label-level reinforcement learning, where coarse supervision limits generalization to unseen scenarios and emerging video generators. To overcome these limitations, we are the first to introduce \textbf{meta-detection} into AI-generated video detection, enabling reliable forgery detection by jointly optimizing predicted labels and supporting evidence within reinforcement learning.</p>
-<p><strong>方法 / Method:</strong> reinforcement learning / post-training</p>
-<p><strong>贡献 / Contribution:</strong> 尝试改善训练、推理或服务效率，对 LLM optimization 方向有参考价值。</p>
-<p><strong>局限 / Limitation:</strong> 效率收益可能受模型规模、硬件、batch 设置和实现细节影响，需关注实验配置。</p>
-<p><strong>为什么与你相关 / Why relevant:</strong> matches llm, optimization, rag；your recent feedback likes: Liu；your recent feedback likes: about</p>
-</div>
-<div class='paper'>
-<h3>#5 <a href='https://arxiv.org/abs/2608.11074v1'>CapProbe: Evaluating Detailed Image Captions via Full-Scene Dense Question Answering</a></h3>
-<div class='meta'>Mouxiao Huang, Qiangyu Yan, Borui Jiang, Han Shu | cs.CV | score <span class='score'>90.9</span> | updated 2026-08-11</div>
-<span class='pill'>cs.CV</span>
-<p><strong>TL;DR:</strong> Evaluating detailed image captions from Vision-Language Models (VLMs) requires going beyond surface-level semantic similarity.</p>
-<p><strong>中文摘要:</strong> 这篇论文主要围绕 cs.CV 中的 retrieval-augmented generation 展开。根据摘要，核心问题是：Evaluating detailed image captions from Vision-Language Models (VLMs) requires going beyond surface-level semantic similarity. 适合先作为候选阅读，再结合实验设置判断是否值得精读。</p>
-<p><strong>English Summary:</strong> Evaluating detailed image captions from Vision-Language Models (VLMs) requires going beyond surface-level semantic similarity. Reference-based metrics (e.g., CIDEr and SPICE) and LLM-as-scorer protocols struggle to verify dense factual claims, while existing QA-based alternatives generally offer lower probe density, narrower domain coverage, or no explicit alignment between individual questions and segmented image regions. We introduce CapProbe, a full-scene dense QA benchmark that turns detailed caption evaluation into region-aligned factual checking.</p>
+<h3>#2 <a href='https://arxiv.org/abs/2602.11650v2'>Investigating Learner-Aware Design of LLM-Generated Educational Feedback</a></h3>
+<div class='meta'>Momoka Furuhashi, Kouta Nakayama, Noboru Kawai, Takashi Kodama, Saku Sugawara, Kyosuke Takami | cs.CL | score <span class='score'>85.0</span> | updated 2026-08-12</div>
+<span class='pill'>cs.CL</span>
+<p><strong>TL;DR:</strong> Although large language models (LLMs) show promise for generating educational feedback, it remains unclear how feedback should be designed (e.g., tone and information coverage) to support answer revision and learner acceptance across diverse learner profiles.</p>
+<p><strong>中文摘要:</strong> 这篇论文主要围绕 cs.CL 中的 retrieval-augmented generation 展开。根据摘要，核心问题是：Although large language models (LLMs) show promise for generating educational feedback, it remains unclear how feedback should be designed (e.g., tone and information coverage) to support answer revision and learner acceptance across diverse learner profiles. 适合先作为候选阅读，再结合实验设置判断是否值得精读。</p>
+<p><strong>English Summary:</strong> Although large language models (LLMs) show promise for generating educational feedback, it remains unclear how feedback should be designed (e.g., tone and information coverage) to support answer revision and learner acceptance across diverse learner profiles. We define six feedback designs for multiple-choice biology questions, including a baseline design and variants with additional feedback elements, and conduct an empirical study with high school students. We evaluate feedback using immediate revision performance and six subjective evaluation criteria, and analyze how feedback preferences vary across learner profiles based on personality traits.</p>
 <p><strong>方法 / Method:</strong> retrieval-augmented generation</p>
-<p><strong>贡献 / Contribution:</strong> 提供领域结构、问题分类或趋势梳理，帮助更新 LLM landscape 认知地图。</p>
+<p><strong>贡献 / Contribution:</strong> 提供新的评测视角或任务设置，可用于判断模型能力和研究空白。</p>
 <p><strong>局限 / Limitation:</strong> 可能依赖特定任务集，泛化到真实研究/生产场景仍需进一步验证。</p>
-<p><strong>为什么与你相关 / Why relevant:</strong> matches llm, language model, alignment, rag；your recent feedback likes: Turn；your recent feedback likes: across</p>
+<p><strong>为什么与你相关 / Why relevant:</strong> matches large language model, llm, language model, rag；your recent feedback likes: Large Language Models (LLMs)；your recent feedback likes: across</p>
+</div>
+<div class='paper'>
+<h3>#3 <a href='https://arxiv.org/abs/2511.12950v2'>Diffploit: Facilitating Cross-Version Exploit Migration for Open Source Library Vulnerabilities</a></h3>
+<div class='meta'>Zirui Chen, Zhipeng Xue, Jiayuan Zhou, Xing Hu, Xin Xia, Xiaohu Yang | cs.SE | score <span class='score'>76.7</span> | updated 2026-08-12</div>
+<span class='pill'>cs.SE</span>
+<p><strong>TL;DR:</strong> Exploits are commonly used to demonstrate the presence of library vulnerabilities and validate their impact across different versions.</p>
+<p><strong>中文摘要:</strong> 这篇论文主要围绕 cs.SE 中的 retrieval-augmented generation 展开。根据摘要，核心问题是：Exploits are commonly used to demonstrate the presence of library vulnerabilities and validate their impact across different versions. However, their direct application to alternative versions often fails due to breaking changes introduced during evolution. 适合先作为候选阅读，再结合实验设置判断是否值得精读。</p>
+<p><strong>English Summary:</strong> Exploits are commonly used to demonstrate the presence of library vulnerabilities and validate their impact across different versions. However, their direct application to alternative versions often fails due to breaking changes introduced during evolution. These failures stem from both changes in triggering conditions (e.g., API refactorings) and broken dynamic environments (e.g., build or runtime errors), which are challenging to interpret and adapt manually.</p>
+<p><strong>方法 / Method:</strong> retrieval-augmented generation</p>
+<p><strong>贡献 / Contribution:</strong> 提出或分析一种与 LLM/AI 系统相关的方法，具体贡献需结合正文实验确认。</p>
+<p><strong>局限 / Limitation:</strong> 当前只基于 arXiv 摘要判断，细节、消融和真实效果需要阅读全文确认。</p>
+<p><strong>为什么与你相关 / Why relevant:</strong> matches llm, alignment, rag；your recent feedback likes: across；your recent feedback likes: alignment</p>
+</div>
+<div class='paper'>
+<h3>#4 <a href='https://arxiv.org/abs/2605.07339v2'>Tools as Continuous Flow for Evolving Agentic Reasoning</a></h3>
+<div class='meta'>Tairan Huang, Siyu Shang, Qiang Chen, Xiu Su, Yi Chen | cs.AI | score <span class='score'>74.8</span> | updated 2026-08-12</div>
+<span class='pill'>cs.AI</span>
+<p><strong>TL;DR:</strong> Large Language Models (LLMs) have demonstrated remarkable capabilities in orchestrating tools for reasoning tasks.</p>
+<p><strong>中文摘要:</strong> 这篇论文主要围绕 cs.AI 中的 retrieval-augmented generation 展开。根据摘要，核心问题是：Large Language Models (LLMs) have demonstrated remarkable capabilities in orchestrating tools for reasoning tasks. However, existing methods rely on a step-wise paradigm that lacks a global perspective, which causes error accumulation over long horizons and restricts generalization to unseen tools. 适合先作为候选阅读，再结合实验设置判断是否值得精读。</p>
+<p><strong>English Summary:</strong> Large Language Models (LLMs) have demonstrated remarkable capabilities in orchestrating tools for reasoning tasks. However, existing methods rely on a step-wise paradigm that lacks a global perspective, which causes error accumulation over long horizons and restricts generalization to unseen tools. To overcome these limitations, we propose Tools as Continuous Flow for Evolving Agentic Reasoning (FlowAgent), which reconceptualizes tool chaining as continuous trajectory generation within a semantic space.</p>
+<p><strong>方法 / Method:</strong> retrieval-augmented generation</p>
+<p><strong>贡献 / Contribution:</strong> 提供新的评测视角或任务设置，可用于判断模型能力和研究空白。</p>
+<p><strong>局限 / Limitation:</strong> 可能依赖特定任务集，泛化到真实研究/生产场景仍需进一步验证。</p>
+<p><strong>为什么与你相关 / Why relevant:</strong> matches large language model, llm, language model, agent；your recent feedback likes: Large Language Models (LLMs)；your recent feedback likes: agent</p>
+</div>
+<div class='paper'>
+<h3>#5 <a href='https://arxiv.org/abs/2604.02512v2'>Social Meaning in Large Language Models: Structure, Magnitude, and Pragmatic Prompting</a></h3>
+<div class='meta'>Roland Mühlenbernd | cs.CL | score <span class='score'>73.9</span> | updated 2026-08-12</div>
+<span class='pill'>cs.CL</span>
+<span class='pill'>cs.AI</span>
+<p><strong>TL;DR:</strong> Large language models (LLMs) increasingly exhibit human-like patterns of pragmatic and social reasoning.</p>
+<p><strong>中文摘要:</strong> 这篇论文主要围绕 cs.CL 中的 retrieval-augmented generation 展开。根据摘要，核心问题是：Large language models (LLMs) increasingly exhibit human-like patterns of pragmatic and social reasoning. This paper addresses two related questions: do LLMs approximate human social meaning not only qualitatively but also quantitatively, and can prompting strategies informed by pragmatic theory improve this approximation? 适合先作为候选阅读，再结合实验设置判断是否值得精读。</p>
+<p><strong>English Summary:</strong> Large language models (LLMs) increasingly exhibit human-like patterns of pragmatic and social reasoning. This paper addresses two related questions: do LLMs approximate human social meaning not only qualitatively but also quantitatively, and can prompting strategies informed by pragmatic theory improve this approximation? To address the first, we introduce two calibration-focused metrics distinguishing structural fidelity from magnitude calibration: the Effect Size Ratio (ESR) and the Calibration Deviation Score (CDS).</p>
+<p><strong>方法 / Method:</strong> retrieval-augmented generation</p>
+<p><strong>贡献 / Contribution:</strong> 尝试改善训练、推理或服务效率，对 LLM optimization 方向有参考价值。</p>
+<p><strong>局限 / Limitation:</strong> 效率收益可能受模型规模、硬件、batch 设置和实现细节影响，需关注实验配置。</p>
+<p><strong>为什么与你相关 / Why relevant:</strong> matches large language model, llm, language model, reasoning；your recent feedback likes: Large Language Models (LLMs)；your recent feedback likes: about</p>
 </div>
 <h2>10 篇一句话候选</h2>
 <div class='paper'>
-<h3>#6 <a href='https://arxiv.org/abs/2608.10545v1'>ImpactHO: Importance-Aware KV Cache Transfer for Multi-User Edge LLM Handover</a></h3>
-<div class='meta'>Minwoo Kim, Soochang Song, Namyoon Lee, Bang Chul Jung, Yongjune Kim | cs.NI | score <span class='score'>90.1</span> | updated 2026-08-11</div>
-<span class='pill'>cs.NI</span>
-<span class='pill'>cs.AI</span>
-<span class='pill'>cs.DC</span>
-<p>Edge LLMs must preserve inference continuity when a user hands over between edge nodes, requiring key-value (KV) cache transfer to the target node. Relevant because: matches llm, rag；your recent feedback likes: Turn；your recent feedback likes: across</p>
-</div>
-<div class='paper'>
-<h3>#7 <a href='https://arxiv.org/abs/2608.11045v1'>ReRound: Reconstructive Rounding to Resolve Midpoint Ambiguity in Calibration-Free LLM Quantization</a></h3>
-<div class='meta'>He-Yen Hsieh, H. T. Kung | cs.LG | score <span class='score'>84.5</span> | updated 2026-08-11</div>
-<span class='pill'>cs.LG</span>
+<h3>#6 <a href='https://arxiv.org/abs/2605.05103v3'>Text Corpora as Concept Fields: Black-Box Hallucination and Novelty Measurement</a></h3>
+<div class='meta'>Nicholas S. Kersting, Vittorio Castelli, Chieh Ting Yeh, Xinzhu Wang, Saad Taame, Khaoula Allak | cs.CL | score <span class='score'>69.2</span> | updated 2026-08-12</div>
 <span class='pill'>cs.CL</span>
-<p>ReRound (Reconstructive Rounding) is a post-training quantization method that addresses the midpoint ambiguity inherent in standard round-to-nearest (RTN) schemes when quantizing weights near the centers of quantization Relevant because: matches llm, post-training；strong interest: post-training；your recent feedback likes: across</p>
+<span class='pill'>cs.AI</span>
+<span class='pill'>cs.CY</span>
+<p>We introduce the \textbf{Concept Field} of a text corpus: a local drift field with pointwise uncertainty, estimated in sentence-embedding space from the deltas between consecutive sentences. Relevant because: matches llm, rag；your recent feedback likes: across；your recent feedback likes: also</p>
 </div>
 <div class='paper'>
-<h3>#8 <a href='https://arxiv.org/abs/2601.18579v2'>GraFine: Retrieval-Time Refinement for Efficient Graph RAG over Corpus Graphs</a></h3>
-<div class='meta'>Seonho An, Chaejeong Hyun, Min-Soo Kim | cs.IR | score <span class='score'>75.7</span> | updated 2026-08-11</div>
+<h3>#7 <a href='https://arxiv.org/abs/2608.11920v1'>NITRO: High-Performance 3D NAND Flash-Based In-Storage Computing with Enhanced Activation Dataflow</a></h3>
+<div class='meta'>Sanghun Shin, Sangyeon Kim, Gisan Ji, Sungju Ryu | cs.AR | score <span class='score'>69.0</span> | updated 2026-08-12</div>
+<span class='pill'>cs.AR</span>
+<p>In-storage computing (ISC) is considered a next-generation memory architecture for its ability to relieve the data bottleneck between the host and the memory. Relevant because: matches large language model, llm, language model, rag；your recent feedback likes: Large Language Models (LLMs)；your recent feedback likes: activations</p>
+</div>
+<div class='paper'>
+<h3>#8 <a href='https://arxiv.org/abs/2608.12197v1'>NetlistBench: Evaluating LLM Reliability in SPICE Netlist Recognition and Manipulation</a></h3>
+<div class='meta'>Jiarui Ma, Jianghan Wang, Yuheng Ma, Ziyi Zhuang, Xiaoguang Liu | eess.SY | score <span class='score'>67.6</span> | updated 2026-08-12</div>
+<span class='pill'>eess.SY</span>
+<span class='pill'>cs.AI</span>
+<p>Large Language Models (LLMs) are increasingly used in circuit design workflows, yet their reliability on simulator-facing SPICE netlist recognition and manipulation remains poorly understood and is rarely separated from Relevant because: matches large language model, llm, language model, reasoning；your recent feedback likes: Large Language Models (LLMs)；your recent feedback likes: Liu</p>
+</div>
+<div class='paper'>
+<h3>#9 <a href='https://arxiv.org/abs/2608.11973v1'>Sci-Surf: Navigating Scientific Literature Discovery through Human Feedback and Intelligent Summarizatio</a></h3>
+<div class='meta'>Fang Guo, Qi Zhu, Rongcan Pei, Shuqi He, Hui Chen, Yue Zhang | cs.IR | score <span class='score'>65.8</span> | updated 2026-08-12</div>
 <span class='pill'>cs.IR</span>
-<span class='pill'>cs.AI</span>
-<p>Graph RAG on corpus graphs enhances retrieval by leveraging intermediate node content as contextual clues to uncover unretrieved oracle nodes. Relevant because: matches rag, taxonomy；your recent feedback likes: adding；your recent feedback likes: analysis</p>
+<p>The rapid growth of scientific publications makes it increasingly difficult for researchers to identify relevant new studies and effectively comprehend them. Relevant because: matches llm, alignment, rag, evaluation；your recent feedback likes: alignment；your recent feedback likes: both</p>
 </div>
 <div class='paper'>
-<h3>#9 <a href='https://arxiv.org/abs/2607.24850v2'>SearchArt: Training Long-Horizon Search Agent with Scalable Synthetic and Verified Task</a></h3>
-<div class='meta'>Lang Mei, Xiaohan Yu, Chong Chen, Liyan Liu, Xiangnan Chen, Jinchao Ma, Chao Feng, Li Huang et al. | cs.IR | score <span class='score'>72.6</span> | updated 2026-08-11</div>
+<h3>#10 <a href='https://arxiv.org/abs/2602.06075v2'>MemGUI-Bench: Benchmarking Memory of Mobile GUI Agents in Dynamic Environments</a></h3>
+<div class='meta'>Guangyi Liu, Pengxiang Zhao, Yaozhen Liang, Qinyi Luo, Shunye Tang, Yuxiang Chai, Weifeng Lin, Han Xiao et al. | cs.DC | score <span class='score'>65.6</span> | updated 2026-08-11</div>
+<span class='pill'>cs.DC</span>
+<p>Reliable mobile GUI agents must retain and reuse information across actions, applications, and repeated interactions. Relevant because: matches llm, agent, evaluation, taxonomy；your recent feedback likes: Liu；your recent feedback likes: across</p>
+</div>
+<div class='paper'>
+<h3>#11 <a href='https://arxiv.org/abs/2508.03875v3'>Learning Multi-Timescale Interventions under Safety and Resource Constraints</a></h3>
+<div class='meta'>David Mguni, Wanrong Yang, Jing Dong, Jing Peng, Ziquan Liu, Muhammad Salman Haleem, Baoxiang Wang, Dominik Wojtczak | cs.LG | score <span class='score'>64.9</span> | updated 2026-08-12</div>
+<span class='pill'>cs.LG</span>
+<p>Many sequential decision problems offer qualitatively different ways of influencing the environment: some interventions act immediately, whereas others induce persistent effects that continue to shape future states long Relevant because: matches llm, agent；your recent feedback likes: Liu；your recent feedback likes: Turn</p>
+</div>
+<div class='paper'>
+<h3>#12 <a href='https://arxiv.org/abs/2608.11030v1'>Self-Knowledge Retrieval Augmented Generation Framework for Patent Matching</a></h3>
+<div class='meta'>Jian Zhang, Songlin Lei, Zhuohao Yang, Bangli Liu, Ziwei Wang, Xufeng Weng, Gehan Amaratunga, Yu Lin et al. | cs.IR | score <span class='score'>64.9</span> | updated 2026-08-11</div>
 <span class='pill'>cs.IR</span>
-<span class='pill'>cs.LG</span>
-<p>Recent advances in large language models (LLMs) have enabled search agents to autonomously tackle complex tasks across extended search and reasoning horizons. Relevant because: matches large language model, llm, language model, agent；strong interest: post-training；your recent feedback likes: Large Language Models (LLMs)</p>
+<span class='pill'>cs.CL</span>
+<p>Patent retrieval and matching based on large language models (LLMs) play a vital role in intellectual property protection. Relevant because: matches large language model, llm, language model, retrieval augmented generation；your recent feedback likes: Large Language Models (LLMs)；your recent feedback likes: Liu</p>
 </div>
 <div class='paper'>
-<h3>#10 <a href='https://arxiv.org/abs/2608.09740v2'>Security Tests as Executable Specifications for LLM Code Generation: Benefits, Trade-offs, and Coverage Limits</a></h3>
-<div class='meta'>Yunhao Liang, Chengguang Gan, Ruixuan Ying, Hanjun Wei, Zhe Cui, Shiwen Ni | cs.SE | score <span class='score'>72.0</span> | updated 2026-08-11</div>
-<span class='pill'>cs.SE</span>
-<p>Large language models (LLMs) can generate functionally useful code that remains vulnerable, while security-focused interventions may break intended behavior. Relevant because: matches large language model, llm, language model, rag；your recent feedback likes: Large Language Models (LLMs)；your recent feedback likes: across</p>
+<h3>#13 <a href='https://arxiv.org/abs/2506.16616v4'>LDI: Localized Data Imputation for Text-Rich Tables</a></h3>
+<div class='meta'>Soroush Omidvartehrani, Davood Rafiei | cs.DB | score <span class='score'>64.3</span> | updated 2026-08-12</div>
+<span class='pill'>cs.DB</span>
+<p>Missing values are pervasive in real-world tabular data and can significantly impair downstream analysis. Relevant because: matches large language model, llm, language model, reasoning；your recent feedback likes: Attributes；your recent feedback likes: Large Language Models (LLMs)</p>
 </div>
 <div class='paper'>
-<h3>#11 <a href='https://arxiv.org/abs/2604.01039v3'>Evaluation and Hardening of LLM System Instructions Against Extraction via Encoding Attacks</a></h3>
-<div class='meta'>Anubhab Sahu, Diptisha Samanta, Reza Soosahabi | cs.CR | score <span class='score'>71.8</span> | updated 2026-08-11</div>
-<span class='pill'>cs.CR</span>
-<span class='pill'>cs.AI</span>
-<p>System Instructions in Large Language Models (LLMs) are commonly used to enforce safety policies, define agent behavior, and protect sensitive operational context in agentic AI applications. Relevant because: matches large language model, llm, language model, agent；strong interest: reasoning model；your recent feedback likes: Large Language Models (LLMs)</p>
+<h3>#14 <a href='https://arxiv.org/abs/2608.11981v1'>Benchmarking Trustworthiness of SLMs: Pre-trained vs. Compressed</a></h3>
+<div class='meta'>Haokun Lin, Kaijie Zhu, Haobo Xu, Yichen Wu, Zhichao Lu, Qingfu Zhang, Zhenan Sun | cs.CL | score <span class='score'>63.8</span> | updated 2026-08-12</div>
+<span class='pill'>cs.CL</span>
+<p>Small Language Models (SLMs) have emerged as a more efficient alternative to traditional Large Language Models (LLMs), offering promising potential in resource-constrained scenarios. Relevant because: matches large language model, llm, language model, evaluation；your recent feedback likes: Large Language Models (LLMs)；your recent feedback likes: across</p>
 </div>
 <div class='paper'>
-<h3>#12 <a href='https://arxiv.org/abs/2604.26508v2'>Progressive Semantic Communication for Efficient Edge-Cloud Vision-Language Models</a></h3>
-<div class='meta'>Cyril Shih-Huan Hsu, Wig Yuan-Cheng Cheng, Chrysa Papagianni | cs.LG | score <span class='score'>70.7</span> | updated 2026-08-11</div>
-<span class='pill'>cs.LG</span>
-<span class='pill'>cs.AI</span>
+<h3>#15 <a href='https://arxiv.org/abs/2603.08131v2'>UniGround: Universal 3D Visual Grounding via Training-Free Scene Parsing</a></h3>
+<div class='meta'>Jiaxi Zhang, Yunheng Wang, Wei Lu, Taowen Wang, Shuning Zhang, Yixiao Feng, Junzhe Xu, Shunwang Sun et al. | cs.RO | score <span class='score'>63.6</span> | updated 2026-08-12</div>
+<span class='pill'>cs.RO</span>
 <span class='pill'>cs.CV</span>
-<span class='pill'>cs.DC</span>
-<span class='pill'>cs.NI</span>
-<p>Deploying Vision-Language Models (VLMs) on edge devices remains challenging due to their substantial computational and memory demands, which exceed the capabilities of resource-constrained embedded platforms. Relevant because: matches language model；your recent feedback likes: across；your recent feedback likes: between</p>
-</div>
-<div class='paper'>
-<h3>#13 <a href='https://arxiv.org/abs/2608.10402v1'>TideRL: Boosting Agentic RL Goodput with Readiness-Aware Scheduling</a></h3>
-<div class='meta'>Yanyu Ren, Xizheng Wang, Xiao Liu, Bowen Lv, Hanchen Zhang, Shudan Zhang, Hanyu Lai, Shuai Wang et al. | cs.LG | score <span class='score'>69.1</span> | updated 2026-08-11</div>
-<span class='pill'>cs.LG</span>
-<span class='pill'>cs.DC</span>
-<p>Reinforcement learning (RL) for large language models is moving toward multi-turn agentic workloads, where rollout tasks repeatedly pause for external environments, resume with growing contexts, and finish at highly vari Relevant because: matches large language model, language model, agent；your recent feedback likes: Liu；your recent feedback likes: Turn</p>
-</div>
-<div class='paper'>
-<h3>#14 <a href='https://arxiv.org/abs/2605.12226v5'>Crowd-OM: Crowdsourcing for Ontology Matching Validation</a></h3>
-<div class='meta'>Zhangcheng Qiang, Weiqing Wang, Kerry Taylor | cs.IR | score <span class='score'>68.7</span> | updated 2026-08-11</div>
-<span class='pill'>cs.IR</span>
-<p>Recent advances in large language models (LLMs) pose new challenges for ontology matching (OM). Relevant because: matches large language model, llm, language model, evaluation；your recent feedback likes: Large Language Models (LLMs)；your recent feedback likes: become</p>
-</div>
-<div class='paper'>
-<h3>#15 <a href='https://arxiv.org/abs/2608.11052v1'>Efficient Hypergradient Descent for Inverse Reinforcement Learning</a></h3>
-<div class='meta'>Nikita Sevriukov, Anna Barabanova, Uliana Gagarina, Karina Ivanova, Sofiia Kasaeva, Ilya Levin, Marina Sheshukova | cs.LG | score <span class='score'>65.8</span> | updated 2026-08-11</div>
-<span class='pill'>cs.LG</span>
-<span class='pill'>stat.ML</span>
-<p>Inverse reinforcement learning (IRL) aims to recover a reward function under which the resulting policy reproduces the behavior observed in expert demonstrations. Relevant because: matches optimization, rag；your recent feedback likes: across；your recent feedback likes: against</p>
+<p>3D Visual Grounding (3DVG) localizes objects from natural-language descriptions in 3D scenes and is fundamental to embodied AI applications. Relevant because: matches foundation model, reasoning, rag；your recent feedback likes: appearance；your recent feedback likes: both</p>
 </div>
 <div class='feedback'><strong>反馈方式</strong><br>直接回复：多发 #3 类似的，少发 #1；多发 landscape / inference optimization / RLVR。</div>
 </body></html>
