@@ -63,6 +63,7 @@
     "2509.24372",
     "2509.24882",
     "2510.03997",
+    "2510.05678",
     "2510.07884",
     "2510.09595",
     "2510.12229",
@@ -118,6 +119,7 @@
     "2601.21284",
     "2601.21476",
     "2601.21787",
+    "2601.22124",
     "2601.22588",
     "2602.00161",
     "2602.01132",
@@ -231,6 +233,7 @@
     "2605.26144",
     "2605.28215",
     "2605.30060",
+    "2605.30777",
     "2605.30794",
     "2605.31514",
     "2606.00048",
@@ -852,11 +855,21 @@
     "2608.11074",
     "2608.11152",
     "2608.11201",
+    "2608.11836",
     "2608.11920",
     "2608.11973",
     "2608.11981",
     "2608.12158",
-    "2608.12197"
+    "2608.12197",
+    "2608.12745",
+    "2608.12779",
+    "2608.13122",
+    "2608.13179",
+    "2608.13263",
+    "2608.13441",
+    "2608.13502",
+    "2608.13506",
+    "2608.13556"
   ],
   "sent_keys": [
     "2309.16843:2026-07-02T16:45:25Z",
@@ -924,6 +937,7 @@
     "2509.24372:2026-07-14T15:11:12Z",
     "2509.24882:2026-08-06T09:40:55Z",
     "2510.03997:2026-08-06T15:01:32Z",
+    "2510.05678:2026-08-13T12:53:08Z",
     "2510.07884:2026-07-10T15:46:24Z",
     "2510.09595:2026-07-08T17:08:31Z",
     "2510.12229:2026-07-17T09:58:13Z",
@@ -980,6 +994,7 @@
     "2601.21284:2026-07-23T16:27:13Z",
     "2601.21476:2026-07-08T14:57:44Z",
     "2601.21787:2026-06-29T08:37:59Z",
+    "2601.22124:2026-08-13T03:28:57Z",
     "2601.22588:2026-07-09T09:10:35Z",
     "2602.00161:2026-06-17T12:42:15Z",
     "2602.01132:2026-08-03T13:15:42Z",
@@ -1099,6 +1114,7 @@
     "2605.26144:2026-06-22T18:12:46Z",
     "2605.28215:2026-07-10T10:34:44Z",
     "2605.30060:2026-07-16T15:48:01Z",
+    "2605.30777:2026-08-13T02:37:51Z",
     "2605.30794:2026-07-07T10:32:50Z",
     "2605.31514:2026-06-11T16:55:07Z",
     "2606.00048:2026-07-23T09:26:31Z",
@@ -1203,6 +1219,7 @@
     "2606.20008:2026-06-18T09:44:12Z",
     "2606.20072:2026-06-18T10:47:22Z",
     "2606.20077:2026-06-18T10:52:49Z",
+    "2606.20077:2026-08-13T16:20:55Z",
     "2606.20146:2026-06-18T12:08:04Z",
     "2606.20146:2026-06-22T15:32:28Z",
     "2606.20152:2026-06-18T12:18:54Z",
@@ -1754,11 +1771,22 @@
     "2608.11074:2026-08-11T15:36:10Z",
     "2608.11152:2026-08-11T17:10:50Z",
     "2608.11201:2026-08-11T17:58:10Z",
+    "2608.11836:2026-08-12T09:17:35Z",
     "2608.11920:2026-08-12T11:04:27Z",
     "2608.11973:2026-08-12T12:02:17Z",
+    "2608.11973:2026-08-13T02:07:37Z",
     "2608.11981:2026-08-12T12:14:02Z",
     "2608.12158:2026-08-12T15:20:29Z",
-    "2608.12197:2026-08-12T15:51:52Z"
+    "2608.12197:2026-08-12T15:51:52Z",
+    "2608.12745:2026-08-13T02:45:40Z",
+    "2608.12779:2026-08-13T03:37:11Z",
+    "2608.13122:2026-08-13T11:52:51Z",
+    "2608.13179:2026-08-13T12:44:37Z",
+    "2608.13263:2026-08-13T14:01:21Z",
+    "2608.13441:2026-08-13T16:27:18Z",
+    "2608.13502:2026-08-13T17:29:53Z",
+    "2608.13506:2026-08-13T17:32:45Z",
+    "2608.13556:2026-08-13T17:59:43Z"
   ],
   "sent_log": [
     {
@@ -8960,6 +8988,126 @@
       "sent_key": "2603.08131:2026-08-12T13:41:34Z",
       "title": "UniGround: Universal 3D Visual Grounding via Training-Free Scene Parsing",
       "updated": "2026-08-12T13:41:34Z"
+    },
+    {
+      "arxiv_id": "2608.13441",
+      "score": 95.7,
+      "sent_at": "2026-08-14T11:30:40.047165+08:00",
+      "sent_key": "2608.13441:2026-08-13T16:27:18Z",
+      "title": "Edit2TikZ: A Comprehensive and Challenging Benchmark for Scientific Figure Editing with TikZ",
+      "updated": "2026-08-13T16:27:18Z"
+    },
+    {
+      "arxiv_id": "2510.05678",
+      "score": 85.8,
+      "sent_at": "2026-08-14T11:30:40.047165+08:00",
+      "sent_key": "2510.05678:2026-08-13T12:53:08Z",
+      "title": "Gradual Code-Switching as Inference-Time Cross-Lingual Representational Alignment for LLMs",
+      "updated": "2026-08-13T12:53:08Z"
+    },
+    {
+      "arxiv_id": "2608.13263",
+      "score": 85.3,
+      "sent_at": "2026-08-14T11:30:40.047165+08:00",
+      "sent_key": "2608.13263:2026-08-13T14:01:21Z",
+      "title": "vToken: Token-Level Virtualization for Reclaimable KV Caches",
+      "updated": "2026-08-13T14:01:21Z"
+    },
+    {
+      "arxiv_id": "2605.30777",
+      "score": 80.4,
+      "sent_at": "2026-08-14T11:30:40.047165+08:00",
+      "sent_key": "2605.30777:2026-08-13T02:37:51Z",
+      "title": "What Breaks When LLMs Code? Characterizing Operational Safety Failures of Agentic Code Assistants",
+      "updated": "2026-08-13T02:37:51Z"
+    },
+    {
+      "arxiv_id": "2606.20077",
+      "score": 73.2,
+      "sent_at": "2026-08-14T11:30:40.047165+08:00",
+      "sent_key": "2606.20077:2026-08-13T16:20:55Z",
+      "title": "The Hidden Evolution of Disguised Visual Context inside the VLM",
+      "updated": "2026-08-13T16:20:55Z"
+    },
+    {
+      "arxiv_id": "2608.13179",
+      "score": 72.3,
+      "sent_at": "2026-08-14T11:30:40.047165+08:00",
+      "sent_key": "2608.13179:2026-08-13T12:44:37Z",
+      "title": "Teach the Magnitude, Not the Direction: Verifier-Bounded Credit Assignment for Multi-Turn Multi-step LLM Agents",
+      "updated": "2026-08-13T12:44:37Z"
+    },
+    {
+      "arxiv_id": "2608.13502",
+      "score": 71.3,
+      "sent_at": "2026-08-14T11:30:40.047165+08:00",
+      "sent_key": "2608.13502:2026-08-13T17:29:53Z",
+      "title": "GS$^{2}$CI: Robust Gaussian Splatting For Snapshot Compressive Imaging via Large Vision Model Priors",
+      "updated": "2026-08-13T17:29:53Z"
+    },
+    {
+      "arxiv_id": "2608.13122",
+      "score": 67.8,
+      "sent_at": "2026-08-14T11:30:40.047165+08:00",
+      "sent_key": "2608.13122:2026-08-13T11:52:51Z",
+      "title": "Validation-Centric AI-Assisted GPU Porting of a 250,000+ Line Legacy Weather Simulation Code",
+      "updated": "2026-08-13T11:52:51Z"
+    },
+    {
+      "arxiv_id": "2608.13556",
+      "score": 63.9,
+      "sent_at": "2026-08-14T11:30:40.047165+08:00",
+      "sent_key": "2608.13556:2026-08-13T17:59:43Z",
+      "title": "V-RAE: Rethinking Video Latent Spaces for Generation",
+      "updated": "2026-08-13T17:59:43Z"
+    },
+    {
+      "arxiv_id": "2601.22124",
+      "score": 62.9,
+      "sent_at": "2026-08-14T11:30:40.047165+08:00",
+      "sent_key": "2601.22124:2026-08-13T03:28:57Z",
+      "title": "Toward Federated Large Language Models in Medicine: A Parameter-Efficient Framework for Privacy-Preserving, Multi-Institutional Adaptation",
+      "updated": "2026-08-13T03:28:57Z"
+    },
+    {
+      "arxiv_id": "2608.11973",
+      "score": 62.3,
+      "sent_at": "2026-08-14T11:30:40.047165+08:00",
+      "sent_key": "2608.11973:2026-08-13T02:07:37Z",
+      "title": "Sci-Surf: Navigating Scientific Literature Discovery through Human Feedback and Intelligent Summarization",
+      "updated": "2026-08-13T02:07:37Z"
+    },
+    {
+      "arxiv_id": "2608.12745",
+      "score": 61.6,
+      "sent_at": "2026-08-14T11:30:40.047165+08:00",
+      "sent_key": "2608.12745:2026-08-13T02:45:40Z",
+      "title": "A Cloud-Edge System for Multimodal Clinical Screening in Resource-Constrained Rural Settings",
+      "updated": "2026-08-13T02:45:40Z"
+    },
+    {
+      "arxiv_id": "2608.12779",
+      "score": 60.8,
+      "sent_at": "2026-08-14T11:30:40.047165+08:00",
+      "sent_key": "2608.12779:2026-08-13T03:37:11Z",
+      "title": "CRAFT: LLM-Based Iterative Refinement for Temporal Reasoning over Clinical Narratives",
+      "updated": "2026-08-13T03:37:11Z"
+    },
+    {
+      "arxiv_id": "2608.11836",
+      "score": 57.3,
+      "sent_at": "2026-08-14T11:30:40.047165+08:00",
+      "sent_key": "2608.11836:2026-08-12T09:17:35Z",
+      "title": "Enabling Differentiated QoS Degradation for Replicated Databases under Failures",
+      "updated": "2026-08-12T09:17:35Z"
+    },
+    {
+      "arxiv_id": "2608.13506",
+      "score": 56.0,
+      "sent_at": "2026-08-14T11:30:40.047165+08:00",
+      "sent_key": "2608.13506:2026-08-13T17:32:45Z",
+      "title": "Equivariant learning of a transferable three-dimensional classical density functional",
+      "updated": "2026-08-13T17:32:45Z"
     }
   ]
 }

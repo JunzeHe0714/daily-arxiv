@@ -1,135 +1,142 @@
 <!doctype html><html><head><meta charset='utf-8'>
 <style>body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Arial,sans-serif;line-height:1.55;color:#202124;max-width:860px;margin:24px auto;padding:0 16px;}h1{font-size:24px;}h2{font-size:20px;margin-top:28px;}h3{font-size:17px;margin-bottom:6px}.paper{border-top:1px solid #ddd;padding-top:16px;margin-top:16px}.meta{color:#5f6368;font-size:13px}.pill{display:inline-block;border:1px solid #dadce0;border-radius:12px;padding:1px 8px;margin:2px;color:#3c4043;font-size:12px}.score{color:#0b57d0}.feedback{background:#f8fafd;border:1px solid #dfe6f5;padding:12px;border-radius:8px;margin-top:28px}</style>
 </head><body>
-<h1>Daily arXiv - 2026-08-13</h1>
+<h1>Daily arXiv - 2026-08-14</h1>
 <p>Top 5 精读 + 10 篇一句话候选。你可以直接回复这封邮件来调整明天的偏好。</p>
 <h2>Top 5 精读</h2>
 <div class='paper'>
-<h3>#1 <a href='https://arxiv.org/abs/2608.12158v1'>Context Blindness in DPO: Mitigating Object Hallucination in MLLMs via Context-Calibrated Preference Optimization</a></h3>
-<div class='meta'>Byungoh Ko, Jinyoung Park, Jongha Kim, Jeehye Na, Jaewon Cho, Hyunwoo J. Kim | cs.CV | score <span class='score'>94.5</span> | updated 2026-08-12</div>
+<h3>#1 <a href='https://arxiv.org/abs/2608.13441v1'>Edit2TikZ: A Comprehensive and Challenging Benchmark for Scientific Figure Editing with TikZ</a></h3>
+<div class='meta'>Zongyun Zhang, Jiacheng Ruan, Xian Gao, Ruizhu Zhou, Lingcheng Meng, Lining Hu, Ting Liu, Yuzhuo Fu | cs.CV | score <span class='score'>95.7</span> | updated 2026-08-13</div>
 <span class='pill'>cs.CV</span>
-<p><strong>TL;DR:</strong> Multimodal large language models (MLLMs) have made rapid progress, yet they still exhibit object hallucination, generating plausible but incorrect descriptions that are inconsistent with the visual input.</p>
-<p><strong>中文摘要:</strong> 这篇论文主要围绕 cs.CV 中的 reinforcement learning / post-training 展开。根据摘要，核心问题是：Multimodal large language models (MLLMs) have made rapid progress, yet they still exhibit object hallucination, generating plausible but incorrect descriptions that are inconsistent with the visual input. 适合先作为候选阅读，再结合实验设置判断是否值得精读。</p>
-<p><strong>English Summary:</strong> Multimodal large language models (MLLMs) have made rapid progress, yet they still exhibit object hallucination, generating plausible but incorrect descriptions that are inconsistent with the visual input. Direct Preference Optimization (DPO) mitigates this by training models to prefer non-hallucinated responses over hallucinated ones, and recent efforts further enrich the preference data with relevant context. However, it remains unclear whether DPO actually leverages such context.</p>
-<p><strong>方法 / Method:</strong> reinforcement learning / post-training</p>
-<p><strong>贡献 / Contribution:</strong> 提供新的评测视角或任务设置，可用于判断模型能力和研究空白。</p>
-<p><strong>局限 / Limitation:</strong> 可能依赖特定任务集，泛化到真实研究/生产场景仍需进一步验证。</p>
-<p><strong>为什么与你相关 / Why relevant:</strong> matches large language model, llm, language model, reasoning；your recent feedback likes: across；your recent feedback likes: benchmark</p>
-</div>
-<div class='paper'>
-<h3>#2 <a href='https://arxiv.org/abs/2602.11650v2'>Investigating Learner-Aware Design of LLM-Generated Educational Feedback</a></h3>
-<div class='meta'>Momoka Furuhashi, Kouta Nakayama, Noboru Kawai, Takashi Kodama, Saku Sugawara, Kyosuke Takami | cs.CL | score <span class='score'>85.0</span> | updated 2026-08-12</div>
-<span class='pill'>cs.CL</span>
-<p><strong>TL;DR:</strong> Although large language models (LLMs) show promise for generating educational feedback, it remains unclear how feedback should be designed (e.g., tone and information coverage) to support answer revision and learner acceptance across diverse learner profiles.</p>
-<p><strong>中文摘要:</strong> 这篇论文主要围绕 cs.CL 中的 retrieval-augmented generation 展开。根据摘要，核心问题是：Although large language models (LLMs) show promise for generating educational feedback, it remains unclear how feedback should be designed (e.g., tone and information coverage) to support answer revision and learner acceptance across diverse learner profiles. 适合先作为候选阅读，再结合实验设置判断是否值得精读。</p>
-<p><strong>English Summary:</strong> Although large language models (LLMs) show promise for generating educational feedback, it remains unclear how feedback should be designed (e.g., tone and information coverage) to support answer revision and learner acceptance across diverse learner profiles. We define six feedback designs for multiple-choice biology questions, including a baseline design and variants with additional feedback elements, and conduct an empirical study with high school students. We evaluate feedback using immediate revision performance and six subjective evaluation criteria, and analyze how feedback preferences vary across learner profiles based on personality traits.</p>
+<p><strong>TL;DR:</strong> Although multimodal large language models (MLLMs) have shown substantial potential in visual understanding and graphic code generation, editing scientific figures through code presents a greater challenge: a model must jointly recover visual structure, ground</p>
+<p><strong>中文摘要:</strong> 这篇论文主要围绕 cs.CV 中的 retrieval-augmented generation 展开。根据摘要，核心问题是：Although multimodal large language models (MLLMs) have shown substantial potential in visual understanding and graphic code generation, editing scientific figures through code presents a greater challenge: a model must jointly recover visual structure, ground the requested change, generate compilable code, and preserve all unrelated content. 适合先作为候选阅读，再结合实验设置判断是否值得精读。</p>
+<p><strong>English Summary:</strong> Although multimodal large language models (MLLMs) have shown substantial potential in visual understanding and graphic code generation, editing scientific figures through code presents a greater challenge: a model must jointly recover visual structure, ground the requested change, generate compilable code, and preserve all unrelated content. While existing TikZ benchmarks mainly focus on figure reconstruction and generation, few systematically evaluate instruction-guided scientific figure editing with compilable code. We introduce Edit2TikZ, a comprehensive benchmark for scientific figure editing tasks, featuring 1,548 diverse and high-quality samples.</p>
 <p><strong>方法 / Method:</strong> retrieval-augmented generation</p>
 <p><strong>贡献 / Contribution:</strong> 提供新的评测视角或任务设置，可用于判断模型能力和研究空白。</p>
 <p><strong>局限 / Limitation:</strong> 可能依赖特定任务集，泛化到真实研究/生产场景仍需进一步验证。</p>
-<p><strong>为什么与你相关 / Why relevant:</strong> matches large language model, llm, language model, rag；your recent feedback likes: Large Language Models (LLMs)；your recent feedback likes: across</p>
+<p><strong>为什么与你相关 / Why relevant:</strong> matches large language model, llm, language model, rag；your recent feedback likes: Liu；your recent feedback likes: across</p>
 </div>
 <div class='paper'>
-<h3>#3 <a href='https://arxiv.org/abs/2511.12950v2'>Diffploit: Facilitating Cross-Version Exploit Migration for Open Source Library Vulnerabilities</a></h3>
-<div class='meta'>Zirui Chen, Zhipeng Xue, Jiayuan Zhou, Xing Hu, Xin Xia, Xiaohu Yang | cs.SE | score <span class='score'>76.7</span> | updated 2026-08-12</div>
-<span class='pill'>cs.SE</span>
-<p><strong>TL;DR:</strong> Exploits are commonly used to demonstrate the presence of library vulnerabilities and validate their impact across different versions.</p>
-<p><strong>中文摘要:</strong> 这篇论文主要围绕 cs.SE 中的 retrieval-augmented generation 展开。根据摘要，核心问题是：Exploits are commonly used to demonstrate the presence of library vulnerabilities and validate their impact across different versions. However, their direct application to alternative versions often fails due to breaking changes introduced during evolution. 适合先作为候选阅读，再结合实验设置判断是否值得精读。</p>
-<p><strong>English Summary:</strong> Exploits are commonly used to demonstrate the presence of library vulnerabilities and validate their impact across different versions. However, their direct application to alternative versions often fails due to breaking changes introduced during evolution. These failures stem from both changes in triggering conditions (e.g., API refactorings) and broken dynamic environments (e.g., build or runtime errors), which are challenging to interpret and adapt manually.</p>
-<p><strong>方法 / Method:</strong> retrieval-augmented generation</p>
-<p><strong>贡献 / Contribution:</strong> 提出或分析一种与 LLM/AI 系统相关的方法，具体贡献需结合正文实验确认。</p>
-<p><strong>局限 / Limitation:</strong> 当前只基于 arXiv 摘要判断，细节、消融和真实效果需要阅读全文确认。</p>
-<p><strong>为什么与你相关 / Why relevant:</strong> matches llm, alignment, rag；your recent feedback likes: across；your recent feedback likes: alignment</p>
-</div>
-<div class='paper'>
-<h3>#4 <a href='https://arxiv.org/abs/2605.07339v2'>Tools as Continuous Flow for Evolving Agentic Reasoning</a></h3>
-<div class='meta'>Tairan Huang, Siyu Shang, Qiang Chen, Xiu Su, Yi Chen | cs.AI | score <span class='score'>74.8</span> | updated 2026-08-12</div>
-<span class='pill'>cs.AI</span>
-<p><strong>TL;DR:</strong> Large Language Models (LLMs) have demonstrated remarkable capabilities in orchestrating tools for reasoning tasks.</p>
-<p><strong>中文摘要:</strong> 这篇论文主要围绕 cs.AI 中的 retrieval-augmented generation 展开。根据摘要，核心问题是：Large Language Models (LLMs) have demonstrated remarkable capabilities in orchestrating tools for reasoning tasks. However, existing methods rely on a step-wise paradigm that lacks a global perspective, which causes error accumulation over long horizons and restricts generalization to unseen tools. 适合先作为候选阅读，再结合实验设置判断是否值得精读。</p>
-<p><strong>English Summary:</strong> Large Language Models (LLMs) have demonstrated remarkable capabilities in orchestrating tools for reasoning tasks. However, existing methods rely on a step-wise paradigm that lacks a global perspective, which causes error accumulation over long horizons and restricts generalization to unseen tools. To overcome these limitations, we propose Tools as Continuous Flow for Evolving Agentic Reasoning (FlowAgent), which reconceptualizes tool chaining as continuous trajectory generation within a semantic space.</p>
-<p><strong>方法 / Method:</strong> retrieval-augmented generation</p>
-<p><strong>贡献 / Contribution:</strong> 提供新的评测视角或任务设置，可用于判断模型能力和研究空白。</p>
-<p><strong>局限 / Limitation:</strong> 可能依赖特定任务集，泛化到真实研究/生产场景仍需进一步验证。</p>
-<p><strong>为什么与你相关 / Why relevant:</strong> matches large language model, llm, language model, agent；your recent feedback likes: Large Language Models (LLMs)；your recent feedback likes: agent</p>
-</div>
-<div class='paper'>
-<h3>#5 <a href='https://arxiv.org/abs/2604.02512v2'>Social Meaning in Large Language Models: Structure, Magnitude, and Pragmatic Prompting</a></h3>
-<div class='meta'>Roland Mühlenbernd | cs.CL | score <span class='score'>73.9</span> | updated 2026-08-12</div>
+<h3>#2 <a href='https://arxiv.org/abs/2510.05678v2'>Gradual Code-Switching as Inference-Time Cross-Lingual Representational Alignment for LLMs</a></h3>
+<div class='meta'>Haneul Yoo, Jiho Jin, Kyunghyun Cho, Alice Oh | cs.CL | score <span class='score'>85.8</span> | updated 2026-08-13</div>
 <span class='pill'>cs.CL</span>
 <span class='pill'>cs.AI</span>
-<p><strong>TL;DR:</strong> Large language models (LLMs) increasingly exhibit human-like patterns of pragmatic and social reasoning.</p>
-<p><strong>中文摘要:</strong> 这篇论文主要围绕 cs.CL 中的 retrieval-augmented generation 展开。根据摘要，核心问题是：Large language models (LLMs) increasingly exhibit human-like patterns of pragmatic and social reasoning. This paper addresses two related questions: do LLMs approximate human social meaning not only qualitatively but also quantitatively, and can prompting strategies informed by pragmatic theory improve this approximation? 适合先作为候选阅读，再结合实验设置判断是否值得精读。</p>
-<p><strong>English Summary:</strong> Large language models (LLMs) increasingly exhibit human-like patterns of pragmatic and social reasoning. This paper addresses two related questions: do LLMs approximate human social meaning not only qualitatively but also quantitatively, and can prompting strategies informed by pragmatic theory improve this approximation? To address the first, we introduce two calibration-focused metrics distinguishing structural fidelity from magnitude calibration: the Effect Size Ratio (ESR) and the Calibration Deviation Score (CDS).</p>
+<p><strong>TL;DR:</strong> While large language models (LLMs) have achieved notable progress in multilingual settings, their performance remains uneven across languages as LLMs often rely on English-centric latent representations.</p>
+<p><strong>中文摘要:</strong> 这篇论文主要围绕 cs.CL 中的 retrieval-augmented generation 展开。根据摘要，核心问题是：While large language models (LLMs) have achieved notable progress in multilingual settings, their performance remains uneven across languages as LLMs often rely on English-centric latent representations. In this work, we introduce code-switching in-context learning (CSICL), an inference-time mechanism for cross-lingual representational alignment. 适合先作为候选阅读，再结合实验设置判断是否值得精读。</p>
+<p><strong>English Summary:</strong> While large language models (LLMs) have achieved notable progress in multilingual settings, their performance remains uneven across languages as LLMs often rely on English-centric latent representations. In this work, we introduce code-switching in-context learning (CSICL), an inference-time mechanism for cross-lingual representational alignment. Rather than relying on an abrupt translation pivot, CSICL explicitly scaffolds the reasoning trajectory by gradually transitioning from a target language to English, aligning non-English inputs with an English-centric reasoning space.</p>
 <p><strong>方法 / Method:</strong> retrieval-augmented generation</p>
 <p><strong>贡献 / Contribution:</strong> 尝试改善训练、推理或服务效率，对 LLM optimization 方向有参考价值。</p>
 <p><strong>局限 / Limitation:</strong> 效率收益可能受模型规模、硬件、batch 设置和实现细节影响，需关注实验配置。</p>
-<p><strong>为什么与你相关 / Why relevant:</strong> matches large language model, llm, language model, reasoning；your recent feedback likes: Large Language Models (LLMs)；your recent feedback likes: about</p>
+<p><strong>为什么与你相关 / Why relevant:</strong> matches large language model, llm, language model, reasoning；your recent feedback likes: Large Language Models (LLMs)；your recent feedback likes: across</p>
+</div>
+<div class='paper'>
+<h3>#3 <a href='https://arxiv.org/abs/2608.13263v1'>vToken: Token-Level Virtualization for Reclaimable KV Caches</a></h3>
+<div class='meta'>Yuanhang Gao, Xiangrui Yang, Yuanfeng Chen, Hongjia Chen, Qianru Lv, Wenfei Wu, Dongsheng Li | cs.AI | score <span class='score'>85.3</span> | updated 2026-08-13</div>
+<span class='pill'>cs.AI</span>
+<span class='pill'>cs.DC</span>
+<span class='pill'>cs.OS</span>
+<p><strong>TL;DR:</strong> Large language model serving faces a critical memory bottleneck: the KV cache grows with sequence length and batch size.</p>
+<p><strong>中文摘要:</strong> 这篇论文主要围绕 cs.AI 中的 retrieval-augmented generation 展开。根据摘要，核心问题是：Large language model serving faces a critical memory bottleneck: the KV cache grows with sequence length and batch size. PagedAttention uses fixed-size memory blocks to reduce allocator-level fragmentation, but recent KV eviction algorithms operate at a token granularity finer than block-level management. 适合先作为候选阅读，再结合实验设置判断是否值得精读。</p>
+<p><strong>English Summary:</strong> Large language model serving faces a critical memory bottleneck: the KV cache grows with sequence length and batch size. PagedAttention uses fixed-size memory blocks to reduce allocator-level fragmentation, but recent KV eviction algorithms operate at a token granularity finer than block-level management. This mismatch causes intra-block fragmentation, leaving a large fraction of allocated KV memory unreclaimable.</p>
+<p><strong>方法 / Method:</strong> retrieval-augmented generation</p>
+<p><strong>贡献 / Contribution:</strong> 提出或分析一种与 LLM/AI 系统相关的方法，具体贡献需结合正文实验确认。</p>
+<p><strong>局限 / Limitation:</strong> 当前只基于 arXiv 摘要判断，细节、消融和真实效果需要阅读全文确认。</p>
+<p><strong>为什么与你相关 / Why relevant:</strong> matches large language model, llm, language model, rag；your recent feedback likes: across；your recent feedback likes: compared</p>
+</div>
+<div class='paper'>
+<h3>#4 <a href='https://arxiv.org/abs/2605.30777v3'>What Breaks When LLMs Code? Characterizing Operational Safety Failures of Agentic Code Assistants</a></h3>
+<div class='meta'>Alif Al Hasan, Sumon Biswas | cs.SE | score <span class='score'>80.4</span> | updated 2026-08-13</div>
+<span class='pill'>cs.SE</span>
+<p><strong>TL;DR:</strong> Autonomous coding agents built on large language models (LLMs) are rapidly being integrated into development workflows, yet their operational safety properties remain poorly understood beyond evaluations of explicitly malicious inputs.</p>
+<p><strong>中文摘要:</strong> 这篇论文主要围绕 cs.SE 中的 agent or tool-use evaluation 展开。根据摘要，核心问题是：Autonomous coding agents built on large language models (LLMs) are rapidly being integrated into development workflows, yet their operational safety properties remain poorly understood beyond evaluations of explicitly malicious inputs. 适合先作为候选阅读，再结合实验设置判断是否值得精读。</p>
+<p><strong>English Summary:</strong> Autonomous coding agents built on large language models (LLMs) are rapidly being integrated into development workflows, yet their operational safety properties remain poorly understood beyond evaluations of explicitly malicious inputs. In practice, high-impact failures arise during benign, goal-directed use through environment breakage, fabricated success reports, etc. that current benchmarks do not capture.</p>
+<p><strong>方法 / Method:</strong> agent or tool-use evaluation</p>
+<p><strong>贡献 / Contribution:</strong> 提供领域结构、问题分类或趋势梳理，帮助更新 LLM landscape 认知地图。</p>
+<p><strong>局限 / Limitation:</strong> 可能依赖特定任务集，泛化到真实研究/生产场景仍需进一步验证。</p>
+<p><strong>为什么与你相关 / Why relevant:</strong> matches large language model, llm, language model, agent；your recent feedback likes: Large Language Models (LLMs)；your recent feedback likes: across</p>
+</div>
+<div class='paper'>
+<h3>#5 <a href='https://arxiv.org/abs/2606.20077v2'>The Hidden Evolution of Disguised Visual Context inside the VLM</a></h3>
+<div class='meta'>Wish Suharitdamrong, Tony Alex, Xiatian Zhu, Muhammad Awais, Sara Atito | cs.CV | score <span class='score'>73.2</span> | updated 2026-08-13</div>
+<span class='pill'>cs.CV</span>
+<span class='pill'>cs.AI</span>
+<p><strong>TL;DR:</strong> Visual tokens enter Large Language Models (LLMs) as raw, foreign signals.</p>
+<p><strong>中文摘要:</strong> 这篇论文主要围绕 cs.CV 中的 multimodal modeling 展开。根据摘要，核心问题是：Visual tokens enter Large Language Models (LLMs) as raw, foreign signals. How they are transformed into meaningful representations and interact with the language space depends entirely on the integration architecture. 适合先作为候选阅读，再结合实验设置判断是否值得精读。</p>
+<p><strong>English Summary:</strong> Visual tokens enter Large Language Models (LLMs) as raw, foreign signals. How they are transformed into meaningful representations and interact with the language space depends entirely on the integration architecture. Whether by treating visual tokens as in-context prompts within the input sequence or injecting them directly into the LLM&#x27;s intermediate layers.</p>
+<p><strong>方法 / Method:</strong> multimodal modeling</p>
+<p><strong>贡献 / Contribution:</strong> 提供新的评测视角或任务设置，可用于判断模型能力和研究空白。</p>
+<p><strong>局限 / Limitation:</strong> 可能依赖特定任务集，泛化到真实研究/生产场景仍需进一步验证。</p>
+<p><strong>为什么与你相关 / Why relevant:</strong> matches large language model, llm, language model；your recent feedback likes: Large Language Models (LLMs)；your recent feedback likes: across</p>
 </div>
 <h2>10 篇一句话候选</h2>
 <div class='paper'>
-<h3>#6 <a href='https://arxiv.org/abs/2605.05103v3'>Text Corpora as Concept Fields: Black-Box Hallucination and Novelty Measurement</a></h3>
-<div class='meta'>Nicholas S. Kersting, Vittorio Castelli, Chieh Ting Yeh, Xinzhu Wang, Saad Taame, Khaoula Allak | cs.CL | score <span class='score'>69.2</span> | updated 2026-08-12</div>
+<h3>#6 <a href='https://arxiv.org/abs/2608.13179v1'>Teach the Magnitude, Not the Direction: Verifier-Bounded Credit Assignment for Multi-Turn Multi-step LLM Agents</a></h3>
+<div class='meta'>Zechuan Wang, Siyuan Lu, Hongxuan Zhang, Linjian Mo, Chenyi Zhuang, Leilei Gan | cs.AI | score <span class='score'>72.3</span> | updated 2026-08-13</div>
+<span class='pill'>cs.AI</span>
+<p>Reinforcement learning with verifiable rewards (RLVR) offers a verifier-bounded performance ceiling for training multi-turn tool-use agents, yet its trajectory-level credit assignment conflates heterogeneous per-turn out Relevant because: matches llm, agent, rlvr, optimization；your recent feedback likes: RLVR；your recent feedback likes: Turn</p>
+</div>
+<div class='paper'>
+<h3>#7 <a href='https://arxiv.org/abs/2608.13502v1'>GS$^{2}$CI: Robust Gaussian Splatting For Snapshot Compressive Imaging via Large Vision Model Priors</a></h3>
+<div class='meta'>Yanming Yang, Chenxi Song, Ping Wang, Xin Yuan, Chi Zhang | cs.CV | score <span class='score'>71.3</span> | updated 2026-08-13</div>
+<span class='pill'>cs.CV</span>
+<p>Snapshot Compressive Imaging (SCI) offers an efficient solution for high-speed video acquisition and, under exposure-time camera--scene relative motion, multi-view scene capture by compressing temporal or spatial informa Relevant because: matches foundation model, optimization, rag；your recent feedback likes: across；your recent feedback likes: ambiguous</p>
+</div>
+<div class='paper'>
+<h3>#8 <a href='https://arxiv.org/abs/2608.13122v1'>Validation-Centric AI-Assisted GPU Porting of a 250,000+ Line Legacy Weather Simulation Code</a></h3>
+<div class='meta'>Tetsuya Hoshino, Masaya Kato, Kazuhisa Tsuboki, Daichi Mukunoki, Takahiro Katagiri, Toshihiro Hanawa | cs.DC | score <span class='score'>67.8</span> | updated 2026-08-13</div>
+<span class='pill'>cs.DC</span>
+<p>Recent advances in large language models have made CLI-based AI agents a practical tool for accelerating GPU porting of large legacy scientific applications. Relevant because: matches large language model, language model, agent；your recent feedback likes: agent；your recent feedback likes: analysis</p>
+</div>
+<div class='paper'>
+<h3>#9 <a href='https://arxiv.org/abs/2608.13556v1'>V-RAE: Rethinking Video Latent Spaces for Generation</a></h3>
+<div class='meta'>Minghui Guo, Shengqiong Wu, Hao Fei | cs.CV | score <span class='score'>63.9</span> | updated 2026-08-13</div>
+<span class='pill'>cs.CV</span>
+<p>Latent video generation relies on autoencoders to define a compact space in which generative models operate. Relevant because: matches foundation model；your recent feedback likes: alone；your recent feedback likes: also</p>
+</div>
+<div class='paper'>
+<h3>#10 <a href='https://arxiv.org/abs/2601.22124v3'>Toward Federated Large Language Models in Medicine: A Parameter-Efficient Framework for Privacy-Preserving, Multi-Institutional Adaptation</a></h3>
+<div class='meta'>Anran Li, Yuanyuan Chen, Wenjun Long, Yu Yin, Yan Hu, Hyunjae Kim, Weipeng Zhou, Yujia Zhou et al. | cs.CL | score <span class='score'>62.9</span> | updated 2026-08-13</div>
 <span class='pill'>cs.CL</span>
-<span class='pill'>cs.AI</span>
-<span class='pill'>cs.CY</span>
-<p>We introduce the \textbf{Concept Field} of a text corpus: a local drift field with pointwise uncertainty, estimated in sentence-embedding space from the deltas between consecutive sentences. Relevant because: matches llm, rag；your recent feedback likes: across；your recent feedback likes: also</p>
+<span class='pill'>cs.DC</span>
+<p>Large language models (LLMs) are increasingly adapted for medical applications, but most are trained using data from a single institution because privacy and governance constraints prevent multi-institutional data sharin Relevant because: matches large language model, llm, language model；your recent feedback likes: Large Language Models (LLMs)；your recent feedback likes: across</p>
 </div>
 <div class='paper'>
-<h3>#7 <a href='https://arxiv.org/abs/2608.11920v1'>NITRO: High-Performance 3D NAND Flash-Based In-Storage Computing with Enhanced Activation Dataflow</a></h3>
-<div class='meta'>Sanghun Shin, Sangyeon Kim, Gisan Ji, Sungju Ryu | cs.AR | score <span class='score'>69.0</span> | updated 2026-08-12</div>
-<span class='pill'>cs.AR</span>
-<p>In-storage computing (ISC) is considered a next-generation memory architecture for its ability to relieve the data bottleneck between the host and the memory. Relevant because: matches large language model, llm, language model, rag；your recent feedback likes: Large Language Models (LLMs)；your recent feedback likes: activations</p>
-</div>
-<div class='paper'>
-<h3>#8 <a href='https://arxiv.org/abs/2608.12197v1'>NetlistBench: Evaluating LLM Reliability in SPICE Netlist Recognition and Manipulation</a></h3>
-<div class='meta'>Jiarui Ma, Jianghan Wang, Yuheng Ma, Ziyi Zhuang, Xiaoguang Liu | eess.SY | score <span class='score'>67.6</span> | updated 2026-08-12</div>
-<span class='pill'>eess.SY</span>
-<span class='pill'>cs.AI</span>
-<p>Large Language Models (LLMs) are increasingly used in circuit design workflows, yet their reliability on simulator-facing SPICE netlist recognition and manipulation remains poorly understood and is rarely separated from Relevant because: matches large language model, llm, language model, reasoning；your recent feedback likes: Large Language Models (LLMs)；your recent feedback likes: Liu</p>
-</div>
-<div class='paper'>
-<h3>#9 <a href='https://arxiv.org/abs/2608.11973v1'>Sci-Surf: Navigating Scientific Literature Discovery through Human Feedback and Intelligent Summarizatio</a></h3>
-<div class='meta'>Fang Guo, Qi Zhu, Rongcan Pei, Shuqi He, Hui Chen, Yue Zhang | cs.IR | score <span class='score'>65.8</span> | updated 2026-08-12</div>
+<h3>#11 <a href='https://arxiv.org/abs/2608.11973v2'>Sci-Surf: Navigating Scientific Literature Discovery through Human Feedback and Intelligent Summarization</a></h3>
+<div class='meta'>Fang Guo, Qi Zhu, Rongcan Pei, Shuqi He, Hui Chen, Yue Zhang | cs.IR | score <span class='score'>62.3</span> | updated 2026-08-13</div>
 <span class='pill'>cs.IR</span>
 <p>The rapid growth of scientific publications makes it increasingly difficult for researchers to identify relevant new studies and effectively comprehend them. Relevant because: matches llm, alignment, rag, evaluation；your recent feedback likes: alignment；your recent feedback likes: both</p>
 </div>
 <div class='paper'>
-<h3>#10 <a href='https://arxiv.org/abs/2602.06075v2'>MemGUI-Bench: Benchmarking Memory of Mobile GUI Agents in Dynamic Environments</a></h3>
-<div class='meta'>Guangyi Liu, Pengxiang Zhao, Yaozhen Liang, Qinyi Luo, Shunye Tang, Yuxiang Chai, Weifeng Lin, Han Xiao et al. | cs.DC | score <span class='score'>65.6</span> | updated 2026-08-11</div>
-<span class='pill'>cs.DC</span>
-<p>Reliable mobile GUI agents must retain and reuse information across actions, applications, and repeated interactions. Relevant because: matches llm, agent, evaluation, taxonomy；your recent feedback likes: Liu；your recent feedback likes: across</p>
-</div>
-<div class='paper'>
-<h3>#11 <a href='https://arxiv.org/abs/2508.03875v3'>Learning Multi-Timescale Interventions under Safety and Resource Constraints</a></h3>
-<div class='meta'>David Mguni, Wanrong Yang, Jing Dong, Jing Peng, Ziquan Liu, Muhammad Salman Haleem, Baoxiang Wang, Dominik Wojtczak | cs.LG | score <span class='score'>64.9</span> | updated 2026-08-12</div>
+<h3>#12 <a href='https://arxiv.org/abs/2608.12745v1'>A Cloud-Edge System for Multimodal Clinical Screening in Resource-Constrained Rural Settings</a></h3>
+<div class='meta'>Hei Ting, Chan, Chenwei Wu, Xueshen Liu, Zesen Zhao, Boyuan Zheng, Luis Filipe Nakayama, Michael G. Morley et al. | cs.LG | score <span class='score'>61.6</span> | updated 2026-08-13</div>
 <span class='pill'>cs.LG</span>
-<p>Many sequential decision problems offer qualitatively different ways of influencing the environment: some interventions act immediately, whereas others induce persistent effects that continue to shape future states long Relevant because: matches llm, agent；your recent feedback likes: Liu；your recent feedback likes: Turn</p>
+<span class='pill'>cs.DC</span>
+<p>Medical AI has demonstrated specialist-level diagnostic accuracy, yet these capabilities remain largely inaccessible in resource-constrained rural settings where bandwidth is scarce, compute is limited, and clinical deci Relevant because: matches llm, rag, multimodal；your recent feedback likes: Liu；your recent feedback likes: baselines</p>
 </div>
 <div class='paper'>
-<h3>#12 <a href='https://arxiv.org/abs/2608.11030v1'>Self-Knowledge Retrieval Augmented Generation Framework for Patent Matching</a></h3>
-<div class='meta'>Jian Zhang, Songlin Lei, Zhuohao Yang, Bangli Liu, Ziwei Wang, Xufeng Weng, Gehan Amaratunga, Yu Lin et al. | cs.IR | score <span class='score'>64.9</span> | updated 2026-08-11</div>
+<h3>#13 <a href='https://arxiv.org/abs/2608.12779v1'>CRAFT: LLM-Based Iterative Refinement for Temporal Reasoning over Clinical Narratives</a></h3>
+<div class='meta'>Chengyang He, Tahreem Arif, Marko Zivkovic, Lijing Wang, Yue Ning, Ping Wang | cs.CL | score <span class='score'>60.8</span> | updated 2026-08-13</div>
+<span class='pill'>cs.CL</span>
+<span class='pill'>cs.AI</span>
 <span class='pill'>cs.IR</span>
-<span class='pill'>cs.CL</span>
-<p>Patent retrieval and matching based on large language models (LLMs) play a vital role in intellectual property protection. Relevant because: matches large language model, llm, language model, retrieval augmented generation；your recent feedback likes: Large Language Models (LLMs)；your recent feedback likes: Liu</p>
+<p>Understanding the temporal progression of symptoms in clinical narratives is critical for disease monitoring, safety surveillance, and causality assessment. Relevant because: matches llm, reasoning, evaluation；your recent feedback likes: across；your recent feedback likes: analysis</p>
 </div>
 <div class='paper'>
-<h3>#13 <a href='https://arxiv.org/abs/2506.16616v4'>LDI: Localized Data Imputation for Text-Rich Tables</a></h3>
-<div class='meta'>Soroush Omidvartehrani, Davood Rafiei | cs.DB | score <span class='score'>64.3</span> | updated 2026-08-12</div>
+<h3>#14 <a href='https://arxiv.org/abs/2608.11836v1'>Enabling Differentiated QoS Degradation for Replicated Databases under Failures</a></h3>
+<div class='meta'>Belkis Djeffal, Pierre Bourhis, Romain Rouvoy | cs.DB | score <span class='score'>57.3</span> | updated 2026-08-12</div>
 <span class='pill'>cs.DB</span>
-<p>Missing values are pervasive in real-world tabular data and can significantly impair downstream analysis. Relevant because: matches large language model, llm, language model, reasoning；your recent feedback likes: Attributes；your recent feedback likes: Large Language Models (LLMs)</p>
+<span class='pill'>cs.DC</span>
+<p>Elasticity is commonly presented as the default response to capacity loss after failures, since replacement replicas can compensate for failed nodes and restore pre-incident service levels. Relevant because: your recent feedback likes: across；your recent feedback likes: become；your recent feedback likes: behavior</p>
 </div>
 <div class='paper'>
-<h3>#14 <a href='https://arxiv.org/abs/2608.11981v1'>Benchmarking Trustworthiness of SLMs: Pre-trained vs. Compressed</a></h3>
-<div class='meta'>Haokun Lin, Kaijie Zhu, Haobo Xu, Yichen Wu, Zhichao Lu, Qingfu Zhang, Zhenan Sun | cs.CL | score <span class='score'>63.8</span> | updated 2026-08-12</div>
-<span class='pill'>cs.CL</span>
-<p>Small Language Models (SLMs) have emerged as a more efficient alternative to traditional Large Language Models (LLMs), offering promising potential in resource-constrained scenarios. Relevant because: matches large language model, llm, language model, evaluation；your recent feedback likes: Large Language Models (LLMs)；your recent feedback likes: across</p>
-</div>
-<div class='paper'>
-<h3>#15 <a href='https://arxiv.org/abs/2603.08131v2'>UniGround: Universal 3D Visual Grounding via Training-Free Scene Parsing</a></h3>
-<div class='meta'>Jiaxi Zhang, Yunheng Wang, Wei Lu, Taowen Wang, Shuning Zhang, Yixiao Feng, Junzhe Xu, Shunwang Sun et al. | cs.RO | score <span class='score'>63.6</span> | updated 2026-08-12</div>
-<span class='pill'>cs.RO</span>
-<span class='pill'>cs.CV</span>
-<p>3D Visual Grounding (3DVG) localizes objects from natural-language descriptions in 3D scenes and is fundamental to embodied AI applications. Relevant because: matches foundation model, reasoning, rag；your recent feedback likes: appearance；your recent feedback likes: both</p>
+<h3>#15 <a href='https://arxiv.org/abs/2608.13506v1'>Equivariant learning of a transferable three-dimensional classical density functional</a></h3>
+<div class='meta'>Bingqing Cheng | cond-mat.stat-mech | score <span class='score'>56.0</span> | updated 2026-08-13</div>
+<span class='pill'>cond-mat.stat-mech</span>
+<span class='pill'>cond-mat.soft</span>
+<span class='pill'>cs.LG</span>
+<span class='pill'>physics.chem-ph</span>
+<span class='pill'>physics.comp-ph</span>
+<p>Liquids exhibit collective behavior that depends sensitively on thermodynamic conditions, interfaces and confinement, yet predicting each new state commonly requires a separate atomistic simulation. Relevant because: your recent feedback likes: across；your recent feedback likes: behavior；your recent feedback likes: between</p>
 </div>
 <div class='feedback'><strong>反馈方式</strong><br>直接回复：多发 #3 类似的，少发 #1；多发 landscape / inference optimization / RLVR。</div>
 </body></html>
