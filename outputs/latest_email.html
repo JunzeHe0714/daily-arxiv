@@ -1,138 +1,141 @@
 <!doctype html><html><head><meta charset='utf-8'>
 <style>body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Arial,sans-serif;line-height:1.55;color:#202124;max-width:860px;margin:24px auto;padding:0 16px;}h1{font-size:24px;}h2{font-size:20px;margin-top:28px;}h3{font-size:17px;margin-bottom:6px}.paper{border-top:1px solid #ddd;padding-top:16px;margin-top:16px}.meta{color:#5f6368;font-size:13px}.pill{display:inline-block;border:1px solid #dadce0;border-radius:12px;padding:1px 8px;margin:2px;color:#3c4043;font-size:12px}.score{color:#0b57d0}.feedback{background:#f8fafd;border:1px solid #dfe6f5;padding:12px;border-radius:8px;margin-top:28px}</style>
 </head><body>
-<h1>Daily arXiv - 2026-08-15</h1>
+<h1>Daily arXiv - 2026-08-16</h1>
 <p>Top 5 精读 + 10 篇一句话候选。你可以直接回复这封邮件来调整明天的偏好。</p>
 <h2>Top 5 精读</h2>
 <div class='paper'>
-<h3>#1 <a href='https://arxiv.org/abs/2608.07358v2'>Fast end-to-end cloud application cold-start with initscripts</a></h3>
-<div class='meta'>Ariel Szekely, Hannah Gross, Robert Morris, M. Frans Kaashoek | cs.DC | score <span class='score'>57.9</span> | updated 2026-08-12</div>
-<span class='pill'>cs.DC</span>
-<span class='pill'>cs.OS</span>
-<p><strong>TL;DR:</strong> Serverless functions are a popular way of deploying cloud applications.</p>
-<p><strong>中文摘要:</strong> 这篇论文主要围绕 cs.DC 中的 retrieval-augmented generation 展开。根据摘要，核心问题是：Serverless functions are a popular way of deploying cloud applications. Because many of these functions are short- running and experience frequent cold-starts, start latencies often dominate their execution latency. 适合先作为候选阅读，再结合实验设置判断是否值得精读。</p>
-<p><strong>English Summary:</strong> Serverless functions are a popular way of deploying cloud applications. Because many of these functions are short- running and experience frequent cold-starts, start latencies often dominate their execution latency. Start latency can be broken down into two components: setup and initialization.</p>
-<p><strong>方法 / Method:</strong> retrieval-augmented generation</p>
-<p><strong>贡献 / Contribution:</strong> 提出或分析一种与 LLM/AI 系统相关的方法，具体贡献需结合正文实验确认。</p>
-<p><strong>局限 / Limitation:</strong> 当前只基于 arXiv 摘要判断，细节、消融和真实效果需要阅读全文确认。</p>
-<p><strong>为什么与你相关 / Why relevant:</strong> matches rag；your recent feedback likes: also；your recent feedback likes: binary</p>
-</div>
-<div class='paper'>
-<h3>#2 <a href='https://arxiv.org/abs/2608.13113v1'>EgoMonth: A Month-Level Egocentric Video Benchmark for Long-Term Spatiotemporal Memory</a></h3>
-<div class='meta'>Weitao Chen, Hu Jiaxin, Xie Tianyidan, Yang Li, Yuyi Qian, Banghao Xu, Ziheng Tang, Shenyi Wang et al. | cs.CV | score <span class='score'>56.5</span> | updated 2026-08-13</div>
+<h3>#1 <a href='https://arxiv.org/abs/2505.12532v3'>Exploring Sparsity for Parameter Efficient Fine Tuning Using Wavelets for Vision</a></h3>
+<div class='meta'>Ahmet Bilican, M. Akın Yılmaz, A. Murat Tekalp, R. Gökberk Cinbiş | cs.CV | score <span class='score'>55.2</span> | updated 2026-08-13</div>
 <span class='pill'>cs.CV</span>
 <span class='pill'>cs.AI</span>
-<p><strong>TL;DR:</strong> Recent advances in Multimodal Large Language Models (MLLMs) have led to substantial progress in video understanding, accompanied by a growing number of long video benchmarks.</p>
-<p><strong>中文摘要:</strong> 这篇论文主要围绕 cs.CV 中的 retrieval-augmented generation 展开。根据摘要，核心问题是：Recent advances in Multimodal Large Language Models (MLLMs) have led to substantial progress in video understanding, accompanied by a growing number of long video benchmarks. 适合先作为候选阅读，再结合实验设置判断是否值得精读。</p>
-<p><strong>English Summary:</strong> Recent advances in Multimodal Large Language Models (MLLMs) have led to substantial progress in video understanding, accompanied by a growing number of long video benchmarks. However, existing benchmarks rely predominantly on web-sourced videos that lack inter-clip spatiotemporal continuity, making it difficult to assess whether models can maintain consistent memory across days or weeks of real-world experience. We introduce EgoMonth, the first month-level egocentric video understanding benchmark.</p>
-<p><strong>方法 / Method:</strong> retrieval-augmented generation</p>
-<p><strong>贡献 / Contribution:</strong> 提供新的评测视角或任务设置，可用于判断模型能力和研究空白。</p>
-<p><strong>局限 / Limitation:</strong> 可能依赖特定任务集，泛化到真实研究/生产场景仍需进一步验证。</p>
-<p><strong>为什么与你相关 / Why relevant:</strong> matches large language model, llm, language model, reasoning；your recent feedback likes: across；your recent feedback likes: benchmark</p>
-</div>
-<div class='paper'>
-<h3>#3 <a href='https://arxiv.org/abs/2608.13524v1'>DARTree: Speculative Diffusion Decoding with Autoregressive Draft Trees</a></h3>
-<div class='meta'>Tianyi Li, Yaxin Luo, Xinyi Shang, Zhiqiang Shen | cs.LG | score <span class='score'>56.2</span> | updated 2026-08-13</div>
 <span class='pill'>cs.LG</span>
-<p><strong>TL;DR:</strong> Speculative decoding losslessly accelerates autoregressive language models by verifying multiple draft tokens in parallel.</p>
-<p><strong>中文摘要:</strong> 这篇论文主要围绕 cs.LG 中的 retrieval-augmented generation 展开。根据摘要，核心问题是：Speculative decoding losslessly accelerates autoregressive language models by verifying multiple draft tokens in parallel. Diffusion-based drafters further reduce proposal latency by predicting an entire token block in parallel, but their position-wise distributions are marginal rather than conditioned on tokens selected along each draft path. 适合先作为候选阅读，再结合实验设置判断是否值得精读。</p>
-<p><strong>English Summary:</strong> Speculative decoding losslessly accelerates autoregressive language models by verifying multiple draft tokens in parallel. Diffusion-based drafters further reduce proposal latency by predicting an entire token block in parallel, but their position-wise distributions are marginal rather than conditioned on tokens selected along each draft path. Existing recurrent correction incorporates causal information along a single draft chain, whereas diffusion-based tree construction broadens candidate coverage without carrying this correction along individual branches.</p>
+<span class='pill'>eess.IV</span>
+<span class='pill'>eess.SP</span>
+<p><strong>TL;DR:</strong> Efficiently adapting large pretrained models is critical under tight compute and memory budgets.</p>
+<p><strong>中文摘要:</strong> 这篇论文主要围绕 cs.CV 中的 retrieval-augmented generation 展开。根据摘要，核心问题是：Efficiently adapting large pretrained models is critical under tight compute and memory budgets. While Parameter-Efficient Fine-Tuning (PEFT) methods like LoRA achieve efficiency through low-rank updates, their discrete rank constraint limits fine-grained parameter control and confines adaptations to low-dimensional subspaces. 适合先作为候选阅读，再结合实验设置判断是否值得精读。</p>
+<p><strong>English Summary:</strong> Efficiently adapting large pretrained models is critical under tight compute and memory budgets. While Parameter-Efficient Fine-Tuning (PEFT) methods like LoRA achieve efficiency through low-rank updates, their discrete rank constraint limits fine-grained parameter control and confines adaptations to low-dimensional subspaces. We propose Wavelet Fine-Tuning (WaveFT), which learns sparse updates in the wavelet domain of weight matrices, enabling fine-grained control over trainable parameters well below LoRA&#x27;s minimum rank.</p>
+<p><strong>方法 / Method:</strong> retrieval-augmented generation</p>
+<p><strong>贡献 / Contribution:</strong> 尝试改善训练、推理或服务效率，对 LLM optimization 方向有参考价值。</p>
+<p><strong>局限 / Limitation:</strong> 效率收益可能受模型规模、硬件、batch 设置和实现细节影响，需关注实验配置。</p>
+<p><strong>为什么与你相关 / Why relevant:</strong> matches rag, theoretical analysis；your recent feedback likes: across；your recent feedback likes: adapt</p>
+</div>
+<div class='paper'>
+<h3>#2 <a href='https://arxiv.org/abs/2607.18550v2'>Semantic Drift in Bug Resolution: How Behavioral Signals Propagate from Reports to Tests and Patches</a></h3>
+<div class='meta'>Wendkûuni C. Ouédraogo, Yinghua Li, Xueqi Dang, Paweł Borsukiewicz, Liang Xiao, Lingfeng Bao, Anil Koyuncu, Jacques Klein et al. | cs.SE | score <span class='score'>50.7</span> | updated 2026-08-13</div>
+<span class='pill'>cs.SE</span>
+<p><strong>TL;DR:</strong> Desc2Fix is a framework for measuring semantic alignment between bug reports, triggering tests, and developer-written fixes.</p>
+<p><strong>中文摘要:</strong> 这篇论文主要围绕 cs.SE 中的 retrieval-augmented generation 展开。根据摘要，核心问题是：Desc2Fix is a framework for measuring semantic alignment between bug reports, triggering tests, and developer-written fixes. Alignment is operationalized through structured behavioral anchors (e.g., reproduction steps, API/exception cues, expected vs. 适合先作为候选阅读，再结合实验设置判断是否值得精读。</p>
+<p><strong>English Summary:</strong> Desc2Fix is a framework for measuring semantic alignment between bug reports, triggering tests, and developer-written fixes. Alignment is operationalized through structured behavioral anchors (e.g., reproduction steps, API/exception cues, expected vs. actual behavior), deterministic similarity metrics (ROUGE, SBERT, CodeBERT, OpenAI embeddings), and LLM-based judgments grounded in coverage, correctness, and specificity.</p>
 <p><strong>方法 / Method:</strong> retrieval-augmented generation</p>
 <p><strong>贡献 / Contribution:</strong> 提供新的评测视角或任务设置，可用于判断模型能力和研究空白。</p>
 <p><strong>局限 / Limitation:</strong> 可能依赖特定任务集，泛化到真实研究/生产场景仍需进一步验证。</p>
-<p><strong>为什么与你相关 / Why relevant:</strong> matches language model, rag；your recent feedback likes: across；your recent feedback likes: applies</p>
+<p><strong>为什么与你相关 / Why relevant:</strong> matches llm, reasoning, alignment, rag；your recent feedback likes: across；your recent feedback likes: alignment</p>
 </div>
 <div class='paper'>
-<h3>#4 <a href='https://arxiv.org/abs/2608.13006v1'>EviReform: Evidence-Guided Query Reformulation for Multi-Hop Graph Retrieval</a></h3>
-<div class='meta'>Xinlong Xu, Yoshua Y. Li | cs.CL | score <span class='score'>55.1</span> | updated 2026-08-13</div>
-<span class='pill'>cs.CL</span>
+<h3>#3 <a href='https://arxiv.org/abs/2608.12820v1'>Query Translation vs. Cross-Lingual Embeddings for Sinhala-Tamil E-Government Information Retrieval</a></h3>
+<div class='meta'>Dharshi Balasubramaniyam, Tiroshan Madushanka | cs.IR | score <span class='score'>50.1</span> | updated 2026-08-13</div>
 <span class='pill'>cs.IR</span>
-<p><strong>TL;DR:</strong> Multi-hop retrieval must recover passages that provide sufficient evidence together.</p>
-<p><strong>中文摘要:</strong> 这篇论文主要围绕 cs.CL 中的 retrieval-augmented generation 展开。根据摘要，核心问题是：Multi-hop retrieval must recover passages that provide sufficient evidence together. An initial passage often resolves an entity or relation implicit in the question, making the missing evidence easier to describe only after retrieval begins. 适合先作为候选阅读，再结合实验设置判断是否值得精读。</p>
-<p><strong>English Summary:</strong> Multi-hop retrieval must recover passages that provide sufficient evidence together. An initial passage often resolves an entity or relation implicit in the question, making the missing evidence easier to describe only after retrieval begins. Graph retrieval improves access to related evidence through stored corpus structure, but its retrieval signal is commonly derived from the original question.</p>
-<p><strong>方法 / Method:</strong> retrieval-augmented generation</p>
-<p><strong>贡献 / Contribution:</strong> 提出或分析一种与 LLM/AI 系统相关的方法，具体贡献需结合正文实验确认。</p>
-<p><strong>局限 / Limitation:</strong> 当前只基于 arXiv 摘要判断，细节、消融和真实效果需要阅读全文确认。</p>
-<p><strong>为什么与你相关 / Why relevant:</strong> your recent feedback likes: between；your recent feedback likes: code；your recent feedback likes: cs.CL</p>
-</div>
-<div class='paper'>
-<h3>#5 <a href='https://arxiv.org/abs/2608.12741v1'>Knowledge Synthesis Review Framework: Task-Level Benchmarking of LLM-Based Systems for Multi-Source Evidence Synthesis</a></h3>
-<div class='meta'>Wafa Shafqat, Mark Patterson, Steven N. Liss | cs.IR | score <span class='score'>53.7</span> | updated 2026-08-13</div>
-<span class='pill'>cs.IR</span>
-<p><strong>TL;DR:</strong> Evidence in rapidly evolving fields is fragmented across academic studies, industry reports, policy documents, and media sources that differ in quality, structure, and purpose, making timely synthesis difficult.</p>
-<p><strong>中文摘要:</strong> 这篇论文主要围绕 cs.IR 中的 retrieval-augmented generation 展开。根据摘要，核心问题是：Evidence in rapidly evolving fields is fragmented across academic studies, industry reports, policy documents, and media sources that differ in quality, structure, and purpose, making timely synthesis difficult. Large language models (LLMs) may accelerate this work, but their reliability across the distinct cognitive tasks of a review remains uncertain. 适合先作为候选阅读，再结合实验设置判断是否值得精读。</p>
-<p><strong>English Summary:</strong> Evidence in rapidly evolving fields is fragmented across academic studies, industry reports, policy documents, and media sources that differ in quality, structure, and purpose, making timely synthesis difficult. Large language models (LLMs) may accelerate this work, but their reliability across the distinct cognitive tasks of a review remains uncertain.</p>
+<p><strong>TL;DR:</strong> This paper presents a comparative evaluation of cross-lingual information retrieval (CLIR) methods for retrieving English government information using Sinhala and Tamil queries.</p>
+<p><strong>中文摘要:</strong> 这篇论文主要围绕 cs.IR 中的 retrieval-augmented generation 展开。根据摘要，核心问题是：This paper presents a comparative evaluation of cross-lingual information retrieval (CLIR) methods for retrieving English government information using Sinhala and Tamil queries. 适合先作为候选阅读，再结合实验设置判断是否值得精读。</p>
+<p><strong>English Summary:</strong> This paper presents a comparative evaluation of cross-lingual information retrieval (CLIR) methods for retrieving English government information using Sinhala and Tamil queries. Two CLIR paradigms are investigated: Query Translation (QT), employing Google Translate, NLLB, and mBART50, and Cross-Lingual Embeddings (CLE), using LaBSE, multilingual E5, and BGE-M3, with monolingual English retrieval as the baseline. Experiments are conducted on a human-verified benchmark comprising 500 Sinhala, Tamil, and English question-answer pairs derived from 1,699 segmented contexts from Sri Lanka&#x27;s Government Information Center (GIC).</p>
 <p><strong>方法 / Method:</strong> retrieval-augmented generation</p>
 <p><strong>贡献 / Contribution:</strong> 提供新的评测视角或任务设置，可用于判断模型能力和研究空白。</p>
 <p><strong>局限 / Limitation:</strong> 可能依赖特定任务集，泛化到真实研究/生产场景仍需进一步验证。</p>
-<p><strong>为什么与你相关 / Why relevant:</strong> matches large language model, llm, language model, rag；your recent feedback likes: Large Language Models (LLMs)；your recent feedback likes: across</p>
+<p><strong>为什么与你相关 / Why relevant:</strong> matches rag, evaluation；your recent feedback likes: benchmark；your recent feedback likes: context</p>
+</div>
+<div class='paper'>
+<h3>#4 <a href='https://arxiv.org/abs/2608.13496v1'>YAVIN: A Unified Architecture for Secure Edge Processing in Memory</a></h3>
+<div class='meta'>Shouzhi Fang, William C. Tegge, Md Omar Faruque, Peipei Zhou, Endadul Hoque, Alex K. Jones | cs.AR | score <span class='score'>48.9</span> | updated 2026-08-13</div>
+<span class='pill'>cs.AR</span>
+<p><strong>TL;DR:</strong> Secure, private multi-tenant execution spanning processors, memory, and accelerators remains one of the most significant challenges in modern edge computing systems.</p>
+<p><strong>中文摘要:</strong> 这篇论文主要围绕 cs.AR 中的 retrieval-augmented generation 展开。根据摘要，核心问题是：Secure, private multi-tenant execution spanning processors, memory, and accelerators remains one of the most significant challenges in modern edge computing systems. Simultaneously, processing-in-memory (PIM) has emerged as an effective approach for reducing the Von Neumann bottleneck by moving computation closer to data. 适合先作为候选阅读，再结合实验设置判断是否值得精读。</p>
+<p><strong>English Summary:</strong> Secure, private multi-tenant execution spanning processors, memory, and accelerators remains one of the most significant challenges in modern edge computing systems. Simultaneously, processing-in-memory (PIM) has emerged as an effective approach for reducing the Von Neumann bottleneck by moving computation closer to data. Existing trusted execution environments (TEEs) establish trust only within the processor, protecting data while it traverses untrusted resources such as the memory bus.</p>
+<p><strong>方法 / Method:</strong> retrieval-augmented generation</p>
+<p><strong>贡献 / Contribution:</strong> 尝试改善训练、推理或服务效率，对 LLM optimization 方向有参考价值。</p>
+<p><strong>局限 / Limitation:</strong> 效率收益可能受模型规模、硬件、batch 设置和实现细节影响，需关注实验配置。</p>
+<p><strong>为什么与你相关 / Why relevant:</strong> matches llm, rag；your recent feedback likes: both；your recent feedback likes: cannot</p>
+</div>
+<div class='paper'>
+<h3>#5 <a href='https://arxiv.org/abs/2601.11729v2'>SpaRRTa: A Synthetic Benchmark for Evaluating Spatial Intelligence in Visual Foundation Models</a></h3>
+<div class='meta'>Turhan Can Kargin, Wojciech Jasiński, Adam Pardyl, Bartosz Zieliński, Marcin Przewięźlikowski | cs.CV | score <span class='score'>46.1</span> | updated 2026-08-13</div>
+<span class='pill'>cs.CV</span>
+<span class='pill'>cs.LG</span>
+<p><strong>TL;DR:</strong> Visual Foundation Models (VFMs), such as DINO and CLIP, excel in semantic understanding of images but exhibit limited spatial reasoning capabilities, which limits their applicability to embodied systems.</p>
+<p><strong>中文摘要:</strong> 这篇论文主要围绕 cs.CV 中的 multimodal modeling 展开。根据摘要，核心问题是：Visual Foundation Models (VFMs), such as DINO and CLIP, excel in semantic understanding of images but exhibit limited spatial reasoning capabilities, which limits their applicability to embodied systems. As a result, recent work incorporates some 3D tasks (such as depth estimation) into VFM training. 适合先作为候选阅读，再结合实验设置判断是否值得精读。</p>
+<p><strong>English Summary:</strong> Visual Foundation Models (VFMs), such as DINO and CLIP, excel in semantic understanding of images but exhibit limited spatial reasoning capabilities, which limits their applicability to embodied systems. As a result, recent work incorporates some 3D tasks (such as depth estimation) into VFM training. However, VFM performance remains inconsistent across other spatial tasks, raising the question of whether these models truly have spatial awareness or overfit to specific 3D objectives.</p>
+<p><strong>方法 / Method:</strong> multimodal modeling</p>
+<p><strong>贡献 / Contribution:</strong> 提供新的评测视角或任务设置，可用于判断模型能力和研究空白。</p>
+<p><strong>局限 / Limitation:</strong> 可能依赖特定任务集，泛化到真实研究/生产场景仍需进一步验证。</p>
+<p><strong>为什么与你相关 / Why relevant:</strong> matches foundation model, reasoning；your recent feedback likes: across；your recent feedback likes: analysis</p>
 </div>
 <h2>10 篇一句话候选</h2>
 <div class='paper'>
-<h3>#6 <a href='https://arxiv.org/abs/2608.01615v2'>Thermalizing Stochastic Programs</a></h3>
-<div class='meta'>Mirko Amico, Andraž Jelinčič, Colin Oscar Nancarrow, Leo Tyrpak, David Roberts, Seth Morton, Dalton Sakthivadivel, Ashwin Gopal et al. | cs.ET | score <span class='score'>53.6</span> | updated 2026-08-13</div>
-<span class='pill'>cs.ET</span>
-<span class='pill'>cs.LG</span>
-<p>We present a set of tools for mapping general stochastic programs to thermodynamic hardware designed for energy-efficient stochastic sampling. Relevant because: matches post-training；strong interest: post-training；your recent feedback likes: alone</p>
-</div>
-<div class='paper'>
-<h3>#7 <a href='https://arxiv.org/abs/2608.13317v1'>StateBridge: Training-free Hidden-state Alignment for Latent Communication in LLM Multi-Agent Systems</a></h3>
-<div class='meta'>Yanwen Peng, Delvin Ce Zhang, Xi Wang, Nikolaos Aletras | cs.AI | score <span class='score'>53.3</span> | updated 2026-08-13</div>
-<span class='pill'>cs.AI</span>
-<p>Large language model based multi-agent systems usually communicate in text, i.e., using discrete tokens. Relevant because: matches large language model, llm, language model, agent；your recent feedback likes: across；your recent feedback likes: agent</p>
-</div>
-<div class='paper'>
-<h3>#8 <a href='https://arxiv.org/abs/2608.13365v1'>When Local Variance Optimality Is Not Enough: RoPE-Aligned Q/K Rotations for Dynamic 4-Bit Quantisation</a></h3>
-<div class='meta'>Shuhan Wang, Yilin Luo, Nan Xu, Chi Wang Cheung | cs.LG | score <span class='score'>51.3</span> | updated 2026-08-13</div>
-<span class='pill'>cs.LG</span>
-<p>Rotation-based post-training quantisation commonly applies an orthogonal transform across an entire attention head to reduce outlier-induced error. Relevant because: matches post-training, long context, rag；strong interest: post-training；your recent feedback likes: across</p>
-</div>
-<div class='paper'>
-<h3>#9 <a href='https://arxiv.org/abs/2608.12845v1'>FSGR: Mitigating Token Frequency Bias for Fair SID-Based Generative Recommendation</a></h3>
-<div class='meta'>Yuchen Zheng, Sihan Xu, Jingwen Yang, Xiangrui Cai, Haiwei Zhang, Xiaojie Yuan | cs.IR | score <span class='score'>50.6</span> | updated 2026-08-13</div>
-<span class='pill'>cs.IR</span>
+<h3>#6 <a href='https://arxiv.org/abs/2608.10766v2'>Rule of Thumb: Explaining Artificial Intelligence Systems using Partial Information</a></h3>
+<div class='meta'>Kaivalya Rawal, Daria Onitiu, Brent Mittelstadt, Sandra Wachter, Chris Russell | cs.AI | score <span class='score'>45.3</span> | updated 2026-08-13</div>
 <span class='pill'>cs.AI</span>
 <span class='pill'>cs.LG</span>
-<p>Semantic ID (SID)-based generative recommendation has recently achieved remarkable success. Relevant because: matches llm, optimization, rag；your recent feedback likes: across；your recent feedback likes: bias</p>
+<span class='pill'>stat.ML</span>
+<p>Explainable Artificial Intelligence (XAI) seeks to explain how an Artificial Intelligence (AI) system arrived at a particular decision. Relevant because: matches large language model, llm, language model；your recent feedback likes: Large Language Models (LLMs)；your recent feedback likes: alternative</p>
 </div>
 <div class='paper'>
-<h3>#10 <a href='https://arxiv.org/abs/2608.10528v2'>When Do Anchor-Based Pointwise LLM Rerankers Help? Retriever Quality, Statistical Scope, and Anchor Design</a></h3>
-<div class='meta'>Utshab Kumar Ghosh, Shubham Chatterjee | cs.IR | score <span class='score'>50.3</span> | updated 2026-08-12</div>
-<span class='pill'>cs.IR</span>
-<span class='pill'>cs.LG</span>
-<p>Anchor-based pointwise LLM reranking scores each candidate against a shared reference passage to recover cross-document context at pointwise cost. Relevant because: matches llm, evaluation；your recent feedback likes: across；your recent feedback likes: against</p>
-</div>
-<div class='paper'>
-<h3>#11 <a href='https://arxiv.org/abs/2608.12633v1'>Offering Microsecond-Scale Cross-VM Core Elasticity on Colocated Lightweight Virtual Machines</a></h3>
-<div class='meta'>Yibo Yan, Seo Jin Park | cs.DC | score <span class='score'>50.3</span> | updated 2026-08-12</div>
-<span class='pill'>cs.DC</span>
-<p>Serverless platforms commonly colocate many diverse workloads, each in a fast-booting, memory-lean virtual machine (VM), to improve deployment density. Relevant because: your recent feedback likes: across；your recent feedback likes: compared；your recent feedback likes: cs.DC</p>
-</div>
-<div class='paper'>
-<h3>#12 <a href='https://arxiv.org/abs/2509.17449v2'>SLAyiNG: A Diverse and Community-validated Dataset of Queer Slang</a></h3>
-<div class='meta'>Leonor Veloso, Lea Hirlimann, Lucija Mihić Zidar, Philipp Wicke, Valentin Hofmann, Hinrich Schütze | cs.CL | score <span class='score'>50.1</span> | updated 2026-08-13</div>
+<h3>#7 <a href='https://arxiv.org/abs/2608.13326v1'>Beyond Local Accuracy: A Protocol-Level Identifiability Audit for Controlled LLM Reasoning Evaluation</a></h3>
+<div class='meta'>Junhao Luo, Ning Huang, Ziqi Sha, Wenxuan Tang, Wei Deng | cs.CL | score <span class='score'>44.7</span> | updated 2026-08-13</div>
 <span class='pill'>cs.CL</span>
-<p>Queer vernacular is rarely studied in NLP, despite advancements in resources and evaluation for other sociolects and informal language. Relevant because: matches language model, rag, evaluation；your recent feedback likes: across；your recent feedback likes: benchmark</p>
+<p>LLM benchmark scores can be precise even when the observation protocol does not identify the behavioral property they are intended to measure. Relevant because: matches llm, reasoning, evaluation；your recent feedback likes: across；your recent feedback likes: also</p>
 </div>
 <div class='paper'>
-<h3>#13 <a href='https://arxiv.org/abs/2608.13458v1'>Fine-Grained Action Recognition with Cross-Attentive Latent Sparse Experts</a></h3>
-<div class='meta'>Imtiaz Ul Hassan, Tasweer Ahmad, Nik Bessis, Ardhendu Behera | cs.CV | score <span class='score'>50.1</span> | updated 2026-08-13</div>
-<span class='pill'>cs.CV</span>
-<p>Fine-grained human action recognition (FHAR) must distinguish visually similar actions that differ mainly in body configuration, timing, or local appearance. Relevant because: your recent feedback likes: appearance；your recent feedback likes: body；your recent feedback likes: code</p>
-</div>
-<div class='paper'>
-<h3>#14 <a href='https://arxiv.org/abs/2608.13183v1'>A Controlled Study of Self-Supervised Image and Video Pretraining under Limited Resources</a></h3>
-<div class='meta'>Brunó B. Englert, Gijs Dubbelman | cs.CV | score <span class='score'>49.6</span> | updated 2026-08-13</div>
-<span class='pill'>cs.CV</span>
-<p>Visual foundation models are a cornerstone of image and video understanding but typically require large amounts of data and computation. Relevant because: matches foundation model；your recent feedback likes: across；your recent feedback likes: alone</p>
-</div>
-<div class='paper'>
-<h3>#15 <a href='https://arxiv.org/abs/2608.12123v1'>Ready Cohorts: Bounding GPU Opportunity and Avoiding Host Round Trips in LLM-Agent Control</a></h3>
-<div class='meta'>Josef Liyanjun Chen | cs.DC | score <span class='score'>49.5</span> | updated 2026-08-12</div>
-<span class='pill'>cs.DC</span>
+<h3>#8 <a href='https://arxiv.org/abs/2608.10473v2'>Critic-Free Pretraining for Efficient Online Reinforcement Learning Fine-Tuning</a></h3>
+<div class='meta'>Daoyi Li, Yixian Zhang, Wenbo Ding, Yu Wang, Chao Yu | cs.LG | score <span class='score'>44.6</span> | updated 2026-08-13</div>
+<span class='pill'>cs.LG</span>
 <span class='pill'>cs.AI</span>
-<span class='pill'>cs.OS</span>
-<p>LLM-agent services repeatedly execute small deterministic transitions between model and tool calls: route an outcome, update state, and emit the next effect. Relevant because: matches llm, agent；your recent feedback likes: Turn；your recent feedback likes: across</p>
+<p>Offline-to-online (O2O) reinforcement learning aims to leverage policies pretrained on static datasets while improving them through online interaction. Relevant because: matches rag；your recent feedback likes: across；your recent feedback likes: adapt</p>
+</div>
+<div class='paper'>
+<h3>#9 <a href='https://arxiv.org/abs/2608.13454v1'>Before You Say It: Anticipating Verbal Behavior from Longitudinal Everyday Conversations with LLMs</a></h3>
+<div class='meta'>Yasith Samaradivakara, Valdemar Danry, Paul Liang, Pattie Maes | cs.HC | score <span class='score'>44.3</span> | updated 2026-08-13</div>
+<span class='pill'>cs.HC</span>
+<p>Knowing someone deeply means not just understanding what they say or do but also how they will likely think, react, and engage across situations. Relevant because: matches llm；your recent feedback likes: about；your recent feedback likes: across</p>
+</div>
+<div class='paper'>
+<h3>#10 <a href='https://arxiv.org/abs/2608.12812v1'>A Comprehensive Empirical Evaluation of Vector Database Systems for Approximate Nearest Neighbor Search: Performance, Quality, and Resource Trade-offs</a></h3>
+<div class='meta'>Ashen Rashmiks, Tiroshan Madushanka | cs.IR | score <span class='score'>44.1</span> | updated 2026-08-13</div>
+<span class='pill'>cs.IR</span>
+<p>Vector databases have emerged as critical infrastructure for modern artificial intelligence applications, particularly retrieval-augmented generation (RAG), semantic search, and recommendation systems. Relevant because: matches rag, evaluation；your recent feedback likes: benchmark；your recent feedback likes: benchmarks</p>
+</div>
+<div class='paper'>
+<h3>#11 <a href='https://arxiv.org/abs/2608.13334v1'>RippleMem: From Isolated Retrieval to Associative Recollection for Long-Term Agent Memory</a></h3>
+<div class='meta'>Jingbo Ji, Lingyi Li, Xilong Cheng, Yuhao Zhou, Wenji Zhang, Yuting Tan, Yunxiao Qin | cs.CL | score <span class='score'>42.9</span> | updated 2026-08-13</div>
+<span class='pill'>cs.CL</span>
+<p>LLM-based agents increasingly rely on external memory to support long-horizon reasoning and interaction. Relevant because: matches llm, agent, reasoning；your recent feedback likes: Turn；your recent feedback likes: about</p>
+</div>
+<div class='paper'>
+<h3>#12 <a href='https://arxiv.org/abs/2605.12608v3'>A Data Efficiency Study of Synthetic Fog for Object Detection Using the Clear2Fog Pipeline</a></h3>
+<div class='meta'>Mohamed Ahmed Mohamed, Xiaowei Huang | cs.CV | score <span class='score'>42.6</span> | updated 2026-08-13</div>
+<span class='pill'>cs.CV</span>
+<p>Object detection in adverse weather is critical for the safety of autonomous vehicles; however, the scarcity of labelled, real-world foggy data remains a significant bottleneck. Relevant because: your recent feedback likes: across；your recent feedback likes: adapt；your recent feedback likes: bias</p>
+</div>
+<div class='paper'>
+<h3>#13 <a href='https://arxiv.org/abs/2608.13160v1'>Better Decomposition, Free Aggregation: A Synthesizer-Folding Framework for Multilingual Multi-Hop Question Answering</a></h3>
+<div class='meta'>Yilin Wang, Yuchun Fan, Weidong Bao, Zili Wei, Shi Feng, Tong Xiao, Zhengtao Yu, Jingbo Zhu | cs.CL | score <span class='score'>42.3</span> | updated 2026-08-13</div>
+<span class='pill'>cs.CL</span>
+<span class='pill'>cs.AI</span>
+<p>Multilingual retrieval-augmented generation (mRAG) equips large language models with access to globally distributed external knowledge for complex multilingual question answering. Relevant because: matches large language model, language model, reasoning, alignment；your recent feedback likes: across；your recent feedback likes: alignment</p>
+</div>
+<div class='paper'>
+<h3>#14 <a href='https://arxiv.org/abs/2608.13328v1'>It&#x27;s How You Ask: Gender-Associated Linguistic Bias in LLMs</a></h3>
+<div class='meta'>Katherine Van Koevering, Anjalie Field | cs.CL | score <span class='score'>42.2</span> | updated 2026-08-13</div>
+<span class='pill'>cs.CL</span>
+<span class='pill'>cs.AI</span>
+<p>Professional communication is increasingly mediated by LLMs - but do these models serve all users equally? Relevant because: matches llm；your recent feedback likes: across；your recent feedback likes: analysis</p>
+</div>
+<div class='paper'>
+<h3>#15 <a href='https://arxiv.org/abs/2605.10007v3'>Formal Verification of Imperative First-Class Functions in Move</a></h3>
+<div class='meta'>Wolfgang Grieskamp, Teng Zhang, Vineeth Kashyap, Jake Silverman | cs.PL | score <span class='score'>42.1</span> | updated 2026-08-13</div>
+<span class='pill'>cs.PL</span>
+<span class='pill'>cs.LO</span>
+<span class='pill'>cs.SE</span>
+<p>The Move Prover (MVP) is a formal verifier for smart contracts written in the Move programming language. Relevant because: matches rag；your recent feedback likes: Dafny；your recent feedback likes: also</p>
 </div>
 <div class='feedback'><strong>反馈方式</strong><br>直接回复：多发 #3 类似的，少发 #1；多发 landscape / inference optimization / RLVR。</div>
 </body></html>
