@@ -58,11 +58,13 @@
     "2508.15503",
     "2508.15706",
     "2509.07996",
+    "2509.08022",
     "2509.09960",
     "2509.16666",
     "2509.17449",
     "2509.20086",
     "2509.21028",
+    "2509.23689",
     "2509.23951",
     "2509.24102",
     "2509.24372",
@@ -90,6 +92,7 @@
     "2511.12950",
     "2511.17864",
     "2511.18288",
+    "2511.20179",
     "2511.20644",
     "2511.23310",
     "2512.01208",
@@ -198,6 +201,7 @@
     "2604.00626",
     "2604.01039",
     "2604.01363",
+    "2604.02022",
     "2604.02091",
     "2604.02512",
     "2604.03724",
@@ -950,6 +954,7 @@
     "2608.17979",
     "2608.18058",
     "2608.18072",
+    "2608.18607",
     "2608.18921",
     "2608.18937",
     "2608.18952",
@@ -957,7 +962,17 @@
     "2608.18992",
     "2608.19011",
     "2608.19055",
-    "2608.19197"
+    "2608.19197",
+    "2608.19388",
+    "2608.19535",
+    "2608.19677",
+    "2608.19893",
+    "2608.19982",
+    "2608.20116",
+    "2608.20218",
+    "2608.20314",
+    "2608.20322",
+    "2608.20326"
   ],
   "sent_keys": [
     "2309.16843:2026-07-02T16:45:25Z",
@@ -1019,12 +1034,14 @@
     "2508.15503:2026-06-12T08:34:46Z",
     "2508.15706:2026-07-23T09:18:31Z",
     "2509.07996:2026-07-20T17:34:32Z",
+    "2509.08022:2026-08-20T09:42:41Z",
     "2509.09960:2026-06-25T13:10:45Z",
     "2509.16666:2026-08-06T13:53:17Z",
     "2509.17449:2026-08-13T15:11:17Z",
     "2509.20086:2026-06-12T12:27:33Z",
     "2509.21028:2026-07-22T12:02:02Z",
     "2509.21028:2026-07-23T11:58:29Z",
+    "2509.23689:2026-08-20T17:35:13Z",
     "2509.23951:2026-06-26T07:53:46Z",
     "2509.24102:2026-08-05T13:38:24Z",
     "2509.24372:2026-07-14T15:11:12Z",
@@ -1052,6 +1069,7 @@
     "2511.12950:2026-08-12T07:45:30Z",
     "2511.17864:2026-07-06T14:29:28Z",
     "2511.18288:2026-06-18T06:58:18Z",
+    "2511.20179:2026-08-20T15:13:37Z",
     "2511.20644:2026-07-09T17:59:10Z",
     "2511.23310:2026-07-30T09:34:29Z",
     "2512.01208:2026-07-16T17:34:29Z",
@@ -1164,6 +1182,7 @@
     "2604.01039:2026-08-11T17:24:35Z",
     "2604.01363:2026-07-22T15:37:47Z",
     "2604.01363:2026-07-23T12:35:58Z",
+    "2604.02022:2026-08-20T08:05:05Z",
     "2604.02091:2026-07-02T17:08:51Z",
     "2604.02512:2026-08-12T16:13:37Z",
     "2604.03724:2026-06-25T13:28:29Z",
@@ -1957,6 +1976,7 @@
     "2608.17979:2026-08-18T16:29:24Z",
     "2608.18058:2026-08-18T17:51:16Z",
     "2608.18072:2026-08-18T17:57:08Z",
+    "2608.18607:2026-08-20T15:01:06Z",
     "2608.18921:2026-08-19T13:51:31Z",
     "2608.18937:2026-08-19T14:05:22Z",
     "2608.18952:2026-08-19T14:17:34Z",
@@ -1964,129 +1984,19 @@
     "2608.18992:2026-08-19T14:58:48Z",
     "2608.19011:2026-08-19T15:11:43Z",
     "2608.19055:2026-08-19T15:50:29Z",
-    "2608.19197:2026-08-19T17:58:56Z"
+    "2608.19197:2026-08-19T17:58:56Z",
+    "2608.19388:2026-08-19T19:06:43Z",
+    "2608.19535:2026-08-20T01:13:29Z",
+    "2608.19677:2026-08-20T06:12:47Z",
+    "2608.19893:2026-08-20T11:01:59Z",
+    "2608.19982:2026-08-20T12:52:55Z",
+    "2608.20116:2026-08-20T14:48:30Z",
+    "2608.20218:2026-08-20T16:14:02Z",
+    "2608.20314:2026-08-20T17:53:59Z",
+    "2608.20322:2026-08-20T17:58:22Z",
+    "2608.20326:2026-08-20T17:58:50Z"
   ],
   "sent_log": [
-    {
-      "arxiv_id": "2606.13380",
-      "score": 39.7,
-      "sent_at": "2026-06-14T00:59:02.074368+08:00",
-      "sent_key": "2606.13380:2026-06-11T14:08:00Z",
-      "title": "An LLM System for Autonomous Variational Quantum Circuit Design",
-      "updated": "2026-06-11T14:08:00Z"
-    },
-    {
-      "arxiv_id": "2606.13316",
-      "score": 39.7,
-      "sent_at": "2026-06-14T00:59:02.074368+08:00",
-      "sent_key": "2606.13316:2026-06-11T13:10:48Z",
-      "title": "ReSum: Synergizing LLM Reasoning and Summarization with Reinforcement Learning",
-      "updated": "2026-06-11T13:10:48Z"
-    },
-    {
-      "arxiv_id": "2606.09500",
-      "score": 38.5,
-      "sent_at": "2026-06-14T00:59:02.074368+08:00",
-      "sent_key": "2606.09500:2026-06-11T11:46:34Z",
-      "title": "Deterministic Integrity Gates for LLM-Assisted Clinical Manuscript Preparation: An Auditable Biomedical Informatics Architecture",
-      "updated": "2026-06-11T11:46:34Z"
-    },
-    {
-      "arxiv_id": "2606.13680",
-      "score": 37.4,
-      "sent_at": "2026-06-14T00:59:02.074368+08:00",
-      "sent_key": "2606.13680:2026-06-11T17:59:52Z",
-      "title": "Learning to Reason by Analogy via Retrieval-Augmented Reinforcement Fine-Tuning",
-      "updated": "2026-06-11T17:59:52Z"
-    },
-    {
-      "arxiv_id": "2606.13349",
-      "score": 37.1,
-      "sent_at": "2026-06-14T00:59:02.074368+08:00",
-      "sent_key": "2606.13349:2026-06-11T13:38:23Z",
-      "title": "From Passive Generation to Investigation: A Proactive Scientific Peer Review Agent",
-      "updated": "2026-06-11T13:38:23Z"
-    },
-    {
-      "arxiv_id": "2606.05860",
-      "score": 37.1,
-      "sent_at": "2026-06-14T00:59:02.074368+08:00",
-      "sent_key": "2606.05860:2026-06-11T12:39:42Z",
-      "title": "GenAutoML: An Agentic Framework for Dynamic Architecture Generation and Optimization in Time-Series Analysis",
-      "updated": "2026-06-11T12:39:42Z"
-    },
-    {
-      "arxiv_id": "2605.31514",
-      "score": 35.9,
-      "sent_at": "2026-06-14T00:59:02.074368+08:00",
-      "sent_key": "2605.31514:2026-06-11T16:55:07Z",
-      "title": "If LLMs Have Human-Like Attributes, Then So Does Age of Empires II",
-      "updated": "2026-06-11T16:55:07Z"
-    },
-    {
-      "arxiv_id": "2601.19072",
-      "score": 35.8,
-      "sent_at": "2026-06-14T00:59:02.074368+08:00",
-      "sent_key": "2601.19072:2026-06-11T01:26:21Z",
-      "title": "HalluJudge: A Reference-Free Hallucination Detection for Context Misalignment in Code Review Automation",
-      "updated": "2026-06-11T01:26:21Z"
-    },
-    {
-      "arxiv_id": "2606.06525",
-      "score": 35.8,
-      "sent_at": "2026-06-14T00:59:02.074368+08:00",
-      "sent_key": "2606.06525:2026-06-11T13:52:20Z",
-      "title": "Agentic Large Language Models for Automated Structural Analysis of 3D Frame Systems",
-      "updated": "2026-06-11T13:52:20Z"
-    },
-    {
-      "arxiv_id": "2606.12864",
-      "score": 34.7,
-      "sent_at": "2026-06-14T00:59:02.074368+08:00",
-      "sent_key": "2606.12864:2026-06-11T03:48:18Z",
-      "title": "Beyond Problem Solving: UOJ-Bench for Evaluating Code Generation, Hacking, and Repair in Competitive Programming",
-      "updated": "2026-06-11T03:48:18Z"
-    },
-    {
-      "arxiv_id": "2502.18959",
-      "score": 45.2,
-      "sent_at": "2026-06-14T01:06:17.178828+08:00",
-      "sent_key": "2502.18959:2026-06-11T15:45:06Z",
-      "title": "Fourier Multi-Component and Multi-Layer Neural Networks: Unlocking High-Frequency Potential",
-      "updated": "2026-06-11T15:45:06Z"
-    },
-    {
-      "arxiv_id": "2606.04525",
-      "score": 41.9,
-      "sent_at": "2026-06-14T01:06:17.178828+08:00",
-      "sent_key": "2606.04525:2026-06-11T13:24:40Z",
-      "title": "GENEB: Why Genomic Models Are Hard to Compare",
-      "updated": "2026-06-11T13:24:40Z"
-    },
-    {
-      "arxiv_id": "2601.19827",
-      "score": 37.2,
-      "sent_at": "2026-06-14T01:06:17.178828+08:00",
-      "sent_key": "2601.19827:2026-06-10T18:40:18Z",
-      "title": "When Iterative RAG Beats Ideal Evidence: A Diagnostic Study in Scientific Multi-hop Question Answering",
-      "updated": "2026-06-10T18:40:18Z"
-    },
-    {
-      "arxiv_id": "2606.13218",
-      "score": 36.3,
-      "sent_at": "2026-06-14T01:06:17.178828+08:00",
-      "sent_key": "2606.13218:2026-06-11T11:33:09Z",
-      "title": "When Similar Means Different: Evaluating LLMs on Arabic--Hebrew Cognates",
-      "updated": "2026-06-11T11:33:09Z"
-    },
-    {
-      "arxiv_id": "2604.18307",
-      "score": 35.3,
-      "sent_at": "2026-06-14T01:06:17.178828+08:00",
-      "sent_key": "2604.18307:2026-06-11T17:17:53Z",
-      "title": "Reasoning Models Know What's Important, and Encode It in Their Activations",
-      "updated": "2026-06-11T17:17:53Z"
-    },
     {
       "arxiv_id": "2606.13507",
       "score": 35.1,
@@ -9966,6 +9876,126 @@
       "sent_key": "2608.04156:2026-08-19T13:07:36Z",
       "title": "BrainBench: Benchmarking Large Language Models for Comprehensive EEG Understanding",
       "updated": "2026-08-19T13:07:36Z"
+    },
+    {
+      "arxiv_id": "2608.20314",
+      "score": 99.1,
+      "sent_at": "2026-08-21T10:37:14.704903+08:00",
+      "sent_key": "2608.20314:2026-08-20T17:53:59Z",
+      "title": "MidTool: Mid-training Data Synthesis for Agentic Tool Use",
+      "updated": "2026-08-20T17:53:59Z"
+    },
+    {
+      "arxiv_id": "2608.19388",
+      "score": 92.5,
+      "sent_at": "2026-08-21T10:37:14.704903+08:00",
+      "sent_key": "2608.19388:2026-08-19T19:06:43Z",
+      "title": "Quantization Beyond Uniform Bit Allocation",
+      "updated": "2026-08-19T19:06:43Z"
+    },
+    {
+      "arxiv_id": "2608.20218",
+      "score": 85.6,
+      "sent_at": "2026-08-21T10:37:14.704903+08:00",
+      "sent_key": "2608.20218:2026-08-20T16:14:02Z",
+      "title": "Electronic Navigational Chart Change Classification",
+      "updated": "2026-08-20T16:14:02Z"
+    },
+    {
+      "arxiv_id": "2604.02022",
+      "score": 79.8,
+      "sent_at": "2026-08-21T10:37:14.704903+08:00",
+      "sent_key": "2604.02022:2026-08-20T08:05:05Z",
+      "title": "ATBench: A Diverse and Realistic Agent Trajectory Benchmark for Safety Evaluation and Diagnosis",
+      "updated": "2026-08-20T08:05:05Z"
+    },
+    {
+      "arxiv_id": "2608.20116",
+      "score": 76.7,
+      "sent_at": "2026-08-21T10:37:14.704903+08:00",
+      "sent_key": "2608.20116:2026-08-20T14:48:30Z",
+      "title": "When Text and Numbers Disagree: Evidence Arbitration in Large Language Models",
+      "updated": "2026-08-20T14:48:30Z"
+    },
+    {
+      "arxiv_id": "2608.20326",
+      "score": 76.0,
+      "sent_at": "2026-08-21T10:37:14.704903+08:00",
+      "sent_key": "2608.20326:2026-08-20T17:58:50Z",
+      "title": "$TCP_α$: Margin-Controlled Confidence estimation for reliable Music Information Retrieval",
+      "updated": "2026-08-20T17:58:50Z"
+    },
+    {
+      "arxiv_id": "2608.18607",
+      "score": 75.4,
+      "sent_at": "2026-08-21T10:37:14.704903+08:00",
+      "sent_key": "2608.18607:2026-08-20T15:01:06Z",
+      "title": "VA-Judger: Reward Modeling from Human Preference Feedback for Joint Video-Audio Generation",
+      "updated": "2026-08-20T15:01:06Z"
+    },
+    {
+      "arxiv_id": "2608.19677",
+      "score": 73.6,
+      "sent_at": "2026-08-21T10:37:14.704903+08:00",
+      "sent_key": "2608.19677:2026-08-20T06:12:47Z",
+      "title": "CacheRoute: Planned Prefix-Affinity Routing for Large-Scale LLM Serving",
+      "updated": "2026-08-20T06:12:47Z"
+    },
+    {
+      "arxiv_id": "2608.19535",
+      "score": 72.2,
+      "sent_at": "2026-08-21T10:37:14.704903+08:00",
+      "sent_key": "2608.19535:2026-08-20T01:13:29Z",
+      "title": "From Retrieved Context to Runtime Control: Adaptive Compression for Edge-based RAG",
+      "updated": "2026-08-20T01:13:29Z"
+    },
+    {
+      "arxiv_id": "2608.20322",
+      "score": 71.4,
+      "sent_at": "2026-08-21T10:37:14.704903+08:00",
+      "sent_key": "2608.20322:2026-08-20T17:58:22Z",
+      "title": "A comparison between ceiling-mounted FMCW, IR-UWB and Wi-Fi radar for in-bedroom human activity monitoring and sleep interruption detection",
+      "updated": "2026-08-20T17:58:22Z"
+    },
+    {
+      "arxiv_id": "2509.08022",
+      "score": 71.3,
+      "sent_at": "2026-08-21T10:37:14.704903+08:00",
+      "sent_key": "2509.08022:2026-08-20T09:42:41Z",
+      "title": "DiverValue-Bench: A Benchmark and Fine-Tuning Framework for Aligning Large Language Models with Diverse Human Values",
+      "updated": "2026-08-20T09:42:41Z"
+    },
+    {
+      "arxiv_id": "2608.19982",
+      "score": 70.3,
+      "sent_at": "2026-08-21T10:37:14.704903+08:00",
+      "sent_key": "2608.19982:2026-08-20T12:52:55Z",
+      "title": "COPA: Continual Preference Optimization for Adaptive Prompt Injection Defense",
+      "updated": "2026-08-20T12:52:55Z"
+    },
+    {
+      "arxiv_id": "2509.23689",
+      "score": 69.4,
+      "sent_at": "2026-08-21T10:37:14.704903+08:00",
+      "sent_key": "2509.23689:2026-08-20T17:35:13Z",
+      "title": "Merge Now, Regret Later: The Hidden Cost of Model Merging Is Adversarial Transferability",
+      "updated": "2026-08-20T17:35:13Z"
+    },
+    {
+      "arxiv_id": "2511.20179",
+      "score": 69.3,
+      "sent_at": "2026-08-21T10:37:14.704903+08:00",
+      "sent_key": "2511.20179:2026-08-20T15:13:37Z",
+      "title": "Human-computer interactions predict mental health",
+      "updated": "2026-08-20T15:13:37Z"
+    },
+    {
+      "arxiv_id": "2608.19893",
+      "score": 68.8,
+      "sent_at": "2026-08-21T10:37:14.704903+08:00",
+      "sent_key": "2608.19893:2026-08-20T11:01:59Z",
+      "title": "Interrupting the Loop: Periodic Subject Changes Raise Judged Surprise and Connection in Base Language Models",
+      "updated": "2026-08-20T11:01:59Z"
     }
   ]
 }
