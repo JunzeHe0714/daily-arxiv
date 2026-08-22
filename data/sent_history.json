@@ -16,6 +16,7 @@
     "2501.14546",
     "2501.18784",
     "2502.13828",
+    "2502.15411",
     "2502.15543",
     "2502.18959",
     "2502.19058",
@@ -87,6 +88,7 @@
     "2511.01650",
     "2511.05017",
     "2511.05385",
+    "2511.06635",
     "2511.07368",
     "2511.11843",
     "2511.12950",
@@ -141,6 +143,7 @@
     "2602.05143",
     "2602.06075",
     "2602.06154",
+    "2602.07442",
     "2602.07589",
     "2602.10229",
     "2602.10282",
@@ -877,6 +880,7 @@
     "2608.09765",
     "2608.09899",
     "2608.09900",
+    "2608.09921",
     "2608.10402",
     "2608.10473",
     "2608.10528",
@@ -896,6 +900,7 @@
     "2608.12123",
     "2608.12158",
     "2608.12197",
+    "2608.12323",
     "2608.12633",
     "2608.12741",
     "2608.12745",
@@ -954,6 +959,7 @@
     "2608.17979",
     "2608.18058",
     "2608.18072",
+    "2608.18578",
     "2608.18607",
     "2608.18921",
     "2608.18937",
@@ -963,16 +969,25 @@
     "2608.19011",
     "2608.19055",
     "2608.19197",
+    "2608.19323",
     "2608.19388",
     "2608.19535",
     "2608.19677",
+    "2608.19794",
     "2608.19893",
+    "2608.19981",
     "2608.19982",
+    "2608.20016",
+    "2608.20097",
     "2608.20116",
+    "2608.20202",
     "2608.20218",
+    "2608.20283",
     "2608.20314",
+    "2608.20316",
     "2608.20322",
-    "2608.20326"
+    "2608.20326",
+    "2608.20335"
   ],
   "sent_keys": [
     "2309.16843:2026-07-02T16:45:25Z",
@@ -992,6 +1007,7 @@
     "2501.14546:2026-07-22T15:44:08Z",
     "2501.18784:2026-07-08T10:18:17Z",
     "2502.13828:2026-07-09T12:23:38Z",
+    "2502.15411:2026-08-20T12:06:58Z",
     "2502.15543:2026-07-09T09:34:11Z",
     "2502.18959:2026-06-11T15:45:06Z",
     "2502.19058:2026-08-05T12:36:09Z",
@@ -1064,6 +1080,7 @@
     "2511.01650:2026-06-16T12:04:30Z",
     "2511.05017:2026-06-12T16:49:45Z",
     "2511.05385:2026-07-23T06:36:18Z",
+    "2511.06635:2026-08-20T15:42:18Z",
     "2511.07368:2026-06-12T14:01:32Z",
     "2511.11843:2026-08-04T19:22:23Z",
     "2511.12950:2026-08-12T07:45:30Z",
@@ -1119,6 +1136,7 @@
     "2602.05143:2026-06-24T03:29:07Z",
     "2602.06075:2026-08-11T13:42:35Z",
     "2602.06154:2026-06-16T12:59:35Z",
+    "2602.07442:2026-08-20T07:52:17Z",
     "2602.07589:2026-07-22T21:09:26Z",
     "2602.10229:2026-07-10T05:21:19Z",
     "2602.10282:2026-07-28T13:02:22Z",
@@ -1897,6 +1915,7 @@
     "2608.09765:2026-08-10T15:55:56Z",
     "2608.09899:2026-08-10T17:47:19Z",
     "2608.09900:2026-08-10T17:47:24Z",
+    "2608.09921:2026-08-20T16:00:29Z",
     "2608.10402:2026-08-11T02:49:33Z",
     "2608.10473:2026-08-13T16:34:58Z",
     "2608.10528:2026-08-12T17:43:26Z",
@@ -1917,6 +1936,7 @@
     "2608.12123:2026-08-12T14:42:15Z",
     "2608.12158:2026-08-12T15:20:29Z",
     "2608.12197:2026-08-12T15:51:52Z",
+    "2608.12323:2026-08-20T06:47:50Z",
     "2608.12633:2026-08-12T22:49:01Z",
     "2608.12741:2026-08-13T02:41:14Z",
     "2608.12745:2026-08-13T02:45:40Z",
@@ -1976,6 +1996,7 @@
     "2608.17979:2026-08-18T16:29:24Z",
     "2608.18058:2026-08-18T17:51:16Z",
     "2608.18072:2026-08-18T17:57:08Z",
+    "2608.18578:2026-08-20T09:45:51Z",
     "2608.18607:2026-08-20T15:01:06Z",
     "2608.18921:2026-08-19T13:51:31Z",
     "2608.18937:2026-08-19T14:05:22Z",
@@ -1985,138 +2006,27 @@
     "2608.19011:2026-08-19T15:11:43Z",
     "2608.19055:2026-08-19T15:50:29Z",
     "2608.19197:2026-08-19T17:58:56Z",
+    "2608.19323:2026-08-19T18:00:04Z",
     "2608.19388:2026-08-19T19:06:43Z",
     "2608.19535:2026-08-20T01:13:29Z",
     "2608.19677:2026-08-20T06:12:47Z",
+    "2608.19794:2026-08-20T08:45:51Z",
     "2608.19893:2026-08-20T11:01:59Z",
+    "2608.19981:2026-08-20T12:52:09Z",
     "2608.19982:2026-08-20T12:52:55Z",
+    "2608.20016:2026-08-20T13:27:41Z",
+    "2608.20097:2026-08-20T14:31:10Z",
     "2608.20116:2026-08-20T14:48:30Z",
+    "2608.20202:2026-08-20T16:00:17Z",
     "2608.20218:2026-08-20T16:14:02Z",
+    "2608.20283:2026-08-20T17:16:19Z",
     "2608.20314:2026-08-20T17:53:59Z",
+    "2608.20316:2026-08-20T17:54:37Z",
     "2608.20322:2026-08-20T17:58:22Z",
-    "2608.20326:2026-08-20T17:58:50Z"
+    "2608.20326:2026-08-20T17:58:50Z",
+    "2608.20335:2026-08-20T17:59:53Z"
   ],
   "sent_log": [
-    {
-      "arxiv_id": "2606.13507",
-      "score": 35.1,
-      "sent_at": "2026-06-14T01:06:17.178828+08:00",
-      "sent_key": "2606.13507:2026-06-11T15:55:23Z",
-      "title": "Leveraging Audio-LLMs to Filter Speech-to-Speech Training Data",
-      "updated": "2026-06-11T15:55:23Z"
-    },
-    {
-      "arxiv_id": "2606.13681",
-      "score": 34.8,
-      "sent_at": "2026-06-14T01:06:17.178828+08:00",
-      "sent_key": "2606.13681:2026-06-11T17:59:59Z",
-      "title": "EvoArena: Tracking Memory Evolution for Robust LLM Agents in Dynamic Environments",
-      "updated": "2026-06-11T17:59:59Z"
-    },
-    {
-      "arxiv_id": "2606.13221",
-      "score": 34.7,
-      "sent_at": "2026-06-14T01:06:17.178828+08:00",
-      "sent_key": "2606.13221:2026-06-11T11:38:05Z",
-      "title": "From Uncertain Judgments to Calibrated Rankings: Conformal Elo Estimation for LLM Evaluation",
-      "updated": "2026-06-11T11:38:05Z"
-    },
-    {
-      "arxiv_id": "2606.13310",
-      "score": 33.8,
-      "sent_at": "2026-06-14T01:06:17.178828+08:00",
-      "sent_key": "2606.13310:2026-06-11T13:07:02Z",
-      "title": "RogueAI: A Reverse Turing Test for Detecting Licensed AI Deception in Dialogue",
-      "updated": "2026-06-11T13:07:02Z"
-    },
-    {
-      "arxiv_id": "2606.07515",
-      "score": 32.9,
-      "sent_at": "2026-06-14T01:06:17.178828+08:00",
-      "sent_key": "2606.07515:2026-06-11T16:52:41Z",
-      "title": "How reliable are LLMs when it comes to playing dice?",
-      "updated": "2026-06-11T16:52:41Z"
-    },
-    {
-      "arxiv_id": "2602.18154",
-      "score": 32.0,
-      "sent_at": "2026-06-14T01:06:17.178828+08:00",
-      "sent_key": "2602.18154:2026-06-11T12:26:22Z",
-      "title": "FENCE: A Financial and Multimodal Jailbreak Detection Dataset",
-      "updated": "2026-06-11T12:26:22Z"
-    },
-    {
-      "arxiv_id": "2606.13668",
-      "score": 31.2,
-      "sent_at": "2026-06-14T01:06:17.178828+08:00",
-      "sent_key": "2606.13668:2026-06-11T17:58:33Z",
-      "title": "Influcoder: Distilling Decoders' Gradient Influence Rankings into an Encoder for Data Attribution",
-      "updated": "2026-06-11T17:58:33Z"
-    },
-    {
-      "arxiv_id": "2606.13572",
-      "score": 30.4,
-      "sent_at": "2026-06-14T01:06:17.178828+08:00",
-      "sent_key": "2606.13572:2026-06-11T16:59:42Z",
-      "title": "ArogyaSutra: A Multi-Agent Framework for Multimodal Medical Reasoning in Indic Languages",
-      "updated": "2026-06-11T16:59:42Z"
-    },
-    {
-      "arxiv_id": "2606.13438",
-      "score": 30.3,
-      "sent_at": "2026-06-14T01:06:17.178828+08:00",
-      "sent_key": "2606.13438:2026-06-11T15:01:49Z",
-      "title": "CQC-RAG: Robust Retrieval-Augmented Generation via Cross-Query Consistency",
-      "updated": "2026-06-11T15:01:49Z"
-    },
-    {
-      "arxiv_id": "2606.13657",
-      "score": 30.2,
-      "sent_at": "2026-06-14T01:06:17.178828+08:00",
-      "sent_key": "2606.13657:2026-06-11T17:54:09Z",
-      "title": "Dense Supervision, Sparse Updates: On the Sparsity and Geometry of On-Policy Distillation",
-      "updated": "2026-06-11T17:54:09Z"
-    },
-    {
-      "arxiv_id": "2511.07368",
-      "score": 58.6,
-      "sent_at": "2026-06-15T14:38:33.813116+08:00",
-      "sent_key": "2511.07368:2026-06-12T14:01:32Z",
-      "title": "Distributional Biases in Post-Training: A Markovian Analysis of Reasoning Trajectories",
-      "updated": "2026-06-12T14:01:32Z"
-    },
-    {
-      "arxiv_id": "2606.14691",
-      "score": 56.5,
-      "sent_at": "2026-06-15T14:38:33.813116+08:00",
-      "sent_key": "2606.14691:2026-06-12T17:54:59Z",
-      "title": "CORA: Analyzing and bridging thinking-answer gap in Multimodal RLVR via Consistency-Oriented Reasoning Alignment",
-      "updated": "2026-06-12T17:54:59Z"
-    },
-    {
-      "arxiv_id": "2601.05106",
-      "score": 52.3,
-      "sent_at": "2026-06-15T14:38:33.813116+08:00",
-      "sent_key": "2601.05106:2026-06-12T16:10:00Z",
-      "title": "Token-Level LLM Collaboration via FusionRoute",
-      "updated": "2026-06-12T16:10:00Z"
-    },
-    {
-      "arxiv_id": "2511.05017",
-      "score": 48.1,
-      "sent_at": "2026-06-15T14:38:33.813116+08:00",
-      "sent_key": "2511.05017:2026-06-12T16:49:45Z",
-      "title": "Towards Mitigating Hallucinations in Large Vision-Language Models by Refining Textual Embeddings",
-      "updated": "2026-06-12T16:49:45Z"
-    },
-    {
-      "arxiv_id": "2606.14243",
-      "score": 45.6,
-      "sent_at": "2026-06-15T14:38:33.813116+08:00",
-      "sent_key": "2606.14243:2026-06-12T08:21:28Z",
-      "title": "Decoupled Mixture-of-Experts for Parametric Knowledge Injection",
-      "updated": "2026-06-12T08:21:28Z"
-    },
     {
       "arxiv_id": "2606.14574",
       "score": 42.8,
@@ -9996,6 +9906,126 @@
       "sent_key": "2608.19893:2026-08-20T11:01:59Z",
       "title": "Interrupting the Loop: Periodic Subject Changes Raise Judged Surprise and Connection in Base Language Models",
       "updated": "2026-08-20T11:01:59Z"
+    },
+    {
+      "arxiv_id": "2608.20016",
+      "score": 69.5,
+      "sent_at": "2026-08-22T10:28:58.012043+08:00",
+      "sent_key": "2608.20016:2026-08-20T13:27:41Z",
+      "title": "Emergence of cooperation: A reputation-modulated reinforcement learning",
+      "updated": "2026-08-20T13:27:41Z"
+    },
+    {
+      "arxiv_id": "2608.20283",
+      "score": 67.4,
+      "sent_at": "2026-08-22T10:28:58.012043+08:00",
+      "sent_key": "2608.20283:2026-08-20T17:16:19Z",
+      "title": "Design and Empirical Evaluation of a Network-Centric, On-Premises Architecture for Earth Observation Data Access",
+      "updated": "2026-08-20T17:16:19Z"
+    },
+    {
+      "arxiv_id": "2602.07442",
+      "score": 66.2,
+      "sent_at": "2026-08-22T10:28:58.012043+08:00",
+      "sent_key": "2602.07442:2026-08-20T07:52:17Z",
+      "title": "EchoTrace: Diagnosing Recursive Risks in LLM-Powered Recommender Systems",
+      "updated": "2026-08-20T07:52:17Z"
+    },
+    {
+      "arxiv_id": "2608.18578",
+      "score": 64.4,
+      "sent_at": "2026-08-22T10:28:58.012043+08:00",
+      "sent_key": "2608.18578:2026-08-20T09:45:51Z",
+      "title": "Compress and Forget: bitsandbytes Quantization Amplifies Proactive Interference in LLMs",
+      "updated": "2026-08-20T09:45:51Z"
+    },
+    {
+      "arxiv_id": "2608.19981",
+      "score": 64.2,
+      "sent_at": "2026-08-22T10:28:58.012043+08:00",
+      "sent_key": "2608.19981:2026-08-20T12:52:09Z",
+      "title": "HealMed: Multilingual Evaluation of Large Language Models in Medicine",
+      "updated": "2026-08-20T12:52:09Z"
+    },
+    {
+      "arxiv_id": "2608.20202",
+      "score": 64.1,
+      "sent_at": "2026-08-22T10:28:58.012043+08:00",
+      "sent_key": "2608.20202:2026-08-20T16:00:17Z",
+      "title": "MemTrapBench: Benchmarking Cognitive Traps in LLM Memory Use",
+      "updated": "2026-08-20T16:00:17Z"
+    },
+    {
+      "arxiv_id": "2511.06635",
+      "score": 64.0,
+      "sent_at": "2026-08-22T10:28:58.012043+08:00",
+      "sent_key": "2511.06635:2026-08-20T15:42:18Z",
+      "title": "Can LLM Annotations Replace User Clicks for Learning to Rank?",
+      "updated": "2026-08-20T15:42:18Z"
+    },
+    {
+      "arxiv_id": "2608.12323",
+      "score": 61.6,
+      "sent_at": "2026-08-22T10:28:58.012043+08:00",
+      "sent_key": "2608.12323:2026-08-20T06:47:50Z",
+      "title": "Why Do AI Agents Break Rules? How Framing, Context, and Social Signals Shape Compliance",
+      "updated": "2026-08-20T06:47:50Z"
+    },
+    {
+      "arxiv_id": "2502.15411",
+      "score": 61.3,
+      "sent_at": "2026-08-22T10:28:58.012043+08:00",
+      "sent_key": "2502.15411:2026-08-20T12:06:58Z",
+      "title": "HiFi-KPI: A Dataset for Hierarchical KPI Extraction from Earnings Filings",
+      "updated": "2026-08-20T12:06:58Z"
+    },
+    {
+      "arxiv_id": "2608.20316",
+      "score": 60.8,
+      "sent_at": "2026-08-22T10:28:58.012043+08:00",
+      "sent_key": "2608.20316:2026-08-20T17:54:37Z",
+      "title": "Pandora's AI Model Routing Box: Efficient Allocation with Costly Value Estimation",
+      "updated": "2026-08-20T17:54:37Z"
+    },
+    {
+      "arxiv_id": "2608.09921",
+      "score": 60.8,
+      "sent_at": "2026-08-22T10:28:58.012043+08:00",
+      "sent_key": "2608.09921:2026-08-20T16:00:29Z",
+      "title": "GENCO - A Unified Neural Solver Embedded in a Development Framework for Steady-State Grid Analysis",
+      "updated": "2026-08-20T16:00:29Z"
+    },
+    {
+      "arxiv_id": "2608.20335",
+      "score": 60.2,
+      "sent_at": "2026-08-22T10:28:58.012043+08:00",
+      "sent_key": "2608.20335:2026-08-20T17:59:53Z",
+      "title": "4DAnyone: Create Anyone in 4D from a Casual Monocular Video",
+      "updated": "2026-08-20T17:59:53Z"
+    },
+    {
+      "arxiv_id": "2608.19794",
+      "score": 59.5,
+      "sent_at": "2026-08-22T10:28:58.012043+08:00",
+      "sent_key": "2608.19794:2026-08-20T08:45:51Z",
+      "title": "Towards general embodied intelligence: integrating large language models, knowledge bases, and reasoning capabilities to build the next generation of AI agents",
+      "updated": "2026-08-20T08:45:51Z"
+    },
+    {
+      "arxiv_id": "2608.19323",
+      "score": 57.4,
+      "sent_at": "2026-08-22T10:28:58.012043+08:00",
+      "sent_key": "2608.19323:2026-08-19T18:00:04Z",
+      "title": "Improved Confidence Estimates for Black-Box Large Language Models",
+      "updated": "2026-08-19T18:00:04Z"
+    },
+    {
+      "arxiv_id": "2608.20097",
+      "score": 56.6,
+      "sent_at": "2026-08-22T10:28:58.012043+08:00",
+      "sent_key": "2608.20097:2026-08-20T14:31:10Z",
+      "title": "TrustRAG: Blockchain-Enhanced RAG via Committee-Based Credibility Scoring",
+      "updated": "2026-08-20T14:31:10Z"
     }
   ]
 }
